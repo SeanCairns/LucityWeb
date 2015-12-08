@@ -1,0 +1,136 @@
+/*_company.scss*/
+
+#EverythingYouNeedToKnow p
+{
+    padding: 0 10% 0 10%;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    color: $lucity-blue-grey;
+}
+
+#EverythingYouNeedToKnow p.findOut
+{
+    font-size: 2.8em;
+}
+
+#EverythingYouNeedToKnow h2
+{
+    padding: 0 10% 0 10%;
+    font-weight: 400;
+    font-size: 2.8em;
+    text-align: center;
+    color: $lucity-orange;
+}
+
+.linkBox 
+{
+    position: relative;
+    background-color: $lucity-orange;
+    border-radius: 40px;
+    margin: 28px 40px 28px 40px;
+}
+
+.linkBox h3
+{
+    color: $lucity-font-color-inverse;
+    font-weight: 400;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.linkBox h3:before
+{
+    content: "{";
+    padding-right: 16px;
+}
+
+.linkBox h3:after
+{
+    content: "}";
+    padding-left: 16px;
+}
+
+.linkBox h3:before,
+.linkBox h3:after
+{
+    font-family: $lucity-font-body;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.linkBox ul
+{
+
+}
+
+.linkBox ul li
+{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.4em;
+    color: $lucity-blue-grey;
+    padding-bottom: 16px;
+}
+
+
+.thumbs
+{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.thumbs a
+{
+  display: inline-block;
+  position: relative;
+  padding: 8px 16px 8px 4px;
+  margin: 10px;
+  width: 166px;
+}
+
+.thumbs figure img
+{
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  @include opacify(.5);
+}
+
+.thumbs figure figcaption
+{
+  display: inline-block;
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  width: 146px;
+  height: 24px;
+  background-color: $lucity-green;
+  color: $lucity-grey;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  padding: 2px 0 0 14px;
+  z-index: 2;
+
+}
+
+.selected figure img
+{
+  @include opacify(1);
+}
+
+.thumbs span
+{
+  display: inline-block;
+  position: relative;
+  width: 140px;
+  font-size: 10px;
+  height: 16px;
+  padding-top: 0;
+  margin-top: 22px;
+}

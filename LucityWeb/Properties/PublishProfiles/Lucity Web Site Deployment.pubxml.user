@@ -1,0 +1,2692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\SeanCairns\Desktop\Lucity</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="angular-route.min.js.map">
+      <publishTime>10/15/2015 17:00:59</publishTime>
+    </File>
+    <File Include="angular.min.js.map">
+      <publishTime>10/15/2015 17:00:59</publishTime>
+    </File>
+    <File Include="bin/LucityWeb.dll">
+      <publishTime>11/29/2015 21:45:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CSharp.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/20/2015 10:19:06</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.DataAnnotations.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Configuration.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Data.DataSetExtensions.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Data.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Drawing.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.EnterpriseServices.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/07/2013 13:09:16</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.ApplicationServices.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.DynamicData.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Entity.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Extensions.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/07/2013 13:09:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/07/2013 13:09:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Services.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="bin/System.Xml.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Xml.Linq.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/20/2015 13:20:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/20/2015 08:05:06</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>11/25/2015 21:33:45</publishTime>
+    </File>
+    <File Include="lucity-deps.js">
+      <publishTime>10/08/2015 09:13:42</publishTime>
+    </File>
+    <File Include="lucity.annotated.js">
+      <publishTime>10/15/2015 17:00:59</publishTime>
+    </File>
+    <File Include="lucity.js">
+      <publishTime>11/28/2015 09:56:59</publishTime>
+    </File>
+    <File Include="Models/Calendar.json">
+      <publishTime>11/23/2015 14:59:06</publishTime>
+    </File>
+    <File Include="Models/LucityBlog.json">
+      <publishTime>10/08/2015 11:13:19</publishTime>
+    </File>
+    <File Include="Models/LucityBlog2.json">
+      <publishTime>10/08/2015 14:15:03</publishTime>
+    </File>
+    <File Include="Models/lucity_team.json">
+      <publishTime>10/12/2015 08:41:33</publishTime>
+    </File>
+    <File Include="Models/testimonials.json">
+      <publishTime>11/23/2015 13:57:17</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/20/2015 10:19:07</publishTime>
+    </File>
+    <File Include="partials/company-our-team.html">
+      <publishTime>10/20/2015 13:14:43</publishTime>
+    </File>
+    <File Include="partials/company.html">
+      <publishTime>10/20/2015 13:35:11</publishTime>
+    </File>
+    <File Include="partials/Company/Careers/Careers.html">
+      <publishTime>11/25/2015 22:27:51</publishTime>
+    </File>
+    <File Include="partials/Company/Careers/Implementation-Specialist.html">
+      <publishTime>11/25/2015 22:29:01</publishTime>
+    </File>
+    <File Include="partials/Company/Careers/Southeast-Regional-Sales-Representative.html">
+      <publishTime>11/25/2015 22:31:16</publishTime>
+    </File>
+    <File Include="partials/Company/Careers/Web-Developer.html">
+      <publishTime>11/25/2015 22:11:31</publishTime>
+    </File>
+    <File Include="partials/Company/company.html">
+      <publishTime>11/29/2015 20:58:54</publishTime>
+    </File>
+    <File Include="partials/Company/management-team.html">
+      <publishTime>11/28/2015 08:31:19</publishTime>
+    </File>
+    <File Include="partials/home.html">
+      <publishTime>11/25/2015 08:18:09</publishTime>
+    </File>
+    <File Include="partials/resources.html">
+      <publishTime>11/29/2015 08:46:59</publishTime>
+    </File>
+    <File Include="partials/software.html">
+      <publishTime>10/15/2015 14:53:08</publishTime>
+    </File>
+    <File Include="partials/support.html">
+      <publishTime>10/14/2015 16:24:42</publishTime>
+    </File>
+    <File Include="resources/css/bootstrap.min.css">
+      <publishTime>10/07/2015 11:08:31</publishTime>
+    </File>
+    <File Include="resources/css/lucity.css">
+      <publishTime>11/29/2015 21:01:58</publishTime>
+    </File>
+    <File Include="resources/css/lucity.css.map">
+      <publishTime>11/29/2015 21:01:59</publishTime>
+    </File>
+    <File Include="resources/css/lucity.scss">
+      <publishTime>11/20/2015 09:09:24</publishTime>
+    </File>
+    <File Include="resources/css/_company.scss">
+      <publishTime>11/29/2015 20:58:21</publishTime>
+    </File>
+    <File Include="resources/css/_constants.scss">
+      <publishTime>11/29/2015 08:20:23</publishTime>
+    </File>
+    <File Include="resources/css/_global.scss">
+      <publishTime>11/29/2015 21:01:56</publishTime>
+    </File>
+    <File Include="resources/css/_home.scss">
+      <publishTime>11/24/2015 07:25:40</publishTime>
+    </File>
+    <File Include="resources/css/_home_blogs.scss">
+      <publishTime>11/20/2015 09:10:07</publishTime>
+    </File>
+    <File Include="resources/css/_home_calendar.scss">
+      <publishTime>11/24/2015 13:57:22</publishTime>
+    </File>
+    <File Include="resources/css/_home_software.scss">
+      <publishTime>11/24/2015 07:26:00</publishTime>
+    </File>
+    <File Include="resources/css/_home_talkinghead.scss">
+      <publishTime>11/25/2015 08:20:37</publishTime>
+    </File>
+    <File Include="resources/css/_icons.scss">
+      <publishTime>11/20/2015 09:11:58</publishTime>
+    </File>
+    <File Include="resources/css/_resources.scss">
+      <publishTime>11/29/2015 08:47:35</publishTime>
+    </File>
+    <File Include="resources/css/_software.scss">
+      <publishTime>11/24/2015 07:26:33</publishTime>
+    </File>
+    <File Include="resources/css/_support.scss">
+      <publishTime>11/20/2015 09:11:36</publishTime>
+    </File>
+    <File Include="resources/css/_transitions.scss">
+      <publishTime>11/20/2015 09:11:11</publishTime>
+    </File>
+    <File Include="resources/data/Calendar.json">
+      <publishTime>11/24/2015 14:44:33</publishTime>
+    </File>
+    <File Include="resources/data/LucityBlog.json">
+      <publishTime>11/24/2015 14:44:33</publishTime>
+    </File>
+    <File Include="resources/data/LucityBlog2.json">
+      <publishTime>11/24/2015 14:44:33</publishTime>
+    </File>
+    <File Include="resources/data/lucity_team.json">
+      <publishTime>11/26/2015 08:01:44</publishTime>
+    </File>
+    <File Include="resources/data/testimonials.json">
+      <publishTime>11/25/2015 08:05:47</publishTime>
+    </File>
+    <File Include="resources/data/YouTubePlayListMockup.json">
+      <publishTime>11/28/2015 09:55:31</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/.gitignore">
+      <publishTime>10/16/2015 10:11:42</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/.npmignore">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/bower.json">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/component.json">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/composer.json">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/CONTRIBUTING.md">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/css/font-awesome.css">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/css/font-awesome.css.map">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/css/font-awesome.min.css">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/fonts/FontAwesome.otf">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/Gemfile">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/Gemfile.lock">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/HELP-US-OUT.txt">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/animated.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/bordered-pulled.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/core.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/fixed-width.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/font-awesome.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/icons.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/larger.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/list.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/mixins.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/path.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/rotated-flipped.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/stacked.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/less/variables.less">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/package.json">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/README.md">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/font-awesome.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_animated.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_bordered-pulled.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_core.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_fixed-width.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_icons.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_larger.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_list.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_mixins.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_path.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_rotated-flipped.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_stacked.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/scss/_variables.scss">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/css/prettify.css">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/css/pygments.css">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/css/site.css">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome.zip">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/css/font-awesome-ie7.css">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/css/font-awesome-ie7.min.css">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/css/font-awesome.css">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/css/font-awesome.min.css">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/font/fontawesome-webfont.eot">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/font/fontawesome-webfont.svg">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/font/fontawesome-webfont.ttf">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/font/fontawesome-webfont.woff">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/font/FontAwesome.otf">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/bootstrap.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/core.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/extras.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/font-awesome-ie7.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/font-awesome.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/icons.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/mixins.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/path.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/less/variables.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/font-awesome-ie7.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/font-awesome.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_bootstrap.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_core.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_extras.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_icons.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_mixins.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_path.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/font-awesome/scss/_variables.scss">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/ico/favicon.ico">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/img/contribution-sample.png">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/img/fort_awesome.jpg">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/img/glyphicons-halflings-white.png">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/img/glyphicons-halflings.png">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/img/icon-flag.pdf">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/backbone.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/bootstrap-2.3.1.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/bootstrap-222.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/jquery-1.7.1.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/prettify.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/site.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/underscore.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/ZeroClipboard-1.1.7.min.js">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/js/ZeroClipboard-1.1.7.swf">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/accordion.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/alerts.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/bootstrap.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/breadcrumbs.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/button-groups.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/buttons.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/carousel.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/close.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/code.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/component-animations.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/dropdowns.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/forms.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/grid.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/hero-unit.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/labels-badges.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/layouts.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/media.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/mixins.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/modals.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/navbar.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/navs.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/pager.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/pagination.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/popovers.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/progress-bars.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/reset.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/responsive-1200px-min.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/responsive-767px-max.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/responsive-768px-979px.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/responsive-navbar.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/responsive-utilities.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/responsive.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/scaffolding.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/sprites.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/tables.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/thumbnails.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/tooltip.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/type.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/utilities.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/variables.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/bootstrap-2.3.2/wells.less">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/lazy.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/mixins.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/responsive-1200px-min.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/responsive-767px-max.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/responsive-768px-979px.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/responsive-navbar.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/responsive.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/site.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/sticky-footer.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/assets/less/variables.less">
+      <publishTime>10/16/2015 10:11:45</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/cheatsheet/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/CNAME">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/community/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/design.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/examples/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/get-started/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/adjust/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/adn/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/align-center/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/align-justify/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/align-left/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/align-right/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ambulance/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/anchor/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/android/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/angle-down/index.html">
+      <publishTime>10/16/2015 10:11:46</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/angle-left/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/angle-right/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/angle-up/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/apple/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/archive/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/arrow-down/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/arrow-left/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/arrow-right/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/arrow-up/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/asterisk/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/backward/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ban-circle/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bar-chart/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/barcode/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/beaker/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/beer/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bell-alt/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bell/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bitbucket-sign/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bitbucket/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bold/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bolt/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/book/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bookmark-empty/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bookmark/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/briefcase/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/btc/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bug/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/building/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bullhorn/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/bullseye/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/calendar-empty/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/calendar/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/camera-retro/index.html">
+      <publishTime>10/16/2015 10:11:47</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/camera/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/caret-down/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/caret-left/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/caret-right/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/caret-up/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/certificate/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/check-empty/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/check-minus/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/check-sign/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/check/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-down/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-left/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-right/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-sign-down/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-sign-left/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-sign-right/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-sign-up/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/chevron-up/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/circle-arrow-down/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/circle-arrow-left/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/circle-arrow-right/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/circle-arrow-up/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/circle-blank/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/circle/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cloud-download/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cloud-upload/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cloud/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cny/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/code-fork/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/code/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/coffee/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cog/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cogs/index.html">
+      <publishTime>10/16/2015 10:11:48</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/collapse-alt/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/collapse-top/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/collapse/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/columns/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/comment-alt/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/comment/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/comments-alt/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/comments/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/compass/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/copy/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/credit-card/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/crop/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/css3/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/cut/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/dashboard/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/desktop/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/double-angle-down/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/double-angle-left/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/double-angle-right/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/double-angle-up/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/download-alt/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/download/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/dribbble/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/dropbox/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/edit-sign/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/edit/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/eject/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ellipsis-horizontal/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ellipsis-vertical/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/envelope-alt/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/envelope/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/eraser/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/eur/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/exchange/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/exclamation-sign/index.html">
+      <publishTime>10/16/2015 10:11:49</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/exclamation/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/expand-alt/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/expand/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/external-link-sign/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/external-link/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/eye-close/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/eye-open/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/facebook-sign/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/facebook/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/facetime-video/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/fast-backward/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/fast-forward/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/female/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/fighter-jet/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/file-alt/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/file-text-alt/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/file-text/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/file/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/film/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/filter/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/fire-extinguisher/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/fire/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/flag-alt/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/flag-checkered/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/flag/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/flickr/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/folder-close-alt/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/folder-close/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/folder-open-alt/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/folder-open/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/font/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/food/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/forward/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/foursquare/index.html">
+      <publishTime>10/16/2015 10:11:50</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/frown/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/fullscreen/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/gamepad/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/gbp/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/gift/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/github-alt/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/github-sign/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/github/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/gittip/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/glass/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/globe/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/google-plus-sign/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/google-plus/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/group/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/h-sign/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/hand-down/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/hand-left/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/hand-right/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/hand-up/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/hdd/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/headphones/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/heart-empty/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/heart/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/home/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/hospital/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/html5/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/inbox/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/indent-left/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/indent-right/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/info-sign/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/info/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/inr/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/instagram/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/italic/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/jpy/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/key/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/keyboard/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/krw/index.html">
+      <publishTime>10/16/2015 10:11:51</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/laptop/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/leaf/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/legal/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/lemon/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/level-down/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/level-up/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/lightbulb/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/link/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/linkedin-sign/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/linkedin/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/linux/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/list-alt/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/list-ol/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/list-ul/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/list/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/location-arrow/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/lock/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/long-arrow-down/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/long-arrow-left/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/long-arrow-right/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/long-arrow-up/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/magic/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/magnet/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/mail-reply-all/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/male/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/map-marker/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/maxcdn/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/medkit/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/meh/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/microphone-off/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/microphone/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/minus-sign-alt/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/minus-sign/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/minus/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/mobile-phone/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/money/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/moon/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/move/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/music/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/off/index.html">
+      <publishTime>10/16/2015 10:11:52</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ok-circle/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ok-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ok/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/paper-clip/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/paste/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/pause/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/pencil/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/phone-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/phone/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/picture/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/pinterest-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/pinterest/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/plane/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/play-circle/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/play-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/play/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/plus-sign-alt/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/plus-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/plus/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/print/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/pushpin/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/puzzle-piece/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/qrcode/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/question-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/question/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/quote-left/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/quote-right/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/random/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/refresh/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/remove-circle/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/remove-sign/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/remove/index.html">
+      <publishTime>10/16/2015 10:11:53</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/renren/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/reorder/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/repeat/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/reply-all/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/reply/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/resize-full/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/resize-horizontal/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/resize-small/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/resize-vertical/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/retweet/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/road/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/rocket/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/rss-sign/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/rss/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/save/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/screenshot/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/search/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/share-alt/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/share-sign/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/share/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/shield/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/shopping-cart/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sign-blank/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/signal/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/signin/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/signout/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sitemap/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/skype/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/smile/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-by-alphabet-alt/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-by-alphabet/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-by-attributes-alt/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-by-attributes/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-by-order-alt/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-by-order/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-down/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort-up/index.html">
+      <publishTime>10/16/2015 10:11:54</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sort/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/spinner/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/stackexchange/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/star-empty/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/star-half-empty/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/star-half/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/star/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/step-backward/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/step-forward/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/stethoscope/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/stop/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/strikethrough/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/subscript/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/suitcase/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/sun/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/superscript/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/table/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tablet/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tag/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tags/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tasks/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/terminal/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/text-height/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/text-width/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/th-large/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/th-list/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/th/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/thumbs-down-alt/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/thumbs-down/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/thumbs-up-alt/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/thumbs-up/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/ticket/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/time/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tint/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/trash/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/trello/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/trophy/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/truck/index.html">
+      <publishTime>10/16/2015 10:11:55</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tumblr-sign/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/tumblr/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/twitter-sign/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/twitter/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/umbrella/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/underline/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/undo/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/unlink/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/unlock-alt/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/unlock/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/upload-alt/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/upload/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/usd/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/user-md/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/user/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/vk/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/volume-down/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/volume-off/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/volume-up/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/warning-sign/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/weibo/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/windows/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/wrench/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/xing-sign/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/xing/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/youtube-play/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/youtube-sign/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/youtube/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/zoom-in/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icon/zoom-out/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icons.yml">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/icons/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/index.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/license/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/Makefile">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/test/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/3.2.1/whats-new/index.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/css/prettify.css">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/css/pygments.css">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/HELP-US-OUT.txt">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/animated.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/bordered-pulled.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/core.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/fixed-width.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/font-awesome.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/icons.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/larger.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/list.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/mixins.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/path.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/rotated-flipped.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/stacked.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/less/variables.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/font-awesome.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_animated.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_core.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_fixed-width.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_icons.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_larger.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_list.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_mixins.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_path.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_stacked.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/font-awesome/scss/_variables.scss">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/ico/favicon.ico">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/img/algolia.png">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/img/logo-themeisle.png">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/img/logo-wpbeginner.png">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/html5shiv.js">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/prettify.min.js">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/respond.min.js">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/search.js">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/site.js">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/ZeroClipboard-1.1.7.min.js">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/js/ZeroClipboard-1.1.7.swf">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/.csscomb.json">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/.csslintrc">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/alerts.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/badges.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/bootstrap.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/breadcrumbs.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/button-groups.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/buttons.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/carousel.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/close.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/code.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/component-animations.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/dropdowns.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/forms.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/glyphicons.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/grid.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/input-groups.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/jumbotron.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/labels.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/list-group.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/media.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/alerts.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/background-variant.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/border-radius.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/buttons.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/center-block.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/clearfix.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/forms.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/gradients.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/grid-framework.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/grid.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/hide-text.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/image.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/labels.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/list-group.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/nav-divider.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/nav-vertical-align.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/opacity.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/pagination.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/panels.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/progress-bar.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/reset-filter.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/reset-text.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/resize.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/responsive-visibility.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/size.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/tab-focus.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/table-row.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/text-emphasis.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/text-overflow.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/mixins/vendor-prefixes.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/modals.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/navbar.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/navs.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/normalize.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/pager.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/pagination.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/panels.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/popovers.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/print.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/progress-bars.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/responsive-embed.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/responsive-utilities.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/scaffolding.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/tables.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/theme.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/thumbnails.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/tooltip.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/type.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/utilities.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/variables.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/bootstrap-3.3.5/wells.less">
+      <publishTime>10/16/2015 10:11:59</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site.less">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/algolia.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/banner-ad.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/alerts.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/buttons.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/jumbotron.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/modals.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/navbar.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/type.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/variables.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bootstrap/wells.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/bsap-ad.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/example-rating.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/feature-list.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/fontawesome-icon-list.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/footer.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/fusion-ad.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/jumbotron-carousel.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/layout.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/lazy.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/responsive/screen-lg.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/responsive/screen-md.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/responsive/screen-sm.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/responsive/screen-xs.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/search.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/social-buttons.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/stripe-ad.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/sumome.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/assets/less/site/textured-bg.less">
+      <publishTime>10/16/2015 10:12:00</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/cheatsheet.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/CNAME">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/community.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/design.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/examples.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/get-started.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/glyphicons-test.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/icons.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/icons.yml">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/index.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/license.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/Makefile">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/README.md-nobuild">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/test-2.3.2.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/test.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/thanks.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/whats-new.html">
+      <publishTime>10/16/2015 10:11:44</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/ads/fusion.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/brand-adblock-warning.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/brand-license.html">
+      <publishTime>10/16/2015 10:11:56</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/code/core.less">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/code/core.scss">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/code/license.css">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/community/getting-support.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/community/project-milestones.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/community/reporting-bugs.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/community/requesting-new-icons.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/community/submitting-pull-requests.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/animated.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/basic.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/bootstrap.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/bordered-pulled.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/custom.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/fixed-width.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/larger.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/list.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/rotated-flipped.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/examples/stacked.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/footer.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/brand.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/chart.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/currency.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/directional.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/file-type.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/form-control.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/gender.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/hand.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/medical.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/new.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/payment.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/spinner.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/text-editor.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/transportation.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/video-player.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/icons/web-application.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/jumbotron-carousel.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/jumbotron.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/modals/download.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/navbar.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/new-features.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/new-naming.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/new-upgrading.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/stripe-ad.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/stripe-social.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tell-me-thanks.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tests/rotated-flipped-inside-anchor.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tests/rotated-flipped-inside-btn.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tests/rotated-flipped.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tests/stacked-inside-anchor.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tests/stacked-with-text.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/tests/stacked.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/thanks-to.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_includes/why.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_layouts/base.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_layouts/icon.html">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_plugins/flatten_icon_filters.rb">
+      <publishTime>10/16/2015 10:11:57</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_plugins/icon_page_generator.rb">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/src/_plugins/site.rb">
+      <publishTime>10/16/2015 10:11:58</publishTime>
+    </File>
+    <File Include="resources/Font-Awesome/_config.yml">
+      <publishTime>10/16/2015 10:11:43</publishTime>
+    </File>
+    <File Include="resources/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/13/2015 22:52:50</publishTime>
+    </File>
+    <File Include="resources/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/13/2015 22:52:50</publishTime>
+    </File>
+    <File Include="resources/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/13/2015 22:52:50</publishTime>
+    </File>
+    <File Include="resources/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/13/2015 22:52:50</publishTime>
+    </File>
+    <File Include="resources/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/13/2015 22:52:50</publishTime>
+    </File>
+    <File Include="resources/img/backgrounds/KCSkylineBartleNight.jpg">
+      <publishTime>10/15/2015 10:17:04</publishTime>
+    </File>
+    <File Include="resources/img/BoxArrowRight.svg">
+      <publishTime>09/16/2015 10:05:12</publishTime>
+    </File>
+    <File Include="resources/img/bracketleft.svg">
+      <publishTime>11/24/2015 09:20:32</publishTime>
+    </File>
+    <File Include="resources/img/bracketright.svg">
+      <publishTime>11/24/2015 09:20:32</publishTime>
+    </File>
+    <File Include="resources/img/colorbar.svg">
+      <publishTime>11/17/2015 09:01:59</publishTime>
+    </File>
+    <File Include="resources/img/Ear.png">
+      <publishTime>09/16/2015 09:01:49</publishTime>
+    </File>
+    <File Include="resources/img/icons/assets.svg">
+      <publishTime>09/01/2015 08:45:51</publishTime>
+    </File>
+    <File Include="resources/img/icons/cloud.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/cone.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/door.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/flower.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/general.svg">
+      <publishTime>09/01/2015 08:46:03</publishTime>
+    </File>
+    <File Include="resources/img/icons/gis.svg">
+      <publishTime>09/01/2015 08:46:13</publishTime>
+    </File>
+    <File Include="resources/img/icons/hazard.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/light.svg">
+      <publishTime>08/21/2015 13:37:00</publishTime>
+    </File>
+    <File Include="resources/img/icons/merge.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/power.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/recycle.svg">
+      <publishTime>08/21/2015 13:37:00</publishTime>
+    </File>
+    <File Include="resources/img/icons/roadblock.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/row.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/stop.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/tools.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/tree.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/truck.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/water.svg">
+      <publishTime>08/21/2015 13:37:01</publishTime>
+    </File>
+    <File Include="resources/img/icons/work.svg">
+      <publishTime>09/01/2015 08:46:26</publishTime>
+    </File>
+    <File Include="resources/img/LucityLogo.svg">
+      <publishTime>08/19/2015 09:06:07</publishTime>
+    </File>
+    <File Include="resources/img/quotebox.svg">
+      <publishTime>11/24/2015 14:38:54</publishTime>
+    </File>
+    <File Include="resources/img/quote_ImgID1.png">
+      <publishTime>11/29/2015 08:25:45</publishTime>
+    </File>
+    <File Include="resources/img/TalkingHeads/1.jpg">
+      <publishTime>11/16/2015 17:10:57</publishTime>
+    </File>
+    <File Include="resources/img/TalkingHeads/2.jpg">
+      <publishTime>11/16/2015 17:12:21</publishTime>
+    </File>
+    <File Include="resources/img/TalkingHeads/3.jpg">
+      <publishTime>11/16/2015 17:13:50</publishTime>
+    </File>
+    <File Include="resources/img/TalkingHeads/4.jpg">
+      <publishTime>11/16/2015 17:15:09</publishTime>
+    </File>
+    <File Include="resources/img/TalkingHeads/5.jpg">
+      <publishTime>11/16/2015 17:15:52</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/allison.png">
+      <publishTime>10/08/2015 14:35:58</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/brian.png">
+      <publishTime>10/08/2015 14:36:18</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/chris.png">
+      <publishTime>10/08/2015 14:36:36</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/don.png">
+      <publishTime>10/08/2015 14:36:53</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/jim.png">
+      <publishTime>10/08/2015 14:37:11</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/joel.png">
+      <publishTime>10/08/2015 14:37:27</publishTime>
+    </File>
+    <File Include="resources/img/team/thumbnails/nicole.png">
+      <publishTime>10/08/2015 14:37:46</publishTime>
+    </File>
+    <File Include="resources/img/univercity.svg">
+      <publishTime>11/24/2015 09:38:21</publishTime>
+    </File>
+    <File Include="resources/js/controllers/blogs.controller.js">
+      <publishTime>11/23/2015 13:33:16</publishTime>
+    </File>
+    <File Include="resources/js/controllers/calendar.controller.js">
+      <publishTime>11/23/2015 14:58:57</publishTime>
+    </File>
+    <File Include="resources/js/controllers/careers.controller.js">
+      <publishTime>11/25/2015 22:26:05</publishTime>
+    </File>
+    <File Include="resources/js/controllers/company.controller.js">
+      <publishTime>11/25/2015 21:57:59</publishTime>
+    </File>
+    <File Include="resources/js/controllers/support.controller.js">
+      <publishTime>10/14/2015 16:21:56</publishTime>
+    </File>
+    <File Include="resources/js/controllers/talkingHead.controller.js">
+      <publishTime>11/23/2015 13:57:36</publishTime>
+    </File>
+    <File Include="resources/js/controllers/YouTubePlaylist.controller.js">
+      <publishTime>11/28/2015 09:56:57</publishTime>
+    </File>
+    <File Include="resources/js/services/blogs.service.js">
+      <publishTime>11/24/2015 14:49:52</publishTime>
+    </File>
+    <File Include="resources/js/services/calendar.service.js">
+      <publishTime>11/24/2015 14:50:23</publishTime>
+    </File>
+    <File Include="resources/js/services/talkingHead.service.js">
+      <publishTime>11/24/2015 14:50:53</publishTime>
+    </File>
+    <File Include="resources/js/services/team.service.js">
+      <publishTime>11/24/2015 14:51:57</publishTime>
+    </File>
+    <File Include="resources/js/services/YouTubePlayList.service.js">
+      <publishTime>11/28/2015 09:53:23</publishTime>
+    </File>
+    <File Include="resources/js/xml2json/xml2json.js">
+      <publishTime>09/18/2015 11:02:35</publishTime>
+    </File>
+    <File Include="resources/js/xml2json/xml2json.min.js">
+      <publishTime>09/18/2015 11:02:35</publishTime>
+    </File>
+    <File Include="resources/js/_general/app.js">
+      <publishTime>11/28/2015 09:51:57</publishTime>
+    </File>
+    <File Include="resources/js/_general/config.js">
+      <publishTime>11/25/2015 21:52:12</publishTime>
+    </File>
+    <File Include="resources/js/_general/filters.js">
+      <publishTime>10/12/2015 12:28:13</publishTime>
+    </File>
+    <File Include="testback.html">
+      <publishTime>10/15/2015 10:48:16</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>11/20/2015 10:29:01</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2015 21:06:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

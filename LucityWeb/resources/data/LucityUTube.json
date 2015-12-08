@@ -1,0 +1,34 @@
+﻿{
+    "Videos": [
+        {
+            "Categories": [ "Learn-More-Home", "Learn-More-GIS" ],
+            "Title": "Plant Maintenance",
+            "URL": "https://www.youtube.com/watch?v=I5fwO2KtUKs",
+            "ImgUrl": "https://i.ytimg.com/vi/I5fwO2KtUKs/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-Home", "Learn-More-GIS"  ],
+            "Title": "Fats, Oils and Grease",
+            "URL": "https://www.youtube.com/watch?v=DuJbm97ccrc",
+            "ImgUrl": "https://i.ytimg.com/vi/DuJbm97ccrc/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-Home", "Learn-More-GIS"  ],
+            "Title": "Strorm BMPs",
+            "URL": "https://www.youtube.com/watch?v=I5u-7MLZVjY",
+            "ImgUrl": "https://i.ytimg.com/vi/I5u-7MLZVjY/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-Home", "Learn-More-Maintenance", "Learn-More-GIS"  ],
+            "Title": "Materials Requisition",
+            "URL": "https://www.youtube.com/watch?v=I5u-7MLZVjY",
+            "ImgUrl": "https://i.ytimg.com/vi/I5u-7MLZVjY/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-Maintenance" ],
+            "Title": "Work Date Options",
+            "URL": "https://www.youtube.com/watch?v=axso0lcAxa4",
+            "ImgUrl": "https://i.ytimg.com/vi_webp/axso0lcAxa4/mqdefault.webp"
+        }
+    ]
+}

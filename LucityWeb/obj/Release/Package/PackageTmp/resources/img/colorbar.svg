@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" 
+width="700" height="10"
+viewBox="0 0 700 8"  preserveAspectRatio="none" 
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+	.lucity-orange{ fill: #ff9933; }
+	.lucity-yellow { fill: #ffff33; }
+	.lucity-green { fill: #99cc33; }
+	.lucity-dark-green { fill: #78A22D; }
+	.lucity-dark-orange { fill: #ff6600; }
+	.lucity-blue-green { fill: #137866; }
+	.lucity-blue-grey { fill: #4f5c73; }
+	.lucity-grey { fill: #666666; }
+   ]]>
+  </style>
+ </defs>  <g>
+	<rect width="50" height="16" x="0" class="lucity-orange" />
+	<rect width="15" height="16" x="50" class="lucity-dark-green" />
+	<rect width="20" height="16" x="65" class="lucity-dark-orange" />
+	<rect width="30" height="16" x="85" class="lucity-dark-green" />
+	<rect width="15" height="16" x="115" class="lucity-orange" />
+	<rect width="60" height="16" x="130" class="lucity-dark-green" />
+	<rect width="70" height="16" x="190" class="lucity-blue-green" />
+	<rect width="30" height="16" x="260" class="lucity-dark-green" />
+	<rect width="60" height="16" x="290" class="lucity-green" />
+	<rect width="50" height="16" x="350" class="lucity-orange" />
+	<rect width="15" height="16" x="400" class="lucity-blue-green" />
+	<rect width="60" height="16" x="415" class="lucity-dark-green" />
+	<rect width="45" height="16" x="475" class="lucity-green" />
+	<rect width="50" height="16" x="520" class="lucity-orange" />
+	<rect width="30" height="16" x="570" class="lucity-dark-green" />
+	<rect width="20" height="16" x="600" class="lucity-dark-orange" />
+	<rect width="30" height="16" x="620" class="lucity-blue-green" />
+	<rect width="15" height="16" x="650" class="lucity-dark-green" />
+	<rect width="35" height="16" x="665" class="lucity-green" />
+  </g>
+</svg>

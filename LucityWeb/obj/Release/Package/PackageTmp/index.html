@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="fragment" content="!">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <base href="/">
+
+    <title>Lucity</title>
+
+
+    <script src="lucity-deps.js"></script>
+    <script src="lucity.js"></script>
+
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/lucity.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/Font-Awesome/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <!-- Older IE support for our SVG files -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body data-ng-app="lucity">
+
+<div id="backgroundImage"></div>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="pull-left logo" href="/"></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/Company">Company</a></li>
+                <li><a href="/Enterprise-Management-Software">Software</a></li>
+                <li><a href="/Resources">Resources</a></li>
+                <li><a href="/Support">Support</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="MainSearch" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-offset-8 col-sm-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mainContainer" maincontent>
+    <div class="mainContent" data-ng-view>
+    </div>
+</div>
+
+
+<div id="Footer" class="container-fluid">
+    <div class="row">
+        <div class="FollowUs col-sm-6 col-xs-12">
+            <h2>Follow Us</h2>
+
+            <a href="http://twitter.com/#!/lucityinc" title="Follow us on Twitter">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                @lucityinc
+            </a>
+
+            <a href="https://www.facebook.com/LucityInc/" title="See what we've been up to on Facebook">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+                facebook.com/LucityInc
+            </a>
+
+            <a href="https://www.youtube.com/user/LucityInc" title="Learn about our software on YouTube">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                </span>
+                YouTube
+            </a>
+
+            <a href="http://blog.lucity.com/" title="Check out our blog">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
+                </span>
+                blog.lucity.com/
+            </a>
+
+            <a href="http://www.linkedin.com/company/2233283" title="Connect with us on LinkedIn">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                LinkedIn
+            </a>
+
+        </div>
+        <div class="MeetUs col-sm-6 col-xs-12">
+            <h2>Meet Us</h2>
+
+            <a href="#/Company" title="Meet our team">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                </span>
+                Our Team
+            </a>
+
+            <a href="https://www.google.com/maps/place/10561+Barkley+%23100,+Overland+Park,+KS+66212/@38.9379121,-94.6661118,17z/data=!3m1!4b1!4m2!3m1!1s0x87c0ebcac254f225:0xf8285f44e55566d5" title="Come visit us!">
+                <span class="fa-stack fa-2x fa-pull-left">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                </span>
+                10561 Barkley, Suite 100<br />
+                Overland Park, KS 66212
+            </a>
+
+            <a href="javascript:void(0)" title="Call us">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                </span>
+                800.492.2468
+            </a>
+
+            <a href="mailto:info@lucity.com" title="Email us">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                info@lucity.com
+            </a>
+
+            <a href="javascript:void(0);" title="Check out our events">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+                </span>
+                Events
+            </a>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" 
+viewBox="0 0 60 50"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FF9933}
+    .fil1 {fill:#FFFF33}
+    .fil2 {fill:#99CC33}
+    .fil3 {fill:#137866}
+    .fil4 {fill:#78A22D}
+    .fil5 {fill:#FF6600}
+   ]]>
+  </style>
+ </defs>
+  <g>
+    <polygon points="0,0 40,0 50,25 40,50 0,50 " class="fil2" />
+  </g>
+</svg>

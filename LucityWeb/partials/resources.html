@@ -1,0 +1,60 @@
+<div class="container-fluid">
+    <h1>Take a Look Around...</h1>
+
+    <p id="lookAround">The best way to learn about Lucity (the software and the company) is to step into a user's shoes. They're OUR best resource, and the information they routinely access, inspire and help develop is invaluable to potential LucityAM users.</p>
+
+    <div id="ResourceSearch" class="row">
+        <div class="col-xs-12 col-sm-6">
+            <h2>What Would You Like to Know?</h2>
+
+            <p>This search tool will dig through all of our online support resources for our users. Enter a search term and choose which avenue of technology you'd like to access: the software Help Guides, the Lucity Blog, our YouTube channel, or the Support Center. Go ahead, give it a shot. Maybe you want to learn about our mobile tools? Or do you manage a fleet? Are you a GIS guru?</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            --  Need the search tool code --
+        </div>
+    </div>
+
+    <div id="ResourceDemonstrations" class="row" ng-controller="youTubePlaylistCtrl">
+        <div class="col-xs-12 col-sm-6">
+            <h1>Demonstrations</h1>
+            <p>Our YouTube channel is quickly becoming a fantastic training and support resource for our users. You'll find everything from step-by-step instructional videos to office tours to best practices information.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <ul>
+                <li ng-repeat="playlist in YouTubePlaylists.items">
+                    <a href="https://www.youtube.com/playlist?list={{playlist.id}}" title="Lucity UTube - {{playlist.snippet.title}}" target="_blank">
+                        <figure>
+                            <img ng-src="{{playlist.snippet.thumbnails.medium.url}}" alt="{{playlist.snippet.title}}" />
+                            <figcaption>{{playlist.snippet.title}}</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="ResourceTestimonials" class="row">
+        <div class="col-xs-12 col-sm-6">
+            <h1>Testimonials</h1>
+            <p>Learn all about how a few of our users selected, implemented, and then embraced LucityAM.</p>
+            <p>If you'd rather get in touch with an agency and hear it straight from them, let us know. We'll help make that connection.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <ul>
+                <li>
+                    <h2>City of Columbus, Ohio</h2>
+                    <q>Getting meaningful information into and out of various systems was a challenge. City officials knew theyneeded an intuitive, effective asset management software system.</q>
+                </li>
+                <li>
+                    <h2>City of San Marcos, California</h2>
+                    <q>Parks & Recreation field staff was relying on pencil and paper to track efforts. For a Public Works Department with lofty goals for tracking and reporting, it was an intolerable situation.</q>
+                </li>
+                <li>
+                    <h2>City of Chandler, Arizona</h2>
+                    <q>The City's "can-do" approach was put to test when its Public Works department embarked on an enormous integration effort, integrating six varied applications and their respective data.</q>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>

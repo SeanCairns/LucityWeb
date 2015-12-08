@@ -1,0 +1,168 @@
+﻿{
+  "team": {
+    "members":
+    [
+      {
+        "name": "Don Pinkston",
+        "suffix": "PE",
+        "title": "President & CEO",
+        "email": "dpinkston@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/don.png",
+        "bio": "First and foremost, Don is a client advocate. He is passionate about bettering the user experience, and spends most of his non-administrative time on product development. He immerses himself in trend research to ensure Lucity stays ahead of the curve and manages major strategic initiatives. His more than 25 years in civil engineering and computer programming provides a strong foundation for constant innovation. He earned his BS in Civil Engineering and BA in Psychology from the University of Kansas and is a professional member of the American Public Works Association. Married for 20-plus years, Don has three daughters and a son.",
+        "questions":
+        [
+          {
+            "q": "Whose career do you admire?",
+            "a": "My parents. My dad started from nothing and ended up with a nice career with a reputation for honesty and integrity. My mom was a teacher who had a wonderful way of getting her students to learn while earning their admiration. From both I learned the value of hard work and caring for others."
+          },
+          {
+            "q": "Share a moment of clarity from your life.",
+            "a": "I realized my professional passion pretty early, from a high school job at the county library. I loved being surrounded by all that knowledge, making it accessible to people and guiding them towards exactly what they needed."
+          },
+          {
+            "q": "What is on your iPod?",
+            "a": "Michael Buble, Frank Sinatra, Sammy Davis Jr. and a bunch of musicals."
+          }
+        ]
+      },
+      {
+        "name": "Jim Graham",
+        "suffix": "PE",
+        "title": "Vice President & COO",
+        "email": "jgraham@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/jim.png",
+        "bio": "Jim is Lucity’s secret weapon, as he devotes most of his efforts to quietly supporting Region Managers and Client Services Managers in every possible way. He also contributes to marketing, proposals and contracts development, and manages our strategic partnering efforts. A member of Lucity’s leadership team from the beginning, he was essential in the company’s launch as an independent company in 2000 and the rebranding to Lucity in 2011. He holds a BS in Civil Engineering in 1985 from the University of Missouri-Rolla. Jim is married with two daughters, a son and son-in-law.",
+        "questions":
+        [
+          {
+            "q": "What is your favorite thing about Lucity?",
+            "a": "We’ve been successful in adapting, enduring and continually improving. We maintain a positive culture and outlook for the future."
+          },
+          {
+            "q": "What do you like most about your job?",
+            "a": "Our people (we’ve been fortunate in attracting and retaining solid individuals), our clients (it’s a privilege to work with the caretakers of our public infrastructure) and our partners (collaborating with great companies is exciting and it expands our boundaries)."
+          },
+          {
+            "q": "Whose careet do you admire?",
+            "a": "Baseball Hall-of-Famer George Brett. He worked hard at becoming better, played hard every day and had fun, and produced when it counted most. He was a great teammate who was committed to his organization and he sustained a high-level performance for many years."
+          }
+        ]
+      },
+      {
+        "name": "Chris Crupi",
+        "suffix": "",
+        "title": "West Region Manager",
+        "email": "ccrupi@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/chris.png",
+        "bio": "Chris helps keep the Lucity family thriving and growing. He is a reliable presence, constantly working to ensure the software is serving the highest and best use for his clients. He also connects the community, encouraging networking between agencies with Regional User Group activities. Chris pursues new sales opportunities and manages relationships with regional business partners. A graduate from California State University in Sacramento with a BS in business administration, Chris and his wife now make their home in Arizona with their two miniature dachshunds.",
+        "questions":
+        [
+          {
+            "q": "What is your favorite thing about Lucity?",
+            "a": "Our Annual Conference and Training (ACT) lets our employees and clients interact and share ideas. I often hear from our clients that it is the one conference they always attend."
+          },
+          {
+            "q": "What do you like most about your job?",
+            "a": "I enjoy visiting with our clients and prospective customers on an ongoing basis to learn more about their specific needs and how our products and services can help. "
+          },
+          {
+            "q": "Share a moment of clarity from your life.",
+            "a": "Success can be measured in many different ways. I choose to define success as the sum of both my professional and personal life and strive for a healthy balance between the two."
+          }
+        ]
+      },
+      {
+        "name": "Brian Treff",
+        "suffix": "GSEC",
+        "title": "IT Manager",
+        "email": "btreff@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/brian.png",
+        "bio": "In a company that’s focused on sharing information through technology, the IT Manager is a pretty important job. Brian manages all aspects of information technology and develops most of the IT-friendly procedures that deliver our products to our clients. He began his career at Lucity as an implementation engineer, and still pitches in with support for highly technical issues. A graduate of the University of Kansas with both a BS and MS in Civil Engineering, Brian is married with two daughters.",
+        "questions":
+        [
+          {
+            "q": "What is your favorite thing aobout Lucity",
+            "a": "Definitely the people I work with. I’ve always taken a lot of pride in the work I do and it’s gratifying to sit next to people who feel the same way."
+          },
+          {
+            "q": "What do you like most about your job?",
+            "a": "The challenge of learning new technologies and integrating them into daily life."
+          },
+          {
+            "q": "Whose career do you admire?",
+            "a": "Gene Kranz, Retired NASA Flight Director. Most people know him as the character that Ed Harris played in Apollo 13. He was cool-headed and found a way to make things work despite overwhelming odds."
+          }
+        ]
+      },
+      {
+        "name": "Nicole Schmidt",
+        "suffix": "PE",
+        "title": "Product Development Manager ",
+        "email": "nschmidt@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/nicole.png",
+        "bio": "A founding member of Lucity, Nicole is the go-to expert on our software. She has been intimately involved with the system’s development for the last decade, from her first assignment as an intern to roles as implementer and GIS software developer. In her current role, she provides functional direction for our software suite and manages technical direction of our GIS, third-party integrations and legacy applications. Nicole received her Master of Engineering (Systems) from the University of Virginia and her BS in Civil Engineering from the University of Kansas.",
+        "questions":
+        [
+          {
+            "q": "What do you like most about your job?",
+            "a": "We create things that make our clients lives easier. We get to develop ideas that our current and future clients are excited about. I also love to learn, and my job gives me an opportunity to continuously explore new technologies."
+          },
+          {
+            "q": "Why do you think Lucity is different?",
+            "a": "We’re very relationship focused, both with our clients and internally. When I began my career I assumed all companies were this way, but now I realize that we are pretty unique in how we view and treat our clients and staff."
+          },
+          {
+            "q": "Whose career do you admire?",
+            "a": "My mom because she successfully pursued a career she was passionate about, and still managed to always put her family first. It is a difficult balancing act, and I hope that I can look back someday and say I did things half as well."
+          }
+        ]
+      },
+      {
+        "name": "Joel Knight",
+        "suffix": "PE",
+        "title": "East Region Manager",
+        "email": "jknight@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/joel.png",
+        "bio": "A founding member of the company, Joel has always measured his personal success by the success of his clients. He takes great pride in their continued satisfaction and growth, and works diligently to ensure each and every new challenge is conquered. He also facilitates User Group meetings, grows the client family with business development and maintains regional partner relationships. Joel earned a BS in Civil Engineering from the University of Missouri. He is married with a son and a daughter.",
+        "questions":
+        [
+          {
+            "q": "What is your favorite story about Lucity?",
+            "a": "I have lots of stories about Lucity, its employees and clients, none of which I can share in a public forum. (I kid. But I love how we all get along.)"
+          },
+          {
+            "q": "Why do you think Lucity is different?",
+            "a": "Some venders like you to believe that they know it all. But we thrive on collaborating to solve problems with our clients; we rely on that back-and-forth to continue to enhance the Lucity solution. We don’t just hear, we listen."
+          },
+          {
+            "q": "What did you want to be when you were a kid?",
+            "a": "It was a toss-up between astronaut and garbage collector."
+          }
+        ]
+      },
+      {
+        "name": "Allison Tuttle",
+        "suffix": "PE",
+        "title": "Client Services Manager ",
+        "email": "atuttle@lucity.com",
+        "thumbnail": "resources/img/team/thumbnails/allison.png",
+        "bio": "A key team member since the firm’s inception, Allison focuses on our clients’ ongoing satisfaction by providing tools and support to the Implementation and Help Desk teams. She is a master of detail, managing project invoicing and client account status in addition to heading up the annual support and maintenance program. Allison earned her MBA in 2000 and her BS in Civil Engineering, both from University of Kansas. She is married with two sons.",
+        "questions":
+        [
+          {
+            "q": "What did you want to be when you were a kid?",
+            "a": "An interior decorator, though I think I would have been pretty terrible at it!"
+          },
+          {
+            "q": "Whose career do you admire?",
+            "a": "While I can’t name a particular person, I’ll say that if I admire someone’s professional career, I likely also admire who they are personally. I’m inspired by people who demonstrate their personal values within their career, treating their colleagues and clients with true affection and respect.  "
+          },
+          {
+            "q": "What is on your iPod?",
+            "a": "Anything from The Avett Brothers and Band of Horses to Keith Urban and Jimmy Buffett. I also rock out to some of my kid’s tunes (Dan Zanes is my favorite children’s artist)!"
+          }
+        ]
+      }
+    ]
+  }
+}

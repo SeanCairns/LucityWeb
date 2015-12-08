@@ -1,0 +1,43 @@
+{
+  "name": "lucity",
+  "version": "1.0.0",
+  "description": "Lucity website.",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "~1.3.12",
+    "express": "^4.13.3",
+    "grunt-cli": "~0.1.13"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-ng-annotate": "~0.8.0",
+    "grunt-ngdocs": "~0.2.6",
+    "gulp": "~3.8.11",
+    "gulp-clean": "~0.3.1",
+    "gulp-concat": "~2.5.2",
+    "gulp-ngdocs": "~0.2.10",
+    "gulp-sass": "~2.0.0",
+    "gulp-uglify": "~1.2.0",
+    "run-sequence": "~1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeanCairns/Lucity4.git"
+  },
+  "keywords": [
+    "lucity"
+  ],
+  "author": "Sean Cairns",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SeanCairns/Lucity4/issues"
+  },
+  "homepage": "https://github.com/SeanCairns/Lucity4"
+}

@@ -1,0 +1,122 @@
+/*_resources.scss*/
+
+#lookAround
+{
+    padding: 0 15% 0 15%;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    color: $lucity-blue-grey;
+}
+
+#lookAround:after
+{
+    display: block;
+    clear: both;
+    content: " ";
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 30px;
+    min-height: 30px;
+    border-bottom: 3px solid $lucity-orange;
+}
+
+#ResourceSearch
+{
+    margin-bottom: 30px;
+}
+
+#ResourceSearch p
+{
+    color: $lucity-blue-grey;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-left: 48px;
+}
+
+#ResourceDemonstrations
+{
+    @include colorbar(20px, 1px, white);
+    background-color: $lucity-orange;
+}
+
+#ResourceDemonstrations p
+{
+    color: $lucity-font-color-dark;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-left: 48px;
+}
+
+#ResourceDemonstrations,
+#ResourceDemonstrations figure
+{
+}
+
+#ResourceDemonstrations ul
+{
+    position: relative;
+    display: block;
+}
+
+#ResourceDemonstrations ul li
+{
+    display: inline-block;
+    position: relative;
+    width: 43%;
+    background-color: white;
+    list-style-type: none;
+    margin: 8px;
+    padding: 0;
+}
+
+#ResourceDemonstrations figure img
+{
+    width: 100%;
+    background-size: cover;
+}
+
+#ResourceDemonstrations figure figcaption
+{
+    padding-left: 6px;
+}
+
+
+#ResourceTestimonials
+{
+    @include colorbar(20px, 1px, white);
+    background-color: $lucity-blue-grey;
+    padding-bottom: 16px;
+}
+
+#ResourceTestimonials h1,
+#ResourceTestimonials p,
+#ResourceTestimonials li,
+#ResourceTestimonials li h2
+{
+    color: $lucity-font-color-inverse;
+}
+
+#ResourceTestimonials p
+{
+    font-size: 1.3em;
+    margin-left: 48px;
+    font-weight: 400;
+}
+
+#ResourceTestimonials li h2
+{
+    text-transform: none;
+    font-weight: 100;
+}
+
+#ResourceTestimonials ul li
+{
+    list-style-type: none;
+    padding-left: 50px;
+    background: url(../img/quote_ImgID1.png) no-repeat;
+    background-position-x: 0;
+    background-position-y: 16px;
+    background-size: 32px;
+}
+

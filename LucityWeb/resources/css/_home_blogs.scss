@@ -1,0 +1,147 @@
+/*_blogs.scss*/
+#Blog
+{
+  @include colorbar(11px, 1px, white);
+}
+
+#Blog
+{
+  h1, h2, h3, h4, h5, h6
+  {
+    color: #eeeeee;
+    font-family: $lucity-font-body;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    text-transform: none !important;
+  }
+
+  div, span, p, a, strong, ul, li, dl, dt, dd
+  {
+    color: #eeeeee;
+    font-family: $lucity-font-body;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+  }
+}
+
+#Blog a
+{
+  color: white;
+  text-decoration: underline;
+}
+
+#Blog div.row
+{
+  background-color: $lucity-blue-grey;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#Blog div.row dl
+{
+  display: block;
+  height: 80px;
+  margin-top: 30px;
+}
+
+#Blog div.row dl dt
+{
+  float: left;
+  background-size: 60px 70px;
+  background: url(../img/BoxArrowRight.svg) no-repeat;
+  display: block;
+  height: 100px;
+  width: 70px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#Blog div.row dl dt span
+{
+  display: block;
+  padding: 0;
+  margin: 0 0 0 -20px;
+  font-weight: 300;
+}
+
+/* Style the numeric day */
+#Blog div.row dl dt span
+{
+  font-family: $lucity-font-body;
+  font-size: 32px;
+  line-height: 28px;
+}
+
+/* Style the month name */
+#Blog div.row dl dt span:first-of-type
+{
+  font-size: 22px;
+  line-height: 24px;
+}
+
+#Blog div.row dl dd h3
+{
+  font-size: 1.7em;
+}
+
+#Blog div.row dl dd
+{
+  font-size: .9em;
+}
+
+#Blog .firstEntry
+{
+  padding-bottom: 0;
+}
+
+#Blog .firstEntry .entry
+{
+  position : relative;
+  height: 240px;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+#Blog .firstEntry .entry:after {
+  content  : "";
+  position : absolute;
+  z-index  : 1;
+  bottom   : 0;
+  left     : 0;
+  pointer-events   : none;
+  background-image : linear-gradient(to bottom,
+          rgba(79, 92, 115, 0),
+          rgba(79, 92, 115, 255) 100%);
+  width    : 100%;
+  height   : 4em;
+}
+
+#Blog .firstEntry h2 img
+{
+  display: block;
+  width: auto;
+  height: 80px;
+}
+
+#Blog .firstEntry .readMore
+{
+  text-align: right;
+}
+
+#Blog .remainingEntries
+{
+
+  .snippetTitle
+  {
+    font-size: 1.4em;
+  }
+  .snippet
+  {
+    font-size: 1em;
+  }
+}
+
+

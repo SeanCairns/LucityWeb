@@ -1,0 +1,64 @@
+﻿{
+    "events": [
+        {
+            "title": "Esri Water Conference",
+            "location": "Austin, Texas",
+            "month": "Feb",
+            "days": "9-11",
+            "linkToMoreInfo": "www.esri.com"
+        },
+        {
+            "title": "Esri Partner Confrence",
+            "location": "Palm Springs, California",
+            "month": "Mar",
+            "days": "5-7",
+            "linkToMoreInfo": "www.esri.com"
+        },
+        {
+            "title": "APWA Florida Public Works Expo",
+            "location": "Tampa, Florida",
+            "month": "Apr",
+            "days": "18-22",
+            "linkToMoreInfo": "www.apwa.com"
+        },
+        {
+            "title": "WEF Collections Systems Conference",
+            "location": "Atlanta, Georgia",
+            "month": "May",
+            "days": "2-3",
+            "linkToMoreInfo": "www.lucity.com"
+        }
+    ],
+    "training": [ 
+        {
+            "title": "Moving to Lucity Web",
+            "month": "January",
+            "days": "26-28",
+            "linkToMoreInfo": "www.lucity.com"
+        },
+        {
+            "title": "Lucity + Crystal Reports > Beginner",
+            "month": "April",
+            "days": "4-5",
+            "linkToMoreInfo": "www.lucity.com"
+        },
+        {
+            "title": "Moving to Lucity Web",
+            "month": "April",
+            "days": "21-29",
+            "linkToMoreInfo": "www.lucity.com"
+        },
+        {
+            "title": "Lucity + Crystal Reports > Advanced",
+            "month": "April",
+            "days": "6-7",
+            "linkToMoreInfo": "www.lucity.com"
+        },
+        {
+            "title": "Moving to Lucity Web",
+            "month": "June",
+            "days": "7-9",
+            "linkToMoreInfo": "www.lucity.com"
+        }
+    ]
+}

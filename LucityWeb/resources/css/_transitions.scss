@@ -1,0 +1,6 @@
+/*_transitions.scss*/
+@mixin tTransition ()
+{
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}

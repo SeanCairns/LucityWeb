@@ -1,0 +1,140 @@
+/*_software.scss*/
+
+#Software {
+  @include colorbar(20px, 1px, white);
+}
+
+#Software div.EAMS
+{
+  background-color: $lucity-green;
+  color: white;
+  border-left: 1em solid white;
+  border-right: 1em solid white;
+  border-bottom: 1em solid white;
+  height: 14em;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width : 768px), only screen and (max-device-width: 480px)
+{
+  #Software div.EAMS.assets,
+  #Software div.EAMS.work
+  {
+    margin-bottom: 60px;
+  }
+
+  #Software div.EAMS.assets
+  {
+    border-left: 1em solid white;
+    border-right: .5em solid white;
+  }
+  #Software div.EAMS.work
+  {
+    border-left: .5em solid white;
+    border-right: 1em solid white;
+  }
+  #Software div.EAMS.gis
+  {
+    border-left: 1em solid white;
+    border-right: .5em solid white;
+  }
+  #Software div.EAMS.general
+  {
+    border-left: .5em solid white;
+    border-right: 1em solid white;
+  }
+
+}
+
+@media only screen and (min-width : 768px)
+{
+  #Software div.EAMS.assets,
+  #Software div.EAMS.work
+  {
+    margin-bottom: 10px;
+  }
+  #Software div.EAMS.assets
+  {
+    border-left: 2em solid white;
+    border-right: 1em solid white;
+  }
+  #Software div.EAMS.work
+  {
+    border-left: 1em solid white;
+    border-right: 1em solid white;
+  }
+  #Software div.EAMS.gis
+  {
+    border-left: 1em solid white;
+    border-right: 1em solid white;
+  }
+  #Software div.EAMS.general
+  {
+    border-left: 1em solid white;
+    border-right: 2em solid white;
+  }
+}
+
+#Software div.EAMS.assets
+{
+  background-color: $lucity-orange;
+}
+
+#Software div.EAMS.work
+{
+  background-color: $lucity-green;
+}
+
+#Software div.EAMS.gis
+{
+  background-color: $lucity-blue-green;
+}
+
+#Software div.EAMS.general
+{
+  background-color: $lucity-dark-green;
+}
+
+
+#Software div.EAMS a
+{
+  display: block;
+  margin-top: -50px;
+  height: 100px;
+}
+
+#Software div.EAMS a img
+{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#Software div.row
+{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#Software div.EAMS h2
+{
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 2.4em;
+  opacity: 0.85;
+}
+
+#Software div ul
+{
+  opacity: 0.85;
+  text-align: center;
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+  font-size: 1.2em;
+}
+
+
+

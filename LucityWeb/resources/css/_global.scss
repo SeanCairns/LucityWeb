@@ -1,0 +1,299 @@
+/*_global.scss*/
+html
+{
+  //Messing around with a static background image
+  //background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/KCSkylineBartleNight.jpg);
+  //background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/KCSkylineBartleNight.jpg);
+  //background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/KCSkylineBartleNight.jpg);
+  //background-attachment: fixed;
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  //background-position: bottom center;
+}
+
+
+a {
+  @include tTransition;
+  color: $lucity-blue-grey;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: $lucity-font-header;
+  color: $lucity-font-header-color;
+  font-style: normal;
+  letter-spacing: -0.025em;
+  text-transform: lowercase;
+}
+
+h1, h2 {
+  padding: .2em 0;
+  line-height: 1.2;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+
+@media only screen and (max-device-width: 480px)
+{
+  h1 {
+    margin-top: 10px;
+    font-size: 3em;
+  }
+}
+
+
+body, p, span, div
+{
+  font-family: $lucity-font-body;
+  color: $lucity-font-color;
+}
+
+body
+{
+  background-color: white;
+  font-size: 130%;
+  line-height: 1.4;
+  padding-top: $small-screen-menu-height;
+  min-width: 640px;
+}
+nav.navbar
+{
+  font-size: 1.1em;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+  body
+  {
+    font-size: 150%;
+    line-height: 1.4;
+    padding-top: $large-screen-menu-height;
+  }
+  nav.navbar
+  {
+    font-size: 1em;
+    //border-bottom: 4px solid red;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+  html
+  {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  body
+  {
+    font-size: 170%;
+    line-height: 1.4;
+  }
+  nav.navbar
+  {
+    font-size: 1em;
+  }
+  .pull-right-md {
+    float: right;
+  }}
+
+/* Limit width at 1100px */
+@media only screen and (min-width : 1100px)
+{
+  html
+  {
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: #555555;
+  }
+  body
+  {
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+  }
+  nav.navbar
+  {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+}
+
+@media only screen and (max-device-width: 736px){
+  body
+  {
+    min-width: 0;
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .navbar .navbar-header a.logo {
+    height: 90px;
+    width: 200px;
+  }
+
+  .navbar #navbar {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav>li>a:focus,
+  .navbar-default .navbar-nav>li>a:hover {
+    background-color: #cccccc;
+  }
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 4px solid $lucity-green;
+}
+
+.navbar .container {
+  border-bottom: 1px solid $lucity-green;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: $lucity-font-menu;
+  font-size: 1.8em;
+  color: $lucity-orange;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: $lucity-dark-orange;
+  text-shadow: #555555 0.1em 0.1em 0.3em;
+}
+
+.navbar-header a.logo {
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  background-size: 100% 100%;
+  background: url(../img/LucityLogo.svg) top left no-repeat;
+}
+
+
+
+
+
+#MainSearch
+{
+  background-color: $lucity-green;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid white;
+}
+
+
+
+#Footer
+{
+    @include colorbar(11px, 1px, $lucity-green);
+
+    .FollowUs, .MeetUs {
+        border: 16px solid white;
+        line-height: 1.6;
+        padding-left: 4.5em;
+        padding-bottom: 10px;
+        background-color: $lucity-green;
+    }
+
+    .FollowUs{
+        padding-bottom:14px;
+        border-right: 8px solid white;
+    }
+
+    .MeetUs{
+        border-left: 8px solid white;
+    }
+
+    a
+    {
+      display: block;
+      padding-bottom: 8px;
+      @include tTransition;
+      font-size: 1.1em;
+      color: $lucity-grey;
+    }
+
+    .fa-stack
+    {
+      margin-right: 12px;
+    }
+
+    .fa-2x
+    {
+      font-size: 1.5em;
+    }
+
+    .fa-inverse
+    {
+      color: white;
+    }
+
+    a:hover .fa-stack-2x
+    {
+      @include tTransition;
+      color: $lucity-grey;
+    }
+
+    a .fa-stack-2x
+    {
+      @include tTransition;
+      color: $lucity-font-color;
+    }
+}
+
+@media only screen and (max-width : 768px)
+{
+  #Footer div.row div.FollowUs
+  {
+    border-right: 16px solid white;
+    border-bottom: 8px solid white;
+  }
+
+  #Footer div.row div.MeetUs
+  {
+    border-left: 16px solid white;
+    border-top: 8px solid white;
+  }
+}
+
+@media only screen and (max-width : 768px)
+{
+  #Footer div.row div
+  {
+    padding-left: 128px;
+  }
+  #Footer a
+  {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-device-width: 768px){
+  #Footer div.row div
+  {
+    padding-left: 3em;
+  }
+  #Footer a
+  {
+    font-size: 1.3em;
+  }
+}
+

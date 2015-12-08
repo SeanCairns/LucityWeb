@@ -1,0 +1,104 @@
+<div id="Testimonials" class="container-fluid" ng-controller="TalkingHeadCtrl">
+    <h1>We Hear You.</h1>
+    <div class="quote" style="background: url('{{randomTalkingHeadImg}}') no-repeat bottom left; background-size: contain;">
+        <blockquote>
+            <p>{{randomTalkingHead.quote}}</p>
+            <footer>
+                <cite>
+                    <span ng-if="randomTalkingHead.cite.name">{{randomTalkingHead.cite.name}}, </span>
+                    <span ng-if="randomTalkingHead.cite.organization">{{randomTalkingHead.cite.organization}}</span>
+                </cite>
+            </footer>
+        </blockquote>
+    </div>
+</div>
+
+<div id="Software" class="container-fluid">
+    <h1>Enterprise Asset Management Software</h1>
+    <div class="row">
+        <div class="EAMS assets col-sm-3 col-xs-6">
+            <a href="#"><img src="resources/img/icons/assets.svg" alt="Assets"></a>
+            <h2>Assets</h2>
+            <ul>
+                <li>Attributes</li>
+                <li>Inspection</li>
+                <li>Testing</li>
+            </ul>
+        </div>
+        <div class="EAMS work col-sm-3 col-xs-6">
+            <a href="#"><img src="resources/img/icons/work.svg" alt="Assets"></a>
+            <h2>Work</h2>
+            <ul>
+                <li>Work Orders</li>
+                <li>Scheduling</li>
+                <li>Inventory</li>
+            </ul>
+        </div>
+        <div class="EAMS gis col-sm-3 col-xs-6">
+            <a href="#"><img src="resources/img/icons/gis.svg" alt="Assets"></a>
+            <h2>GIS</h2>
+            <ul>
+                <li>Desktop</li>
+                <li>Web</li>
+                <li>Mobile</li>
+            </ul>
+        </div>
+        <div class="EAMS general col-sm-3 col-xs-6">
+            <a href="#"><img src="resources/img/icons/general.svg" alt="Assets"></a>
+            <h2>General</h2>
+            <ul>
+                <li>Deployment</li>
+                <li>Integration</li>
+                <li>Reporting</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="Blog" class="container-fluid" ng-controller="BlogsCtrl">
+    <div class="row" ng-if="blog.entries.length > 0">
+        <div ng-repeat="entry in blog.entries" ng-if="$index == 0" class="col-sm-6 col-xs-12 firstEntry">
+            <h2 ng-bind-html="entry.title"></h2>
+            <div class="date">{{entry.publishedDate | split:' ':2}} {{entry.publishedDate | split:' ':1}}, {{entry.publishedDate | split:' ':3}}</div>
+            <div ng-bind-html="entry.content" class="entry"></div>
+            <div class="readMore"><a href="{{entry.link}}" target="_blank">Read more &gt;&gt;</a></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 remainingEntries">
+            <dl ng-repeat="entry in blog.entries" ng-if="$index > 0 && $index < 4">
+                <dt>
+                    <span>{{entry.publishedDate | split:' ':2}}</span>
+                    <span>{{entry.publishedDate | split:' ':1}}</span>
+                </dt>
+                <dd>
+                    <h3 ng-bind-html="entry.title" class="snippetTitle"></h3>
+                    <p><span ng-bind-html="entry.contentSnippet" class="snippet"></span><a href="{{entry.link}}" target="_blank">Read more  &gt;&gt;</a></p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<ul id="Calendar" class="container-fluid" ng-controller="CalendarCtrl">
+    <div class="row">
+        <div id="Events" class="col-sm-6 col-xs-12">
+            <ul>
+                <li ng-repeat="event in calendar.events">
+                    <div class="date">
+                        <span class="month">{{event.month}}</span>
+                        <span class="days">{{event.days}}</span>
+                    </div>
+                    <span class="title">{{event.title}}</span><br />
+                    <span class="location">{{event.location}}</span>
+                </li>
+            </ul>
+        </div>
+        <div id="Training" class="col-sm-6 col-xs-12">
+            <ul class="row">
+                <li ng-repeat="class in calendar.training" class="col-sm-6 col-xs-12">
+                    <span class="title">{{class.title}}</span><br />
+                    <span class="date">{{class.month}} {{class.days}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+{
+  "name": "Lucity Web Site",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SeanCairns/Lucity4",
+  "authors": [
+    "Sean Cairns",
+    "Cairns Tech",
+    "Jennifer Cairns"
+  ],
+  "description": "Lucity Web site",
+  "main": "index.html",
+  "keywords": [
+    "lucity"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "bootstrap": "~3.3.0",
+    "modernizr": "~2.8.3",
+    "jquery": "~2.1.1",
+    "x2js": "1.1.7"
+  },
+  "devDependencies": {
+    "angular-route": "~1.4.7",
+    "angular-animate": "~1.4.7"
+  }
+}

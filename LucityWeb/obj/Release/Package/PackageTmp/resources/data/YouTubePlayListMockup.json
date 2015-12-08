@@ -1,0 +1,256 @@
+﻿{
+    "kind": "youtube#playlistListResponse",
+    "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/d_52Gt6STlD2CJLxYjNrqzJ9BZ0\"",
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+        "totalResults": 8,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+
+            "kind": "youtube#playlist",
+            "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/dHj-WLhbyWE9abTCOSR6ufWvzUY\"",
+            "id": "PL6gNKzCUXa1jcjOn5Jf-V_kKF_TGk91sZ",
+            "snippet": {
+                "publishedAt": "2015-11-16T20:37:46.000Z",
+                "channelId": "UCSBBCEWsSEqzuf6nxS-xGsw",
+                "title": "Web",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M0ue7o_bJQY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M0ue7o_bJQY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M0ue7o_bJQY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Lucity UTube",
+                "localized": {
+                    "title": "Web",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 2
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL6gNKzCUXa1jcjOn5Jf-V_kKF_TGk91sZ\" frameborder=\"0\" allowfullscreen></iframe>"
+            }
+        },
+        {
+
+            "kind": "youtube#playlist",
+            "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/iV09kHvsDO7uJfcRRniTFa_Cabc\"",
+            "id": "PL6gNKzCUXa1gfREfpG-gwBwMXPsxhwbUE",
+            "snippet": {
+                "publishedAt": "2015-10-21T15:36:34.000Z",
+                "channelId": "UCSBBCEWsSEqzuf6nxS-xGsw",
+                "title": "Mobile",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/f_dI57HHbPU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/f_dI57HHbPU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/f_dI57HHbPU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Lucity UTube",
+                "localized": {
+                    "title": "Mobile",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 12
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL6gNKzCUXa1gfREfpG-gwBwMXPsxhwbUE\" frameborder=\"0\" allowfullscreen></iframe>"
+            }
+        },
+        {
+
+            "kind": "youtube#playlist",
+            "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/5SeqqHTI7PGY810tr3G2FJsZ8N4\"",
+            "id": "PL6gNKzCUXa1gmEkZm0X23UmuvXwDzoDcZ",
+            "snippet": {
+                "publishedAt": "2015-10-21T15:13:12.000Z",
+                "channelId": "UCSBBCEWsSEqzuf6nxS-xGsw",
+                "title": "End Users",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Lucity UTube",
+                "localized": {
+                    "title": "End Users",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 43
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL6gNKzCUXa1gmEkZm0X23UmuvXwDzoDcZ\" frameborder=\"0\" allowfullscreen></iframe>"
+            }
+        },
+        {
+
+            "kind": "youtube#playlist",
+            "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/EhnBAGaIo3GqRKQODnHWTYXYyXc\"",
+            "id": "PL6gNKzCUXa1gZ_NKsuyaE7rtm73f4Gc05",
+            "snippet": {
+                "publishedAt": "2015-10-21T14:18:49.000Z",
+                "channelId": "UCSBBCEWsSEqzuf6nxS-xGsw",
+                "title": "Administrators",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/P-xs0k21yFg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Lucity UTube",
+                "localized": {
+                    "title": "Administrators",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 29
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL6gNKzCUXa1gZ_NKsuyaE7rtm73f4Gc05\" frameborder=\"0\" allowfullscreen></iframe>"
+            }
+        },
+        {
+
+            "kind": "youtube#playlist",
+            "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/eP4BQFynVbggkjgN064w_6E1Yyw\"",
+            "id": "PL6gNKzCUXa1i-7cc_Yjeqjhc1B3BZA4Zn",
+            "snippet": {
+                "publishedAt": "2014-09-24T22:56:02.000Z",
+                "channelId": "UCSBBCEWsSEqzuf6nxS-xGsw",
+                "title": "Looking Into Lucity",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Lt3d0udvtnA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Lt3d0udvtnA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Lt3d0udvtnA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Lt3d0udvtnA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Lt3d0udvtnA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Lucity UTube",
+                "localized": {
+                    "title": "Looking Into Lucity",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 32
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL6gNKzCUXa1i-7cc_Yjeqjhc1B3BZA4Zn\" frameborder=\"0\" allowfullscreen></iframe>"
+            }
+        }
+    ]
+}
