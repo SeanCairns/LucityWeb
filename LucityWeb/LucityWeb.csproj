@@ -163,7 +163,8 @@
     <Content Include="partials\Company\company.html" />
     <Content Include="partials\home.html" />
     <Content Include="partials\resources.html" />
-    <Content Include="partials\Software\software.html" />
+    <Content Include="partials\Software\EAMS.html" />
+    <Content Include="partials\Software\MMS.html" />
     <Content Include="partials\support.html" />
     <Content Include="resources\css\bootstrap.min.css" />
     <Content Include="resources\css\lucity.css" />
@@ -699,6 +700,10 @@
     <Content Include="resources\img\LucityLogo.svg" />
     <Content Include="resources\img\quotebox.svg" />
     <Content Include="resources\img\quote_ImgID1.png" />
+    <Content Include="resources\img\Software\Work\Inventory.png" />
+    <Content Include="resources\img\Software\Work\Requests.png" />
+    <Content Include="resources\img\Software\Work\Scheduling.png" />
+    <Content Include="resources\img\Software\Work\WorkOrders.png" />
     <Content Include="resources\img\TalkingHeads\1.jpg" />
     <Content Include="resources\img\TalkingHeads\2.jpg" />
     <Content Include="resources\img\TalkingHeads\3.jpg" />
@@ -728,7 +733,7 @@
     <Content Include="resources\js\xml2json\xml2json.js" />
     <Content Include="resources\js\xml2json\xml2json.min.js" />
     <Content Include="resources\js\_general\app.js" />
-    <Content Include="resources\js\_general\config.js" />
+    <Content Include="resources\js\_general\routes.js" />
     <Content Include="resources\js\_general\filters.js" />
     <Content Include="testback.html" />
     <Content Include="Web.config" />

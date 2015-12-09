@@ -23,7 +23,15 @@
                 caseInsensitiveMatch: true
             })
             .when('/Enterprise-Asset-Management-Software', {
-                templateUrl: Lucity.PartialsPath + '/Software/software.html',
+                templateUrl: Lucity.PartialsPath + '/Software/EAMS.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Maintenance-Management-Software', {
+                templateUrl: Lucity.PartialsPath + '/Software/MMS.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Geographic-Information-System', {
+                templateUrl: Lucity.PartialsPath + '/Software/GIS.html',
                 caseInsensitiveMatch: true
             })
             .when('/resources', {
