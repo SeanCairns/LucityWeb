@@ -1,8 +1,8 @@
 /*_home.scss*/
-@import '_home_talkinghead';
-@import '_home_blogs';
-@import '_home_software';
-@import '_home_calendar';
+@import '_talkinghead';
+@import '_blogs';
+@import '_software';
+@import '_calendar';
 
 #WeHearYou {
   background: $lucity-orange url(../img/Ear.png) no-repeat top left;
