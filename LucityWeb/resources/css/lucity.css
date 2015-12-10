@@ -787,8 +787,7 @@ nav.navbar {
     text-align: center;
     margin: 0 0 40px 0;
     padding: 0; }
-  #SoftwareEAMS div.row div a {
-    font-family: "Montserrat Alternates", sans-serif;
+  #SoftwareEAMS div.row div span {
     position: relative;
     display: block;
     padding: 100px 0 0 0;
@@ -799,64 +798,47 @@ nav.navbar {
     text-transform: lowercase;
     font-size: 1.3em;
     font-weight: 400;
+    color: #4f5c73;
+    font-family: "Montserrat Alternates", sans-serif;
     background-size: 90px; }
-
-.Water a {
-  background: url(/resources/img/EAMSIcons/water.svg) no-repeat top center; }
-
-.Sewer a {
-  background: url(/resources/img/EAMSIcons/sewer.svg) no-repeat top center; }
-
-.Storm a {
-  background: url(/resources/img/EAMSIcons/storm.svg) no-repeat top center; }
-
-.Facilities a {
-  background: url(/resources/img/EAMSIcons/facilities.svg) no-repeat top center; }
-
-.Signs a {
-  background: url(/resources/img/EAMSIcons/signs.svg) no-repeat top center; }
-
-.StreetsAndRoads a {
-  background: url(/resources/img/EAMSIcons/streetsandroads.svg) no-repeat top center; }
-
-.Bridges a {
-  background: url(/resources/img/EAMSIcons/bridge.svg) no-repeat top center; }
-
-.RightsOfWay a {
-  background: url(/resources/img/EAMSIcons/rightofway.svg) no-repeat top center; }
-
-.Pavement a {
-  background: url(/resources/img/EAMSIcons/pavement.svg) no-repeat top center; }
-
-.Traffic a {
-  background: url(/resources/img/EAMSIcons/traffic.svg) no-repeat top center; }
-
-.Signals a {
-  background: url(/resources/img/EAMSIcons/signals.svg) no-repeat top center; }
-
-.StreetLights a {
-  background: url(/resources/img/EAMSIcons/streetlights.svg) no-repeat top center; }
-
-.Equipment a {
-  background: url(/resources/img/EAMSIcons/equipment.svg) no-repeat top center; }
-
-.Fleet a {
-  background: url(/resources/img/EAMSIcons/fleet.svg) no-repeat top center; }
-
-.Parks a {
-  background: url(/resources/img/EAMSIcons/parks.svg) no-repeat top center; }
-
-.Electric a {
-  background: url(/resources/img/EAMSIcons/electric.svg) no-repeat top center; }
-
-.Trees a {
-  background: url(/resources/img/EAMSIcons/trees.svg) no-repeat top center; }
-
-.RefuseAndRecycling a {
-  background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
-
-.Environmental a {
-  background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
+  #SoftwareEAMS .Water span {
+    background: url(/resources/img/EAMSIcons/water.svg) no-repeat top center; }
+  #SoftwareEAMS .Sewer span {
+    background: url(/resources/img/EAMSIcons/sewer.svg) no-repeat top center; }
+  #SoftwareEAMS .Storm span {
+    background: url(/resources/img/EAMSIcons/storm.svg) no-repeat top center; }
+  #SoftwareEAMS .Facilities span {
+    background: url(/resources/img/EAMSIcons/facilities.svg) no-repeat top center; }
+  #SoftwareEAMS .Signs span {
+    background: url(/resources/img/EAMSIcons/signs.svg) no-repeat top center; }
+  #SoftwareEAMS .StreetsAndRoads span {
+    background: url(/resources/img/EAMSIcons/streetsandroads.svg) no-repeat top center; }
+  #SoftwareEAMS .Bridges span {
+    background: url(/resources/img/EAMSIcons/bridge.svg) no-repeat top center; }
+  #SoftwareEAMS .RightsOfWay span {
+    background: url(/resources/img/EAMSIcons/rightofway.svg) no-repeat top center; }
+  #SoftwareEAMS .Pavement span {
+    background: url(/resources/img/EAMSIcons/pavement.svg) no-repeat top center; }
+  #SoftwareEAMS .Traffic span {
+    background: url(/resources/img/EAMSIcons/traffic.svg) no-repeat top center; }
+  #SoftwareEAMS .Signals span {
+    background: url(/resources/img/EAMSIcons/signals.svg) no-repeat top center; }
+  #SoftwareEAMS .StreetLights span {
+    background: url(/resources/img/EAMSIcons/streetlights.svg) no-repeat top center; }
+  #SoftwareEAMS .Equipment span {
+    background: url(/resources/img/EAMSIcons/equipment.svg) no-repeat top center; }
+  #SoftwareEAMS .Fleet span {
+    background: url(/resources/img/EAMSIcons/fleet.svg) no-repeat top center; }
+  #SoftwareEAMS .Parks span {
+    background: url(/resources/img/EAMSIcons/parks.svg) no-repeat top center; }
+  #SoftwareEAMS .Electric span {
+    background: url(/resources/img/EAMSIcons/electric.svg) no-repeat top center; }
+  #SoftwareEAMS .Trees span {
+    background: url(/resources/img/EAMSIcons/trees.svg) no-repeat top center; }
+  #SoftwareEAMS .RefuseAndRecycling span {
+    background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
+  #SoftwareEAMS .Environmental span {
+    background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
 
 #SoftwareCommunity {
   background-color: #4f5c73; }
@@ -921,8 +903,8 @@ nav.navbar {
       font-weight: 600;
       color: #4f5c73;
       text-align: center;
-      padding-right: 200px;
-      padding-left: 200px; }
+      padding-right: 20%;
+      padding-left: 20%; }
   #SoftwareMMS div.row div:hover h2, #SoftwareMMS div.row div:hover p {
     position: relative;
     display: block;

@@ -164,7 +164,10 @@
     <Content Include="partials\home.html" />
     <Content Include="partials\resources.html" />
     <Content Include="partials\Software\EAMS.html" />
+    <Content Include="partials\Software\general.html" />
+    <Content Include="partials\Software\GIS.html" />
     <Content Include="partials\Software\MMS.html" />
+    <Content Include="partials\Software\software.html" />
     <Content Include="partials\support.html" />
     <Content Include="resources\css\bootstrap.min.css" />
     <Content Include="resources\css\lucity.css" />

@@ -22,16 +22,24 @@
                 templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
                 caseInsensitiveMatch: true
             })
-            .when('/Enterprise-Asset-Management-Software', {
+            .when('/Software', {
+                templateUrl: Lucity.PartialsPath + '/Software/software.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software/Enterprise-Asset-Management-Software', {
                 templateUrl: Lucity.PartialsPath + '/Software/EAMS.html',
                 caseInsensitiveMatch: true
             })
-            .when('/Maintenance-Management-Software', {
+            .when('/Software/Maintenance-Management-Software', {
                 templateUrl: Lucity.PartialsPath + '/Software/MMS.html',
                 caseInsensitiveMatch: true
             })
-            .when('/Geographic-Information-System', {
+            .when('/Software/Geographic-Information-System', {
                 templateUrl: Lucity.PartialsPath + '/Software/GIS.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software/Deployment-Integration-Reporting', {
+                templateUrl: Lucity.PartialsPath + '/Software/General.html',
                 caseInsensitiveMatch: true
             })
             .when('/resources', {

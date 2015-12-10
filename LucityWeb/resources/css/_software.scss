@@ -1,4 +1,9 @@
-﻿#SoftwareEAMS
+﻿
+
+
+
+
+#SoftwareEAMS
 {
     @include colorbar(11px, 1px, white);
     background-color: $lucity-green;
@@ -18,10 +23,8 @@
         padding: 0;
     }
 
-    div.row div a
+    div.row div span
     {
-        font-family: $lucity-font-header;
-    
         position: relative;
         display: block;
         padding: 100px 0 0 0;
@@ -32,31 +35,31 @@
         text-transform: lowercase;
         font-size: 1.3em;
         font-weight: 400;
+        color: $lucity-blue-grey;
+        font-family: $lucity-font-header;
         background-size: 90px; 
     }
+
+    .Water span              { background: url(/resources/img/EAMSIcons/water.svg) no-repeat top center; }
+    .Sewer span              { background: url(/resources/img/EAMSIcons/sewer.svg) no-repeat top center; }
+    .Storm span              { background: url(/resources/img/EAMSIcons/storm.svg) no-repeat top center; }
+    .Facilities span         { background: url(/resources/img/EAMSIcons/facilities.svg) no-repeat top center; }
+    .Signs span              { background: url(/resources/img/EAMSIcons/signs.svg) no-repeat top center; }
+    .StreetsAndRoads span    { background: url(/resources/img/EAMSIcons/streetsandroads.svg) no-repeat top center; }
+    .Bridges span            { background: url(/resources/img/EAMSIcons/bridge.svg) no-repeat top center; }
+    .RightsOfWay span        { background: url(/resources/img/EAMSIcons/rightofway.svg) no-repeat top center; }
+    .Pavement span           { background: url(/resources/img/EAMSIcons/pavement.svg) no-repeat top center; }
+    .Traffic span            { background: url(/resources/img/EAMSIcons/traffic.svg) no-repeat top center; }
+    .Signals span            { background: url(/resources/img/EAMSIcons/signals.svg) no-repeat top center; }
+    .StreetLights span       { background: url(/resources/img/EAMSIcons/streetlights.svg) no-repeat top center; }
+    .Equipment span          { background: url(/resources/img/EAMSIcons/equipment.svg) no-repeat top center; }
+    .Fleet span              { background: url(/resources/img/EAMSIcons/fleet.svg) no-repeat top center; }
+    .Parks span              { background: url(/resources/img/EAMSIcons/parks.svg) no-repeat top center; }
+    .Electric span           { background: url(/resources/img/EAMSIcons/electric.svg) no-repeat top center; }
+    .Trees span              { background: url(/resources/img/EAMSIcons/trees.svg) no-repeat top center; }
+    .RefuseAndRecycling span { background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
+    .Environmental span      { background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
 }
-
-.Water a              { background: url(/resources/img/EAMSIcons/water.svg) no-repeat top center; }
-.Sewer a              { background: url(/resources/img/EAMSIcons/sewer.svg) no-repeat top center; }
-.Storm a              { background: url(/resources/img/EAMSIcons/storm.svg) no-repeat top center; }
-.Facilities a         { background: url(/resources/img/EAMSIcons/facilities.svg) no-repeat top center; }
-.Signs a              { background: url(/resources/img/EAMSIcons/signs.svg) no-repeat top center; }
-.StreetsAndRoads a    { background: url(/resources/img/EAMSIcons/streetsandroads.svg) no-repeat top center; }
-.Bridges a            { background: url(/resources/img/EAMSIcons/bridge.svg) no-repeat top center; }
-.RightsOfWay a        { background: url(/resources/img/EAMSIcons/rightofway.svg) no-repeat top center; }
-.Pavement a           { background: url(/resources/img/EAMSIcons/pavement.svg) no-repeat top center; }
-.Traffic a            { background: url(/resources/img/EAMSIcons/traffic.svg) no-repeat top center; }
-.Signals a            { background: url(/resources/img/EAMSIcons/signals.svg) no-repeat top center; }
-.StreetLights a       { background: url(/resources/img/EAMSIcons/streetlights.svg) no-repeat top center; }
-.Equipment a          { background: url(/resources/img/EAMSIcons/equipment.svg) no-repeat top center; }
-.Fleet a              { background: url(/resources/img/EAMSIcons/fleet.svg) no-repeat top center; }
-.Parks a              { background: url(/resources/img/EAMSIcons/parks.svg) no-repeat top center; }
-.Electric a           { background: url(/resources/img/EAMSIcons/electric.svg) no-repeat top center; }
-.Trees a              { background: url(/resources/img/EAMSIcons/trees.svg) no-repeat top center; }
-.RefuseAndRecycling a { background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
-.Environmental a      { background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
-
-
 
 
 
@@ -138,8 +141,8 @@
             font-weight: 600;
             color: $lucity-blue-grey;
             text-align: center;
-            padding-right: 200px;
-            padding-left: 200px;
+            padding-right: 20%;
+            padding-left: 20%;
         }
     }
 
