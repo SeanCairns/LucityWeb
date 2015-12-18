@@ -190,7 +190,7 @@ nav.navbar {
   display: block;
   content: '';
   height: 60px;
-  background: #1e5799;
+  background: #ffffff;
   /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
   /* FF3.6-15 */
@@ -835,6 +835,64 @@ nav.navbar {
     font-size: 190%;
     font-weight: 600;
     color: #4f5c73; }
+#SoftwareHome #SoftwareList {
+  display: block;
+  position: relative;
+  height: 500px;
+  background: #4f5c73;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4f5c73 0%, #4f5c73 51%, #ffffff 72%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4f5c73 0%, #4f5c73 51%, #ffffff 72%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4f5c73 0%, #4f5c73 51%, #ffffff 72%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lucity-blue-grey', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
+  #SoftwareHome #SoftwareList h2 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 0; }
+  #SoftwareHome #SoftwareList ul li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.8em; }
+  #SoftwareHome #SoftwareList #Assets,
+  #SoftwareHome #SoftwareList #Work,
+  #SoftwareHome #SoftwareList #GIS,
+  #SoftwareHome #SoftwareList #Mobile,
+  #SoftwareHome #SoftwareList #CitizenPortal {
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px 10px 20px 20px; }
+  #SoftwareHome #SoftwareList #Assets {
+    background-color: #ff9933;
+    top: 100px;
+    left: 4%;
+    width: 50%; }
+  #SoftwareHome #SoftwareList #Work {
+    background-color: #99cc33;
+    top: 40px;
+    left: 50%;
+    width: 24%;
+    padding-bottom: 50px; }
+  #SoftwareHome #SoftwareList #GIS {
+    background-color: #99cc33;
+    top: 210px;
+    left: 75%;
+    width: 19%; }
+  #SoftwareHome #SoftwareList #Mobile {
+    background-color: #ff9933;
+    top: 280px;
+    left: 60%;
+    width: 17%; }
+  #SoftwareHome #SoftwareList #CitizenPortal {
+    background-color: #137866;
+    top: 60px;
+    left: 70%;
+    width: 26%; }
 
 /* Software EAMS */
 #SoftwareEAMS {
@@ -919,7 +977,7 @@ nav.navbar {
   display: block;
   content: '';
   height: 60px;
-  background: #1e5799;
+  background: #4f5c73;
   /* Old browsers */
   background: -moz-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
   /* FF3.6-15 */

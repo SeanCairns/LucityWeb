@@ -94,4 +94,82 @@
         }
     }
 
+
+    #SoftwareList
+    {
+        display: block;
+        position: relative;
+        height: 500px;
+        background: $lucity-blue-grey; /* Old browsers */
+        background: -moz-linear-gradient(top,  $lucity-blue-grey 0%, $lucity-blue-grey 51%, #ffffff 72%, #ffffff 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  $lucity-blue-grey 0%,$lucity-blue-grey 51%,#ffffff 72%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  $lucity-blue-grey 0%,$lucity-blue-grey 51%,#ffffff 72%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lucity-blue-grey', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+        h2
+        {
+            color: $lucity-font-color-inverse;
+            font-size: 2em;
+            margin-top: 0;
+        }
+
+        ul li 
+        {
+            list-style-type: none;
+            color: $lucity-font-color-inverse;
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+
+        #Assets,
+        #Work,
+        #GIS,
+        #Mobile,
+        #CitizenPortal
+        {
+            display: block;
+            position: absolute;
+            border-radius: 20px;
+            padding: 10px 10px 20px 20px;
+
+        }
+
+        #Assets
+        {
+            background-color: $lucity-orange;
+            top: 100px;
+            left: 4%;
+            width: 50%;
+        }
+        #Work
+        {
+            background-color: $lucity-green;
+            top: 40px;
+            left: 50%;
+            width: 24%;
+            padding-bottom: 50px;
+        }
+        #GIS
+        {
+            background-color: $lucity-green;
+            top: 210px;
+            left: 75%;
+            width: 19%;
+        }
+        #Mobile
+        {
+            background-color: $lucity-orange;
+            top: 280px;
+            left: 60%;
+            width: 17%;
+        }
+        #CitizenPortal
+        {
+            background-color: $lucity-blue-green;
+            top: 60px;
+            left: 70%;
+            width: 26%;
+        }
+
+    }
 }
