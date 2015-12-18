@@ -1,6 +1,32 @@
 ﻿/* Software GIS */
 
-div
+#SoftwareGIS
 {
 
+    .ESRI
+    {
+        display: block;
+        position: relative;
+        font-size: 2em;
+        text-align: right;
+        margin-left: 40%;
+        background-color: $lucity-blue-grey;
+        color: $lucity-font-color-inverse;
+    }
+
+    .ESRI:after
+    {
+        content: "";
+        position: absolute;
+        top: -30px;
+        right: 5%;
+        width: 100px;
+        height: 150px;
+        background: white url('/resources/img/Software/V_esriPartnerNet-gold_sRGB.png') no-repeat top center;
+        background-size: contain;
+        border: 6px solid $lucity-dark-green;
+        border-radius: 100px;
+    }
+
 }
+
