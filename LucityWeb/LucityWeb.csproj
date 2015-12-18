@@ -1049,6 +1049,11 @@
     <Content Include="resources\data\testimonials.json" />
     <Content Include="resources\data\LucityUTube.json" />
     <Content Include="resources\js\controllers\YouTubeVideoList.controller.js" />
+    <Content Include="resources\css\Software\_softwareHome.scss" />
+    <Content Include="resources\css\Software\_GIS.scss" />
+    <Content Include="resources\css\Software\_general.scss" />
+    <Content Include="resources\css\Software\_MMS.scss" />
+    <Content Include="resources\css\Software\_EAMS.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
