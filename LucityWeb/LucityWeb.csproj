@@ -703,6 +703,7 @@
     <Content Include="resources\img\LucityLogo.svg" />
     <Content Include="resources\img\quotebox.svg" />
     <Content Include="resources\img\quote_ImgID1.png" />
+    <Content Include="resources\img\Software\GISTower.png" />
     <Content Include="resources\img\Software\V_esriPartnerNet-gold_sRGB.png" />
     <Content Include="resources\img\Software\Work\Inventory.png" />
     <Content Include="resources\img\Software\Work\Requests.png" />

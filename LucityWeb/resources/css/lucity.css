@@ -1009,24 +1009,95 @@ nav.navbar {
 
 /* Software General  */
 /* Software GIS */
+#SoftwareGIS p.configure,
+#SoftwareGIS p.attributes,
+#SoftwareGIS p.exclusively,
+#SoftwareGIS p.shared {
+  padding: 16px 10%;
+  margin: 0;
+  font-size: 1.9em;
+  font-weight: 600;
+  color: #4f5c73;
+  text-align: center; }
+#SoftwareGIS p.configure:after {
+  display: block;
+  content: "";
+  padding: 16px 10%;
+  margin: 0 25% 0 25%;
+  border-bottom: 3px solid #ff6600; }
+#SoftwareGIS p.attributes {
+  font-size: 1.8em;
+  padding: 16px 0 16px 10%;
+  width: 48%;
+  float: left; }
+#SoftwareGIS p.exclusively {
+  font-size: 1.8em;
+  padding: 16px 10% 16px 0;
+  width: 48%;
+  float: right; }
+#SoftwareGIS p.shared {
+  position: relative;
+  clear: both;
+  height: 200px;
+  text-transform: lowercase;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2.6em;
+  line-height: 1.3em;
+  margin: 0 100px 0 100px;
+  padding: 60px 0 0 0;
+  background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
+  background-size: contain; }
+#SoftwareGIS p.shared:before {
+  content: ">";
+  left: -60px; }
+#SoftwareGIS p.shared:after {
+  content: "<";
+  right: -60px; }
+#SoftwareGIS p.shared:before,
+#SoftwareGIS p.shared:after {
+  position: absolute;
+  top: 50px;
+  height: 150px;
+  line-height: 150px;
+  margin: 0;
+  padding: 0;
+  color: #ff9933;
+  font-size: 3.2em;
+  font-weight: 100;
+  font-family: sans-serif; }
+#SoftwareGIS h1.gisHighlights {
+  margin-top: 100px; }
 #SoftwareGIS .ESRI {
   display: block;
   position: relative;
+  height: 320px; }
+#SoftwareGIS .ESRI p {
+  display: block;
+  position: absolute;
   font-size: 2em;
   text-align: right;
-  margin-left: 40%;
+  top: 70px;
+  right: 190px;
+  width: 420px;
+  height: 150px;
+  padding: 16px 40px 16px 26px;
   background-color: #4f5c73;
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 400;
+  text-transform: lowercase;
+  line-height: 1.3em;
+  font-family: "Montserrat Alternates", sans-serif; }
 #SoftwareGIS .ESRI:after {
   content: "";
   position: absolute;
-  top: -30px;
-  right: 5%;
-  width: 100px;
-  height: 150px;
+  top: 20px;
+  right: 20px;
+  width: 180px;
+  height: 270px;
   background: white url("/resources/img/Software/V_esriPartnerNet-gold_sRGB.png") no-repeat top center;
   background-size: contain;
-  border: 6px solid #78A22D;
+  border: 4px solid #78A22D;
   border-radius: 100px; }
 
 /* Software MMS */
