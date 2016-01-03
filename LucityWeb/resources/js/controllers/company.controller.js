@@ -3,7 +3,6 @@
     Lucity.Modules.Lucity.controller("CompanyCtrl", ['$scope', '$routeParams', 'genericGetService',
         function ($scope, $routeParams, genericGetService, selectedMemberFilter)
         {
-            console.log($routeParams.career);
             $scope.career = $routeParams.career;
 
             var promise = genericGetService.getData(Lucity.Json.Team);

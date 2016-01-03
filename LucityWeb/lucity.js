@@ -213,7 +213,6 @@
     Lucity.Modules.Lucity.controller("CompanyCtrl", ['$scope', '$routeParams', 'genericGetService',
         function ($scope, $routeParams, genericGetService, selectedMemberFilter)
         {
-            console.log($routeParams.career);
             $scope.career = $routeParams.career;
 
             var promise = genericGetService.getData(Lucity.Json.Team);
@@ -258,6 +257,17 @@
 }(Lucity.Controllers = Lucity.Controllers || {}));
 
 
+
+
+(function (Controllers, undefined) {
+    Lucity.Modules.Lucity.controller("TestimonialsCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService) {
+            var testimonialsPromise = genericGetService.getData(Lucity.Json.Testimonials);
+            testimonialsPromise.then(function (response) {
+                $scope.testimonials = response.data.testimonials;
+            });
+        }]);
+}(Lucity.Controllers = Lucity.Controllers || {}));
 
 
 (function (Service, undefined)

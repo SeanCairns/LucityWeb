@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <div id="ResourceTestimonials" class="row">
+    <div id="ResourceTestimonials" class="row" ng-controller="TestimonialsCtrl">
         <div class="col-xs-12 col-sm-6">
             <h1>Testimonials</h1>
             <p>Learn all about how a few of our users selected, implemented, and then embraced LucityAM.</p>
@@ -41,17 +41,9 @@
         </div>
         <div class="col-xs-12 col-sm-6">
             <ul>
-                <li>
-                    <h2>City of Columbus, Ohio</h2>
-                    <q>Getting meaningful information into and out of various systems was a challenge. City officials knew theyneeded an intuitive, effective asset management software system.</q>
-                </li>
-                <li>
-                    <h2>City of San Marcos, California</h2>
-                    <q>Parks & Recreation field staff was relying on pencil and paper to track efforts. For a Public Works Department with lofty goals for tracking and reporting, it was an intolerable situation.</q>
-                </li>
-                <li>
-                    <h2>City of Chandler, Arizona</h2>
-                    <q>The City's "can-do" approach was put to test when its Public Works department embarked on an enormous integration effort, integrating six varied applications and their respective data.</q>
+                <li ng-repeat="testimonial in filteredTestimonials = ( testimonials | filter:{keywords: 'resourcesPage'} )">
+                    <h2>{{testimonial.cite.organization}}</h2>
+                    <q>{{testimonial.quote}}</q>
                 </li>
             </ul>
         </div>
