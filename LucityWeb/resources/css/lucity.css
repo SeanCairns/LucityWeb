@@ -1218,33 +1218,48 @@ html.no-smil .navbar-fixed-top {
   padding-top: 20px;
   border-top: 1px solid white;
   background: url(../img/colorbar.svg) repeat-x;
-  background-color: #ff9933; }
-
-#ResourceDemonstrations p {
-  color: #666666;
-  font-weight: 400;
-  font-size: 1.3em;
-  margin-left: 48px; }
-
-#ResourceDemonstrations ul {
-  position: relative;
-  display: block; }
-
-#ResourceDemonstrations ul li {
-  display: inline-block;
-  position: relative;
-  width: 43%;
-  background-color: white;
-  list-style-type: none;
-  margin: 8px;
-  padding: 0; }
-
-#ResourceDemonstrations figure img {
-  width: 100%;
-  background-size: cover; }
-
-#ResourceDemonstrations figure figcaption {
-  padding-left: 6px; }
+  background-color: #ff9933;
+  position: relative; }
+  #ResourceDemonstrations p {
+    color: #666666;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-left: 48px; }
+  #ResourceDemonstrations ul {
+    position: relative;
+    display: block; }
+  #ResourceDemonstrations ul li {
+    display: inline-block;
+    position: relative;
+    width: 43%;
+    background-color: white;
+    list-style-type: none;
+    margin: 8px;
+    padding: 0; }
+  #ResourceDemonstrations figure img {
+    width: 100%;
+    background-size: cover; }
+  #ResourceDemonstrations figure figcaption {
+    padding-left: 6px;
+    border-top: 1px solid #444444; }
+  #ResourceDemonstrations .videoCount {
+    position: absolute;
+    width: 45%;
+    height: 116px;
+    right: 0;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .8em; }
+    #ResourceDemonstrations .videoCount span {
+      display: block;
+      padding-top: 30px;
+      font-weight: 600;
+      font-size: 1.4em; }
 
 #ResourceTestimonials {
   padding-top: 20px;

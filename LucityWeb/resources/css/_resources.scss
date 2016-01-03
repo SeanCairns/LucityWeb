@@ -38,48 +38,68 @@
 {
     @include colorbar(20px, 1px, white);
     background-color: $lucity-orange;
-}
-
-#ResourceDemonstrations p
-{
-    color: $lucity-font-color-dark;
-    font-weight: 400;
-    font-size: 1.3em;
-    margin-left: 48px;
-}
-
-#ResourceDemonstrations,
-#ResourceDemonstrations figure
-{
-}
-
-#ResourceDemonstrations ul
-{
     position: relative;
-    display: block;
+
+    p
+    {
+        color: $lucity-font-color-dark;
+        font-weight: 400;
+        font-size: 1.3em;
+        margin-left: 48px;
+    }
+
+    ul
+    {
+        position: relative;
+        display: block;
+    }
+
+    ul li
+    {
+        display: inline-block;
+        position: relative;
+        width: 43%;
+        background-color: white;
+        list-style-type: none;
+        margin: 8px;
+        padding: 0;
+    }
+
+    figure img
+    {
+        width: 100%;
+        background-size: cover;
+    }
+
+    figure figcaption
+    {
+        padding-left: 6px;
+        border-top: 1px solid #444444;
+    }
+
+    .videoCount
+    {
+        position: absolute;
+        width: 45%;
+        height: 116px;
+        right: 0;
+        top: 0;
+        background-color: #000000;
+        @include opacify(.7);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: .8em;
+
+        span
+        {
+            display: block;
+            padding-top: 30px;
+            font-weight: 600;
+            font-size: 1.4em;
+        }
+    }
 }
 
-#ResourceDemonstrations ul li
-{
-    display: inline-block;
-    position: relative;
-    width: 43%;
-    background-color: white;
-    list-style-type: none;
-    margin: 8px;
-    padding: 0;
-}
-
-#ResourceDemonstrations figure img
-{
-    width: 100%;
-    background-size: cover;
-}
-
-#ResourceDemonstrations figure figcaption
-{
-    padding-left: 6px;
-}
 
 
 #ResourceTestimonials
