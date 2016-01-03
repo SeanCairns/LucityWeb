@@ -6,7 +6,11 @@
 /*_global.scss*/
 a {
   -webkit-transition: all .3s;
-  transition: all .3s; }
+  transition: all .3s;
+  color: #4f5c73; }
+
+a:hover {
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Montserrat Alternates", sans-serif;
@@ -139,8 +143,6 @@ nav.navbar {
     border-right: 8px solid white; }
   #Footer .MeetUs {
     border-left: 8px solid white; }
-  #Footer a:hover {
-    text-decoration: none; }
   #Footer a {
     display: block;
     padding-bottom: 8px;
@@ -183,6 +185,61 @@ nav.navbar {
 
   #Footer a {
     font-size: 1.3em; } }
+.LearnMore::before {
+  margin: 0 -15px;
+  display: block;
+  content: '';
+  height: 60px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #4f5c73 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 );
+  /* IE6-9 */ }
+
+.LearnMore {
+  background-color: #4f5c73; }
+
+.LearnMore h1 {
+  color: #ffffff; }
+
+.LearnMore ul li {
+  list-style-type: none;
+  margin-bottom: 20px; }
+
+.LearnMore ul li a {
+  position: relative;
+  display: block;
+  background-color: #99cc33;
+  border: 4px solid #99cc33;
+  height: 140px;
+  width: 200px;
+  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+
+.LearnMore ul li a img {
+  height: 132px;
+  width: 190px;
+  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+
+.LearnMore ul li span.caption {
+  display: block;
+  position: absolute;
+  top: 86px;
+  left: 0px;
+  width: 240px;
+  background-color: #99cc33;
+  font-size: 20px;
+  padding: 6px 0 2px 8px;
+  font-weight: 600;
+  color: #4f5c73;
+  border-right: 10px solid #4f5c73; }
+
 /*_home.scss*/
 /*_talkinghead.scss*/
 #Testimonials {
@@ -403,6 +460,9 @@ nav.navbar {
   border-bottom: 1em solid white;
   height: 14em;
   line-height: 1.2; }
+
+#Software div.EAMS a {
+  color: white; }
 
 @media only screen and (max-width: 768px), only screen and (max-device-width: 480px) {
   #Software div.EAMS.assets,
@@ -640,6 +700,19 @@ nav.navbar {
   font-weight: 400;
   font-size: 1.8em; }
 
+@media only screen and (max-device-width: 400px) {
+  .linkBox {
+    border-radius: 40px;
+    margin: 28px 4px 28px 4px; }
+
+  .linkBox h3:before {
+    padding-right: 6px; }
+
+  .linkBox h3:after {
+    padding-left: 6px; } }
+.linkBox ul {
+  padding: 0 0 0 0; }
+
 .linkBox ul li {
   list-style-type: none;
   text-align: center;
@@ -698,6 +771,391 @@ nav.navbar {
   height: 16px;
   padding-top: 0;
   margin-top: 22px; }
+
+/* Software */
+/* Software Home */
+#SoftwareHome p.proven,
+#SoftwareHome p.versatile,
+#SoftwareHome p.complementary {
+  padding: 0 10% 0 10%;
+  font-size: 1.9em;
+  font-weight: 600;
+  color: #4f5c73;
+  text-align: center; }
+#SoftwareHome p.proven:after,
+#SoftwareHome p.versatile:after {
+  display: block;
+  content: "";
+  margin: 18px 25% 0 25%;
+  border-bottom: 3px solid #ff6600; }
+#SoftwareHome #Inspiration {
+  margin: 30px; }
+  #SoftwareHome #Inspiration h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 480%;
+    font-weight: 400;
+    color: #4f5c73;
+    text-align: right; }
+  #SoftwareHome #Inspiration p {
+    margin: 0;
+    padding: 0 0 0 16px;
+    font-size: 190%;
+    font-weight: 600;
+    color: #4f5c73; }
+#SoftwareHome #SoftwareWeHearYou {
+  padding-left: 14%; }
+  #SoftwareHome #SoftwareWeHearYou h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 300%;
+    font-weight: 400;
+    color: #ff9933; }
+  #SoftwareHome #SoftwareWeHearYou p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-transform: lowercase;
+    font-size: 210%;
+    font-weight: 600;
+    color: #ff9933; }
+#SoftwareHome #WorkingAgencies {
+  margin: 20px;
+  border: 6px solid #99cc33;
+  border-radius: 60px;
+  padding: 40px; }
+  #SoftwareHome #WorkingAgencies h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 280%;
+    font-weight: 400; }
+  #SoftwareHome #WorkingAgencies p {
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    font-size: 190%;
+    font-weight: 600;
+    color: #4f5c73; }
+#SoftwareHome #SoftwareList {
+  display: block;
+  position: relative;
+  height: 500px;
+  background: #4f5c73;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4f5c73 0%, #4f5c73 51%, #ffffff 72%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4f5c73 0%, #4f5c73 51%, #ffffff 72%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4f5c73 0%, #4f5c73 51%, #ffffff 72%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lucity-blue-grey', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
+  #SoftwareHome #SoftwareList h2 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 0; }
+  #SoftwareHome #SoftwareList ul li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.8em; }
+  #SoftwareHome #SoftwareList #Assets,
+  #SoftwareHome #SoftwareList #Work,
+  #SoftwareHome #SoftwareList #GIS,
+  #SoftwareHome #SoftwareList #Mobile,
+  #SoftwareHome #SoftwareList #CitizenPortal {
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px 10px 20px 20px; }
+  #SoftwareHome #SoftwareList #Assets {
+    background-color: #ff9933;
+    top: 100px;
+    left: 4%;
+    width: 50%; }
+  #SoftwareHome #SoftwareList #Work {
+    background-color: #99cc33;
+    top: 40px;
+    left: 50%;
+    width: 24%;
+    padding-bottom: 50px; }
+  #SoftwareHome #SoftwareList #GIS {
+    background-color: #99cc33;
+    top: 210px;
+    left: 75%;
+    width: 19%; }
+  #SoftwareHome #SoftwareList #Mobile {
+    background-color: #ff9933;
+    top: 280px;
+    left: 60%;
+    width: 17%; }
+  #SoftwareHome #SoftwareList #CitizenPortal {
+    background-color: #137866;
+    top: 60px;
+    left: 70%;
+    width: 26%; }
+#SoftwareHome #SoftwareList:after {
+  content: "";
+  position: absolute;
+  top: 300px;
+  right: 3%;
+  width: 8%;
+  height: 140px;
+  background: white url("/resources/img/Software/V_esriPartnerNet-gold_sRGB.png") no-repeat top center;
+  background-size: contain;
+  border: 4px solid #78A22D;
+  border-radius: 100px; }
+
+/* Software EAMS */
+#SoftwareEAMS {
+  padding-top: 11px;
+  border-top: 1px solid white;
+  background: url(../img/colorbar.svg) repeat-x;
+  background-color: #99cc33; }
+  #SoftwareEAMS p {
+    padding: 0 40px 40px 40px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #4f5c73; }
+  #SoftwareEAMS div.row div {
+    position: relative;
+    text-align: center;
+    margin: 0 0 40px 0;
+    padding: 0; }
+  #SoftwareEAMS div.row div span {
+    position: relative;
+    display: block;
+    padding: 100px 0 0 0;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #4f5c73;
+    font-family: "Montserrat Alternates", sans-serif;
+    background-size: 90px; }
+  #SoftwareEAMS .Water span {
+    background: url(/resources/img/EAMSIcons/water.svg) no-repeat top center; }
+  #SoftwareEAMS .Sewer span {
+    background: url(/resources/img/EAMSIcons/sewer.svg) no-repeat top center; }
+  #SoftwareEAMS .Storm span {
+    background: url(/resources/img/EAMSIcons/storm.svg) no-repeat top center; }
+  #SoftwareEAMS .Facilities span {
+    background: url(/resources/img/EAMSIcons/facilities.svg) no-repeat top center; }
+  #SoftwareEAMS .Signs span {
+    background: url(/resources/img/EAMSIcons/signs.svg) no-repeat top center; }
+  #SoftwareEAMS .StreetsAndRoads span {
+    background: url(/resources/img/EAMSIcons/streetsandroads.svg) no-repeat top center; }
+  #SoftwareEAMS .Bridges span {
+    background: url(/resources/img/EAMSIcons/bridge.svg) no-repeat top center; }
+  #SoftwareEAMS .RightsOfWay span {
+    background: url(/resources/img/EAMSIcons/rightofway.svg) no-repeat top center; }
+  #SoftwareEAMS .Pavement span {
+    background: url(/resources/img/EAMSIcons/pavement.svg) no-repeat top center; }
+  #SoftwareEAMS .Traffic span {
+    background: url(/resources/img/EAMSIcons/traffic.svg) no-repeat top center; }
+  #SoftwareEAMS .Signals span {
+    background: url(/resources/img/EAMSIcons/signals.svg) no-repeat top center; }
+  #SoftwareEAMS .StreetLights span {
+    background: url(/resources/img/EAMSIcons/streetlights.svg) no-repeat top center; }
+  #SoftwareEAMS .Equipment span {
+    background: url(/resources/img/EAMSIcons/equipment.svg) no-repeat top center; }
+  #SoftwareEAMS .Fleet span {
+    background: url(/resources/img/EAMSIcons/fleet.svg) no-repeat top center; }
+  #SoftwareEAMS .Parks span {
+    background: url(/resources/img/EAMSIcons/parks.svg) no-repeat top center; }
+  #SoftwareEAMS .Electric span {
+    background: url(/resources/img/EAMSIcons/electric.svg) no-repeat top center; }
+  #SoftwareEAMS .Trees span {
+    background: url(/resources/img/EAMSIcons/trees.svg) no-repeat top center; }
+  #SoftwareEAMS .RefuseAndRecycling span {
+    background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
+  #SoftwareEAMS .Environmental span {
+    background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
+
+#SoftwareCommunity {
+  background-color: #4f5c73; }
+
+#SoftwareCommunity p {
+  padding: 40px 40px 40px 40px;
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #ffffff; }
+
+#SoftwareCommunity::after {
+  margin: 0 -15px;
+  display: block;
+  content: '';
+  height: 60px;
+  background: #4f5c73;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4f5c73 0%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 );
+  /* IE6-9 */ }
+
+#SoftwareAssetHighlights div.linkBox {
+  border: none;
+  border-radius: 0;
+  background-color: white; }
+
+#SoftwareAssetHighlights div.linkBox h3 {
+  color: #137866; }
+
+/* Software General  */
+/* Software GIS */
+#SoftwareGIS p.configure,
+#SoftwareGIS p.attributes,
+#SoftwareGIS p.exclusively,
+#SoftwareGIS p.shared {
+  padding: 16px 10%;
+  margin: 0;
+  font-size: 1.9em;
+  font-weight: 600;
+  color: #4f5c73;
+  text-align: center; }
+#SoftwareGIS p.configure:after {
+  display: block;
+  content: "";
+  padding: 16px 10%;
+  margin: 0 25% 0 25%;
+  border-bottom: 3px solid #ff6600; }
+#SoftwareGIS p.attributes {
+  font-size: 1.8em;
+  padding: 16px 0 16px 10%;
+  width: 48%;
+  float: left; }
+#SoftwareGIS p.exclusively {
+  font-size: 1.8em;
+  padding: 16px 10% 16px 0;
+  width: 48%;
+  float: right; }
+#SoftwareGIS p.shared {
+  position: relative;
+  clear: both;
+  height: 200px;
+  text-transform: lowercase;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2.6em;
+  line-height: 1.3em;
+  margin: 0 100px 0 100px;
+  padding: 60px 0 0 0;
+  background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
+  background-size: contain; }
+#SoftwareGIS p.shared:before {
+  content: ">";
+  left: -60px; }
+#SoftwareGIS p.shared:after {
+  content: "<";
+  right: -60px; }
+#SoftwareGIS p.shared:before,
+#SoftwareGIS p.shared:after {
+  position: absolute;
+  top: 50px;
+  height: 150px;
+  line-height: 150px;
+  margin: 0;
+  padding: 0;
+  color: #ff9933;
+  font-size: 3.2em;
+  font-weight: 100;
+  font-family: sans-serif; }
+#SoftwareGIS h1.gisHighlights {
+  margin-top: 100px; }
+#SoftwareGIS .ESRI {
+  display: block;
+  position: relative;
+  height: 320px; }
+#SoftwareGIS .ESRI p {
+  display: block;
+  position: absolute;
+  font-size: 2em;
+  text-align: right;
+  top: 70px;
+  right: 190px;
+  width: 420px;
+  height: 150px;
+  padding: 16px 40px 16px 26px;
+  background-color: #4f5c73;
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 400;
+  text-transform: lowercase;
+  line-height: 1.3em;
+  font-family: "Montserrat Alternates", sans-serif; }
+#SoftwareGIS .ESRI:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 180px;
+  height: 270px;
+  background: white url("/resources/img/Software/V_esriPartnerNet-gold_sRGB.png") no-repeat top center;
+  background-size: contain;
+  border: 4px solid #78A22D;
+  border-radius: 100px; }
+
+/* Software MMS */
+#SoftwareMMS {
+  padding-top: 11px;
+  border-top: 1px solid white;
+  background: url(../img/colorbar.svg) repeat-x;
+  text-align: center;
+  margin-bottom: 40px; }
+  #SoftwareMMS p {
+    padding: 0 40px 40px 40px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #4f5c73;
+    text-align: center; }
+  #SoftwareMMS div.row div {
+    position: relative;
+    display: block;
+    height: 240px;
+    background-size: cover;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-top: 1px solid white;
+    z-index: 1; }
+    #SoftwareMMS div.row div h2 {
+      display: none;
+      font-size: 2.7em; }
+    #SoftwareMMS div.row div p {
+      display: none;
+      font-size: 1.6em;
+      font-weight: 600;
+      color: #4f5c73;
+      text-align: center;
+      padding-right: 20%;
+      padding-left: 20%; }
+  #SoftwareMMS div.row div:hover h2, #SoftwareMMS div.row div:hover p {
+    position: relative;
+    display: block;
+    z-index: 3; }
+  #SoftwareMMS div.row div:hover span {
+    content: "";
+    background-color: white;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    z-index: 2; }
+  #SoftwareMMS #MMSWorkOrders {
+    background: url(/resources/img/Software/Work/WorkOrders.png) center center no-repeat; }
+  #SoftwareMMS #MMSRequests {
+    background: url(/resources/img/Software/Work/Requests.png) center center no-repeat; }
+  #SoftwareMMS #MMSScheduling {
+    background: url(/resources/img/Software/Work/Scheduling.png) center center no-repeat; }
+  #SoftwareMMS #MMSInventory {
+    background: url(/resources/img/Software/Work/Inventory.png) center center no-repeat; }
 
 /*_resources.scss*/
 #lookAround {

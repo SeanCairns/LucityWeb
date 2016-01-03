@@ -1,0 +1,131 @@
+
+<div id="SoftwareEAMS" class="container-fluid">
+    <h1>Enterprise Asset Management Software</h1>
+
+    <p>LucityAM offers preconfigured,fully attributed asset registries,with appropriate hierarchical relationships;and forms, ratings, and calculations based on industry standard condition assessment protocols. These solutions ease the burden of regulatory compliance reporting,and foster best management practices.</p>
+
+    <div class="row">
+        <div class="Water col-sm-3 col-xs-4">
+            <span>Water</span>
+        </div>
+        <div class="Sewer col-sm-3 col-xs-4">
+            <span>Sewer</span>
+        </div>
+        <div class="Storm col-sm-3 col-xs-4">
+            <span>Storm</span>
+        </div>
+        <div class="Facilities col-sm-3 col-xs-4">
+            <span>Facilities</span>
+        </div>
+        <div class="Signs col-sm-3 col-xs-4">
+            <span>Signs</span>
+        </div>
+        <div class="StreetsAndRoads col-sm-3 col-xs-4">
+            <span>Streets & Roads</span>
+        </div>
+        <div class="Bridges col-sm-3 col-xs-4">
+            <span>Bridges</span>
+        </div>
+        <div class="RightsOfWay col-sm-3 col-xs-4">
+            <span>Rights-of-Way</span>
+        </div>
+        <div class="Pavement col-sm-3 col-xs-4">
+            <span>Pavement</span>
+        </div>
+        <div class="Traffic col-sm-3 col-xs-4">
+            <span>Traffic</span>
+        </div>
+        <div class="Signals col-sm-3 col-xs-4">
+            <span>Signals</span>
+        </div>
+        <div class="StreetLights col-sm-3 col-xs-4">
+            <span>Street Lights</span>
+        </div>
+        <div class="Equipment col-sm-3 col-xs-4">
+            <span>Equipment</span>
+        </div>
+        <div class="Fleet col-sm-3 col-xs-4">
+            <span>Fleet</span>
+        </div>
+        <div class="Parks col-sm-3 col-xs-4">
+            <span>Parks</span>
+        </div>
+        <div class="Electric col-sm-3 col-xs-4">
+            <span>Electric</span>
+        </div>
+        <div class="Trees col-sm-3 col-xs-4">
+            <span>Trees</span>
+        </div>
+        <div class="RefuseAndRecycling col-sm-3 col-xs-4">
+            <span>Refuse & Recycling</span>
+        </div>
+        <div class="Environmental col-sm-3 col-xs-4">
+            <span>Environmental</span>
+        </div>
+    </div>
+</div>
+
+<div id="SoftwareCommunity" class="container-fluid">
+    <p>
+        Your community relies on an interwoven grid of streets, utility systems, facilities and green spaces, so you need an intuitive solution that's flexible to your needs.
+        It's more than inventory. It's an instantaneous view of your full suite of assets...understanding its history, current condition and strategic future.
+    </p>
+</div>
+
+<div id="SoftwareAssetHighlights" class="container-fluid">
+    <h1>Asset Highlights</h1>
+
+    <div class="linkBox row">
+        <div id="Sewer" class="col-xs-12 col-sm-6">
+            <h3>Sewer</h3>
+            <ul>
+                <li><a href="/Software/Sewer/NASSCO-PACP-MACP-LACP">NASSCO (PACP, MACP, LACP)</a></li>
+                <li><a href="/Software/Sewer/SSO-Reporting">SSO reporting</a></li>
+                <li><a href="/Software/Sewer/FOG-Programs">FOG programs</a></li>
+                <li><a href="/Software/Sewer/Industrial-Pretreatment">industrial pretreatment</a></li>
+            </ul>
+        </div>
+
+        <div id="Storm" class="col-xs-12 col-sm-6">
+            <h3>Storm</h3>
+            <ul>
+                <li><a href="/Software/Storm/NASSCO-PACP-MACP">NASSCO (PACP, MACP)</a></li>
+                <li><a href="/Software/Storm/NPDES-Permits">NPDES permits</a></li>
+                <li><a href="/Software/Storm/Illicit-Discharges">illicit discharges</a></li>
+                <li><a href="/Software/Storm/BMPs">BMPs</a></li>
+            </ul>
+        </div>
+
+        <div id="Water" class="col-xs-12 col-sm-6">
+            <h3>Water</h3>
+            <ul>
+                <li><a href="/Software/Water/Hydrant-Flow-Testing">hydrant flow testing</a></li>
+                <li><a href="/Software/Water/Flushing">flushing</a></li>
+                <li><a href="/Software/Water/Backflow-Prevention">backflow prevention</a></li>
+            </ul>
+        </div>
+
+        <div id="Signs" class="col-xs-12 col-sm-6">
+            <h3>Signs</h3>
+            <ul>
+                <li><a href="/Software/Signs/MUTCD-Standards-And-Retroreflectivity">MUTCD standards and retroreflectivity</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="LearnMore container-fluid" ng-controller="youTubeVideoListCtrl">
+    <h1>Learn More</h1>
+
+    <ul class="row">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Home'} )" class="col-md-3 col-sm-4 col-xs-6">
+            <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
+                <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
+            </a>
+            <span class="caption">{{video.Title}}</span>
+        </li>
+    </ul>
+    
+</div>

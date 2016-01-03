@@ -14,7 +14,13 @@ html
 
 a {
   @include tTransition;
+  color: $lucity-blue-grey;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
 
 h1, h2, h3, h4, h5 {
   font-family: $lucity-font-header;
@@ -216,11 +222,6 @@ nav.navbar
         border-left: 8px solid white;
     }
 
-    a:hover
-    {
-      text-decoration: none;
-    }
-
     a
     {
       display: block;
@@ -295,4 +296,70 @@ nav.navbar
     font-size: 1.3em;
   }
 }
+
+.LearnMore::before
+{
+    margin: 0 -15px;
+    display: block;
+    content: '';
+    height: 60px;
+    @include verticalFade($lucity-font-color-inverse, $lucity-blue-grey);
+}
+
+.LearnMore 
+{
+    background-color: $lucity-blue-grey;
+}
+
+.LearnMore h1
+{
+    color: $lucity-font-color-inverse;
+}
+
+.LearnMore ul
+{
+}
+
+.LearnMore ul li
+{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+
+.LearnMore ul li a
+{
+    position: relative;
+    display: block;
+    background-color: $lucity-green;
+    border: 4px solid $lucity-green;
+    height: 140px;
+    width: 200px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.LearnMore ul li a img
+{
+    height: 132px;
+    width: 190px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.LearnMore ul li span.caption
+{
+    display: block;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    width: 240px;
+    background-color: $lucity-green;
+    font-size: 20px;
+    padding: 6px 0 2px 8px;
+    font-weight: 600;
+    color: $lucity-blue-grey;
+    border-right: 10px solid $lucity-blue-grey;
+}
+
 

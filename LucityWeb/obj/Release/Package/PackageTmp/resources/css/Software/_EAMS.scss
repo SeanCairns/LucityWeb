@@ -1,0 +1,96 @@
+﻿/* Software EAMS */
+
+#SoftwareEAMS
+{
+    @include colorbar(11px, 1px, white);
+    background-color: $lucity-green;
+
+    p {
+        padding: 0 40px 40px 40px;
+        font-size: 1.3em;
+        font-weight: 600;
+        color: $lucity-blue-grey;
+    }
+
+    div.row div
+    {
+        position: relative;
+        text-align: center;
+        margin: 0 0 40px 0;
+        padding: 0;
+    }
+
+    div.row div span
+    {
+        position: relative;
+        display: block;
+        padding: 100px 0 0 0;
+        text-align: center;
+        margin: 0; 
+        width: 100%;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: $lucity-blue-grey;
+        font-family: $lucity-font-header;
+        background-size: 90px; 
+    }
+
+    .Water span              { background: url(/resources/img/EAMSIcons/water.svg) no-repeat top center; }
+    .Sewer span              { background: url(/resources/img/EAMSIcons/sewer.svg) no-repeat top center; }
+    .Storm span              { background: url(/resources/img/EAMSIcons/storm.svg) no-repeat top center; }
+    .Facilities span         { background: url(/resources/img/EAMSIcons/facilities.svg) no-repeat top center; }
+    .Signs span              { background: url(/resources/img/EAMSIcons/signs.svg) no-repeat top center; }
+    .StreetsAndRoads span    { background: url(/resources/img/EAMSIcons/streetsandroads.svg) no-repeat top center; }
+    .Bridges span            { background: url(/resources/img/EAMSIcons/bridge.svg) no-repeat top center; }
+    .RightsOfWay span        { background: url(/resources/img/EAMSIcons/rightofway.svg) no-repeat top center; }
+    .Pavement span           { background: url(/resources/img/EAMSIcons/pavement.svg) no-repeat top center; }
+    .Traffic span            { background: url(/resources/img/EAMSIcons/traffic.svg) no-repeat top center; }
+    .Signals span            { background: url(/resources/img/EAMSIcons/signals.svg) no-repeat top center; }
+    .StreetLights span       { background: url(/resources/img/EAMSIcons/streetlights.svg) no-repeat top center; }
+    .Equipment span          { background: url(/resources/img/EAMSIcons/equipment.svg) no-repeat top center; }
+    .Fleet span              { background: url(/resources/img/EAMSIcons/fleet.svg) no-repeat top center; }
+    .Parks span              { background: url(/resources/img/EAMSIcons/parks.svg) no-repeat top center; }
+    .Electric span           { background: url(/resources/img/EAMSIcons/electric.svg) no-repeat top center; }
+    .Trees span              { background: url(/resources/img/EAMSIcons/trees.svg) no-repeat top center; }
+    .RefuseAndRecycling span { background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
+    .Environmental span      { background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
+}
+
+
+
+#SoftwareCommunity
+{
+    background-color: $lucity-blue-grey;
+}
+
+#SoftwareCommunity p
+{
+    padding: 40px 40px 40px 40px;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: $lucity-font-color-inverse;
+}
+
+#SoftwareCommunity::after
+{
+    margin: 0 -15px;
+    display: block;
+    content: '';
+    height: 60px;
+    @include verticalFade($lucity-blue-grey, $lucity-font-color-inverse);
+}
+
+
+#SoftwareAssetHighlights div.linkBox
+{
+    border: none;
+    border-radius: 0;
+    background-color: white;
+}
+
+#SoftwareAssetHighlights div.linkBox h3
+{
+    color: $lucity-blue-green;
+}

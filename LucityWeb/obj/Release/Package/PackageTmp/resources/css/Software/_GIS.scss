@@ -1,0 +1,130 @@
+﻿/* Software GIS */
+
+#SoftwareGIS
+{
+
+    p.configure,
+    p.attributes,
+    p.exclusively,
+    p.shared
+    {
+        padding: 16px 10%;
+        margin: 0;
+        font-size: 1.9em;
+        font-weight: 600;
+        color: $lucity-blue-grey;
+        text-align: center;
+    }
+    p.configure:after
+    {
+        display: block;
+        content:"";
+        padding: 16px 10%;
+        margin: 0 25% 0 25% ;
+        border-bottom: 3px solid $lucity-dark-orange;
+    }
+    p.attributes
+    {
+        font-size: 1.8em;
+        padding: 16px 0 16px 10%;
+        width: 48%;
+        float: left;
+    }
+    p.exclusively
+    {
+        font-size: 1.8em;
+        padding: 16px 10% 16px 0;
+        width: 48%;
+        float: right;
+    }
+
+    p.shared
+    {
+        position: relative;
+        clear: both;
+        height: 200px;
+        text-transform: lowercase;
+        font-family: $lucity-font-header;
+        font-size: 2.6em;
+        line-height: 1.3em;
+        margin: 0 100px 0 100px;
+        padding: 60px 0 0 0 ;
+        background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
+        background-size: contain;
+    }
+    p.shared:before
+    {
+        content: ">";
+        left: -60px;
+
+    }
+    p.shared:after
+    {
+        content: "<";
+        right: -60px;
+    }
+    p.shared:before,
+    p.shared:after
+    {
+        position: absolute;
+        top: 50px;
+        height: 150px;
+        line-height: 150px;
+        margin: 0;
+        padding: 0;
+        color: $lucity-orange;
+        font-size: 3.2em;
+        font-weight: 100;
+        font-family: sans-serif;
+    }
+
+
+    h1.gisHighlights
+    {
+        margin-top: 100px;
+    }
+
+    .ESRI
+    {
+        display: block;
+        position: relative;
+        height: 320px;
+    }
+
+    .ESRI p
+    {
+        display: block;
+        position: absolute;
+        font-size: 2em;
+        text-align: right;
+        top: 70px;
+        right: 190px;
+        width: 420px;
+        height: 150px;
+        padding: 16px 40px 16px 26px;
+        background-color: $lucity-blue-grey;
+        color: $lucity-font-color-inverse;
+        font-size: 1.6em;
+        font-weight: 400;
+        text-transform: lowercase;
+        line-height: 1.3em;
+        font-family: $lucity-font-header;
+
+
+    }
+
+    .ESRI:after
+    {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 180px;
+        height: 270px;
+        background: white url('/resources/img/Software/V_esriPartnerNet-gold_sRGB.png') no-repeat top center;
+        background-size: contain;
+        border: 4px solid $lucity-dark-green;
+        border-radius: 100px;
+    }
+}
+

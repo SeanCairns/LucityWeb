@@ -1,0 +1,38 @@
+﻿<div id="SoftwareGIS" class="container-fluid">
+    <h1>Geographic Information System</h1>
+
+    <p class="configure">
+        Configure your GIS integrations to promote distributed asset data ownership across your organizational units.
+    </p>
+
+    <p class="attributes">
+        Some asset attributes can be exclusively managed within your GIS...
+    </p>
+
+    <p class="exclusively">
+        ...others may be exclusively managed within the work/asset management system
+    </p>
+
+    <p class="shared">
+        All information is automatically shared across both systems.
+    </p>
+
+    <div class="ESRI">
+        <h1 class="gisHighlights">GIS Highlights</h1>
+        <p>Lucity is proud to be a gold level member of the ESRI partner network.</p>
+    </div>
+</div>
+
+
+<div class="LearnMore container-fluid" ng-controller="youTubeVideoListCtrl">
+    <h1>Learn More</h1>
+
+    <ul class="row">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-GIS'} )" class="col-md-3 col-sm-4 col-xs-6">
+            <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
+                <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
+            </a>
+            <span class="caption">{{video.Title}}</span>
+        </li>
+    </ul>
+</div>

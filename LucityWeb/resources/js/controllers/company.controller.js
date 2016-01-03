@@ -1,15 +1,15 @@
 (function (Controllers, undefined)
 {
-    Lucity.Modules.Lucity.controller("CompanyCtrl", ['$scope', '$routeParams', 'teamService',
-        function ($scope, $routeParams, teamService, selectedMemberFilter)
+    Lucity.Modules.Lucity.controller("CompanyCtrl", ['$scope', '$routeParams', 'genericGetService',
+        function ($scope, $routeParams, genericGetService, selectedMemberFilter)
         {
             console.log($routeParams.career);
             $scope.career = $routeParams.career;
 
-            var promise = teamService.getTeamMembers();
-            promise.then(function (data)
+            var promise = genericGetService.getData(Lucity.Json.Team);
+            promise.then(function (response)
             {
-                $scope.team = data.data.team;
+                $scope.team = response.data.team;
 
                 angular.forEach($scope.team.members, function(value, key){
                     value.restName = value.name.split(' ').join('-');

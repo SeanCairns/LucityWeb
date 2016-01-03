@@ -1,9 +1,12 @@
 ﻿(function (Controllers, undefined) {
-    Lucity.Modules.Lucity.controller("youTubeVideoListCtrl", ['$scope', 'youTubeVideoListService',
-        function ($scope, youTubeVideoListService) {
-            var videoListPromise = youTubeVideoListService.getVideos();
-            videoListPromise.then(function (data) {
-                $scope.YouTubeVideoList = data.data;
+    Lucity.Modules.Lucity.controller("youTubeVideoListCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService) {
+            var videoListPromise = genericGetService.getData(Lucity.Json.YouTubeVideoList);
+            videoListPromise.then(function (response) {
+                $scope.YouTubeVideoList = response.data;
             });
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
+
+
+

@@ -19,7 +19,6 @@ $lucity-font-menu: 'Josefin Sans', serif;
 $lucity-font-body: 'Josefin Sans', serif;
 $lucity-font-header: 'Montserrat Alternates', sans-serif;
 
-
 @mixin colorbar ($height, $topBorderWeight, $topBorderColor) {
   padding-top: $height;
   border-top: $topBorderWeight solid $topBorderColor;
@@ -30,3 +29,12 @@ $lucity-font-header: 'Montserrat Alternates', sans-serif;
   opacity: $amount;
   filter: alpha(opacity=$amount * 100); /* For IE8 and earlier */
 }
+
+@mixin verticalFade($topColor, $bottomColor) {
+    background: $topColor; /* Old browsers */
+    background: -moz-linear-gradient(top,  $topColor 0%, $bottomColor 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  $topColor 0%, $bottomColor 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $topColor 0%, $bottomColor 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 ); /* IE6-9 */
+}
+

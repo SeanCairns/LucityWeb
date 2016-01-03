@@ -1,0 +1,48 @@
+﻿<div id="SoftwareMMS" class="container-fluid">
+    <h1>Maintenance Management Software</h1>
+
+    <p>Lucity's Work Management solutions mesh seamlessly with our infrastructure, asset and GIS solutions, creating a comprehensive maintenance package that gives you complete control.</p>
+
+    <div class="row">
+
+        <div id="MMSWorkOrders" class="col-xs-12">
+            <span class="ForHoverEffect"></span>
+            <h2>Work Orders</h2>
+            <p>Develop a work flow and approval process for each phase of a work order, with automatic notifications for the next step in the process.</p>
+        </div>
+
+        <div id="MMSRequests" class="col-xs-12">
+            <span class="ForHoverEffect"></span>
+            <h2>Requests</h2>
+            <p>Distribute key information through service requests while building a big-picture view of issue report trending.</p>
+        </div>
+
+        <div id="MMSScheduling" class="col-xs-12">
+            <span class="ForHoverEffect"></span>
+            <h2>Scheduling</h2>
+            <p>Manage scheduled tasks using a dynamic graph with Work Order Scheduler, which allows for easy modifications as weather and other conditions demand.</p>
+        </div>
+
+        <div id="MMSInventory" class="col-xs-12">
+            <span class="ForHoverEffect"></span>
+            <h2>Inventory</h2>
+            <p>Maintain an accurate inventory record for all materials as they relate to and are used for work orders.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="LearnMore container-fluid" ng-controller="youTubeVideoListCtrl">
+    <h1>Learn More</h1>
+
+    <ul class="row">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Maintenance'} )" class="col-md-3 col-sm-4 col-xs-6">
+            <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
+                <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
+            </a>
+            <span class="caption">{{video.Title}}</span>
+        </li>
+    </ul>
+
+</div>
+                  

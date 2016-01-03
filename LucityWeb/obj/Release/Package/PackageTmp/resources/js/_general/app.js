@@ -22,8 +22,9 @@
         "Team":         "resources/data/lucity_team.json",
         "Testimonials": "resources/data/testimonials.json",
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
-        "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json"
-    };
+        "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
+        "YouTubeVideoList": "resources/data/LucityUTube.json"
+};
 
 }(window.Lucity = window.Lucity || {} ));
 

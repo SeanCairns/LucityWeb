@@ -22,8 +22,9 @@
         "Team":         "resources/data/lucity_team.json",
         "Testimonials": "resources/data/testimonials.json",
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
-        "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json"
-    };
+        "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
+        "YouTubeVideoList": "resources/data/LucityUTube.json"
+};
 
 }(window.Lucity = window.Lucity || {} ));
 
@@ -40,57 +41,6 @@
     Modules.Lucity = angular.module("lucity", ['ngRoute', 'ngSanitize']);
 
 }(Lucity.Modules = Lucity.Modules || {} ));
-
-(function (Configs, undefined)
-{
-    Lucity.Modules.Lucity.config(['$routeProvider', function ($routeProvider)
-    {
-        $routeProvider
-            .when('/', {
-                templateUrl: Lucity.PartialsPath + '/home.html'
-            })
-            .when('/Company', {
-                templateUrl: Lucity.PartialsPath + '/Company/company.html',
-                caseInsensitiveMatch: true
-            })
-            .when('/Company/Management-Team', {
-                templateUrl: Lucity.PartialsPath + '/Company/Management-Team.html',
-                caseInsensitiveMatch: true
-            })
-            .when('/Company/Management-Team/:member', {
-                templateUrl: Lucity.PartialsPath + '/Company/Management-Team.html',
-                caseInsensitiveMatch: true
-            })
-            .when('/Company/Careers/:career', {
-                templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
-                caseInsensitiveMatch: true
-            })
-            .when('/Enterprise-Management-Software', {
-                templateUrl: Lucity.PartialsPath + '/software.html',
-                caseInsensitiveMatch: true
-            })
-            .when('/resources', {
-                templateUrl: Lucity.PartialsPath + '/resources.html',
-                caseInsensitiveMatch: true
-            })
-            .when('/support', {
-                templateUrl: Lucity.PartialsPath + '/support.html',
-                caseInsensitiveMatch: true
-            })
-            .otherwise({
-                redirectTo: '/',
-                templateUrl: Lucity.PartialsPath + '/home.html'
-            });
-    }]);
-
-    Lucity.Modules.Lucity.config(['$locationProvider', function ($locationProvider)
-    {
-        $locationProvider.html5Mode(true);
-    }]);
-
-
-}(Lucity.Configs = Lucity.Configs || {} ));
-
 
 (function (Filters, undefined)
 {
@@ -122,12 +72,90 @@
 }(Lucity.Controllers = Lucity.Controllers || {} ));
 
 
+(function (Configs, undefined)
+{
+    Lucity.Modules.Lucity.config(['$routeProvider', function ($routeProvider)
+    {
+        $routeProvider
+            .when('/', {
+                templateUrl: Lucity.PartialsPath + '/home.html'
+            })
+            .when('/Company', {
+                templateUrl: Lucity.PartialsPath + '/Company/company.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Company/Management-Team', {
+                templateUrl: Lucity.PartialsPath + '/Company/Management-Team.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Company/Management-Team/:member', {
+                templateUrl: Lucity.PartialsPath + '/Company/Management-Team.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Company/Careers/:career', {
+                templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software', {
+                templateUrl: Lucity.PartialsPath + '/Software/software.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software/Enterprise-Asset-Management-Software', {
+                templateUrl: Lucity.PartialsPath + '/Software/EAMS.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software/Maintenance-Management-Software', {
+                templateUrl: Lucity.PartialsPath + '/Software/MMS.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software/Geographic-Information-System', {
+                templateUrl: Lucity.PartialsPath + '/Software/GIS.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Software/Deployment-Integration-Reporting', {
+                templateUrl: Lucity.PartialsPath + '/Software/General.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/resources', {
+                templateUrl: Lucity.PartialsPath + '/resources.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/support', {
+                templateUrl: Lucity.PartialsPath + '/support.html',
+                caseInsensitiveMatch: true
+            })
+            .otherwise({
+                redirectTo: '/',
+                templateUrl: Lucity.PartialsPath + '/home.html'
+            });
+    }]);
+
+    Lucity.Modules.Lucity.config(['$locationProvider', function ($locationProvider)
+    {
+        $locationProvider.html5Mode(true);
+    }]);
+
+
+}(Lucity.Configs = Lucity.Configs || {} ));
+
+
 (function (Controllers, undefined) {
     Lucity.Modules.Lucity.controller("youTubePlaylistCtrl", ['$scope', 'youTubeService',
         function ($scope, youTubeService) {
             var playlistPromise = youTubeService.getPlaylist();
             playlistPromise.then(function (data) {
                 $scope.YouTubePlaylists = data.data;
+            });
+        }]);
+}(Lucity.Controllers = Lucity.Controllers || {}));
+
+
+(function (Controllers, undefined) {
+    Lucity.Modules.Lucity.controller("youTubeVideoListCtrl", ['$scope', 'youTubeVideoListService',
+        function ($scope, youTubeVideoListService) {
+            var videoListPromise = youTubeVideoListService.getVideos();
+            videoListPromise.then(function (data) {
+                $scope.YouTubeVideoList = data.data;
             });
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
@@ -231,13 +259,25 @@
         var deferred = $q.defer();
 
         $http.get(Lucity.Json.YouTubePlaylist).then(function (data) {
-            console.log("here");
             deferred.resolve(data);
         });
 
         this.getPlaylist = function () {
             return deferred.promise;
-            //console.log(Lucity.Json.YouTubePlaylist);
+        }
+    }]);
+}(Lucity.Service = Lucity.Service || {}));
+
+(function (Service, undefined) {
+    Lucity.Modules.Lucity.service("youTubeVideoListService", ['$http', '$q', function ($http, $q) {
+        var deferred = $q.defer();
+
+        $http.get(Lucity.Json.YouTubeVideoList).then(function (data) {
+            deferred.resolve(data);
+        });
+
+        this.getVideos = function () {
+            return deferred.promise;
         }
     }]);
 }(Lucity.Service = Lucity.Service || {}));

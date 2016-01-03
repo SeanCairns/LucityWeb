@@ -59,9 +59,29 @@
     font-size: 1.8em;
 }
 
+@media only screen and (max-device-width: 400px){
+    .linkBox 
+    {
+        border-radius: 40px;
+        margin: 28px 4px 28px 4px;
+    }
+
+    .linkBox h3:before
+    {
+        padding-right: 6px;
+    }
+
+    .linkBox h3:after
+    {
+        padding-left: 6px;
+    }
+}
+
+
+
 .linkBox ul
 {
-
+    padding: 0 0 0 0;
 }
 
 .linkBox ul li

@@ -730,11 +730,7 @@
     <Content Include="resources\js\controllers\talkingHead.controller.js" />
     <Content Include="resources\js\controllers\YouTubePlaylist.controller.js" />
     <Content Include="resources\js\services\blogs.service.js" />
-    <Content Include="resources\js\services\calendar.service.js" />
-    <Content Include="resources\js\services\talkingHead.service.js" />
-    <Content Include="resources\js\services\team.service.js" />
-    <Content Include="resources\js\services\YouTubePlayList.service.js" />
-    <Content Include="resources\js\services\YouTubeVideoList.service.js" />
+    <Content Include="resources\js\services\genericGetService.js" />
     <Content Include="resources\js\xml2json\xml2json.js" />
     <Content Include="resources\js\xml2json\xml2json.min.js" />
     <Content Include="resources\js\_general\app.js" />

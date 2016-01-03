@@ -140,25 +140,31 @@
 
 
 (function (Controllers, undefined) {
-    Lucity.Modules.Lucity.controller("youTubePlaylistCtrl", ['$scope', 'youTubeService',
-        function ($scope, youTubeService) {
-            var playlistPromise = youTubeService.getPlaylist();
-            playlistPromise.then(function (data) {
-                $scope.YouTubePlaylists = data.data;
+    Lucity.Modules.Lucity.controller("youTubePlaylistCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService) {
+            var playlistPromise = genericGetService.getData(Lucity.Json.YouTubePlaylist);
+            playlistPromise.then(function (response) {
+                $scope.YouTubePlaylists = response.data;
             });
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
+
+
+
 
 
 (function (Controllers, undefined) {
-    Lucity.Modules.Lucity.controller("youTubeVideoListCtrl", ['$scope', 'youTubeVideoListService',
-        function ($scope, youTubeVideoListService) {
-            var videoListPromise = youTubeVideoListService.getVideos();
-            videoListPromise.then(function (data) {
-                $scope.YouTubeVideoList = data.data;
+    Lucity.Modules.Lucity.controller("youTubeVideoListCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService) {
+            var videoListPromise = genericGetService.getData(Lucity.Json.YouTubeVideoList);
+            videoListPromise.then(function (response) {
+                $scope.YouTubeVideoList = response.data;
             });
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
+
+
+
 
 
 (function (Controllers, undefined)
@@ -176,15 +182,17 @@
 
 
 (function (Controllers, undefined) {
-    Lucity.Modules.Lucity.controller("CalendarCtrl", ['$scope', 'calendarService',
-        function ($scope, calendarService) {
-            var calendarPromise = calendarService.getCalendar();
-            calendarPromise.then(function (data) {
-                $scope.calendar = data.data;
+    Lucity.Modules.Lucity.controller("CalendarCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService) {
+            var calendarPromise = genericGetService.getData(Lucity.Json.Calendar);
+            calendarPromise.then(function (response) {
+                $scope.calendar = response.data;
             });
-
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
+
+
+
 
 
 (function (Controllers, undefined) {
@@ -202,16 +210,16 @@
 
 (function (Controllers, undefined)
 {
-    Lucity.Modules.Lucity.controller("CompanyCtrl", ['$scope', '$routeParams', 'teamService',
-        function ($scope, $routeParams, teamService, selectedMemberFilter)
+    Lucity.Modules.Lucity.controller("CompanyCtrl", ['$scope', '$routeParams', 'genericGetService',
+        function ($scope, $routeParams, genericGetService, selectedMemberFilter)
         {
             console.log($routeParams.career);
             $scope.career = $routeParams.career;
 
-            var promise = teamService.getTeamMembers();
-            promise.then(function (data)
+            var promise = genericGetService.getData(Lucity.Json.Team);
+            promise.then(function (response)
             {
-                $scope.team = data.data.team;
+                $scope.team = response.data.team;
 
                 angular.forEach($scope.team.members, function(value, key){
                     value.restName = value.name.split(' ').join('-');
@@ -238,49 +246,19 @@
 
 
 
-(function (Controllers, undefined)
-{
-    Lucity.Modules.Lucity.controller("TalkingHeadCtrl", ['$scope', 'talkingHeadService',
-        function ($scope, talkingHeadService)
-        {
-            var talkingHeadPromise = talkingHeadService.getTestimonials();
-            talkingHeadPromise.then(function (data)
-            {
-                $scope.randomTalkingHead = data.data.testimonials[Math.floor((Math.random() * data.data.testimonials.length))];
-                $scope.randomTalkingHeadImg = data.data.heads[Math.floor((Math.random() * data.data.heads.length))];
+(function (Controllers, undefined) {
+    Lucity.Modules.Lucity.controller("TalkingHeadCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService) {
+            var talkingHeadPromise = genericGetService.getData(Lucity.Json.Testimonials);
+            talkingHeadPromise.then(function (response) {
+                $scope.randomTalkingHead = response.data.testimonials[Math.floor((Math.random() * response.data.testimonials.length))];
+                $scope.randomTalkingHeadImg = response.data.heads[Math.floor((Math.random() * response.data.heads.length))];
             });
-
         }]);
-}(Lucity.Controllers = Lucity.Controllers || {} ));
+}(Lucity.Controllers = Lucity.Controllers || {}));
 
 
-(function (Service, undefined) {
-    Lucity.Modules.Lucity.service("youTubeService", ['$http', '$q', function ($http, $q) {
-        var deferred = $q.defer();
 
-        $http.get(Lucity.Json.YouTubePlaylist).then(function (data) {
-            deferred.resolve(data);
-        });
-
-        this.getPlaylist = function () {
-            return deferred.promise;
-        }
-    }]);
-}(Lucity.Service = Lucity.Service || {}));
-
-(function (Service, undefined) {
-    Lucity.Modules.Lucity.service("youTubeVideoListService", ['$http', '$q', function ($http, $q) {
-        var deferred = $q.defer();
-
-        $http.get(Lucity.Json.YouTubeVideoList).then(function (data) {
-            deferred.resolve(data);
-        });
-
-        this.getVideos = function () {
-            return deferred.promise;
-        }
-    }]);
-}(Lucity.Service = Lucity.Service || {}));
 
 (function (Service, undefined)
 {
@@ -305,52 +283,21 @@
 }(Lucity.Service = Lucity.Service || {} ));
 
 
-(function (Service, undefined) {
-    Lucity.Modules.Lucity.service("calendarService", ['$http', '$q', function ($http, $q) {
-        var deferred = $q.defer();
+(function (Services, undefined) {
+    Lucity.Modules.Lucity.service("genericGetService", ['$http', '$q',
+        function ($http, $q) {
+            this.getData = function (url) {
+                var deferred = $q.defer();
 
-        $http.get(Lucity.Json.Calendar).then(function (data) {
-            deferred.resolve(data);
-        });
-        this.getCalendar = function () {
-            return deferred.promise;
-        }
-    }]);
+                $http.get(url).then(function (data) {
+                    deferred.resolve(data);
+                });
+
+                return deferred.promise;
+            }
+        }]);
 }(Lucity.Service = Lucity.Service || {}));
 
-(function (Service, undefined)
-{
-    Lucity.Modules.Lucity.service("talkingHeadService", ['$http', '$q', function ($http, $q)
-    {
-        var deferred = $q.defer();
-
-        $http.get(Lucity.Json.Testimonials).then(function (data)
-        {
-            deferred.resolve(data);
-        });
-        this.getTestimonials = function ()
-        {
-            return deferred.promise;
-        }
-    }]);
-}(Lucity.Service = Lucity.Service || {} ));
-
-(function (Service, undefined)
-{
-    Lucity.Modules.Lucity.service("teamService", ['$http', '$q', function ($http, $q)
-    {
-        var deferred = $q.defer();
-
-        $http.get(Lucity.Json.Team).then(function (data)
-        {
-            deferred.resolve(data);
-        });
-        this.getTeamMembers = function ()
-        {
-            return deferred.promise;
-        }
-    }]);
-}(Lucity.Service = Lucity.Service || {} ));
 
 /*
  Copyright 2011-2013 Abdulla Abdurakhmanov

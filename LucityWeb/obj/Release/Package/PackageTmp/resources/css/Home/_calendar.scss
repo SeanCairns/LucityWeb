@@ -1,0 +1,122 @@
+﻿#Calendar {
+    @include colorbar(11px, 1px, white);
+}
+
+#Calendar #Events {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        clear: both;
+
+        span.title {
+            display: inline-block;
+            font-weight: 600;
+            color: $lucity-blue-grey;
+            padding: 30px 0 0 0;
+        }
+
+        span.location {
+        }
+
+        div.date {
+            display: inline-block;
+            float: left;
+            height: 85px;
+            width: 85px;
+            background-color: $lucity-orange;
+            border: 1px solid $lucity-font-color;
+            margin: 10px;
+            padding: 6px;
+            text-align: center;
+            padding: 12px 0 0 0;
+
+            span {
+                color: $lucity-font-color-inverse;
+                display: block;
+                margin: 0 0 0 0;
+                padding: 0 0 0 0;
+            }
+
+            span.month {
+                font-size: 1.2em;
+            }
+
+            span.days {
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+
+
+#Calendar #Training ul:before,
+#Calendar #Training ul:after {
+        display: block;
+        position: absolute;
+        margin: 0 0 0 0;
+        padding: 0 30px 0 30px;
+        top: 0px;
+        width: 60px;
+        height: 100%;
+    }
+
+#Calendar #Training ul:before {
+        content: " ";
+        background: url(/resources/img/bracketleft.svg) top left no-repeat;
+        left: 0px;
+        background-size:  cover;
+    }
+
+#Calendar #Training ul:after {
+        content: " ";
+        background: url(/resources/img/bracketright.svg) top right no-repeat;
+        right: 0px;
+        background-size:  cover;
+    }
+
+
+#Calendar #Training {
+    margin: 30px 0 0 0;
+    padding: 0 0 0 0;
+    border-right: 18px solid white;
+
+    ul {
+        display: block;
+        background: url(/resources/img/univercity.svg) center top no-repeat;
+        background-size:  contain;
+        margin: 0 60px 0 60px;
+        padding: 80px 0 0 0;
+        list-style-type: none;
+    }
+
+    li {
+        display: block;
+        text-align: center;
+
+        span.title {
+            display: inline-block;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: $lucity-blue-grey;
+            padding: 30px 0 0 0;
+        }
+    }
+
+}
+
+@media only screen and (max-device-width: 736px), screen and (max-width : 768px){
+    #Calendar #Training {
+    border-left: 18px solid white;
+    border-right: 18px solid white;
+
+        ul {
+            padding: 46px 0 0 0;
+        }
+    }
+}
+
