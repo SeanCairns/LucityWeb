@@ -1042,8 +1042,6 @@
     <None Include="Properties\PublishProfiles\Lucity Web Site Deployment.pubxml" />
     <Content Include="resources\data\Calendar.json" />
     <Content Include="resources\data\lucity_team.json" />
-    <Content Include="resources\data\LucityBlog.json" />
-    <Content Include="resources\data\LucityBlog2.json" />
     <Content Include="resources\data\testimonials.json" />
     <Content Include="resources\data\LucityUTube.json" />
     <Content Include="resources\js\controllers\YouTubeVideoList.controller.js" />

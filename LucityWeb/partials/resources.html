@@ -42,7 +42,7 @@
         </div>
         <div class="col-xs-12 col-sm-6">
             <ul>
-                <li ng-repeat="testimonial in filteredTestimonials = ( testimonials | filter:{keywords: 'resourcesPage'} )" ng-if="$index > 0 && $index < 4">
+                <li ng-repeat="testimonial in filteredTestimonials = ( testimonials | filter:{keywords: 'resourcesPage'} )" ng-if="$index < 4">
                     <h2>{{testimonial.cite.organization}}</h2>
                     <q>{{testimonial.quote}}</q>
                 </li>
