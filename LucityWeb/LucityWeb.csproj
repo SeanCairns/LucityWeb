@@ -726,6 +726,7 @@
     <Content Include="resources\js\controllers\calendar.controller.js" />
     <Content Include="resources\js\controllers\careers.controller.js" />
     <Content Include="resources\js\controllers\company.controller.js" />
+    <Content Include="resources\js\controllers\resourcesSearch.controller.js" />
     <Content Include="resources\js\controllers\support.controller.js" />
     <Content Include="resources\js\controllers\talkingHead.controller.js" />
     <Content Include="resources\js\controllers\testimonials.controller.js" />
