@@ -1205,14 +1205,58 @@ html.no-smil .navbar-fixed-top {
   min-height: 30px;
   border-bottom: 3px solid #ff9933; }
 
-#ResourceSearch {
+#ResourceWhatSearch {
   margin-bottom: 30px; }
-
-#ResourceSearch p {
-  color: #4f5c73;
-  font-weight: 400;
-  font-size: 1.3em;
-  margin-left: 48px; }
+  #ResourceWhatSearch p {
+    color: #4f5c73;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-left: 48px; }
+  #ResourceWhatSearch #ResourceSearch {
+    padding: 100px 60px; }
+    #ResourceWhatSearch #ResourceSearch .input-group {
+      margin-bottom: 8px; }
+    #ResourceWhatSearch #ResourceSearch input[type=text] {
+      border-bottom-left-radius: 6px;
+      border-top-left-radius: 6px;
+      font-size: 22px;
+      height: 46px; }
+    #ResourceWhatSearch #ResourceSearch button {
+      font-size: 22px;
+      height: 46px; }
+    #ResourceWhatSearch #ResourceSearch label {
+      padding-right: 10px;
+      font-size: 1em; }
+    #ResourceWhatSearch #ResourceSearch label:last-child {
+      padding-right: 0px; }
+    #ResourceWhatSearch #ResourceSearch p {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+      #ResourceWhatSearch #ResourceSearch p span {
+        display: inline-block;
+        width: 90%;
+        font-size: .72em;
+        padding: 14px 0 0 0;
+        margin: 0;
+        text-align: center; }
+    #ResourceWhatSearch #ResourceSearch p:before {
+      display: inline-block;
+      width: 5%;
+      content: "{";
+      padding-right: 6px;
+      font-size: 2.2em;
+      font-weight: 600;
+      float: left; }
+    #ResourceWhatSearch #ResourceSearch p:after {
+      display: inline-block;
+      width: 5%;
+      content: "}";
+      padding-left: 6px;
+      font-size: 2.2em;
+      font-weight: 600;
+      float: right; }
 
 #ResourceDemonstrations {
   padding-top: 20px;

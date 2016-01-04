@@ -21,17 +21,85 @@
     border-bottom: 3px solid $lucity-orange;
 }
 
-#ResourceSearch
+#ResourceWhatSearch
 {
     margin-bottom: 30px;
-}
 
-#ResourceSearch p
-{
-    color: $lucity-blue-grey;
-    font-weight: 400;
-    font-size: 1.3em;
-    margin-left: 48px;
+    p
+    {
+        color: $lucity-blue-grey;
+        font-weight: 400;
+        font-size: 1.3em;
+        margin-left: 48px;
+    }
+
+    #ResourceSearch
+    {
+        padding: 100px 60px;
+
+        .input-group
+        {
+            margin-bottom: 8px;
+        }
+        input[type=text]
+        {
+            border-bottom-left-radius: 6px;
+            border-top-left-radius: 6px;
+            font-size: 22px;
+            height: 46px;
+        }
+        button
+        {
+            font-size: 22px;
+            height: 46px;
+        }
+        label
+        {
+            padding-right: 10px;
+            font-size: 1em;
+        }
+        label:last-child
+        {
+            padding-right: 0px;
+        }
+        p
+        {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            span
+            {
+                display: inline-block;
+                width: 90%;
+                font-size: .72em;
+                padding: 14px 0 0 0;
+                margin: 0;
+                text-align: center;
+            }
+        }
+        p:before
+        {
+            display: inline-block;
+            width: 5%;
+            content: "{";
+            padding-right: 6px;
+            font-size: 2.2em;
+            font-weight: 600;
+            float: left;
+        }
+        p:after
+        {
+            display: inline-block;
+            width: 5%;
+            content: "}";
+            padding-left: 6px;
+            font-size: 2.2em;
+            font-weight: 600;
+            float: right;
+        }
+
+    }
 }
 
 #ResourceDemonstrations
@@ -64,7 +132,6 @@
         margin: 8px;
         padding: 0;
     }
-
     figure img
     {
         width: 100%;

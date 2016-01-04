@@ -44,7 +44,17 @@
      **/
     Modules.Lucity = angular.module("lucity", ['ngRoute', 'ngSanitize']);
 
-}(Lucity.Modules = Lucity.Modules || {} ));
+}(Lucity.Modules = Lucity.Modules || {}));
+
+
+(function (Configs, undefined) {
+    Lucity.Modules.Lucity.config(['$sceDelegateProvider', function ($sceDelegateProvider) {
+        $sceDelegateProvider.resourceUrlWhitelist([
+          'self',
+          'http://*.lucity.com/**']);
+    }]);
+}(Lucity.Configs = Lucity.Configs || {}));
+
 
 (function (Filters, undefined)
 {
@@ -138,8 +148,6 @@
     {
         $locationProvider.html5Mode(true);
     }]);
-
-
 }(Lucity.Configs = Lucity.Configs || {} ));
 
 
@@ -231,6 +239,28 @@
             })
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {} ));
+
+
+(function (Controllers, undefined) {
+    Lucity.Modules.Lucity.controller("resourcesSearchCtrl", ['$scope', "$sce", 
+        function ($scope, $sce) {
+            $scope.resourceSearch = {
+                "v" : "latest",
+                "s" : "",
+                "t" : "help"
+            };
+
+            $scope.resourceSearchSubmitForm = function () {
+                var resourceSearchGetString = 'http://help.lucity.com/' + "portal/#v=" + encodeURIComponent($scope.resourceSearch.v) + "&s=" + encodeURIComponent($scope.resourceSearch.s) + "&t=" + encodeURIComponent($scope.resourceSearch.t) + "&n=5&p=1&c=1111111111111";
+                $("#resourceSearch").attr("href", resourceSearchGetString);
+                console.log($("#resourceSearch").attr("action"));
+                resourceSearch.click();
+            }
+        }]);
+}(Lucity.Controllers = Lucity.Controllers || {}));
+
+
+
 
 
 (function (Controllers, undefined)

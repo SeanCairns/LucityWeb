@@ -3,14 +3,35 @@
 
     <p id="lookAround">The best way to learn about Lucity (the software and the company) is to step into a user's shoes. They're OUR best resource, and the information they routinely access, inspire and help develop is invaluable to potential LucityAM users.</p>
 
-    <div id="ResourceSearch" class="row">
-        <div class="col-xs-12 col-sm-6">
+    <div id="ResourceWhatSearch" class="row">
+        <div class="col-xs-12 col-sm-6" id="WhatWouldYouLiketoKnow">
             <h2>What Would You Like to Know?</h2>
 
             <p>This search tool will dig through all of our online support resources for our users. Enter a search term and choose which avenue of technology you'd like to access: the software Help Guides, the Lucity Blog, our YouTube channel, or the Support Center. Go ahead, give it a shot. Maybe you want to learn about our mobile tools? Or do you manage a fleet? Are you a GIS guru?</p>
         </div>
-        <div class="col-xs-12 col-sm-6" class="test">
-            --  Need the search tool code --
+        <div id="ResourceSearch" class="col-xs-12 col-sm-6" class="test" ng-controller="resourcesSearchCtrl">
+            <div class="input-group">
+                <a id="resourceSearch" href="" style="display:none;" target="_blank"></a>
+                <input ng-model="resourceSearch.s" type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" ng-click="resourceSearchSubmitForm()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" ng-model="resourceSearch.t" value="help" checked=""> Help Guides
+                </label>
+                <label>
+                    <input type="radio" ng-model="resourceSearch.t" value="blog"> Blog
+                </label>
+                <label>
+                    <input type="radio" ng-model="resourceSearch.t" value="videos"> Videos
+                </label>
+                <label>
+                    <input type="radio" ng-model="resourceSearch.t" value="support"> Support Center
+                </label>
+            </div>
+            <p><span>The results will display in a new window so you don't lose your place here.</span></p>
         </div>
     </div>
 

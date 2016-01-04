@@ -44,4 +44,13 @@
      **/
     Modules.Lucity = angular.module("lucity", ['ngRoute', 'ngSanitize']);
 
-}(Lucity.Modules = Lucity.Modules || {} ));
+}(Lucity.Modules = Lucity.Modules || {}));
+
+
+(function (Configs, undefined) {
+    Lucity.Modules.Lucity.config(['$sceDelegateProvider', function ($sceDelegateProvider) {
+        $sceDelegateProvider.resourceUrlWhitelist([
+          'self',
+          'http://*.lucity.com/**']);
+    }]);
+}(Lucity.Configs = Lucity.Configs || {}));
