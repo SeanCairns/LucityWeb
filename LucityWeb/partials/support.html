@@ -11,7 +11,7 @@
             <blockquote>
                 <p>{{randomTestimonial.quote}}</p>
                 <footer>
-                    <cite>{{randomTestimonial.cite.name}} @ {{randomTestimonial.cite.organization}}</cite>
+                    <cite><span ng-if="randomTestimonial.cite.name">{{randomTestimonial.cite.name}} @</span> {{randomTestimonial.cite.organization}}</cite>
                 </footer>
             </blockquote>
             <p>There are more where this came from...want to hear more of our client's comments?</p>
