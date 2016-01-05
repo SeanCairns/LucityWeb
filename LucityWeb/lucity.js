@@ -260,23 +260,18 @@
 }(Lucity.Controllers = Lucity.Controllers || {}));
 
 
-
-
-
 (function (Controllers, undefined)
 {
-    Lucity.Modules.Lucity.controller("SupportCtrl", ['$scope', '$routeParams', 'supportService',
-        function ($scope, $routeParams, supportService)
+    Lucity.Modules.Lucity.controller("SupportCtrl", ['$scope', 'genericGetService',
+        function ($scope, genericGetService)
         {
-            var promise = supportService.getTestimonials();
-            promise.then(function (data)
+            var supportPromise = genericGetService.getData(Lucity.Json.Testimonials);
+            supportPromise.then(function (response)
             {
-                $scope.testimonials = data.data.testimonials;
-                $scope.randomTestimonial = data.data.testimonials[Math.floor((Math.random() * $scope.testimonials.length))];
+                $scope.randomTestimonial = response.data.testimonials[Math.floor((Math.random() * response.data.testimonials.length))];
             })
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {} ));
-
 
 
 (function (Controllers, undefined) {

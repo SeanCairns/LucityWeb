@@ -15,6 +15,3 @@
             }
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
-
-
-
