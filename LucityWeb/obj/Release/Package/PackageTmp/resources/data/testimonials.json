@@ -8,7 +8,34 @@
     ],
     "testimonials": [
         {
-            "keywords": [ "gis", "support", "short" ],
+            "keywords": [ "homePage", "resourcesPage" ],
+            "quote": "Getting meaningful information into and out of various systems was a challenge. City officials knew they needed an intuitive, effective asset management software system.",
+            "cite": {
+                "name": "",
+                "organization": "City of Columbus, Ohio",
+                "url": ""
+            }
+        },
+        {
+            "keywords": [ "homePage", "resourcesPage" ],
+            "quote": "Parks & Recreation field staff was relying on pencil and paper to track efforts. For a Public Works Department with lofty goals for tracking and reporting, it was an intolerable situation.",
+            "cite": {
+                "name": "",
+                "organization": "City of San Marcos, California",
+                "url": ""
+            }
+        },
+        {
+            "keywords": [ "homePage", "resourcesPage" ],
+            "quote": "The City's 'can-do' approach was put to test when its Public Works department embarked on an enormous integration effort, integrating six varied applications and their respective data.",
+            "cite": {
+                "name": "",
+                "organization": "City of Chandler, Arizona",
+                "url": ""
+            }
+        },
+        {
+            "keywords": [ "homePage" ],
             "quote": "Lucity actually asked us to be part of their design team for a Storm BMPs module.  We told them what we wanted, and they delivered.",
             "cite": {
                 "name": "",
@@ -17,7 +44,7 @@
             }
         },
         {
-            "keywords": [ "not" ],
+            "keywords": [ "homePage" ],
             "quote": "Before Lucity we didn't know how well the work got done. Now all work plans are set up to meet certain standards of measurement. Lucity allowed us to be much more efficient.",
             "cite": {
                 "name": "",
@@ -26,7 +53,7 @@
             }
         },
         {
-            "keywords": [ "work", "long" ],
+            "keywords": [ "homePage" ],
             "quote": "Our crews use Lucity in the field on tablets. They work right from a map and generate or complete work orders from any location.",
             "cite": {
                 "name": "",
@@ -35,7 +62,7 @@
             }
         },
         {
-            "keywords": [ "home" ],
+            "keywords": [ "homePage" ],
             "quote": "I cant imagine managing the workflow without Lucity.  Remember the days before computers? Thats how big the improvement was.",
             "cite": {
                 "name": "",
@@ -44,7 +71,7 @@
             }
         },
         {
-            "keywords": [ "gis", "short" ],
+            "keywords": [ "homePage" ],
             "quote": "Lucity picks up nuances, really listens. We wanted to capture data in the field, and their mobile solution coupled with a powerful GIS was key.",
             "cite": {
                 "name": "",
@@ -53,7 +80,7 @@
             }
         },
         {
-            "keywords": [ "support", "short" ],
+            "keywords": [ "homePage" ],
             "quote": "Lucity's adaptable software has been instrumental in helping us create a GIS-rich system that allows us to look ahead ten years down the road instead of simply reacting.",
             "cite": {
                 "name": "",

@@ -7,7 +7,7 @@
     <meta name="fragment" content="!">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="/favicon.ico">
     <base href="/">
 
     <title>Lucity</title>
@@ -56,12 +56,15 @@
 <div id="MainSearch" class="container-fluid">
     <div class="row">
         <div class="col-sm-offset-8 col-sm-4">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                </span>
-            </div>
+            <form role="search" class="search-small" data-search="true" action="https://lucity.zendesk.com/hc/en-us/search" accept-charset="UTF-8" method="get" target="_blank">
+                <div class="input-group">
+                    <input name="utf8" type="hidden" value="✓" placeholder="Search the Knowledge Base">
+                    <input type="search" class="form-control" name="query" id="query" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </span>
+                </div>
+            </form>
         </div>
     </div>
 </div>

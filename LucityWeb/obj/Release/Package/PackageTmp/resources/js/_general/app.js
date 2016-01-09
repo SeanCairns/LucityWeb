@@ -24,7 +24,11 @@
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
         "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
         "YouTubeVideoList": "resources/data/LucityUTube.json"
-};
+    };
+
+    //YouTube playlist feed:
+    //https://www.googleapis.com/youtube/v3/playlists?part=contentDetails%2C+id%2C+localizations%2C+player%2C+snippet%2C+status&channelId=UCSBBCEWsSEqzuf6nxS-xGsw&key=AIzaSyBclgmgFXlZTwT68_bPy66X8HIaqGUU9Xs
+
 
 }(window.Lucity = window.Lucity || {} ));
 
@@ -40,4 +44,13 @@
      **/
     Modules.Lucity = angular.module("lucity", ['ngRoute', 'ngSanitize']);
 
-}(Lucity.Modules = Lucity.Modules || {} ));
+}(Lucity.Modules = Lucity.Modules || {}));
+
+
+(function (Configs, undefined) {
+    Lucity.Modules.Lucity.config(['$sceDelegateProvider', function ($sceDelegateProvider) {
+        $sceDelegateProvider.resourceUrlWhitelist([
+          'self',
+          'http://*.lucity.com/**']);
+    }]);
+}(Lucity.Configs = Lucity.Configs || {}));

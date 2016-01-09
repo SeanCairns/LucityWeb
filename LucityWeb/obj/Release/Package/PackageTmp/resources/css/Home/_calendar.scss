@@ -12,6 +12,7 @@
 
     li {
         clear: both;
+        height: 100px;
 
         span.title {
             display: inline-block;
@@ -120,3 +121,12 @@
     }
 }
 
+@media only screen and (max-device-width: 400px), screen and (max-width : 400px){
+    #Calendar #Events {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    #Calendar #Events ul {
+        padding-left: 6px;
+    }
+}

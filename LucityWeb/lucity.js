@@ -134,10 +134,6 @@
                 templateUrl: Lucity.PartialsPath + '/resources.html',
                 caseInsensitiveMatch: true
             })
-            .when('/support', {
-                templateUrl: Lucity.PartialsPath + '/support.html',
-                caseInsensitiveMatch: true
-            })
             .otherwise({
                 redirectTo: '/',
                 templateUrl: Lucity.PartialsPath + '/home.html'
@@ -226,7 +222,7 @@
         function ($scope, $routeParams, genericGetService, selectedMemberFilter)
         {
             $scope.career = $routeParams.career;
-
+            console.log($routeParams);
             var promise = genericGetService.getData(Lucity.Json.Team);
             promise.then(function (response)
             {

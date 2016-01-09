@@ -255,9 +255,9 @@ html.no-smil .navbar-fixed-top {
   border: none;
   margin-bottom: 0;
   background: url(../img/quotebox.svg) no-repeat bottom left;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.1em;
   font-weight: 400; }
 
 #Testimonials blockquote p {
@@ -355,19 +355,23 @@ html.no-smil .navbar-fixed-top {
   border-top: 1px solid white;
   background: url(../img/colorbar.svg) repeat-x; }
 
-#Blog h1, #Blog h2, #Blog h3, #Blog h4, #Blog h5, #Blog h6 {
-  color: #eeeeee;
-  font-family: "Josefin Sans", serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: -0.025em;
-  text-transform: none !important; }
-#Blog div, #Blog span, #Blog p, #Blog a, #Blog strong, #Blog ul, #Blog li, #Blog dl, #Blog dt, #Blog dd {
-  color: #eeeeee;
-  font-family: "Josefin Sans", serif;
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: -0.025em; }
+#Blog {
+  background-color: #4f5c73; }
+  #Blog h1 {
+    color: #eeeeee; }
+  #Blog div.entries h1, #Blog div.entries h2, #Blog div.entries h3, #Blog div.entries h4, #Blog div.entries h5, #Blog div.entries h6 {
+    color: #eeeeee;
+    font-family: "Josefin Sans", serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    text-transform: none !important; }
+  #Blog div.entries div, #Blog div.entries span, #Blog div.entries p, #Blog div.entries a, #Blog div.entries strong, #Blog div.entries ul, #Blog div.entries li, #Blog div.entries dl, #Blog div.entries dt, #Blog div.entries dd {
+    color: #eeeeee;
+    font-family: "Josefin Sans", serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.025em; }
 
 #Blog a {
   color: white;
@@ -548,7 +552,9 @@ html.no-smil .navbar-fixed-top {
   text-align: center;
   list-style-type: none;
   -webkit-padding-start: 0px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0; }
 
 #Calendar {
   padding-top: 11px;
@@ -848,6 +854,8 @@ html.no-smil .navbar-fixed-top {
     color: #ffffff;
     font-size: 2em;
     margin-top: 0; }
+  #SoftwareHome #SoftwareList h2 a {
+    color: #ffffff; }
   #SoftwareHome #SoftwareList ul li {
     list-style-type: none;
     color: #ffffff;

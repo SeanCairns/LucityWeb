@@ -17,7 +17,7 @@
         </div>
         <div class="col-md-7">
             <div ng-repeat="member in selectedMember = (team.members | filter:{'selected' : true})">
-                <h1>{{member.name}}, {{member.suffix}}</h1>
+                <h1>{{member.name}}</h1>
                 <h2>{{member.title}}</h2>
                 <div><a href="mailto:{{member.email}}">{{member.email}}</a></div>
                 <p ng-bind-html="member.bio"></p>

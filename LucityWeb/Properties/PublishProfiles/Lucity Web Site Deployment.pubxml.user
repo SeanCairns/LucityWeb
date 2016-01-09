@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2015 17:00:59</publishTime>
     </File>
     <File Include="bin/LucityWeb.dll">
-      <publishTime>12/21/2015 21:02:48</publishTime>
+      <publishTime>01/04/2016 19:58:05</publishTime>
     </File>
     <File Include="bin/Microsoft.CSharp.dll">
       <publishTime>09/26/2012 03:16:08</publishTime>
@@ -121,7 +121,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 08:05:06</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>12/09/2015 11:31:11</publishTime>
+      <publishTime>01/03/2016 21:32:39</publishTime>
     </File>
     <File Include="lucity-deps.js">
       <publishTime>10/08/2015 09:13:42</publishTime>
@@ -130,7 +130,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2015 17:00:59</publishTime>
     </File>
     <File Include="lucity.js">
-      <publishTime>12/09/2015 11:31:42</publishTime>
+      <publishTime>01/04/2016 18:38:51</publishTime>
     </File>
     <File Include="Models/Calendar.json">
       <publishTime>11/23/2015 14:59:06</publishTime>
@@ -175,10 +175,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2015 08:31:19</publishTime>
     </File>
     <File Include="partials/home.html">
-      <publishTime>12/10/2015 11:52:16</publishTime>
+      <publishTime>01/03/2016 17:47:46</publishTime>
     </File>
     <File Include="partials/resources.html">
-      <publishTime>11/29/2015 08:46:59</publishTime>
+      <publishTime>01/04/2016 19:41:10</publishTime>
     </File>
     <File Include="partials/software.html">
       <publishTime>10/15/2015 14:53:08</publishTime>
@@ -196,10 +196,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/09/2015 09:43:13</publishTime>
     </File>
     <File Include="partials/Software/software.html">
-      <publishTime>12/17/2015 20:42:59</publishTime>
+      <publishTime>01/03/2016 10:13:26</publishTime>
     </File>
     <File Include="partials/support.html">
-      <publishTime>10/14/2015 16:24:42</publishTime>
+      <publishTime>01/04/2016 19:36:04</publishTime>
     </File>
     <File Include="resources/css/bootstrap.min.css">
       <publishTime>10/07/2015 11:08:31</publishTime>
@@ -208,7 +208,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 09:10:07</publishTime>
     </File>
     <File Include="resources/css/Home/_calendar.scss">
-      <publishTime>12/09/2015 10:12:26</publishTime>
+      <publishTime>12/28/2015 21:19:57</publishTime>
     </File>
     <File Include="resources/css/Home/_home.scss">
       <publishTime>12/10/2015 14:29:40</publishTime>
@@ -220,10 +220,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2015 08:20:37</publishTime>
     </File>
     <File Include="resources/css/lucity.css">
-      <publishTime>12/21/2015 20:47:54</publishTime>
+      <publishTime>01/04/2016 00:23:57</publishTime>
     </File>
     <File Include="resources/css/lucity.css.map">
-      <publishTime>12/21/2015 20:47:55</publishTime>
+      <publishTime>01/04/2016 00:23:58</publishTime>
     </File>
     <File Include="resources/css/lucity.scss">
       <publishTime>12/10/2015 14:29:52</publishTime>
@@ -244,7 +244,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/10/2015 14:38:00</publishTime>
     </File>
     <File Include="resources/css/Software/_softwareHome.scss">
-      <publishTime>12/17/2015 21:32:15</publishTime>
+      <publishTime>01/03/2016 10:18:54</publishTime>
     </File>
     <File Include="resources/css/_company.scss">
       <publishTime>12/10/2015 14:40:08</publishTime>
@@ -253,7 +253,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/19/2015 10:11:37</publishTime>
     </File>
     <File Include="resources/css/_global.scss">
-      <publishTime>12/09/2015 09:43:06</publishTime>
+      <publishTime>01/03/2016 17:47:58</publishTime>
     </File>
     <File Include="resources/css/_home.scss">
       <publishTime>11/24/2015 07:25:40</publishTime>
@@ -274,7 +274,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 09:11:58</publishTime>
     </File>
     <File Include="resources/css/_resources.scss">
-      <publishTime>11/29/2015 08:47:35</publishTime>
+      <publishTime>01/04/2016 00:23:54</publishTime>
     </File>
     <File Include="resources/css/_software.scss">
       <publishTime>11/24/2015 07:26:33</publishTime>
@@ -301,7 +301,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/26/2015 08:01:44</publishTime>
     </File>
     <File Include="resources/data/testimonials.json">
-      <publishTime>11/25/2015 08:05:47</publishTime>
+      <publishTime>01/03/2016 17:44:43</publishTime>
     </File>
     <File Include="resources/data/YouTubePlayListMockup.json">
       <publishTime>11/28/2015 09:55:31</publishTime>
@@ -2764,31 +2764,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/23/2015 13:33:16</publishTime>
     </File>
     <File Include="resources/js/controllers/calendar.controller.js">
-      <publishTime>11/23/2015 14:58:57</publishTime>
+      <publishTime>01/03/2016 10:26:36</publishTime>
     </File>
     <File Include="resources/js/controllers/careers.controller.js">
       <publishTime>11/25/2015 22:26:05</publishTime>
     </File>
     <File Include="resources/js/controllers/company.controller.js">
-      <publishTime>11/25/2015 21:57:59</publishTime>
+      <publishTime>01/03/2016 11:35:58</publishTime>
+    </File>
+    <File Include="resources/js/controllers/resourcesSearch.controller.js">
+      <publishTime>01/04/2016 18:29:22</publishTime>
     </File>
     <File Include="resources/js/controllers/support.controller.js">
-      <publishTime>10/14/2015 16:21:56</publishTime>
+      <publishTime>01/04/2016 18:38:49</publishTime>
     </File>
     <File Include="resources/js/controllers/talkingHead.controller.js">
-      <publishTime>11/23/2015 13:57:36</publishTime>
+      <publishTime>01/03/2016 16:41:45</publishTime>
+    </File>
+    <File Include="resources/js/controllers/testimonials.controller.js">
+      <publishTime>01/03/2016 11:36:13</publishTime>
     </File>
     <File Include="resources/js/controllers/YouTubePlaylist.controller.js">
-      <publishTime>12/07/2015 20:30:25</publishTime>
+      <publishTime>01/03/2016 11:28:58</publishTime>
     </File>
     <File Include="resources/js/controllers/YouTubeVideoList.controller.js">
-      <publishTime>12/07/2015 20:31:35</publishTime>
+      <publishTime>01/03/2016 10:39:10</publishTime>
     </File>
     <File Include="resources/js/services/blogs.service.js">
       <publishTime>11/24/2015 14:49:52</publishTime>
     </File>
     <File Include="resources/js/services/calendar.service.js">
       <publishTime>11/24/2015 14:50:23</publishTime>
+    </File>
+    <File Include="resources/js/services/genericGetService.js">
+      <publishTime>01/03/2016 10:24:03</publishTime>
     </File>
     <File Include="resources/js/services/talkingHead.service.js">
       <publishTime>11/24/2015 14:50:53</publishTime>
@@ -2809,7 +2818,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/18/2015 11:02:35</publishTime>
     </File>
     <File Include="resources/js/_general/app.js">
-      <publishTime>12/07/2015 20:28:00</publishTime>
+      <publishTime>01/03/2016 23:52:00</publishTime>
     </File>
     <File Include="resources/js/_general/config.js">
       <publishTime>11/25/2015 21:52:12</publishTime>
@@ -2818,7 +2827,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/07/2015 20:24:37</publishTime>
     </File>
     <File Include="resources/js/_general/routes.js">
-      <publishTime>12/09/2015 11:31:41</publishTime>
+      <publishTime>01/03/2016 23:52:09</publishTime>
     </File>
     <File Include="testback.html">
       <publishTime>10/15/2015 10:48:16</publishTime>

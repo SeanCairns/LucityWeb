@@ -46,10 +46,6 @@
                 templateUrl: Lucity.PartialsPath + '/resources.html',
                 caseInsensitiveMatch: true
             })
-            .when('/support', {
-                templateUrl: Lucity.PartialsPath + '/support.html',
-                caseInsensitiveMatch: true
-            })
             .otherwise({
                 redirectTo: '/',
                 templateUrl: Lucity.PartialsPath + '/home.html'

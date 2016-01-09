@@ -1,16 +1,4 @@
 /*_global.scss*/
-html
-{
-  //Messing around with a static background image
-  //background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/KCSkylineBartleNight.jpg);
-  //background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/KCSkylineBartleNight.jpg);
-  //background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/KCSkylineBartleNight.jpg);
-  //background-attachment: fixed;
-  //background-repeat: no-repeat;
-  //background-size: cover;
-  //background-position: bottom center;
-}
-
 
 a {
   @include tTransition;
@@ -187,8 +175,12 @@ nav.navbar
   background: url(../img/LucityLogo.svg) top left no-repeat;
 }
 
-
-
+//Fixes an IE issue that left aligns the navbar
+html.no-smil .navbar-fixed-top
+{
+    right: auto;
+    left: auto;
+}
 
 
 #MainSearch

@@ -36,7 +36,7 @@
     <h1>Learn More</h1>
 
     <ul class="row">
-        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Maintenance'} )" class="col-md-3 col-sm-4 col-xs-6">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Maintenance'} )" class="col-md-3 col-sm-4 col-xs-12">
             <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
                 <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
             </a>

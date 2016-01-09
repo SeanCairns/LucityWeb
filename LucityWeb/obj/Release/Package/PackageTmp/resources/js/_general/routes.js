@@ -60,6 +60,4 @@
     {
         $locationProvider.html5Mode(true);
     }]);
-
-
 }(Lucity.Configs = Lucity.Configs || {} ));
