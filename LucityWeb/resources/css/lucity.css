@@ -41,6 +41,16 @@ body {
   padding-top: 50px;
   min-width: 640px; }
 
+#primaryNav {
+  width: 100%; }
+
+#primaryNav:after {
+  display: block;
+  content: "";
+  padding-top: 11px;
+  border-top: 1px solid #99cc33;
+  background: url(/resources/img/colorbar.svg) repeat-x; }
+
 nav.navbar {
   font-size: 1.1em; }
 
@@ -49,7 +59,7 @@ nav.navbar {
   body {
     font-size: 150%;
     line-height: 1.4;
-    padding-top: 90px; }
+    padding-top: 120px; }
 
   nav.navbar {
     font-size: 1em; } }
@@ -98,8 +108,7 @@ nav.navbar {
   .navbar-default .navbar-nav > li > a:hover {
     background-color: #cccccc; } }
 .navbar {
-  background-color: #ffffff;
-  border-bottom: 4px solid #99cc33; }
+  background-color: #ffffff; }
 
 .navbar .container {
   border-bottom: 1px solid #99cc33;
@@ -130,12 +139,13 @@ html.no-smil .navbar-fixed-top {
   background-color: #99cc33;
   padding-top: 6px;
   padding-bottom: 6px;
-  border-bottom: 1px solid white; }
+  border-top: 4px solid #99cc33;
+  border-bottom: 1px solid #ffffff; }
 
 #Footer {
   padding-top: 11px;
   border-top: 1px solid #99cc33;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
   #Footer .FollowUs, #Footer .MeetUs {
     border: 16px solid white;
     line-height: 1.6;
@@ -246,11 +256,6 @@ html.no-smil .navbar-fixed-top {
 
 /*_home.scss*/
 /*_talkinghead.scss*/
-#Testimonials {
-  padding-top: 20px;
-  border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
-
 #Testimonials blockquote {
   border: none;
   margin-bottom: 0;
@@ -353,7 +358,7 @@ html.no-smil .navbar-fixed-top {
 #Blog {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
 
 #Blog {
   background-color: #4f5c73; }
@@ -458,7 +463,7 @@ html.no-smil .navbar-fixed-top {
 #Software {
   padding-top: 20px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
 
 #Software div.EAMS {
   background-color: #99cc33;
@@ -559,7 +564,7 @@ html.no-smil .navbar-fixed-top {
 #Calendar {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
 
 #Calendar #Events {
   padding-top: 20px;
@@ -918,7 +923,8 @@ html.no-smil .navbar-fixed-top {
     z-index: 2;
     margin: 0;
     padding: 0;
-    margin-top: 330px;
+    margin-top: 0px;
+    margin-left: 20px;
     font-size: 280%;
     font-weight: 400;
     text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
@@ -927,6 +933,7 @@ html.no-smil .navbar-fixed-top {
     z-index: 2;
     margin: 0;
     padding: 0;
+    margin-left: 20px;
     text-transform: lowercase;
     font-size: 190%;
     font-weight: 600;
@@ -947,10 +954,10 @@ html.no-smil .navbar-fixed-top {
 #SoftwareEAMS {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   background-color: #99cc33; }
   #SoftwareEAMS p {
-    padding: 0 40px 40px 40px;
+    padding: 0 40px 20px 40px;
     font-size: 1.3em;
     font-weight: 600;
     color: #4f5c73; }
@@ -1142,9 +1149,11 @@ html.no-smil .navbar-fixed-top {
 #SoftwareMMS {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   text-align: center;
   margin-bottom: 40px; }
+  #SoftwareMMS h1 {
+    text-align: left; }
   #SoftwareMMS p {
     padding: 0 40px 40px 40px;
     font-size: 1.4em;
@@ -1269,7 +1278,7 @@ html.no-smil .navbar-fixed-top {
 #ResourceDemonstrations {
   padding-top: 20px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   background-color: #ff9933;
   position: relative; }
   #ResourceDemonstrations p {
@@ -1316,7 +1325,7 @@ html.no-smil .navbar-fixed-top {
 #ResourceTestimonials {
   padding-top: 20px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   background-color: #4f5c73;
   padding-bottom: 16px; }
 

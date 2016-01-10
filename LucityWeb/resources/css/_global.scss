@@ -52,6 +52,19 @@ body
   padding-top: $small-screen-menu-height;
   min-width: 640px;
 }
+
+#primaryNav
+{
+    width: 100%;
+}
+
+#primaryNav:after
+{
+    display: block;
+    content:"";
+    @include colorbar(11px, 1px, $lucity-green);
+}
+
 nav.navbar
 {
   font-size: 1.1em;
@@ -69,7 +82,6 @@ nav.navbar
   nav.navbar
   {
     font-size: 1em;
-    //border-bottom: 4px solid red;
   }
 }
 
@@ -147,7 +159,6 @@ nav.navbar
 
 .navbar {
   background-color: #ffffff;
-  border-bottom: 4px solid $lucity-green;
 }
 
 .navbar .container {
@@ -188,10 +199,9 @@ html.no-smil .navbar-fixed-top
   background-color: $lucity-green;
   padding-top: 6px;
   padding-bottom: 6px;
-  border-bottom: 1px solid white;
+  border-top: 4px solid $lucity-green;
+  border-bottom: 1px solid #ffffff;
 }
-
-
 
 #Footer
 {
