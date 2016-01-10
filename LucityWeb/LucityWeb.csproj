@@ -658,6 +658,15 @@
     <Content Include="resources\img\bracketleft.svg" />
     <Content Include="resources\img\bracketright.svg" />
     <Content Include="resources\img\colorbar.svg" />
+    <Content Include="resources\img\Company\icons\clipboard.svg" />
+    <Content Include="resources\img\Company\icons\globe.svg" />
+    <Content Include="resources\img\Company\icons\head.svg" />
+    <Content Include="resources\img\Company\icons\movie.svg" />
+    <Content Include="resources\img\Company\icons\news.svg" />
+    <Content Include="resources\img\Company\icons\phone.svg" />
+    <Content Include="resources\img\Company\icons\shoes.svg" />
+    <Content Include="resources\img\Company\icons\star.svg" />
+    <Content Include="resources\img\Company\icons\walker.svg" />
     <Content Include="resources\img\EAMSIcons\bracketleftblue.svg" />
     <Content Include="resources\img\EAMSIcons\bracketrightblue.svg" />
     <Content Include="resources\img\EAMSIcons\bridge.svg" />
