@@ -67,45 +67,85 @@
 }
 
 
-
-
-
-#GetToKnowUs div.row div:nth-child(1),
-#GetToKnowUs div.row div:nth-child(5)
+#GetToKnowUs
 {
-  background-color: $lucity-orange;
+    h1
+    {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    div.row div:nth-child(1),
+    div.row div:nth-child(5)
+    {
+      background-color: $lucity-orange;
+    }
+
+    div.row div:nth-child(2),
+    div.row div:nth-child(6)
+    {
+      background-color: $lucity-green;
+    }
+
+    div.row div:nth-child(3),
+    div.row div:nth-child(7)
+    {
+      background-color: $lucity-blue-green;
+    }
+
+    div.row div:nth-child(4),
+    div.row div:nth-child(8)
+    {
+      background-color: $lucity-dark-green;
+    }
+
+
+    div.row div 
+    {
+        background-color: $lucity-green;
+        color: white;
+        border-left: 1em solid white;
+        border-right: 1em solid white;
+        border-bottom: 1em solid white;
+        height: 11em;
+        line-height: 1.2;
+        margin-bottom: 60px;
+    }
+
+    div.row div a
+    {
+      display: block;
+      margin-top: -50px;
+      height: 100px;
+    }
+
+    div.row div a img
+    {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+
+    div.row
+    {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    div.row div a h3
+    {
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: lowercase;
+      text-align: center;
+      font-size: 1.3em;
+      opacity: 0.85;
+      padding-top: 10px;
+    }
 }
 
-#GetToKnowUs div.row div:nth-child(2),
-#GetToKnowUs div.row div:nth-child(6)
-{
-  background-color: $lucity-green;
-}
 
-#GetToKnowUs div.row div:nth-child(3),
-#GetToKnowUs div.row div:nth-child(7)
-{
-  background-color: $lucity-blue-green;
-}
-
-#GetToKnowUs div.row div:nth-child(4),
-#GetToKnowUs div.row div:nth-child(8)
-{
-  background-color: $lucity-dark-green;
-}
-
-
-#GetToKnowUs div.row div 
-{
-    background-color: $lucity-green;
-    color: white;
-    border-left: 1em solid white;
-    border-right: 1em solid white;
-    border-bottom: 1em solid white;
-    height: 11em;
-    line-height: 1.2;
-    margin-bottom: 60px;
-}
 
 @media only screen and (max-width : 768px), only screen and (max-device-width: 480px)
 {
@@ -133,35 +173,45 @@
 }
 
 
-#GetToKnowUs div.row div a
+
+#CompanyWhyLucity
 {
-  display: block;
-  margin-top: -50px;
-  height: 100px;
+    position: relative;
+
+    div
+    {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        text-align: right;
+        padding-top: 10%;
+        padding-right: 20px;
+
+        h2
+        {
+            color: $lucity-font-color-inverse;
+            font-size: 2.4em;
+            padding-bottom: 0;
+        }
+
+        p
+        {
+            color: $lucity-font-header-color;
+            font-size: 1.6em;
+            line-height: 1.2;
+            padding-top: 0;
+        }
+    }
 }
 
-#GetToKnowUs div.row div a img
+#TakeALookAtLucity
 {
-  display: block;
-  height: 100%;
-  width: 100%;
+    p
+    {
+        color: $lucity-font-header-color;
+        font-size: 1.4em;
+    }
 }
-
-#GetToKnowUs div.row
-{
-  margin-top: 50px;
-  text-align: center;
-}
-
-#GetToKnowUs div.row div a h3
-{
-  color: #ffffff;
-  margin-top: 0;
-  margin-bottom: 0;
-  text-transform: lowercase;
-  text-align: center;
-  font-size: 1.3em;
-  opacity: 0.85;
-  padding-top: 10px;
-}
-

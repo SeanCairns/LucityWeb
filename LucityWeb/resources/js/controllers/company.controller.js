@@ -4,6 +4,7 @@
         function ($scope, $routeParams, genericGetService, selectedMemberFilter)
         {
             $scope.career = $routeParams.career;
+            $scope.showVideo = false;
 
             var promise = genericGetService.getData(Lucity.Json.Team);
             promise.then(function (response)
