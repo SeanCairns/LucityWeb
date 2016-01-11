@@ -1187,6 +1187,33 @@ html.no-smil .navbar-fixed-top {
     background-size: contain;
     border: 4px solid #78A22D;
     border-radius: 100px; }
+  #SoftwareGeneral div.SoftwareOther div.MoreDetails div {
+    background-color: #ffffff;
+    margin: 10px 30px;
+    border: 3px solid #ff9933;
+    padding-bottom: 30px; }
+    #SoftwareGeneral div.SoftwareOther div.MoreDetails div h4 {
+      padding-top: 30px;
+      color: #ff9933;
+      font-size: 1.8em;
+      text-align: center; }
+    #SoftwareGeneral div.SoftwareOther div.MoreDetails div p {
+      text-align: center; }
+      #SoftwareGeneral div.SoftwareOther div.MoreDetails div p span {
+        font-size: 1.2em;
+        color: #137866;
+        padding-left: 12px;
+        background: url(/resources/img/MiniLucityPlusOrange.png) no-repeat center left; }
+      #SoftwareGeneral div.SoftwareOther div.MoreDetails div p span:first-child {
+        padding-left: 0;
+        background: none; }
+  #SoftwareGeneral div.SoftwareOther div.MoreDetails p.Requirements {
+    margin-left: 30px;
+    padding: 50px 50px 50px 108px;
+    color: #4f5c73;
+    font-size: 1.2em;
+    background: url(/resources/img/Software/General/check.svg) no-repeat center left;
+    background-size: 100px 100px; }
 
 /* Software GIS */
 #SoftwareGIS p.configure,

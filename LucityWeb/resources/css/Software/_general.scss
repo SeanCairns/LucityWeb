@@ -74,6 +74,51 @@
             border-radius: 100px;
         }
 
+        div.MoreDetails
+        {
+            div
+            {
+                background-color: #ffffff;
+                margin: 10px 30px;
+                border: 3px solid $lucity-orange;
+                padding-bottom: 30px;
 
+                h4
+                {
+                    padding-top: 30px;
+                    color: $lucity-orange;
+                    font-size: 1.8em;
+                    text-align: center;
+                }
+
+                p
+                {
+                    text-align: center;
+
+                    span
+                    {
+                        font-size: 1.2em;
+                        color: $lucity-blue-green;
+                        padding-left: 12px;
+                        background: url(/resources/img/MiniLucityPlusOrange.png) no-repeat center left;
+                    }
+                    span:first-child
+                    {
+                        padding-left: 0;
+                        background: none;
+                    }
+                }
+            }
+
+            p.Requirements
+            {
+                margin-left: 30px;
+                padding: 50px 50px 50px 108px;
+                color: $lucity-blue-grey;
+                font-size: 1.2em;
+                background: url(/resources/img/Software/General/check.svg) no-repeat center left;
+                background-size: 100px 100px;
+            }
+        }
     }
 }

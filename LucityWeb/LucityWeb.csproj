@@ -710,6 +710,7 @@
     <Content Include="resources\img\icons\water.svg" />
     <Content Include="resources\img\icons\work.svg" />
     <Content Include="resources\img\LucityLogo.svg" />
+    <Content Include="resources\img\MiniLucityPlusOrange.png" />
     <Content Include="resources\img\quotebox.svg" />
     <Content Include="resources\img\quote_ImgID1.png" />
     <Content Include="resources\img\Software\Assets\lucity_web_sm_sewer.png" />
