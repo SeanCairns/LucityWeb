@@ -712,6 +712,10 @@
     <Content Include="resources\img\LucityLogo.svg" />
     <Content Include="resources\img\quotebox.svg" />
     <Content Include="resources\img\quote_ImgID1.png" />
+    <Content Include="resources\img\Software\Assets\lucity_web_sm_sewer.png" />
+    <Content Include="resources\img\Software\Assets\lucity_web_sm_signs.png" />
+    <Content Include="resources\img\Software\Assets\lucity_web_sm_storm.png" />
+    <Content Include="resources\img\Software\Assets\lucity_web_sm_water.png" />
     <Content Include="resources\img\Software\GISTower.png" />
     <Content Include="resources\img\Software\V_esriPartnerNet-gold_sRGB.png" />
     <Content Include="resources\img\Software\Work\Inventory.png" />

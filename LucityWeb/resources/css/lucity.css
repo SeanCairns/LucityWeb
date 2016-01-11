@@ -1075,10 +1075,52 @@ html.no-smil .navbar-fixed-top {
 #SoftwareAssetHighlights div.linkBox {
   border: none;
   border-radius: 0;
-  background-color: white; }
-
-#SoftwareAssetHighlights div.linkBox h3 {
-  color: #137866; }
+  background-color: white;
+  margin-bottom: 40px; }
+  #SoftwareAssetHighlights div.linkBox div {
+    height: 280px;
+    margin: 0;
+    padding: 0; }
+    #SoftwareAssetHighlights div.linkBox div h3 {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+      /* For IE8 and earlier */
+      margin: 0;
+      padding: 10px 0 10px 0;
+      margin-top: 90px;
+      padding-bottom: 18px;
+      color: #137866;
+      background-color: #ffffff;
+      text-align: center;
+      font-size: 1.8em; }
+    #SoftwareAssetHighlights div.linkBox div ul {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+      /* For IE8 and earlier */
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      height: 140px; }
+    #SoftwareAssetHighlights div.linkBox div li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 1.1em;
+      color: #4f5c73;
+      font-weight: 600; }
+  #SoftwareAssetHighlights div.linkBox .Sewer {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left;
+    background-size: cover; }
+  #SoftwareAssetHighlights div.linkBox .Signs {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left;
+    background-size: cover; }
+  #SoftwareAssetHighlights div.linkBox .Storm {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left;
+    background-size: cover; }
+  #SoftwareAssetHighlights div.linkBox .Water {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left;
+    background-size: cover; }
 
 /* Software General  */
 /* Software GIS */

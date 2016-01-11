@@ -83,14 +83,61 @@
 }
 
 
-#SoftwareAssetHighlights div.linkBox
+#SoftwareAssetHighlights
 {
-    border: none;
-    border-radius: 0;
-    background-color: white;
-}
+    div.linkBox
+    {
+        border: none;
+        border-radius: 0;
+        background-color: white;
+        margin-bottom: 40px;
 
-#SoftwareAssetHighlights div.linkBox h3
-{
-    color: $lucity-blue-green;
+        div
+        {
+            height: 280px;
+            margin: 0;
+            padding: 0;
+
+            h3
+            {
+                @include opacify(.8);
+                margin: 0;
+                padding: 10px 0 10px 0;
+                margin-top: 90px;
+                padding-bottom: 18px;
+                color: $lucity-blue-green;
+                background-color: #ffffff;
+                text-align: center;
+                font-size: 1.8em;
+            }
+
+            ul
+            {
+                @include opacify(.8);
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff;
+                height: 140px;
+            }
+
+            li
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                font-size: 1.1em;
+                color: $lucity-blue-grey;
+                font-weight: 600;
+            }
+        }
+
+        .Sewer { background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left; background-size: cover; }
+        .Signs { background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left; background-size: cover; }
+        .Storm { background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left; background-size: cover; }
+        .Water { background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left; background-size: cover; }
+
+        
+
+    }
 }
