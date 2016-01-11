@@ -716,6 +716,15 @@
     <Content Include="resources\img\Software\Assets\lucity_web_sm_signs.png" />
     <Content Include="resources\img\Software\Assets\lucity_web_sm_storm.png" />
     <Content Include="resources\img\Software\Assets\lucity_web_sm_water.png" />
+    <Content Include="resources\img\Software\General\bars.svg" />
+    <Content Include="resources\img\Software\General\check.svg" />
+    <Content Include="resources\img\Software\General\flags.svg" />
+    <Content Include="resources\img\Software\General\integration.svg" />
+    <Content Include="resources\img\Software\General\key.svg" />
+    <Content Include="resources\img\Software\General\merge.svg" />
+    <Content Include="resources\img\Software\General\report.svg" />
+    <Content Include="resources\img\Software\General\rocket.svg" />
+    <Content Include="resources\img\Software\General\wand.svg" />
     <Content Include="resources\img\Software\GISTower.png" />
     <Content Include="resources\img\Software\V_esriPartnerNet-gold_sRGB.png" />
     <Content Include="resources\img\Software\Work\Inventory.png" />
