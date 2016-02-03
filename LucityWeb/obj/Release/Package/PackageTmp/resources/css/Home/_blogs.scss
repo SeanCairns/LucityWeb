@@ -6,23 +6,33 @@
 
 #Blog
 {
-  h1, h2, h3, h4, h5, h6
+  background-color: $lucity-blue-grey;
+
+  h1
   {
     color: #eeeeee;
-    font-family: $lucity-font-body;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.025em;
-    text-transform: none !important;
   }
 
-  div, span, p, a, strong, ul, li, dl, dt, dd
+  div.entries
   {
-    color: #eeeeee;
-    font-family: $lucity-font-body;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: -0.025em;
+      h1, h2, h3, h4, h5, h6
+      {
+        color: #eeeeee;
+        font-family: $lucity-font-body;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.025em;
+        text-transform: none !important;
+      }
+
+      div, span, p, a, strong, ul, li, dl, dt, dd
+      {
+        color: #eeeeee;
+        font-family: $lucity-font-body;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: -0.025em;
+      }
   }
 }
 

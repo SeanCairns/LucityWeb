@@ -4,6 +4,8 @@
 
     <p>LucityAM offers preconfigured,fully attributed asset registries,with appropriate hierarchical relationships;and forms, ratings, and calculations based on industry standard condition assessment protocols. These solutions ease the burden of regulatory compliance reporting,and foster best management practices.</p>
 
+    <p>Phew! All that said, you manage a myriad of assetts, and LucityAM has a place for all of them.</p>
+
     <div class="row">
         <div class="Water col-sm-3 col-xs-4">
             <span>Water</span>
@@ -76,51 +78,49 @@
     <h1>Asset Highlights</h1>
 
     <div class="linkBox row">
-        <div id="Sewer" class="col-xs-12 col-sm-6">
+        <div class="Sewer col-xs-6 col-sm-3">
             <h3>Sewer</h3>
             <ul>
-                <li><a href="/Software/Sewer/NASSCO-PACP-MACP-LACP">NASSCO (PACP, MACP, LACP)</a></li>
-                <li><a href="/Software/Sewer/SSO-Reporting">SSO reporting</a></li>
-                <li><a href="/Software/Sewer/FOG-Programs">FOG programs</a></li>
-                <li><a href="/Software/Sewer/Industrial-Pretreatment">industrial pretreatment</a></li>
+                <li>NASSCO (PACP, MACP, LACP)</li>
+                <li>SSO reporting</li>
+                <li>FOG programs</li>
+                <li>industrial pretreatment</li>
             </ul>
         </div>
 
-        <div id="Storm" class="col-xs-12 col-sm-6">
-            <h3>Storm</h3>
-            <ul>
-                <li><a href="/Software/Storm/NASSCO-PACP-MACP">NASSCO (PACP, MACP)</a></li>
-                <li><a href="/Software/Storm/NPDES-Permits">NPDES permits</a></li>
-                <li><a href="/Software/Storm/Illicit-Discharges">illicit discharges</a></li>
-                <li><a href="/Software/Storm/BMPs">BMPs</a></li>
-            </ul>
-        </div>
-
-        <div id="Water" class="col-xs-12 col-sm-6">
-            <h3>Water</h3>
-            <ul>
-                <li><a href="/Software/Water/Hydrant-Flow-Testing">hydrant flow testing</a></li>
-                <li><a href="/Software/Water/Flushing">flushing</a></li>
-                <li><a href="/Software/Water/Backflow-Prevention">backflow prevention</a></li>
-            </ul>
-        </div>
-
-        <div id="Signs" class="col-xs-12 col-sm-6">
+        <div class="Signs col-xs-6 col-sm-3">
             <h3>Signs</h3>
             <ul>
-                <li><a href="/Software/Signs/MUTCD-Standards-And-Retroreflectivity">MUTCD standards and retroreflectivity</a></li>
+                <li>MUTCD standards and retroreflectivity</li>
             </ul>
         </div>
 
-    </div>
+        <div class="Storm col-xs-6 col-sm-3">
+            <h3>Storm</h3>
+            <ul>
+                <li>NASSCO (PACP, MACP)</li>
+                <li>NPDES permits</li>
+                <li>illicit discharges</li>
+                <li>BMPs</li>
+            </ul>
+        </div>
 
+        <div class="Water col-xs-6 col-sm-3">
+            <h3>Water</h3>
+            <ul>
+                <li>hydrant flow testing</li>
+                <li>flushing</li>
+                <li>backflow prevention</li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <div class="LearnMore container-fluid" ng-controller="youTubeVideoListCtrl">
     <h1>Learn More</h1>
 
     <ul class="row">
-        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Home'} )" class="col-md-3 col-sm-4 col-xs-6">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Home'} )" class="col-md-3 col-sm-6 col-xs-12">
             <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
                 <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
             </a>

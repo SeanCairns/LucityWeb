@@ -1,3 +1,6 @@
+//Prevents console log errors in IE when developer tools are not open
+if (!window.console) console = { log: function () { } };
+
 (function (Lucity, undefined)
 {
     /**
@@ -23,7 +26,8 @@
         "Testimonials": "resources/data/testimonials.json",
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
         "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
-        "YouTubeVideoList": "resources/data/LucityUTube.json"
+        "YouTubeVideoList": "resources/data/LucityUTube.json",
+        "Careers": "/resources/data/Careers.json"
     };
 
     //YouTube playlist feed:
@@ -106,8 +110,16 @@
                 templateUrl: Lucity.PartialsPath + '/Company/Management-Team.html',
                 caseInsensitiveMatch: true
             })
+            .when('/Company/Careers', {
+                templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
+                caseInsensitiveMatch: true
+            })
             .when('/Company/Careers/:career', {
                 templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Company/Events', {
+                templateUrl: Lucity.PartialsPath + '/Company/events.html',
                 caseInsensitiveMatch: true
             })
             .when('/Software', {
@@ -204,16 +216,25 @@
 
 
 (function (Controllers, undefined) {
-    Lucity.Modules.Lucity.controller("CareersCtrl", ['$scope', '$routeParams',
-        function ($scope, $routeParams) {
-            var emailLink = "mailto:jobs@lucity.com?subject=I'd like to be a " + $routeParams.career.split('-').join(' ') + " at Lucity!&amp;body=Here's why I'd be a great fit...";
-            $scope.career = $routeParams.career.split('-').join(' ');
-            $scope.careerPath = Lucity.PartialsPath + "/Company/Careers/" + $routeParams.career + ".html"
-            $scope.emailLink = encodeURI(emailLink);
+    Lucity.Modules.Lucity.controller("CareersCtrl", ['$scope', '$routeParams', 'genericGetService',
+        function ($scope, $routeParams, genericGetService) {
+
+            var emailLink = "mailto:jobs@lucity.com?subject=I'd like to work at Lucity!&amp;body=Here's why I'd be a great fit...";
+
+            var careerListPromise = genericGetService.getData(Lucity.Json.Careers);
+            careerListPromise.then(function (response) {
+                $scope.careerList = response.data.careers;
+                $scope.emailLink = encodeURI(emailLink);
+            });
+
+            if ($routeParams.career) {
+                emailLink = "mailto:jobs@lucity.com?subject=I'd like to be a " + $routeParams.career.split('-').join(' ') + " at Lucity!&amp;body=Here's why I'd be a great fit...";
+                $scope.career = $routeParams.career.split('-').join(' ');
+                $scope.careerPath = Lucity.PartialsPath + "/Company/Careers/" + $routeParams.career + ".html"
+                $scope.emailLink = encodeURI(emailLink);
+            }
         }]);
 }(Lucity.Controllers = Lucity.Controllers || {}));
-
-
 
 
 (function (Controllers, undefined)

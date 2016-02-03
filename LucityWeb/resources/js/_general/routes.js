@@ -18,8 +18,16 @@
                 templateUrl: Lucity.PartialsPath + '/Company/Management-Team.html',
                 caseInsensitiveMatch: true
             })
+            .when('/Company/Careers', {
+                templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
+                caseInsensitiveMatch: true
+            })
             .when('/Company/Careers/:career', {
                 templateUrl: Lucity.PartialsPath + '/Company/Careers/Careers.html',
+                caseInsensitiveMatch: true
+            })
+            .when('/Company/Events', {
+                templateUrl: Lucity.PartialsPath + '/Company/events.html',
                 caseInsensitiveMatch: true
             })
             .when('/Software', {

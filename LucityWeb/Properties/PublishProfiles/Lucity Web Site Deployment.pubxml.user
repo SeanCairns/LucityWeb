@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2015 17:00:59</publishTime>
     </File>
     <File Include="bin/LucityWeb.dll">
-      <publishTime>01/04/2016 19:58:05</publishTime>
+      <publishTime>01/10/2016 23:35:53</publishTime>
     </File>
     <File Include="bin/Microsoft.CSharp.dll">
       <publishTime>09/26/2012 03:16:08</publishTime>
@@ -121,7 +121,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 08:05:06</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>01/03/2016 21:32:39</publishTime>
+      <publishTime>01/09/2016 20:48:56</publishTime>
     </File>
     <File Include="lucity-deps.js">
       <publishTime>10/08/2015 09:13:42</publishTime>
@@ -130,7 +130,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2015 17:00:59</publishTime>
     </File>
     <File Include="lucity.js">
-      <publishTime>01/04/2016 18:38:51</publishTime>
+      <publishTime>01/10/2016 15:18:53</publishTime>
     </File>
     <File Include="Models/Calendar.json">
       <publishTime>11/23/2015 14:59:06</publishTime>
@@ -169,34 +169,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2015 22:11:31</publishTime>
     </File>
     <File Include="partials/Company/company.html">
-      <publishTime>11/29/2015 20:58:54</publishTime>
+      <publishTime>01/10/2016 15:28:38</publishTime>
     </File>
     <File Include="partials/Company/management-team.html">
-      <publishTime>11/28/2015 08:31:19</publishTime>
+      <publishTime>01/09/2016 16:16:41</publishTime>
     </File>
     <File Include="partials/home.html">
-      <publishTime>01/03/2016 17:47:46</publishTime>
+      <publishTime>01/09/2016 15:58:46</publishTime>
     </File>
     <File Include="partials/resources.html">
-      <publishTime>01/04/2016 19:41:10</publishTime>
+      <publishTime>01/10/2016 12:02:25</publishTime>
     </File>
     <File Include="partials/software.html">
       <publishTime>10/15/2015 14:53:08</publishTime>
     </File>
     <File Include="partials/Software/EAMS.html">
-      <publishTime>12/09/2015 14:55:55</publishTime>
+      <publishTime>01/10/2016 19:57:50</publishTime>
     </File>
     <File Include="partials/Software/general.html">
-      <publishTime>12/09/2015 11:33:20</publishTime>
+      <publishTime>01/10/2016 23:29:18</publishTime>
     </File>
     <File Include="partials/Software/GIS.html">
-      <publishTime>12/21/2015 19:48:10</publishTime>
+      <publishTime>01/09/2016 14:23:47</publishTime>
     </File>
     <File Include="partials/Software/MMS.html">
-      <publishTime>12/09/2015 09:43:13</publishTime>
+      <publishTime>01/09/2016 14:23:56</publishTime>
     </File>
     <File Include="partials/Software/software.html">
-      <publishTime>01/03/2016 10:13:26</publishTime>
+      <publishTime>01/09/2016 21:02:36</publishTime>
     </File>
     <File Include="partials/support.html">
       <publishTime>01/04/2016 19:36:04</publishTime>
@@ -205,7 +205,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2015 11:08:31</publishTime>
     </File>
     <File Include="resources/css/Home/_blogs.scss">
-      <publishTime>11/20/2015 09:10:07</publishTime>
+      <publishTime>01/09/2016 14:59:15</publishTime>
     </File>
     <File Include="resources/css/Home/_calendar.scss">
       <publishTime>12/28/2015 21:19:57</publishTime>
@@ -214,46 +214,46 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/10/2015 14:29:40</publishTime>
     </File>
     <File Include="resources/css/Home/_software.scss">
-      <publishTime>12/08/2015 14:22:09</publishTime>
+      <publishTime>01/09/2016 16:10:40</publishTime>
     </File>
     <File Include="resources/css/Home/_talkinghead.scss">
-      <publishTime>11/25/2015 08:20:37</publishTime>
+      <publishTime>01/09/2016 20:24:29</publishTime>
     </File>
     <File Include="resources/css/lucity.css">
-      <publishTime>01/04/2016 00:23:57</publishTime>
+      <publishTime>01/10/2016 23:33:08</publishTime>
     </File>
     <File Include="resources/css/lucity.css.map">
-      <publishTime>01/04/2016 00:23:58</publishTime>
+      <publishTime>01/10/2016 23:33:08</publishTime>
     </File>
     <File Include="resources/css/lucity.scss">
-      <publishTime>12/10/2015 14:29:52</publishTime>
+      <publishTime>01/09/2016 14:47:09</publishTime>
     </File>
     <File Include="resources/css/Software/_EAMS.scss">
-      <publishTime>12/10/2015 14:38:51</publishTime>
+      <publishTime>01/10/2016 19:59:33</publishTime>
     </File>
     <File Include="resources/css/Software/_general.scss">
-      <publishTime>12/10/2015 14:40:00</publishTime>
+      <publishTime>01/10/2016 23:33:05</publishTime>
     </File>
     <File Include="resources/css/Software/_GIS.scss">
       <publishTime>12/21/2015 20:47:51</publishTime>
     </File>
     <File Include="resources/css/Software/_MMS.scss">
-      <publishTime>12/17/2015 15:32:05</publishTime>
+      <publishTime>01/09/2016 21:10:33</publishTime>
     </File>
     <File Include="resources/css/Software/_software.scss">
       <publishTime>12/10/2015 14:38:00</publishTime>
     </File>
     <File Include="resources/css/Software/_softwareHome.scss">
-      <publishTime>01/03/2016 10:18:54</publishTime>
+      <publishTime>01/09/2016 21:04:41</publishTime>
     </File>
     <File Include="resources/css/_company.scss">
-      <publishTime>12/10/2015 14:40:08</publishTime>
+      <publishTime>01/10/2016 15:26:13</publishTime>
     </File>
     <File Include="resources/css/_constants.scss">
-      <publishTime>12/19/2015 10:11:37</publishTime>
+      <publishTime>01/10/2016 12:17:07</publishTime>
     </File>
     <File Include="resources/css/_global.scss">
-      <publishTime>01/03/2016 17:47:58</publishTime>
+      <publishTime>01/10/2016 14:52:45</publishTime>
     </File>
     <File Include="resources/css/_home.scss">
       <publishTime>11/24/2015 07:25:40</publishTime>
@@ -274,7 +274,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 09:11:58</publishTime>
     </File>
     <File Include="resources/css/_resources.scss">
-      <publishTime>01/04/2016 00:23:54</publishTime>
+      <publishTime>01/10/2016 12:02:27</publishTime>
     </File>
     <File Include="resources/css/_software.scss">
       <publishTime>11/24/2015 07:26:33</publishTime>
@@ -301,7 +301,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/26/2015 08:01:44</publishTime>
     </File>
     <File Include="resources/data/testimonials.json">
-      <publishTime>01/03/2016 17:44:43</publishTime>
+      <publishTime>01/10/2016 12:02:43</publishTime>
     </File>
     <File Include="resources/data/YouTubePlayListMockup.json">
       <publishTime>11/28/2015 09:55:31</publishTime>
@@ -2568,6 +2568,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="resources/img/colorbar.svg">
       <publishTime>11/17/2015 09:01:59</publishTime>
     </File>
+    <File Include="resources/img/Company/icons/clipboard.svg">
+      <publishTime>01/10/2016 13:21:02</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/globe.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/head.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/movie.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/news.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/phone.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/shoes.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/star.svg">
+      <publishTime>01/10/2016 13:29:31</publishTime>
+    </File>
+    <File Include="resources/img/Company/icons/walker.svg">
+      <publishTime>01/10/2016 13:21:42</publishTime>
+    </File>
     <File Include="resources/img/EAMSIcons/bracketleftblue.svg">
       <publishTime>12/04/2015 08:26:15</publishTime>
     </File>
@@ -2697,11 +2724,53 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="resources/img/LucityLogo.svg">
       <publishTime>08/19/2015 09:06:07</publishTime>
     </File>
+    <File Include="resources/img/MiniLucityPlusOrange.png">
+      <publishTime>01/10/2016 23:26:41</publishTime>
+    </File>
     <File Include="resources/img/quotebox.svg">
-      <publishTime>11/24/2015 14:38:54</publishTime>
+      <publishTime>01/09/2016 15:25:49</publishTime>
     </File>
     <File Include="resources/img/quote_ImgID1.png">
       <publishTime>11/29/2015 08:25:45</publishTime>
+    </File>
+    <File Include="resources/img/Software/Assets/lucity_web_sm_sewer.png">
+      <publishTime>01/10/2016 19:01:02</publishTime>
+    </File>
+    <File Include="resources/img/Software/Assets/lucity_web_sm_signs.png">
+      <publishTime>01/10/2016 19:01:02</publishTime>
+    </File>
+    <File Include="resources/img/Software/Assets/lucity_web_sm_storm.png">
+      <publishTime>01/10/2016 19:01:02</publishTime>
+    </File>
+    <File Include="resources/img/Software/Assets/lucity_web_sm_water.png">
+      <publishTime>01/10/2016 19:01:02</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/bars.svg">
+      <publishTime>01/10/2016 21:25:56</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/check.svg">
+      <publishTime>01/10/2016 21:25:56</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/flags.svg">
+      <publishTime>01/10/2016 21:25:56</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/integration.svg">
+      <publishTime>01/10/2016 22:32:48</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/key.svg">
+      <publishTime>01/10/2016 21:25:56</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/merge.svg">
+      <publishTime>01/10/2016 22:33:29</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/report.svg">
+      <publishTime>01/10/2016 22:34:27</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/rocket.svg">
+      <publishTime>01/10/2016 21:25:56</publishTime>
+    </File>
+    <File Include="resources/img/Software/General/wand.svg">
+      <publishTime>01/10/2016 21:25:56</publishTime>
     </File>
     <File Include="resources/img/Software/GISTower.png">
       <publishTime>12/21/2015 20:42:53</publishTime>
@@ -2770,10 +2839,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/25/2015 22:26:05</publishTime>
     </File>
     <File Include="resources/js/controllers/company.controller.js">
-      <publishTime>01/03/2016 11:35:58</publishTime>
+      <publishTime>01/10/2016 15:18:53</publishTime>
     </File>
     <File Include="resources/js/controllers/resourcesSearch.controller.js">
-      <publishTime>01/04/2016 18:29:22</publishTime>
+      <publishTime>01/10/2016 12:12:15</publishTime>
     </File>
     <File Include="resources/js/controllers/support.controller.js">
       <publishTime>01/04/2016 18:38:49</publishTime>
@@ -2827,7 +2896,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/07/2015 20:24:37</publishTime>
     </File>
     <File Include="resources/js/_general/routes.js">
-      <publishTime>01/03/2016 23:52:09</publishTime>
+      <publishTime>01/09/2016 14:35:34</publishTime>
     </File>
     <File Include="testback.html">
       <publishTime>10/15/2015 10:48:16</publishTime>

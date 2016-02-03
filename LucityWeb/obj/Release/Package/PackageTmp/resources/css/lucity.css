@@ -41,6 +41,16 @@ body {
   padding-top: 50px;
   min-width: 640px; }
 
+#primaryNav {
+  width: 100%; }
+
+#primaryNav:after {
+  display: block;
+  content: "";
+  padding-top: 11px;
+  border-top: 1px solid #99cc33;
+  background: url(/resources/img/colorbar.svg) repeat-x; }
+
 nav.navbar {
   font-size: 1.1em; }
 
@@ -49,7 +59,7 @@ nav.navbar {
   body {
     font-size: 150%;
     line-height: 1.4;
-    padding-top: 90px; }
+    padding-top: 140px; }
 
   nav.navbar {
     font-size: 1em; } }
@@ -86,6 +96,19 @@ nav.navbar {
 @media only screen and (max-device-width: 736px) {
   body {
     min-width: 0; } }
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%; }
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+
 @media (min-width: 768px) {
   .navbar .navbar-header a.logo {
     height: 90px;
@@ -98,8 +121,7 @@ nav.navbar {
   .navbar-default .navbar-nav > li > a:hover {
     background-color: #cccccc; } }
 .navbar {
-  background-color: #ffffff;
-  border-bottom: 4px solid #99cc33; }
+  background-color: #ffffff; }
 
 .navbar .container {
   border-bottom: 1px solid #99cc33;
@@ -130,12 +152,13 @@ html.no-smil .navbar-fixed-top {
   background-color: #99cc33;
   padding-top: 6px;
   padding-bottom: 6px;
-  border-bottom: 1px solid white; }
+  border-top: 4px solid #99cc33;
+  border-bottom: 1px solid #ffffff; }
 
 #Footer {
   padding-top: 11px;
   border-top: 1px solid #99cc33;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
   #Footer .FollowUs, #Footer .MeetUs {
     border: 16px solid white;
     line-height: 1.6;
@@ -246,18 +269,13 @@ html.no-smil .navbar-fixed-top {
 
 /*_home.scss*/
 /*_talkinghead.scss*/
-#Testimonials {
-  padding-top: 20px;
-  border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
-
 #Testimonials blockquote {
   border: none;
   margin-bottom: 0;
   background: url(../img/quotebox.svg) no-repeat bottom left;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.1em;
   font-weight: 400; }
 
 #Testimonials blockquote p {
@@ -353,21 +371,25 @@ html.no-smil .navbar-fixed-top {
 #Blog {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
 
-#Blog h1, #Blog h2, #Blog h3, #Blog h4, #Blog h5, #Blog h6 {
-  color: #eeeeee;
-  font-family: "Josefin Sans", serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: -0.025em;
-  text-transform: none !important; }
-#Blog div, #Blog span, #Blog p, #Blog a, #Blog strong, #Blog ul, #Blog li, #Blog dl, #Blog dt, #Blog dd {
-  color: #eeeeee;
-  font-family: "Josefin Sans", serif;
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: -0.025em; }
+#Blog {
+  background-color: #4f5c73; }
+  #Blog h1 {
+    color: #eeeeee; }
+  #Blog div.entries h1, #Blog div.entries h2, #Blog div.entries h3, #Blog div.entries h4, #Blog div.entries h5, #Blog div.entries h6 {
+    color: #eeeeee;
+    font-family: "Josefin Sans", serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    text-transform: none !important; }
+  #Blog div.entries div, #Blog div.entries span, #Blog div.entries p, #Blog div.entries a, #Blog div.entries strong, #Blog div.entries ul, #Blog div.entries li, #Blog div.entries dl, #Blog div.entries dt, #Blog div.entries dd {
+    color: #eeeeee;
+    font-family: "Josefin Sans", serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.025em; }
 
 #Blog a {
   color: white;
@@ -454,7 +476,7 @@ html.no-smil .navbar-fixed-top {
 #Software {
   padding-top: 20px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
 
 #Software div.EAMS {
   background-color: #99cc33;
@@ -548,12 +570,14 @@ html.no-smil .navbar-fixed-top {
   text-align: center;
   list-style-type: none;
   -webkit-padding-start: 0px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0; }
 
 #Calendar {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
 
 #Calendar #Events {
   padding-top: 20px;
@@ -669,81 +693,16 @@ html.no-smil .navbar-fixed-top {
   color: white; }
 
 /*_company.scss*/
-#EverythingYouNeedToKnow p {
-  padding: 0 10% 0 10%;
-  font-weight: 600;
-  font-size: 2em;
-  text-align: center;
-  color: #4f5c73; }
-
-#EverythingYouNeedToKnow p.findOut {
-  font-size: 2.8em; }
-
-#EverythingYouNeedToKnow h2 {
-  padding: 0 10% 0 10%;
-  font-weight: 400;
-  font-size: 2.8em;
-  text-align: center;
-  color: #ff9933; }
-
-.linkBox {
-  position: relative;
-  background-color: #ff9933;
-  border-radius: 40px;
-  margin: 28px 40px 28px 40px; }
-
-.linkBox h3 {
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 2.8em;
-  text-align: center; }
-
-.linkBox h3:before {
-  content: "{";
-  padding-right: 16px; }
-
-.linkBox h3:after {
-  content: "}";
-  padding-left: 16px; }
-
-.linkBox h3:before,
-.linkBox h3:after {
-  font-family: "Josefin Sans", serif;
-  font-weight: 400;
-  font-size: 1.8em; }
-
-@media only screen and (max-device-width: 400px) {
-  .linkBox {
-    border-radius: 40px;
-    margin: 28px 4px 28px 4px; }
-
-  .linkBox h3:before {
-    padding-right: 6px; }
-
-  .linkBox h3:after {
-    padding-left: 6px; } }
-.linkBox ul {
-  padding: 0 0 0 0; }
-
-.linkBox ul li {
-  list-style-type: none;
-  text-align: center;
-  font-size: 1.4em;
-  color: #4f5c73;
-  padding-bottom: 16px; }
-
-.thumbs {
+#OurTeam .thumbs {
   text-align: center;
   margin-bottom: 16px; }
-
-.thumbs a {
+#OurTeam .thumbs a {
   display: inline-block;
   position: relative;
   padding: 8px 16px 8px 4px;
   margin: 10px;
   width: 166px; }
-
-.thumbs figure img {
+#OurTeam .thumbs figure img {
   display: inline-block;
   position: relative;
   background-size: cover;
@@ -754,8 +713,7 @@ html.no-smil .navbar-fixed-top {
   opacity: 0.5;
   filter: alpha(opacity=50);
   /* For IE8 and earlier */ }
-
-.thumbs figure figcaption {
+#OurTeam .thumbs figure figcaption {
   display: inline-block;
   position: absolute;
   top: 124px;
@@ -769,13 +727,11 @@ html.no-smil .navbar-fixed-top {
   text-align: left;
   padding: 2px 0 0 14px;
   z-index: 2; }
-
-.selected figure img {
+#OurTeam .selected figure img {
   opacity: 1;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */ }
-
-.thumbs span {
+#OurTeam .thumbs span {
   display: inline-block;
   position: relative;
   width: 140px;
@@ -783,6 +739,89 @@ html.no-smil .navbar-fixed-top {
   height: 16px;
   padding-top: 0;
   margin-top: 22px; }
+
+#GetToKnowUs h1 {
+  text-align: center;
+  padding-bottom: 40px; }
+#GetToKnowUs div.row div:nth-child(1),
+#GetToKnowUs div.row div:nth-child(5) {
+  background-color: #ff9933; }
+#GetToKnowUs div.row div:nth-child(2),
+#GetToKnowUs div.row div:nth-child(6) {
+  background-color: #99cc33; }
+#GetToKnowUs div.row div:nth-child(3),
+#GetToKnowUs div.row div:nth-child(7) {
+  background-color: #137866; }
+#GetToKnowUs div.row div:nth-child(4),
+#GetToKnowUs div.row div:nth-child(8) {
+  background-color: #78A22D; }
+#GetToKnowUs div.row div {
+  background-color: #99cc33;
+  color: white;
+  border-left: 1em solid white;
+  border-right: 1em solid white;
+  border-bottom: 1em solid white;
+  height: 11em;
+  line-height: 1.2;
+  margin-bottom: 60px; }
+#GetToKnowUs div.row div a {
+  display: block;
+  margin-top: -50px;
+  height: 100px; }
+#GetToKnowUs div.row div a img {
+  display: block;
+  height: 100%;
+  width: 100%; }
+#GetToKnowUs div.row {
+  margin-top: 50px;
+  text-align: center; }
+#GetToKnowUs div.row div a h3 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 1.3em;
+  opacity: 0.85;
+  padding-top: 10px; }
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 480px) {
+  #GetToKnowUs div.row div {
+    border-left: 4em solid white;
+    border-right: 4em solid white; } }
+@media only screen and (min-width: 768px) {
+  #GetToKnowUs div.row div:nth-child(1),
+  #GetToKnowUs div.row div:nth-child(5) {
+    border-left: 0; }
+
+  #GetToKnowUs div.row div:nth-child(4),
+  #GetToKnowUs div.row div:nth-child(8) {
+    border-right: 0; } }
+#CompanyWhyLucity {
+  position: relative; }
+  #CompanyWhyLucity div {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 20px; }
+    #CompanyWhyLucity div h2 {
+      color: #ffffff;
+      font-size: 2.4em;
+      padding-bottom: 0; }
+    #CompanyWhyLucity div p {
+      color: #4f5c73;
+      font-size: 1.6em;
+      line-height: 1.2;
+      padding-top: 0; }
+
+#TakeALookAtLucity p {
+  color: #4f5c73;
+  font-size: 1.4em; }
 
 /* Software */
 /* Software Home */
@@ -848,6 +887,8 @@ html.no-smil .navbar-fixed-top {
     color: #ffffff;
     font-size: 2em;
     margin-top: 0; }
+  #SoftwareHome #SoftwareList h2 a {
+    color: #ffffff; }
   #SoftwareHome #SoftwareList ul li {
     list-style-type: none;
     color: #ffffff;
@@ -910,7 +951,8 @@ html.no-smil .navbar-fixed-top {
     z-index: 2;
     margin: 0;
     padding: 0;
-    margin-top: 330px;
+    margin-top: 0px;
+    margin-left: 20px;
     font-size: 280%;
     font-weight: 400;
     text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
@@ -919,6 +961,7 @@ html.no-smil .navbar-fixed-top {
     z-index: 2;
     margin: 0;
     padding: 0;
+    margin-left: 20px;
     text-transform: lowercase;
     font-size: 190%;
     font-weight: 600;
@@ -939,10 +982,10 @@ html.no-smil .navbar-fixed-top {
 #SoftwareEAMS {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   background-color: #99cc33; }
   #SoftwareEAMS p {
-    padding: 0 40px 40px 40px;
+    padding: 0 40px 20px 40px;
     font-size: 1.3em;
     font-weight: 600;
     color: #4f5c73; }
@@ -1032,12 +1075,146 @@ html.no-smil .navbar-fixed-top {
 #SoftwareAssetHighlights div.linkBox {
   border: none;
   border-radius: 0;
-  background-color: white; }
-
-#SoftwareAssetHighlights div.linkBox h3 {
-  color: #137866; }
+  background-color: white;
+  margin-bottom: 40px; }
+  #SoftwareAssetHighlights div.linkBox div {
+    height: 280px;
+    margin: 0;
+    padding: 0; }
+    #SoftwareAssetHighlights div.linkBox div h3 {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+      /* For IE8 and earlier */
+      margin: 0;
+      padding: 10px 0 10px 0;
+      margin-top: 90px;
+      padding-bottom: 18px;
+      color: #137866;
+      background-color: #ffffff;
+      text-align: center;
+      font-size: 1.8em; }
+    #SoftwareAssetHighlights div.linkBox div ul {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+      /* For IE8 and earlier */
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      height: 140px; }
+    #SoftwareAssetHighlights div.linkBox div li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 1.1em;
+      color: #4f5c73;
+      font-weight: 600; }
+  #SoftwareAssetHighlights div.linkBox .Sewer {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left;
+    background-size: cover; }
+  #SoftwareAssetHighlights div.linkBox .Signs {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left;
+    background-size: cover; }
+  #SoftwareAssetHighlights div.linkBox .Storm {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left;
+    background-size: cover; }
+  #SoftwareAssetHighlights div.linkBox .Water {
+    background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left;
+    background-size: cover; }
 
 /* Software General  */
+#SoftwareGeneral div.SoftwareSpecifics {
+  margin-bottom: 40px; }
+  #SoftwareGeneral div.SoftwareSpecifics div {
+    height: 180px; }
+    #SoftwareGeneral div.SoftwareSpecifics div h4 {
+      margin-top: 120px;
+      text-align: center; }
+  #SoftwareGeneral div.SoftwareSpecifics div.Turnkey {
+    background: url(/resources/img/Software/General/key.svg) no-repeat center 20px;
+    background-size: 70px 70px; }
+  #SoftwareGeneral div.SoftwareSpecifics div.Configurable {
+    background: url(/resources/img/Software/General/wand.svg) no-repeat center 20px;
+    background-size: 70px 70px; }
+  #SoftwareGeneral div.SoftwareSpecifics div.Value {
+    background: url(/resources/img/Software/General/flags.svg) no-repeat center 20px;
+    background-size: 70px 70px; }
+  #SoftwareGeneral div.SoftwareSpecifics div.Flexible {
+    background: url(/resources/img/Software/General/bars.svg) no-repeat center 20px;
+    background-size: 70px 70px; }
+  #SoftwareGeneral div.SoftwareSpecifics div.Robust {
+    background: url(/resources/img/Software/General/rocket.svg) no-repeat center 20px;
+    background-size: 70px 70px; }
+#SoftwareGeneral div.SoftwareOther {
+  padding-top: 20px;
+  border-top: 1px solid white;
+  background: url(/resources/img/colorbar.svg) repeat-x;
+  background-color: #99cc33; }
+  #SoftwareGeneral div.SoftwareOther ul.Details {
+    display: table;
+    padding: 40px 0 40px 80px; }
+    #SoftwareGeneral div.SoftwareOther ul.Details li {
+      display: table-row;
+      list-style-type: none;
+      height: 100px;
+      padding: 14px 10px 14px 0px; }
+      #SoftwareGeneral div.SoftwareOther ul.Details li span {
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 80px;
+        color: #ffffff;
+        font-size: 1.4em; }
+    #SoftwareGeneral div.SoftwareOther ul.Details li.Integration {
+      background: url(/resources/img/Software/General/integration.svg) no-repeat center left;
+      background-size: 60px 60px; }
+    #SoftwareGeneral div.SoftwareOther ul.Details li.Interfaces {
+      background: url(/resources/img/Software/General/merge.svg) no-repeat center left;
+      background-size: 60px 60px; }
+    #SoftwareGeneral div.SoftwareOther ul.Details li.Reporting {
+      background: url(/resources/img/Software/General/report.svg) no-repeat center left;
+      background-size: 60px 60px; }
+  #SoftwareGeneral div.SoftwareOther .ESRI span {
+    display: block;
+    position: relative; }
+  #SoftwareGeneral div.SoftwareOther .ESRI span:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 60px;
+    height: 90px;
+    background: white url("/resources/img/Software/V_esriPartnerNet-gold_sRGB.png") no-repeat top center;
+    background-size: contain;
+    border: 4px solid #78A22D;
+    border-radius: 100px; }
+  #SoftwareGeneral div.SoftwareOther div.MoreDetails div {
+    background-color: #ffffff;
+    margin: 10px 30px;
+    border: 3px solid #ff9933;
+    padding-bottom: 30px; }
+    #SoftwareGeneral div.SoftwareOther div.MoreDetails div h4 {
+      padding-top: 30px;
+      color: #ff9933;
+      font-size: 1.8em;
+      text-align: center; }
+    #SoftwareGeneral div.SoftwareOther div.MoreDetails div p {
+      text-align: center; }
+      #SoftwareGeneral div.SoftwareOther div.MoreDetails div p span {
+        font-size: 1.2em;
+        color: #137866;
+        padding-left: 12px;
+        background: url(/resources/img/MiniLucityPlusOrange.png) no-repeat center left; }
+      #SoftwareGeneral div.SoftwareOther div.MoreDetails div p span:first-child {
+        padding-left: 0;
+        background: none; }
+  #SoftwareGeneral div.SoftwareOther div.MoreDetails p.Requirements {
+    margin-left: 30px;
+    padding: 50px 50px 50px 108px;
+    color: #4f5c73;
+    font-size: 1.2em;
+    background: url(/resources/img/Software/General/check.svg) no-repeat center left;
+    background-size: 100px 100px; }
+
 /* Software GIS */
 #SoftwareGIS p.configure,
 #SoftwareGIS p.attributes,
@@ -1134,9 +1311,11 @@ html.no-smil .navbar-fixed-top {
 #SoftwareMMS {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   text-align: center;
   margin-bottom: 40px; }
+  #SoftwareMMS h1 {
+    text-align: left; }
   #SoftwareMMS p {
     padding: 0 40px 40px 40px;
     font-size: 1.4em;
@@ -1261,7 +1440,7 @@ html.no-smil .navbar-fixed-top {
 #ResourceDemonstrations {
   padding-top: 20px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   background-color: #ff9933;
   position: relative; }
   #ResourceDemonstrations p {
@@ -1308,15 +1487,21 @@ html.no-smil .navbar-fixed-top {
 #ResourceTestimonials {
   padding-top: 20px;
   border-top: 1px solid white;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
   background-color: #4f5c73;
   padding-bottom: 16px; }
 
 #ResourceTestimonials h1,
 #ResourceTestimonials p,
 #ResourceTestimonials li,
-#ResourceTestimonials li h2 {
-  color: #ffffff; }
+#ResourceTestimonials li h2,
+#ResourceTestimonials a,
+#ResourceTestimonials q {
+  color: #ffffff;
+  text-decoration: none; }
+
+#ResourceTestimonials a h2:hover {
+  text-decoration: underline; }
 
 #ResourceTestimonials p {
   font-size: 1.3em;

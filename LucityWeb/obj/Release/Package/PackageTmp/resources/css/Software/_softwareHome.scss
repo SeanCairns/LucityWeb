@@ -87,6 +87,11 @@
             margin-top: 0;
         }
 
+        h2 a
+        {
+            color: $lucity-font-color-inverse;
+        }
+
         ul li 
         {
             list-style-type: none;
@@ -175,7 +180,8 @@
             z-index: 2;
             margin: 0;
             padding: 0;
-            margin-top: 330px;
+            margin-top: 0px;
+            margin-left: 20px;
             font-size: 280%;
             font-weight: 400;
             text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff
@@ -186,6 +192,7 @@
             z-index: 2;
             margin: 0;
             padding: 0;
+            margin-left: 20px;
             text-transform: lowercase;
             font-size: 190%;
             font-weight: 600;

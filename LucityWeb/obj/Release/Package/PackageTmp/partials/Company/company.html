@@ -1,33 +1,72 @@
 <div id="OurTeam" class="container-fluid"  ng-controller="CompanyCtrl">
-    <h1>Everything you need to know about Lucity</h1>
+    <h1>Take a Look at Lucity</h1>
 
-    <div id="EverythingYouNeedToKnow">
-        <p>There's so much we would love to share with you...our awesome workplace environment (think fully-stocked kitchen), our management team's philosophy, the 'clients first' attitude we've lways fostered, and the just plain awesome folks we hire.</p>
-        <p class="findOut">But wouldn't you rather find out for yourself?</p>
-        <p>We invite you to get to know us.</p>
-        <p>Give us a call, stop by our booth, come to a user group meeting, or attend our Annual Conference & Training (ACT).</p>
+    <div id="TakeALookAtLucity" class="row">
+        <div class="col-sm-8 col-xs-12">
+            <div id="CompanyWhyLucity" class="aspect-ratio" ng-mouseover="showVideo = true">
+                <iframe width="831" height="480" src="https://www.youtube.com/embed/Ra0MQ6EOTYM" frameborder="0" allowfullscreen></iframe>
+                <div ng-hide="showVideo">
+                    <h2>Why Lucity?</h2>
+                    <p>Let our users and<br />partners tell you.</p>
+                </div>
+            </div>
+        </div>
+        <p class="col-sm-4 col-xs-612">There's so much we would love to share with you...our awesome workplace environment (think fully-stocked kitchen), our management team's philosophy, the 'clients first' attitude we've always fostered, and the just plain awesome folks we hire.</p>
     </div>
 
-    <h2>But since you're here...</h2>
+    <div id="GetToKnowUs" class="container-fluid">
+        <h1>We invite you to get to know us.</h1>
 
-    <div class="linkBox row">
-        <div id="OurTeam" class="col-xs-12 col-sm-6">
-            <h3>Our Team</h3>
-            <ul>
-                <li><a href="/Company/Management-Team">Management Team</a></li>
-                <li><a href="/Company/Staff-Spotlights">Staff Spotlights</a></li>
-            </ul>
-        </div>
-
-        <div id="JobListings" class="col-xs-12 col-sm-6">
-            <h3>Job Listings</h3>
-            <ul>
-                <li><a href="/Company/Careers/Implementation-Specialist">Implementation Specialist</a></li>
-                <li><a href="/Company/Careers/Southeast-Regional-Sales-Representative">Southeast Regional Sales Representative</a></li>
-                <li><a href="/Company/Careers/Web-Developer">Web Developer</a></li>
-            </ul>
+        <div class="row">
+            <div class="col-sm-3 col-xs-6">
+                <a href="">
+                    <img src="/resources/img/Company/icons/phone.svg">
+                    <h3>Give us a call<br />800-492-2468</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="">
+                    <img src="/resources/img/Company/icons/shoes.svg">
+                    <h3>Stop by our booth at a conference</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="/Company/Management-Team">
+                    <img src="/resources/img/Company/icons/head.svg">
+                    <h3>Learn about our management team</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="mailto: info@lucity.com?subject='I would like to connect with a lucity user near me''">
+                    <img src="/resources/img/Company/icons/globe.svg">
+                    <h3>Connect with a Lucity user near you</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="http://blog.lucity.com">
+                    <img src="/resources/img/Company/icons/news.svg">
+                    <h3>Take a look at the Lucity blog</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="http://blog.lucity.com/category/staff-spotlight/">
+                    <img src="/resources/img/Company/icons/star.svg">
+                    <h3>Read the Lucity staff spotlights</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="">
+                    <img src="/resources/img/Company/icons/walker.svg">
+                    <h3>Join us at a user group event</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="">
+                    <img src="/resources/img/Company/icons/clipboard.svg">
+                    <h3>Browse our job openings</h3>
+                </a>
+            </div>
         </div>
     </div>
-
     
 </div>

@@ -39,6 +39,7 @@
         <div class="col-xs-12 col-sm-6">
             <h1>Demonstrations</h1>
             <p>Our YouTube channel is quickly becoming a fantastic training and support resource for our users. You'll find everything from step-by-step instructional videos to office tours to best practices information.</p>
+            <p>We've created a few playlists to get you started...</p>
         </div>
         <div class="col-xs-12 col-sm-6">
             <ul>
@@ -64,8 +65,14 @@
         <div class="col-xs-12 col-sm-6">
             <ul>
                 <li ng-repeat="testimonial in filteredTestimonials = ( testimonials | filter:{keywords: 'resourcesPage'} )" ng-if="$index < 4">
-                    <h2>{{testimonial.cite.organization}}</h2>
-                    <q>{{testimonial.quote}}</q>
+                    <a href="{{testimonial.caseStudyLink}}" target="_blank" ng-show="testimonial.caseStudyLink">
+                        <h2>{{testimonial.cite.organization}}</h2>
+                        <q>{{testimonial.quote}}</q>
+                    </a>
+                    <div ng-hide="testimonial.caseStudyLink">
+                        <h2>{{testimonial.cite.organization}}</h2>
+                        <q>{{testimonial.quote}}</q>
+                    </div>
                 </li>
             </ul>
         </div>

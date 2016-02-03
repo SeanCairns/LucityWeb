@@ -179,9 +179,17 @@
 #ResourceTestimonials h1,
 #ResourceTestimonials p,
 #ResourceTestimonials li,
-#ResourceTestimonials li h2
+#ResourceTestimonials li h2,
+#ResourceTestimonials a,
+#ResourceTestimonials q
 {
     color: $lucity-font-color-inverse;
+    text-decoration: none;
+}
+
+#ResourceTestimonials a h2:hover
+{
+    text-decoration: underline;
 }
 
 #ResourceTestimonials p

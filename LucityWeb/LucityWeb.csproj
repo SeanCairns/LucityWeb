@@ -1074,6 +1074,10 @@
     <Content Include="resources\css\Software\_general.scss" />
     <Content Include="resources\css\Software\_MMS.scss" />
     <Content Include="resources\css\Software\_EAMS.scss" />
+    <Content Include="resources\Testimonials\ChandlerAZ.pdf" />
+    <Content Include="resources\Testimonials\ColumbusOH.pdf" />
+    <Content Include="resources\Testimonials\Fontana.pdf" />
+    <Content Include="resources\Testimonials\SanMarcosCA.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

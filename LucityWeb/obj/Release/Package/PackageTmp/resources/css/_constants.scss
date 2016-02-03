@@ -12,7 +12,7 @@ $lucity-font-color-inverse: #ffffff;
 $lucity-font-color-dark: #666666;
 $lucity-font-header-color: $lucity-blue-grey;
 
-$large-screen-menu-height: 90px;
+$large-screen-menu-height: 140px;
 $small-screen-menu-height: 50px;
 
 $lucity-font-menu: 'Josefin Sans', serif;
@@ -22,7 +22,7 @@ $lucity-font-header: 'Montserrat Alternates', sans-serif;
 @mixin colorbar ($height, $topBorderWeight, $topBorderColor) {
   padding-top: $height;
   border-top: $topBorderWeight solid $topBorderColor;
-  background: url(../img/colorbar.svg) repeat-x;
+  background: url(/resources/img/colorbar.svg) repeat-x;
 }
 
 @mixin opacify($amount) {

@@ -1,3 +1,6 @@
+//Prevents console log errors in IE when developer tools are not open
+if (!window.console) console = { log: function () { } };
+
 (function (Lucity, undefined)
 {
     /**
@@ -23,7 +26,8 @@
         "Testimonials": "resources/data/testimonials.json",
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
         "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
-        "YouTubeVideoList": "resources/data/LucityUTube.json"
+        "YouTubeVideoList": "resources/data/LucityUTube.json",
+        "Careers": "/resources/data/Careers.json"
     };
 
     //YouTube playlist feed:

@@ -1,1 +1,124 @@
 ﻿/* Software General  */
+
+#SoftwareGeneral
+{
+    div.SoftwareSpecifics
+    {
+        margin-bottom: 40px;
+        div
+        {
+            height: 180px;
+
+            h4
+            {
+                margin-top: 120px;
+                text-align: center;
+            }
+        }
+        div.Turnkey { background: url(/resources/img/Software/General/key.svg) no-repeat center 20px; background-size: 70px 70px; }
+        div.Configurable { background: url(/resources/img/Software/General/wand.svg) no-repeat center 20px; background-size: 70px 70px; }
+        div.Value { background: url(/resources/img/Software/General/flags.svg) no-repeat center 20px; background-size: 70px 70px; }
+        div.Flexible { background: url(/resources/img/Software/General/bars.svg) no-repeat center 20px; background-size: 70px 70px; }
+        div.Robust { background: url(/resources/img/Software/General/rocket.svg) no-repeat center 20px; background-size: 70px 70px; }
+    }
+
+    div.SoftwareOther
+    {
+        @include colorbar(20px, 1px, white);
+        background-color: $lucity-green;
+
+        ul.Details
+        {
+            display: table;
+            padding: 40px 0 40px 80px;
+
+            li
+            {
+                display: table-row;
+                list-style-type: none;
+                height: 100px;
+                padding: 14px 10px 14px 0px;
+
+                span
+                {
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding-left: 80px;
+                    color: $lucity-font-color-inverse;
+                    font-size: 1.4em;
+                }
+            }
+
+            li.Integration { background: url(/resources/img/Software/General/integration.svg) no-repeat center left; background-size: 60px 60px; }
+            li.Interfaces { background: url(/resources/img/Software/General/merge.svg) no-repeat center left; background-size: 60px 60px; }
+            li.Reporting { background: url(/resources/img/Software/General/report.svg) no-repeat center left; background-size: 60px 60px; }
+        }    
+
+        .ESRI span
+        {
+            display: block;
+            position: relative;
+        }
+
+        .ESRI span:after
+        {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            width: 60px;
+            height: 90px;
+            background: white url('/resources/img/Software/V_esriPartnerNet-gold_sRGB.png') no-repeat top center;
+            background-size: contain;
+            border: 4px solid $lucity-dark-green;
+            border-radius: 100px;
+        }
+
+        div.MoreDetails
+        {
+            div
+            {
+                background-color: #ffffff;
+                margin: 10px 30px;
+                border: 3px solid $lucity-orange;
+                padding-bottom: 30px;
+
+                h4
+                {
+                    padding-top: 30px;
+                    color: $lucity-orange;
+                    font-size: 1.8em;
+                    text-align: center;
+                }
+
+                p
+                {
+                    text-align: center;
+
+                    span
+                    {
+                        font-size: 1.2em;
+                        color: $lucity-blue-green;
+                        padding-left: 12px;
+                        background: url(/resources/img/MiniLucityPlusOrange.png) no-repeat center left;
+                    }
+                    span:first-child
+                    {
+                        padding-left: 0;
+                        background: none;
+                    }
+                }
+            }
+
+            p.Requirements
+            {
+                margin-left: 30px;
+                padding: 50px 50px 50px 108px;
+                color: $lucity-blue-grey;
+                font-size: 1.2em;
+                background: url(/resources/img/Software/General/check.svg) no-repeat center left;
+                background-size: 100px 100px;
+            }
+        }
+    }
+}

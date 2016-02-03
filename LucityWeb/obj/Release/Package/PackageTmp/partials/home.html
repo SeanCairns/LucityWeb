@@ -64,7 +64,8 @@
 </div>
 
 <div id="Blog" class="container-fluid" ng-controller="BlogsCtrl">
-    <div class="row" ng-if="blog.entries.length > 0">
+    <h1>From the Lucity Blog</h1>
+    <div class="row entries" ng-if="blog.entries.length > 0">
         <div ng-repeat="entry in blog.entries" ng-if="$index == 0" class="col-sm-6 col-xs-12 firstEntry">
             <h2 ng-bind-html="entry.title"></h2>
             <div class="date">{{entry.publishedDate | split:' ':2}} {{entry.publishedDate | split:' ':1}}, {{entry.publishedDate | split:' ':3}}</div>
@@ -87,6 +88,7 @@
 </div>
 
 <ul id="Calendar" class="container-fluid" ng-controller="CalendarCtrl">
+    <h1>Upcoming Events</h1>
     <div class="row">
         <div id="Events" class="col-sm-6 col-xs-12">
             <ul>

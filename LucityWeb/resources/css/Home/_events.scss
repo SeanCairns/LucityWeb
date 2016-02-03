@@ -1,0 +1,91 @@
+﻿#EventsPage
+{
+    margin-bottom: 30px;
+
+    #Events div.date { background-color: $lucity-orange; }
+    #UserGroups div.date { background-color: $lucity-blue-green; }
+    #Training div.date { background-color: $lucity-dark-green; }
+    ul
+    {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 17px;
+
+        li
+        {
+            margin: 6px 0;
+            padding: 0;
+
+            div.event
+            {
+                display: block;
+                height: 85px;
+                margin: 0;
+                padding: 0;
+                border: 1px solid $lucity-grey;
+                background-color: $lucity-light-grey;
+
+                div.date
+                {
+                    display: inline-block;
+                    float: left;
+                    height: 83px;
+                    width: 83px;
+                    margin: 0 6px 0 0;
+                    padding: 6px;
+                    text-align: center;
+                    padding: 12px 0 0 0;
+
+                    span {
+                        color: $lucity-font-color-inverse;
+                        display: block;
+                        margin: 0 0 0 0;
+                        padding: 0 0 0 0;
+                    }
+
+                    span.month {
+                        font-size: 1.2em;
+                    }
+
+                    span.days {
+                        font-size: 1.4em;
+                    }
+                }
+
+                div.title
+                {
+                    margin-top: 16px;
+                    font-size: .9em;
+                    color: $lucity-blue-grey;
+                    font-weight: 700;
+                }
+                div.location
+                {
+                    font-size: .9em;
+                    color: $lucity-blue-grey;
+                }
+
+            }
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+{
+    #EventsPage ul li div.event
+    {
+        margin: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+{
+    #EventsPage ul li div.event
+    {
+        margin: 0 16px 0 0;
+    }
+}
+
