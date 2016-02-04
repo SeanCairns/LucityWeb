@@ -26,47 +26,62 @@
 
     .thumbs
     {
-      text-align: center;
-      margin-bottom: 16px;
-    }
+        text-align: center;
+        margin-bottom: 16px;
 
-    .thumbs a
-    {
-      display: inline-block;
-      position: relative;
-      padding: 8px 16px 8px 4px;
-      margin: 10px;
-      width: 166px;
-    }
+        a
+        {
+          display: inline-block;
+          position: relative;
+          padding: 8px 16px 8px 4px;
+          margin: 10px;
+          width: 166px;
+        }
 
-    .thumbs figure img
-    {
-      display: inline-block;
-      position: relative;
-      background-size: cover;
-      width: 120px;
-      height: 120px;
-      border: 1px solid #444444;
-      border-radius: 3px;
-      @include opacify(.5);
-    }
+        figure img
+        {
+          display: inline-block;
+          position: relative;
+          background-size: cover;
+          width: 120px;
+          height: 120px;
+          border: 1px solid #444444;
+          border-radius: 3px;
+          @include opacify(.5);
+        }
 
-    .thumbs figure figcaption
-    {
-      display: inline-block;
-      position: absolute;
-      top: 124px;
-      left: 0px;
-      width: 146px;
-      height: 24px;
-      background-color: $lucity-green;
-      color: $lucity-grey;
-      font-weight: 600;
-      font-size: 16px;
-      text-align: left;
-      padding: 2px 0 0 14px;
-      z-index: 2;
+        figure figcaption
+        {
+          display: inline-block;
+          position: absolute;
+          top: 124px;
+          left: 0px;
+          width: 146px;
+          height: 24px;
+          background-color: $lucity-green;
+          color: $lucity-grey;
+          font-weight: 600;
+          font-size: 16px;
+          text-align: left;
+          padding: 2px 0 0 14px;
+          z-index: 2;
+        }
 
+        a:hover figure img
+        {
+          @include opacify(1);
+        }
+
+        span
+        {
+          display: inline-block;
+          position: relative;
+          width: 140px;
+          font-size: 10px;
+          height: 16px;
+          padding-top: 0;
+          margin-top: 22px;
+        }
     }
 
     .selected figure img
@@ -74,16 +89,6 @@
       @include opacify(1);
     }
 
-    .thumbs span
-    {
-      display: inline-block;
-      position: relative;
-      width: 140px;
-      font-size: 10px;
-      height: 16px;
-      padding-top: 0;
-      margin-top: 22px;
-    }
 }
 
 
