@@ -3,37 +3,35 @@
 @import '_blogs';
 @import '_software';
 @import '_calendar';
+@import '_events';
 
-#WeHearYou {
-  background: $lucity-orange url(../img/Ear.png) no-repeat top left;
-  background-size: contain;
-}
-
-#WeHearYou .jumbotron {
-  border-radius: 0;
-  background-color: transparent;
-  padding-left: 50%;
-}
-
-#WeHearYou .jumbotron
+#WeHearYou
 {
-  font-weight: 300;
-  color: #ffffff;
-}
+    background: $lucity-orange url(../img/Ear.png) no-repeat top left;
+    background-size: contain;
 
-#WeHearYou .jumbotron h1
-{
-  font-size: 2em;
-}
+    .jumbotron
+    {
+        border-radius: 0;
+        background-color: transparent;
+        padding-left: 50%;
+        font-weight: 300;
+        color: #ffffff;
 
-#WeHearYou .jumbotron p
-{
-  font-size: 1.6em;
-  color: #ffffff;
-}
+        h1
+        {
+          font-size: 2em;
+        }
 
-#WeHearYou .jumbotron a
-{
-  color: white;
-}
+        p
+        {
+          font-size: 1.6em;
+          color: #ffffff;
+        }
 
+        a
+        {
+          color: white;
+        }
+    }
+}

@@ -92,7 +92,7 @@
     <div class="row">
         <div id="Events" class="col-sm-6 col-xs-12">
             <ul>
-                <li ng-repeat="event in calendar.events">
+                <li ng-repeat="event in calendar.events" ng-if="$index < 4">
                     <div class="date">
                         <span class="month">{{event.month}}</span>
                         <span class="days">{{event.days}}</span>
@@ -104,7 +104,7 @@
         </div>
         <div id="Training" class="col-sm-6 col-xs-12">
             <ul class="row">
-                <li ng-repeat="class in calendar.training" class="col-sm-6 col-xs-12">
+                <li ng-repeat="class in calendar.training" class="col-sm-6 col-xs-12" ng-if="$index < 6">
                     <span class="title">{{class.title}}</span><br />
                     <span class="date">{{class.month}} {{class.days}}</span>
                 </li>

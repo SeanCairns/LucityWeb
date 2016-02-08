@@ -1,0 +1,50 @@
+﻿<div id="EventsPage" class="container-fluid" ng-controller="CalendarCtrl">
+    <h1>Upcoming Events</h1>
+    <div class="row">
+        <div id="Events" class="col-md-4 col-sm-12">
+            <h3>Industry Events</h3>
+            <ul class="row">
+                <li ng-repeat="event in calendar.events" class="col-md-12 col-sm-6">
+                    <div class="event">
+                        <div class="date">
+                            <span class="month">{{event.month}}</span>
+                            <span class="days">{{event.days}}</span>
+                        </div>
+                        <div class="title">{{event.title}}</div>
+                        <div class="location">{{event.location}}</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="UserGroups" class="col-md-4 col-sm-12">
+            <h3>Lucity User Groups</h3>
+            <ul class="row">
+                <li ng-repeat="event in calendar.userGroups" class="col-md-12 col-sm-6">
+                    <div class="event">
+                        <div class="date">
+                            <span class="month">{{event.month}}</span>
+                            <span class="days">{{event.days}}</span>
+                        </div>
+                        <div class="title">{{event.title}}</div>
+                        <div class="location">{{event.location}}</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="Training" class="col-md-4 col-sm-12">
+            <h3>Lucity Training</h3>
+            <ul class="row">
+                <li ng-repeat="event in calendar.training" class="col-md-12 col-sm-6">
+                    <div class="event">
+                        <div class="date">
+                            <span class="month">{{event.month}}</span>
+                            <span class="days">{{event.days}}</span>
+                        </div>
+                        <div class="title">{{event.title}}</div>
+                        <div class="location">{{event.location}}</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,3 +1,6 @@
+//Prevents console log errors in IE when developer tools are not open
+if (!window.console) console = { log: function () { } };
+
 (function (Lucity, undefined)
 {
     /**
@@ -23,7 +26,8 @@
         "Testimonials": "resources/data/testimonials.json",
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
         "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
-        "YouTubeVideoList": "resources/data/LucityUTube.json"
+        "YouTubeVideoList": "resources/data/LucityUTube.json",
+        "Careers": "/resources/data/Careers.json"
     };
 
     //YouTube playlist feed:
@@ -48,9 +52,23 @@
 
 
 (function (Configs, undefined) {
+    console.log("config sce delegate");
     Lucity.Modules.Lucity.config(['$sceDelegateProvider', function ($sceDelegateProvider) {
         $sceDelegateProvider.resourceUrlWhitelist([
           'self',
           'http://*.lucity.com/**']);
     }]);
 }(Lucity.Configs = Lucity.Configs || {}));
+
+(function (Configs, undefined) {
+    console.log("config route change");
+    Lucity.Modules.Lucity.run(function ($rootScope, $location) {
+        $rootScope.$on("$routeChangeSuccess", function () {
+            console.log("route change");
+            window.scrollTo(0, 0);
+        });
+    });
+}(Lucity.Configs = Lucity.Configs || {}));
+
+
+

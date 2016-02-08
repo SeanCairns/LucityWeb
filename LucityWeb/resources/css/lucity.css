@@ -845,7 +845,9 @@ html.no-smil .navbar-fixed-top {
     height: 100%;
     text-align: right;
     padding-top: 10%;
-    padding-right: 20px; }
+    padding-right: 20px;
+    background: url(/resources/img/Company/icons/movie.svg) no-repeat 97% 95%;
+    background-size: 80px 80px; }
     #CompanyWhyLucity div h2 {
       color: #ffffff;
       font-size: 2.4em;

@@ -1,6 +1,6 @@
 <div id="OurTeam" class="container-fluid"  ng-controller="CompanyCtrl">
     <div class="row">
-        <div class="col-md-5 pull-right-md memberThumbs">
+        <div class="col-md-5 pull-right-md col-sm-12 col-xs-12 memberThumbs">
             <h3>Lucity's Leadership</h3>
             <div class="thumbs">
                 <a href="/Company/Management-Team/{{member.restName}}" ng-repeat="member in team.members" class="{{member.selected == true ? ' selected' : '' }}">
@@ -8,18 +8,20 @@
                         <img ng-src="{{member.thumbnail}}" alt="{{member.name}}" />
                         <figcaption>{{member.name}}</figcaption>
                     </figure>
-                    <span>
-                        {{member.title}}<br />
+                    <div class="title">
+                        {{member.title}}
+                    </div>
+                    <div class="email">
                         {{member.email}}
-                    </span>
+                    </div>
                 </a>
             </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 col-sm-12 col-xs-12">
             <div ng-repeat="member in selectedMember = (team.members | filter:{'selected' : true})">
                 <h1>{{member.name}}</h1>
                 <h2>{{member.title}}</h2>
-                <div><a href="mailto:{{member.email}}">{{member.email}}</a></div>
+                <div class="email"><a href="mailto:{{member.email}}">{{member.email}}</a></div>
                 <p ng-bind-html="member.bio"></p>
                 <div ng-repeat="question in member.questions">
                     <h3>{{question.q}}</h3>
@@ -27,7 +29,7 @@
                 </div>
             </div>
             <div ng-hide="selectedMember.length">
-               <h1>Nice to Meet You...</h1>
+                <h1>Nice to Meet You...</h1>
                 <p>Since the 1980s, Lucity has built what you need. In fact, more than 80 percent of our development inspiration comes from our client family. Today, we are a robust software system that provides a broad scope of applications for asset management and maintenance. We deliver software and services, but our real job is making your life easier.</p>
                 <p>We do that by listening to what you really want, by developing creative solutions instead of fitting your problem in a box. We don't require our clients to compromise. We love nothing more than to listen, collaborate and deliver innovative results that are perfectly  tailored to you. The success of your agency along with your friendship is our highest reward.</p>
                 <h1>Who We Are</h1>

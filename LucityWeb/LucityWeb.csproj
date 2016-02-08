@@ -159,6 +159,7 @@
     <Content Include="partials\Company\Careers\Implementation-Specialist.html" />
     <Content Include="partials\Company\Careers\Southeast-Regional-Sales-Representative.html" />
     <Content Include="partials\Company\Careers\Web-Developer.html" />
+    <Content Include="partials\Company\events.html" />
     <Content Include="partials\Company\management-team.html" />
     <Content Include="partials\Company\company.html" />
     <Content Include="partials\home.html" />
@@ -1078,6 +1079,8 @@
     <Content Include="resources\Testimonials\ColumbusOH.pdf" />
     <Content Include="resources\Testimonials\Fontana.pdf" />
     <Content Include="resources\Testimonials\SanMarcosCA.pdf" />
+    <Content Include="resources\data\Careers.json" />
+    <Content Include="resources\css\Home\_events.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

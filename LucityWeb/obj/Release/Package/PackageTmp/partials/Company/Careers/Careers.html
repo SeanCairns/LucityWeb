@@ -1,13 +1,24 @@
 ﻿<div ng-controller="CareersCtrl" class="container-fluid">
-    <h1>Careers: {{career}}</h1>
+    <h1>Careers at Lucity</h1>
 
     <p>
-        We've worked hard to build a team that fully embraces the idea that the right combination of working hard and playing hard will produce the best results.
+        We've worked hard to build a team that fully embraces the idea that the right combination
+        of working hard and playing hard will produce the best results.
     </p>
 
-    <p>
-        Interested in joining the Lucity team? We're currently looking to fill the following position. If it sounds like a great fit for you, send your resume to <a href="{{emailLink}}">jobs@lucity.com</a>. Thanks!
+    <p ng-show="filteredCareerList.length > 0">
+        Interested in joining the Lucity team? We're currently looking to fill the following position.
+        If it sounds like a great fit for you, send your resume to <a href="{{emailLink}}">jobs@lucity.com</a>. Thanks!
     </p>
+
+    <p ng-show="filteredCareerList.length == 0">
+        No positions available...
+    </p>
+
+    <ul>
+        <li ng-repeat="career in filteredCareerList = ( careerList | filter:{active:true} )"><a href="/Company/Careers/{{career.jobDetailsFileName}}">{{career.title}}</a></li>
+    </ul>
 
     <div ng-include="careerPath"></div>
+
 </div>
