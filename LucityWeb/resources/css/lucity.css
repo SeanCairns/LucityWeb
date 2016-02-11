@@ -682,7 +682,7 @@ html.no-smil .navbar-fixed-top {
       padding: 0; }
       #EventsPage ul li div.event {
         display: block;
-        height: 85px;
+        height: 95px;
         margin: 0;
         padding: 0;
         border: 1px solid #666666;
@@ -690,12 +690,12 @@ html.no-smil .navbar-fixed-top {
         #EventsPage ul li div.event div.date {
           display: inline-block;
           float: left;
-          height: 83px;
-          width: 83px;
+          height: 93px;
+          width: 93px;
           margin: 0 6px 0 0;
           padding: 6px;
           text-align: center;
-          padding: 12px 0 0 0; }
+          padding: 17px 0 0 0; }
           #EventsPage ul li div.event div.date span {
             color: #ffffff;
             display: block;
@@ -706,7 +706,7 @@ html.no-smil .navbar-fixed-top {
           #EventsPage ul li div.event div.date span.days {
             font-size: 1.4em; }
         #EventsPage ul li div.event div.title {
-          margin-top: 16px;
+          margin-top: 4px;
           font-size: .9em;
           color: #4f5c73;
           font-weight: 700; }
