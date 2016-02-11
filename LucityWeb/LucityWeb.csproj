@@ -720,6 +720,7 @@
     <Content Include="resources\img\Software\Assets\lucity_web_sm_water.png" />
     <Content Include="resources\img\Software\General\bars.svg" />
     <Content Include="resources\img\Software\General\check.svg" />
+    <Content Include="resources\img\Software\General\DellLogo.svg" />
     <Content Include="resources\img\Software\General\flags.svg" />
     <Content Include="resources\img\Software\General\integration.svg" />
     <Content Include="resources\img\Software\General\key.svg" />

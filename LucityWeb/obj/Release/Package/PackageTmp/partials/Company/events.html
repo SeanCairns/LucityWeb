@@ -10,7 +10,8 @@
                             <span class="month">{{event.month}}</span>
                             <span class="days">{{event.days}}</span>
                         </div>
-                        <div class="title">{{event.title}}</div>
+                        <div class="title" ng-show="event.linkToMoreInfo"><a href="{{event.linkToMoreInfo}}" target="_blank">{{event.title}}</a></div>
+                        <div class="title" ng-show="!event.linkToMoreInfo">{{event.title}}</div>
                         <div class="location">{{event.location}}</div>
                     </div>
                 </li>
@@ -25,7 +26,8 @@
                             <span class="month">{{event.month}}</span>
                             <span class="days">{{event.days}}</span>
                         </div>
-                        <div class="title">{{event.title}}</div>
+                        <div class="title" ng-show="event.linkToMoreInfo"><a href="{{event.linkToMoreInfo}}" target="_blank">{{event.title}}</a></div>
+                        <div class="title" ng-show="!event.linkToMoreInfo">{{event.title}}</div>
                         <div class="location">{{event.location}}</div>
                     </div>
                 </li>
@@ -40,7 +42,8 @@
                             <span class="month">{{event.month}}</span>
                             <span class="days">{{event.days}}</span>
                         </div>
-                        <div class="title">{{event.title}}</div>
+                        <div class="title" ng-show="event.linkToMoreInfo"><a href="{{event.linkToMoreInfo}}" target="_blank">{{event.title}}</a></div>
+                        <div class="title" ng-show="!event.linkToMoreInfo">{{event.title}}</div>
                         <div class="location">{{event.location}}</div>
                     </div>
                 </li>

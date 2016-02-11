@@ -1212,6 +1212,9 @@ html.no-smil .navbar-fixed-top {
     #SoftwareGeneral div.SoftwareOther ul.Details li.Reporting {
       background: url(/resources/img/Software/General/report.svg) no-repeat center left;
       background-size: 60px 60px; }
+    #SoftwareGeneral div.SoftwareOther ul.Details li.Dell {
+      background: url(/resources/img/Software/General/DellLogo.svg) no-repeat center left;
+      background-size: 60px 60px; }
   #SoftwareGeneral div.SoftwareOther .ESRI span {
     display: block;
     position: relative; }

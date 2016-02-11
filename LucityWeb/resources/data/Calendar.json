@@ -1,141 +1,30 @@
-﻿{
-    "events": [
-        {
-            "title": "Esri Water Conference",
-            "location": "Austin, Texas",
-            "month": "Feb",
-            "days": "9-11",
-            "linkToMoreInfo": "www.esri.com"
-        },
-        {
-            "title": "Esri Partner Confrence",
-            "location": "Palm Springs, California",
-            "month": "Mar",
-            "days": "5-7",
-            "linkToMoreInfo": "www.esri.com"
-        },
-        {
-            "title": "APWA Florida Public Works Expo",
-            "location": "Tampa, Florida",
-            "month": "Apr",
-            "days": "18-22",
-            "linkToMoreInfo": "www.apwa.com"
-        },
-        {
-            "title": "WEF Collections Systems Conference",
-            "location": "Atlanta, Georgia",
-            "month": "May",
-            "days": "2-3",
-            "linkToMoreInfo": "www.lucity.com"
-        }
-    ],
-    "training": [
-        {
-            "title": "Moving to Lucity Web",
-            "location": "Lucity HQ in Overland Park, KS",
-            "month": "January",
-            "days": "26-28",
-            "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-moving-to-lucity-web/"
-        },
-        {
-            "title": "Lucity + Crystal Reports > Beginner",
-            "location": "Lucity HQ in Overland Park, KS",
-            "month": "April",
-            "days": "4-5",
-            "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-lucity-crystal-reports/"
-        },
-        {
-            "title": "Moving to Lucity Web",
-            "location": "Lucity HQ in Overland Park, KS",
-            "month": "April",
-            "days": "21-29",
-            "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-moving-to-lucity-web/"
-        },
-        {
-            "title": "Lucity + Crystal Reports > Advanced",
-            "location": "Lucity HQ in Overland Park, KS",
-            "month": "April",
-            "days": "6-7",
-            "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-lucity-crystal-reports/"
-        },
-        {
-            "title": "Moving to Lucity Web",
-            "location": "Lucity HQ in Overland Park, KS",
-            "month": "June",
-            "days": "7-9",
-            "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-moving-to-lucity-web/"
-        }
-    ],
-    "userGroups": [
-        {
-            "title": "Lucity Central Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity East Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity Midwest Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity Mountain Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity Northeast Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity Northwest Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity South Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity Southeast Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity West Region User Group Meeting",
-            "location": "",
-            "month": "Date",
-            "days": "TBD",
-            "linkToMoreInfo": "www.lucity.com"
-        },
-        {
-            "title": "Lucity Annual Conference & Training (ACT)",
-            "location": "Orlando, FL",
-            "month": "Sep",
-            "days": "11-14",
-            "linkToMoreInfo": "www.lucity.com"
-        }
-    ]
+﻿{ "events" : [
+{"title":"Esri Water Conference", "location": "Austin, Texas", "month": "Feb", "days": "9-11", "linkToMoreInfo": "http://www.esri.com/events/water"},
+{"title":"Esri Partner Conference", "location": "Palm Springs, California", "month": "Mar", "days": "5-7", "linkToMoreInfo": "http://www.esri.com/events/partner-conference"},
+{"title":"APWA Florida Public Works Expo", "location": "Tampa, Florida", "month": "Apr", "days": "18-22", "linkToMoreInfo": "https://paetampabay.eventsair.com/QuickEventWebsitePortal/apwa-2016-florida-public-works-expo/delegate-website"},
+{"title":"WEF Collection Systems Conference", "location": "Atlanta, Georgia", "month": "May", "days": "2-3", "linkToMoreInfo": "www.wef.org/Collection Systems"},
+{"title":"AWWA Annual Conference & Expo", "location": "Chicago, Illinois", "month": "Jun", "days": "19-22", "linkToMoreInfo": "http://www.awwa.org/conferences-education/conferences/annual-conference.aspx"},
+{"title":"Esri User Conference", "location": "San Diego, California", "month": "Jun/Jul", "days": "27-1", "linkToMoreInfo": "http://www.esri.com/events/user-conference"},
+{"title":"APWA Public Works Expo (PWX)", "location": "Minneapolis, Minnesota", "month": "Aug", "days": "28-31", "linkToMoreInfo": "http://apwa.net/PWX"},
+{"title":"WEFTEC", "location": "New Orleans, Lousiana", "month": "Sep", "days": "24-28", "linkToMoreInfo": "http://www.weftec.org"}
+],
+"userGroups" : [
+{"title":"Lucity's Central Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's East Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's Midwest Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's Mountain Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's Northeast Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's Northwest Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's South Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's Southeast Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's West Region User Group Meeting", "location": "To Be Determined", "month": "Date", "days": "TBD", "linkToMoreInfo": ""},
+{"title":"Lucity's Annual Conference & Training (ACT)", "location": "Orlando, Florida", "month": "Sep", "days": "11-14", "linkToMoreInfo": "http://act.lucity.com/"}
+],
+"training" : [
+{"title":"Moving to Lucity Web", "location": "Lucity HQ in Overland Park, Kansas", "month": "Jan", "days": "26-28", "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-moving-to-lucity-web/"},
+{"title":"Lucity + Crystal Reports > Beginner", "location": "Lucity HQ in Overland Park, Kansas", "month": "Apr", "days": "4-5", "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-lucity-crystal-reports/"},
+{"title":"Lucity + Crystal Reports > Advanced", "location": "Lucity HQ in Overland Park, Kansas", "month": "Apr", "days": "6-7", "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-lucity-crystal-reports/"},
+{"title":"Moving to Lucity Web", "location": "Lucity HQ in Overland Park, Kansas", "month": "Apr", "days": "19-21", "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-moving-to-lucity-web/"},
+{"title":"Moving to Lucity Web", "location": "Lucity HQ in Overland Park, Kansas", "month": "Jun", "days": "7-9", "linkToMoreInfo": "http://blog.lucity.com/2015/10/29/learning-with-lucity-moving-to-lucity-web/"}
+]
 }
