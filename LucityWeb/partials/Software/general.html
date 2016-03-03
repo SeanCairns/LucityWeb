@@ -64,5 +64,72 @@
         </div>
     </div>
 
+    <div id="Software" class="container-fluid">
+        <h1>Enterprise Asset Management Software</h1>
+        <div class="row">
+            <div class="EAMS assets col-xs-4">
+                <a href="/Software/Enterprise-Asset-Management-Software">
+                    <img src="resources/img/icons/assets.svg" alt="Assets">
+                    <h2>Assets</h2>
+                    <ul>
+                        <li>Attributes</li>
+                        <li>Inspection</li>
+                        <li>Testing</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="EAMS work col-xs-4">
+                <a href="/Software/Maintenance-Management-Software">
+                    <img src="resources/img/icons/work.svg" alt="Assets">
+                    <h2>Work</h2>
+                    <ul>
+                        <li>Work Orders</li>
+                        <li>Scheduling</li>
+                        <li>Inventory</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="EAMS gis col-xs-4">
+                <a href="/Software/Geographic-Information-System">
+                    <img src="resources/img/icons/gis.svg" alt="Assets">
+                    <h2>GIS</h2>
+                    <ul>
+                        <li>Desktop</li>
+                        <li>Web</li>
+                        <li>Mobile</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="WorkingAgencies" class="row">
+        <h2>Software Installations</h2>
+        <p>You can find us working with these agencies</p>
+        <iframe id="LucityClients" scrolling="no" marginheight="0" marginwidth="0" title="Lucity Clients" src="http://lucity.maps.arcgis.com/apps/Embed/index.html?webmap=6535b5a0c3bf4f9c9d519c732b769590&amp;home=false&amp;zoom=true&amp;scale=false&amp;search=false&amp;searchextent=true&amp;basemap_gallery=false&amp;disable_scroll=true&amp;theme=light"></iframe>
+    </div>
+
+    <div id="Inspiration" class="row">
+        <h2 class="col-xs-3">80%</h2>
+        <p class="col-xs-9">of our software's development inspiration comes from our clients' suggestions and requests.</p>
+    </div>
+
+    <div id="SoftwareWeHearYou">
+        <h2>We're listening</h2>
+        <p>So tell us what your ideal asset management solution is.</p>
+    </div>
 </div>
 
+<div class="LearnMore container-fluid" ng-controller="youTubeVideoListCtrl">
+    <h1>Learn More</h1>
+
+    <ul class="row">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Home'} )" class="col-md-3 col-sm-6 col-xs-12">
+            <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
+                <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
+            </a>
+            <span class="caption">{{video.Title}}</span>
+        </li>
+    </ul>
+
+</div>

@@ -30,6 +30,9 @@ h1 {
   h1 {
     margin-top: 10px;
     font-size: 3em; } }
+.noTextTransform {
+  text-transform: none !important; }
+
 body, p, span, div {
   font-family: "Josefin Sans", serif;
   color: #878e83; }
@@ -246,60 +249,39 @@ div.pageTitle {
 
   #Footer a {
     font-size: 1.3em; } }
-.LearnMore::before {
-  margin: 0 -15px;
-  display: block;
-  content: '';
-  height: 60px;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%, #4f5c73 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 );
-  /* IE6-9 */ }
-
 .LearnMore {
   background-color: #4f5c73; }
-
-.LearnMore h1 {
-  color: #ffffff; }
-
-.LearnMore ul li {
-  list-style-type: none;
-  margin-bottom: 20px; }
-
-.LearnMore ul li a {
-  position: relative;
-  display: block;
-  background-color: #99cc33;
-  border: 4px solid #99cc33;
-  height: 140px;
-  width: 200px;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
-
-.LearnMore ul li a img {
-  height: 132px;
-  width: 190px;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
-
-.LearnMore ul li span.caption {
-  display: block;
-  position: absolute;
-  top: 86px;
-  left: 0px;
-  width: 240px;
-  background-color: #99cc33;
-  font-size: 20px;
-  padding: 6px 0 2px 8px;
-  font-weight: 600;
-  color: #4f5c73;
-  border-right: 10px solid #4f5c73; }
+  .LearnMore h1 {
+    color: #ffffff; }
+  .LearnMore ul li {
+    list-style-type: none;
+    margin-bottom: 20px; }
+  .LearnMore ul li a {
+    position: relative;
+    display: block;
+    background-color: #99cc33;
+    border: 4px solid #99cc33;
+    height: 140px;
+    width: 200px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+  .LearnMore ul li a img {
+    height: 132px;
+    width: 190px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+  .LearnMore ul li span.caption {
+    display: block;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    width: 240px;
+    background-color: #99cc33;
+    font-size: 20px;
+    padding: 6px 0 2px 8px;
+    font-weight: 600;
+    color: #4f5c73;
+    border-right: 10px solid #4f5c73; }
 
 /*_home.scss*/
 /*_talkinghead.scss*/
@@ -938,36 +920,6 @@ div.pageTitle {
   content: "";
   margin: 18px 25% 0 25%;
   border-bottom: 3px solid #ff6600; }
-#SoftwareHome #Inspiration {
-  margin: 30px; }
-  #SoftwareHome #Inspiration h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 480%;
-    font-weight: 400;
-    color: #4f5c73;
-    text-align: right; }
-  #SoftwareHome #Inspiration p {
-    margin: 0;
-    padding: 0 0 0 16px;
-    font-size: 190%;
-    font-weight: 600;
-    color: #4f5c73; }
-#SoftwareHome #SoftwareWeHearYou {
-  padding-left: 14%; }
-  #SoftwareHome #SoftwareWeHearYou h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 300%;
-    font-weight: 400;
-    color: #ff9933; }
-  #SoftwareHome #SoftwareWeHearYou p {
-    margin: 0 0 20px 0;
-    padding: 0;
-    text-transform: lowercase;
-    font-size: 210%;
-    font-weight: 600;
-    color: #ff9933; }
 #SoftwareHome #SoftwareList {
   display: block;
   position: relative;
@@ -1039,61 +991,26 @@ div.pageTitle {
   background-size: contain;
   border: 4px solid #78A22D;
   border-radius: 100px; }
-#SoftwareHome #WorkingAgencies {
-  display: block;
-  position: relative;
-  height: 510px;
-  margin: 20px;
-  padding: 40px; }
-  #SoftwareHome #WorkingAgencies h2 {
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    margin-top: 0px;
-    margin-left: 20px;
-    font-size: 280%;
-    font-weight: 400;
-    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
-  #SoftwareHome #WorkingAgencies p {
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    margin-left: 20px;
-    text-transform: lowercase;
-    font-size: 190%;
-    font-weight: 600;
-    color: #4f5c73;
-    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
-  #SoftwareHome #WorkingAgencies #LucityClients {
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    border: 6px solid #99cc33;
-    border-radius: 60px; }
 
 /* Software EAMS */
 #SoftwareEAMS {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(/resources/img/colorbar.svg) repeat-x;
-  background-color: #99cc33; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
   #SoftwareEAMS p {
     padding: 0 40px 20px 40px;
     font-size: 1.3em;
     font-weight: 600;
     color: #4f5c73; }
-  #SoftwareEAMS div.row div {
+  #SoftwareEAMS div.assetTypes {
+    background-color: #99cc33;
+    padding-top: 40px; }
+  #SoftwareEAMS div.assetTypes div {
     position: relative;
     text-align: center;
     margin: 0 0 40px 0;
     padding: 0; }
-  #SoftwareEAMS div.row div span {
+  #SoftwareEAMS div.assetTypes div span {
     position: relative;
     display: block;
     padding: 100px 0 0 0;
@@ -1149,79 +1066,69 @@ div.pageTitle {
     background: url(/resources/img/EAMSIcons/plant.svg) no-repeat top center; }
 
 #SoftwareCommunity {
-  background-color: #4f5c73; }
+  padding-top: 11px;
+  border-top: 1px solid #99cc33;
+  background: url(/resources/img/colorbar.svg) repeat-x;
+  background-color: #4f5c73;
+  margin: 0 -15px; }
+  #SoftwareCommunity p {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #ffffff; }
+  #SoftwareCommunity h1 {
+    color: #ffffff; }
 
-#SoftwareCommunity p {
-  padding: 40px 40px 40px 40px;
-  font-size: 1.7em;
-  font-weight: 600;
-  color: #ffffff; }
-
-#SoftwareCommunity::after {
-  margin: 0 -15px;
-  display: block;
-  content: '';
-  height: 60px;
-  background: #4f5c73;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4f5c73 0%, #ffffff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 );
-  /* IE6-9 */ }
-
-#SoftwareAssetHighlights div.linkBox {
-  border: none;
-  border-radius: 0;
-  background-color: white;
-  margin-bottom: 40px; }
-  #SoftwareAssetHighlights div.linkBox div {
-    height: 280px;
-    margin: 0;
-    padding: 0; }
-    #SoftwareAssetHighlights div.linkBox div h3 {
-      opacity: 0.8;
-      filter: alpha(opacity=80);
-      /* For IE8 and earlier */
+#SoftwareAssetHighlights {
+  margin: 0 -15px; }
+  #SoftwareAssetHighlights div.linkBox {
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    margin-bottom: 0px; }
+    #SoftwareAssetHighlights div.linkBox div {
+      height: 280px;
       margin: 0;
-      padding: 10px 0 10px 0;
-      margin-top: 90px;
-      padding-bottom: 18px;
-      color: #137866;
-      background-color: #ffffff;
-      text-align: center;
-      font-size: 1.8em; }
-    #SoftwareAssetHighlights div.linkBox div ul {
-      opacity: 0.8;
-      filter: alpha(opacity=80);
-      /* For IE8 and earlier */
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      height: 140px; }
-    #SoftwareAssetHighlights div.linkBox div li {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      font-size: 1.1em;
-      color: #4f5c73;
-      font-weight: 600; }
-  #SoftwareAssetHighlights div.linkBox .Sewer {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left;
-    background-size: cover; }
-  #SoftwareAssetHighlights div.linkBox .Signs {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left;
-    background-size: cover; }
-  #SoftwareAssetHighlights div.linkBox .Storm {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left;
-    background-size: cover; }
-  #SoftwareAssetHighlights div.linkBox .Water {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left;
-    background-size: cover; }
+      padding: 0; }
+      #SoftwareAssetHighlights div.linkBox div h3 {
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        /* For IE8 and earlier */
+        margin: 0;
+        padding: 10px 0 10px 0;
+        margin-top: 80px;
+        padding-bottom: 18px;
+        color: #137866;
+        background-color: #ffffff;
+        text-align: center;
+        font-size: 1.8em; }
+      #SoftwareAssetHighlights div.linkBox div ul {
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        /* For IE8 and earlier */
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        height: 140px; }
+      #SoftwareAssetHighlights div.linkBox div li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 1.1em;
+        color: #4f5c73;
+        font-weight: 600; }
+    #SoftwareAssetHighlights div.linkBox .Sewer {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left;
+      background-size: cover; }
+    #SoftwareAssetHighlights div.linkBox .Signs {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left;
+      background-size: cover; }
+    #SoftwareAssetHighlights div.linkBox .Storm {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left;
+      background-size: cover; }
+    #SoftwareAssetHighlights div.linkBox .Water {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left;
+      background-size: cover; }
 
 /* Software General  */
 #SoftwareGeneral div.SoftwareSpecifics {
@@ -1319,6 +1226,73 @@ div.pageTitle {
     font-size: 1.2em;
     background: url(/resources/img/Software/General/check.svg) no-repeat center left;
     background-size: 100px 100px; }
+#SoftwareGeneral #Inspiration {
+  margin: 30px; }
+  #SoftwareGeneral #Inspiration h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 480%;
+    font-weight: 400;
+    color: #4f5c73;
+    text-align: right; }
+  #SoftwareGeneral #Inspiration p {
+    margin: 0;
+    padding: 0 0 0 16px;
+    font-size: 190%;
+    font-weight: 600;
+    color: #4f5c73; }
+#SoftwareGeneral #SoftwareWeHearYou {
+  padding-left: 14%; }
+  #SoftwareGeneral #SoftwareWeHearYou h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 300%;
+    font-weight: 400;
+    color: #ff9933; }
+  #SoftwareGeneral #SoftwareWeHearYou p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-transform: lowercase;
+    font-size: 210%;
+    font-weight: 600;
+    color: #ff9933; }
+#SoftwareGeneral #WorkingAgencies {
+  display: block;
+  position: relative;
+  height: 510px;
+  margin: 20px;
+  padding: 40px; }
+  #SoftwareGeneral #WorkingAgencies h2 {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 280%;
+    font-weight: 400;
+    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
+  #SoftwareGeneral #WorkingAgencies p {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    text-transform: lowercase;
+    font-size: 190%;
+    font-weight: 600;
+    color: #4f5c73;
+    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
+  #SoftwareGeneral #WorkingAgencies #LucityClients {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    border: 6px solid #99cc33;
+    border-radius: 60px; }
 
 /* Software GIS */
 #SoftwareGIS p.configure,

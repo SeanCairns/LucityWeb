@@ -123,4 +123,99 @@
             }
         }
     }
+
+    #Inspiration
+    {
+        margin: 30px;
+        
+        h2
+        {
+            margin: 0;
+            padding: 0;
+            font-size: 480%;
+            font-weight: 400;
+            color: $lucity-blue-grey;
+            text-align: right;
+        }
+
+        p
+        {
+            margin: 0;
+            padding: 0 0 0 16px;
+            font-size: 190%;
+            font-weight: 600;
+            color: $lucity-blue-grey;
+        }
+    }
+
+    #SoftwareWeHearYou
+    {
+        padding-left: 14%;
+
+        h2
+        {
+            margin: 0;
+            padding: 0;
+            font-size: 300%;
+            font-weight: 400;
+            color: $lucity-orange;
+        }
+        p
+        {
+            margin: 0 0 20px 0;
+            padding: 0;
+            text-transform: lowercase;
+            font-size: 210%;
+            font-weight: 600;
+            color: $lucity-orange;
+        }
+    }
+
+    #WorkingAgencies
+    {
+        display: block;
+        position: relative;
+        height: 510px;
+        margin: 20px;
+        padding: 40px;
+
+        h2
+        {
+            position: relative;
+            z-index: 2;
+            margin: 0;
+            padding: 0;
+            margin-top: 0px;
+            margin-left: 20px;
+            font-size: 280%;
+            font-weight: 400;
+            text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff
+        }
+        p
+        {
+            position: relative;
+            z-index: 2;
+            margin: 0;
+            padding: 0;
+            margin-left: 20px;
+            text-transform: lowercase;
+            font-size: 190%;
+            font-weight: 600;
+            color: $lucity-blue-grey;
+            text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff
+        }
+
+        #LucityClients
+        {
+            display: block;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 500px;
+            border: 6px solid $lucity-green;
+            border-radius: 60px;
+        }
+    }
 }

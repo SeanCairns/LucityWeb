@@ -1,25 +1,25 @@
 ﻿{
     "Videos": [
         {
-            "Categories": [ "Learn-More-Home", "Learn-More-GIS" ],
+            "Categories": [ "Learn-More-Home"],
             "Title": "Plant Maintenance",
             "URL": "https://www.youtube.com/watch?v=I5fwO2KtUKs",
             "ImgUrl": "https://i.ytimg.com/vi/I5fwO2KtUKs/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Home", "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-Home"],
             "Title": "Fats, Oils and Grease",
             "URL": "https://www.youtube.com/watch?v=DuJbm97ccrc",
             "ImgUrl": "https://i.ytimg.com/vi/DuJbm97ccrc/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Home", "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-Home"],
             "Title": "Storm BMP",
             "URL": "https://www.youtube.com/watch?v=I5u-7MLZVjY",
             "ImgUrl": "https://i.ytimg.com/vi/I5u-7MLZVjY/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Home", "Learn-More-Maintenance", "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-Home", "Learn-More-Maintenance" ],
             "Title": "Materials Requisition",
             "URL": "https://www.youtube.com/watch?v=I5u-7MLZVjY",
             "ImgUrl": "https://i.ytimg.com/vi/I5u-7MLZVjY/mqdefault.jpg"
@@ -29,6 +29,30 @@
             "Title": "Work Date Options",
             "URL": "https://www.youtube.com/watch?v=axso0lcAxa4",
             "ImgUrl": "https://i.ytimg.com/vi_webp/axso0lcAxa4/mqdefault.webp"
+        },
+        {
+            "Categories": [ "Learn-More-GIS"  ],
+            "Title": "GIS Web Map",
+            "URL": "https://www.youtube.com/watch?v=lkfIekiqCqI",
+            "ImgUrl": "http://img.youtube.com/vi/Lt3d0udvtnA/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-GIS"  ],
+            "Title": "GIS Desktop Analyst",
+            "URL": "https://www.youtube.com/watch?v=Lt3d0udvtnA",
+            "ImgUrl": "http://img.youtube.com/vi/Lt3d0udvtnA/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-GIS"  ],
+            "Title": "GIS Desktop Editor",
+            "URL": "https://www.youtube.com/watch?v=Q7H9zr95rIw",
+            "ImgUrl": "http://img.youtube.com/vi/Q7H9zr95rIw/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-GIS"  ],
+            "Title": "GIS Manager",
+            "URL": "https://www.youtube.com/watch?v=RnzTPqGp6uo",
+            "ImgUrl": "http://img.youtube.com/vi/RnzTPqGp6uo/mqdefault.jpg"
         }
     ]
 }
