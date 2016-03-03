@@ -2,6 +2,17 @@
 
 #Software {
   @include colorbar(20px, 1px, white);
+
+  h1:first-child
+  {
+      padding-bottom: 0;
+      margin-bottom: 0;
+  }
+  p
+  {
+      padding-bottom: 30px;
+      font-size: 1.4em;
+  }
 }
 
 #Software div.EAMS

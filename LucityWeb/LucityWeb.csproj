@@ -671,6 +671,7 @@
     <Content Include="resources\img\EAMSIcons\bracketleftblue.svg" />
     <Content Include="resources\img\EAMSIcons\bracketrightblue.svg" />
     <Content Include="resources\img\EAMSIcons\bridge.svg" />
+    <Content Include="resources\img\EAMSIcons\plant.svg" />
     <Content Include="resources\img\EAMSIcons\storm.svg" />
     <Content Include="resources\img\EAMSIcons\streetsandroads.svg" />
     <Content Include="resources\img\EAMSIcons\facilities.svg" />
@@ -710,6 +711,7 @@
     <Content Include="resources\img\icons\truck.svg" />
     <Content Include="resources\img\icons\water.svg" />
     <Content Include="resources\img\icons\work.svg" />
+    <Content Include="resources\img\LogoTag.svg" />
     <Content Include="resources\img\LucityLogo.svg" />
     <Content Include="resources\img\MiniLucityPlusOrange.png" />
     <Content Include="resources\img\quotebox.svg" />

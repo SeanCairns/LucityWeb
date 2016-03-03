@@ -8,6 +8,7 @@ $lucity-blue-green: #137866;
 $lucity-blue-grey: #4f5c73;
 $lucity-light-grey: #eeeeee;
 $lucity-grey: #666666;
+$lucity-orange-faded: #ffcc66;
 $lucity-font-color: #878e83;
 $lucity-font-color-inverse: #ffffff;
 $lucity-font-color-dark: #666666;
@@ -37,5 +38,17 @@ $lucity-font-header: 'Montserrat Alternates', sans-serif;
     background: -webkit-linear-gradient(top,  $topColor 0%, $bottomColor 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, $topColor 0%, $bottomColor 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin textGlow($color) {
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: $color;
+   -webkit-fill-color: $color;
+   text-shadow: 0px 0px 10px $color;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+
 }
 

@@ -149,26 +149,6 @@ nav.navbar
   left: 0; top: 0;
 }
 
-
-
-@media (min-width: 768px) {
-  .navbar .navbar-header a.logo {
-    height: 90px;
-    width: 200px;
-  }
-
-  .navbar #navbar {
-    padding-top: 40px;
-  }
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav>li>a:focus,
-  .navbar-default .navbar-nav>li>a:hover {
-    background-color: #cccccc;
-  }
-}
-
 .navbar {
   background-color: #ffffff;
 }
@@ -191,12 +171,66 @@ nav.navbar
 }
 
 .navbar-header a.logo {
-  height: 50px;
-  width: 100px;
-  margin-left: 10px;
-  background-size: 100% 100%;
-  background: url(../img/LucityLogo.svg) top left no-repeat;
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+    background-size: 100% 100%;
+    background: url(../img/LucityLogo.svg) top left no-repeat;
+        border: 1px solid red;
 }
+
+@media (min-width: 700px) {
+    .navbar .navbar-header a.logo {
+        height: 76px;
+        width: 210px;
+        background: url(../img/LogoTag.svg) top left no-repeat;
+    }
+
+    .navbar #navbar {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 905px) {
+  .navbar .navbar-header a.logo {
+    height: 86px;
+    width: 350px;
+    background: url(../img/LogoTag.svg) top left no-repeat;
+}
+
+  .navbar #navbar {
+    padding-top: 40px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav>li>a:focus,
+  .navbar-default .navbar-nav>li>a:hover {
+    background-color: #cccccc;
+  }
+}
+
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover
+{
+    background-color: transparent;
+}
+
+.dropdown-menu > li > a
+{
+    font-size: 16px;
+}
+
+.dropdown-menu > li > a:hover
+{
+    background-color: $lucity-orange;
+    background-image: none;
+}
+
+
 
 //Fixes an IE issue that left aligns the navbar
 html.no-smil .navbar-fixed-top
@@ -205,6 +239,16 @@ html.no-smil .navbar-fixed-top
     left: auto;
 }
 
+div.pageTitle
+{
+    color: #446644;
+    text-transform: lowercase;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: $lucity-font-body;
+    margin-top: -10px;
+    padding-left: 70px;
+}
 
 #MainSearch
 {
