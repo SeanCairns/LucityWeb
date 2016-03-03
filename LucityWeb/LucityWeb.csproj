@@ -712,6 +712,7 @@
     <Content Include="resources\img\icons\water.svg" />
     <Content Include="resources\img\icons\work.svg" />
     <Content Include="resources\img\LogoTag.svg" />
+    <Content Include="resources\img\LogoTagMobile.svg" />
     <Content Include="resources\img\LucityLogo.svg" />
     <Content Include="resources\img\MiniLucityPlusOrange.png" />
     <Content Include="resources\img\quotebox.svg" />

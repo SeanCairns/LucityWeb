@@ -130,27 +130,30 @@ nav.navbar {
   height: 50px;
   width: 200px;
   margin-left: 10px;
-  background-size: 100% 100%;
-  background: url(../img/LucityLogo.svg) top left no-repeat;
-  border: 1px solid red; }
+  background-size: 100% 100%; }
 
 @media (min-width: 700px) {
   .navbar .navbar-header a.logo {
-    height: 76px;
-    width: 210px;
-    background: url(../img/LogoTag.svg) top left no-repeat; }
+    height: 86px;
+    width: 200px;
+    background: url(../img/LucityLogo.svg) top left no-repeat; }
 
   .navbar #navbar {
     padding-top: 40px; } }
-@media (min-width: 905px) {
+@media (min-width: 884px) {
   .navbar .navbar-header a.logo {
     height: 86px;
-    width: 350px;
+    width: 330px;
     background: url(../img/LogoTag.svg) top left no-repeat; }
 
   .navbar #navbar {
     padding-top: 40px; } }
 @media (max-width: 767px) {
+  .navbar .navbar-header a.logo {
+    height: 48px;
+    width: 350px;
+    background: url(../img/LogoTagMobile.svg) top left no-repeat; }
+
   .navbar-default .navbar-nav > li > a:focus,
   .navbar-default .navbar-nav > li > a:hover {
     background-color: #cccccc; } }

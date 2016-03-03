@@ -1,8 +1,8 @@
 /*_global.scss*/
 
 a {
-  @include tTransition;
-  color: $lucity-blue-grey;
+    @include tTransition;
+    color: $lucity-blue-grey;
 }
 
 a:hover {
@@ -11,163 +11,152 @@ a:hover {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: $lucity-font-header;
-  color: $lucity-font-header-color;
-  font-style: normal;
-  letter-spacing: -0.025em;
-  text-transform: lowercase;
+    font-family: $lucity-font-header;
+    color: $lucity-font-header-color;
+    font-style: normal;
+    letter-spacing: -0.025em;
+    text-transform: lowercase;
 }
 
 h1, h2 {
-  padding: .2em 0;
-  line-height: 1.2;
+    padding: .2em 0;
+    line-height: 1.2;
 }
 
-h1
-{
+h1 {
     font-size: 40px;
 }
 
-@media only screen and (max-device-width: 480px)
-{
-  h1 {
-    margin-top: 10px;
-    font-size: 3em;
-  }
+@media only screen and (max-device-width: 480px) {
+    h1 {
+        margin-top: 10px;
+        font-size: 3em;
+    }
 }
 
 
-body, p, span, div
-{
-  font-family: $lucity-font-body;
-  color: $lucity-font-color;
+body, p, span, div {
+    font-family: $lucity-font-body;
+    color: $lucity-font-color;
 }
 
-body
-{
-  background-color: white;
-  font-size: 130%;
-  line-height: 1.4;
-  padding-top: $small-screen-menu-height;
-  min-width: 640px;
+body {
+    background-color: white;
+    font-size: 130%;
+    line-height: 1.4;
+    padding-top: $small-screen-menu-height;
+    min-width: 640px;
 }
 
-#primaryNav
-{
+#primaryNav {
     width: 100%;
 }
 
-#primaryNav:after
-{
+#primaryNav:after {
     display: block;
-    content:"";
+    content: "";
     @include colorbar(11px, 1px, $lucity-green);
 }
 
-nav.navbar
-{
-  font-size: 1.1em;
+nav.navbar {
+    font-size: 1.1em;
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px)
-{
-  body
-  {
-    font-size: 150%;
-    line-height: 1.4;
-    padding-top: $large-screen-menu-height;
-  }
-  nav.navbar
-  {
-    font-size: 1em;
-  }
+@media only screen and (min-width : 768px) {
+    body {
+        font-size: 150%;
+        line-height: 1.4;
+        padding-top: $large-screen-menu-height;
+    }
+
+    nav.navbar {
+        font-size: 1em;
+    }
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px)
-{
-  html
-  {
-    margin: 0 auto;
-    max-width: 1100px;
-  }
-  body
-  {
-    font-size: 170%;
-    line-height: 1.4;
-  }
-  nav.navbar
-  {
-    font-size: 1em;
-  }
-  .pull-right-md {
-    float: right;
-  }}
+@media only screen and (min-width : 992px) {
+    html {
+        margin: 0 auto;
+        max-width: 1100px;
+    }
 
-/* Limit width at 1100px */
-@media only screen and (min-width : 1100px)
-{
-  html
-  {
-    margin: 0 auto;
-    max-width: 1100px;
-    background-color: #555555;
-  }
-  body
-  {
-    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
-  }
-  nav.navbar
-  {
-    margin: 0 auto;
-    max-width: 1100px;
-  }
+    body {
+        font-size: 170%;
+        line-height: 1.4;
+    }
+
+    nav.navbar {
+        font-size: 1em;
+    }
+
+    .pull-right-md {
+        float: right;
+    }
 }
 
-@media only screen and (max-device-width: 736px){
-  body
-  {
-    min-width: 0;
-  }
+/* Limit width at 1100px */
+@media only screen and (min-width : 1100px) {
+    html {
+        margin: 0 auto;
+        max-width: 1100px;
+        background-color: #555555;
+    }
+
+    body {
+        -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    }
+
+    nav.navbar {
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+}
+
+@media only screen and (max-device-width: 736px) {
+    body {
+        min-width: 0;
+    }
 }
 
 //Maintains aspect ratio for embedded videos
 .aspect-ratio {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 51%;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 51%;
 }
 
 .aspect-ratio iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
 
 .navbar {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .navbar .container {
-  border-bottom: 1px solid $lucity-green;
-  background-color: white;
+    border-bottom: 1px solid $lucity-green;
+    background-color: white;
 }
 
-.navbar-default .navbar-nav>li>a {
-  font-family: $lucity-font-menu;
-  font-size: 1.8em;
-  color: $lucity-orange;
+.navbar-default .navbar-nav > li > a {
+    font-family: $lucity-font-menu;
+    font-size: 1.8em;
+    color: $lucity-orange;
 }
 
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-  color: $lucity-dark-orange;
-  text-shadow: #555555 0.1em 0.1em 0.3em;
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: $lucity-dark-orange;
+    text-shadow: #555555 0.1em 0.1em 0.3em;
 }
 
 .navbar-header a.logo {
@@ -175,14 +164,24 @@ nav.navbar
     width: 200px;
     margin-left: 10px;
     background-size: 100% 100%;
-    background: url(../img/LucityLogo.svg) top left no-repeat;
-        border: 1px solid red;
 }
 
 @media (min-width: 700px) {
     .navbar .navbar-header a.logo {
-        height: 76px;
-        width: 210px;
+        height: 86px;
+        width: 200px;
+        background: url(../img/LucityLogo.svg) top left no-repeat;
+    }
+
+    .navbar #navbar {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 884px) {
+    .navbar .navbar-header a.logo {
+        height: 86px;
+        width: 330px;
         background: url(../img/LogoTag.svg) top left no-repeat;
     }
 
@@ -191,41 +190,31 @@ nav.navbar
     }
 }
 
-@media (min-width: 905px) {
-  .navbar .navbar-header a.logo {
-    height: 86px;
-    width: 350px;
-    background: url(../img/LogoTag.svg) top left no-repeat;
-}
-
-  .navbar #navbar {
-    padding-top: 40px;
-  }
-}
-
-
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav>li>a:focus,
-  .navbar-default .navbar-nav>li>a:hover {
-    background-color: #cccccc;
-  }
+    .navbar .navbar-header a.logo {
+        height: 48px;
+        width: 350px;
+        background: url(../img/LogoTagMobile.svg) top left no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: #cccccc;
+    }
 }
 
 
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:focus,
-.navbar-default .navbar-nav>.open>a:hover
-{
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
     background-color: transparent;
 }
 
-.dropdown-menu > li > a
-{
+.dropdown-menu > li > a {
     font-size: 16px;
 }
 
-.dropdown-menu > li > a:hover
-{
+.dropdown-menu > li > a:hover {
     background-color: $lucity-orange;
     background-image: none;
 }
@@ -233,14 +222,12 @@ nav.navbar
 
 
 //Fixes an IE issue that left aligns the navbar
-html.no-smil .navbar-fixed-top
-{
+html.no-smil .navbar-fixed-top {
     right: auto;
     left: auto;
 }
 
-div.pageTitle
-{
+div.pageTitle {
     color: #446644;
     text-transform: lowercase;
     font-size: 1.2em;
@@ -250,17 +237,15 @@ div.pageTitle
     padding-left: 70px;
 }
 
-#MainSearch
-{
-  background-color: $lucity-green;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  border-top: 4px solid $lucity-green;
-  border-bottom: 1px solid #ffffff;
+#MainSearch {
+    background-color: $lucity-green;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top: 4px solid $lucity-green;
+    border-bottom: 1px solid #ffffff;
 }
 
-#Footer
-{
+#Footer {
     @include colorbar(11px, 1px, $lucity-green);
 
     .FollowUs, .MeetUs {
@@ -271,92 +256,79 @@ div.pageTitle
         background-color: $lucity-green;
     }
 
-    .FollowUs{
-        padding-bottom:14px;
+    .FollowUs {
+        padding-bottom: 14px;
         border-right: 8px solid white;
     }
 
-    .MeetUs{
+    .MeetUs {
         border-left: 8px solid white;
     }
 
-    a
-    {
-      display: block;
-      padding-bottom: 8px;
-      @include tTransition;
-      font-size: 1.1em;
-      color: $lucity-grey;
+    a {
+        display: block;
+        padding-bottom: 8px;
+        @include tTransition;
+        font-size: 1.1em;
+        color: $lucity-grey;
     }
 
-    .fa-stack
-    {
-      margin-right: 12px;
+    .fa-stack {
+        margin-right: 12px;
     }
 
-    .fa-2x
-    {
-      font-size: 1.5em;
+    .fa-2x {
+        font-size: 1.5em;
     }
 
-    .fa-inverse
-    {
-      color: white;
+    .fa-inverse {
+        color: white;
     }
 
-    a:hover .fa-stack-2x
-    {
-      @include tTransition;
-      color: $lucity-grey;
+    a:hover .fa-stack-2x {
+        @include tTransition;
+        color: $lucity-grey;
     }
 
-    a .fa-stack-2x
-    {
-      @include tTransition;
-      color: $lucity-font-color;
+    a .fa-stack-2x {
+        @include tTransition;
+        color: $lucity-font-color;
     }
 }
 
-@media only screen and (max-width : 768px)
-{
-  #Footer div.row div.FollowUs
-  {
-    border-right: 16px solid white;
-    border-bottom: 8px solid white;
-  }
+@media only screen and (max-width : 768px) {
+    #Footer div.row div.FollowUs {
+        border-right: 16px solid white;
+        border-bottom: 8px solid white;
+    }
 
-  #Footer div.row div.MeetUs
-  {
-    border-left: 16px solid white;
-    border-top: 8px solid white;
-  }
+    #Footer div.row div.MeetUs {
+        border-left: 16px solid white;
+        border-top: 8px solid white;
+    }
 }
 
-@media only screen and (max-width : 768px)
-{
-  #Footer div.row div
-  {
-    padding-left: 128px;
-  }
-  #Footer a
-  {
-    font-size: 1.5em;
-  }
+@media only screen and (max-width : 768px) {
+    #Footer div.row div {
+        padding-left: 128px;
+    }
+
+    #Footer a {
+        font-size: 1.5em;
+    }
 }
 
-@media only screen and (max-device-width: 768px){
-  #Footer div.row div
-  {
-    padding-left: 3em;
-  }
-  #Footer a
-  {
-    font-size: 1.3em;
-  }
+@media only screen and (max-device-width: 768px) {
+    #Footer div.row div {
+        padding-left: 3em;
+    }
+
+    #Footer a {
+        font-size: 1.3em;
+    }
 }
 
-.LearnMore::before
-{
+.LearnMore::before {
     margin: 0 -15px;
     display: block;
     content: '';
@@ -364,29 +336,24 @@ div.pageTitle
     @include verticalFade($lucity-font-color-inverse, $lucity-blue-grey);
 }
 
-.LearnMore 
-{
+.LearnMore {
     background-color: $lucity-blue-grey;
 }
 
-.LearnMore h1
-{
+.LearnMore h1 {
     color: $lucity-font-color-inverse;
 }
 
-.LearnMore ul
-{
+.LearnMore ul {
 }
 
-.LearnMore ul li
-{
+.LearnMore ul li {
     list-style-type: none;
     margin-bottom: 20px;
 }
 
 
-.LearnMore ul li a
-{
+.LearnMore ul li a {
     position: relative;
     display: block;
     background-color: $lucity-green;
@@ -397,16 +364,14 @@ div.pageTitle
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-.LearnMore ul li a img
-{
+.LearnMore ul li a img {
     height: 132px;
     width: 190px;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-.LearnMore ul li span.caption
-{
+.LearnMore ul li span.caption {
     display: block;
     position: absolute;
     top: 86px;
@@ -419,5 +384,3 @@ div.pageTitle
     color: $lucity-blue-grey;
     border-right: 10px solid $lucity-blue-grey;
 }
-
-
