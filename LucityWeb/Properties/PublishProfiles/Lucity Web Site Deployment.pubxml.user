@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2015 17:00:59</publishTime>
     </File>
     <File Include="bin/LucityWeb.dll">
-      <publishTime>03/03/2016 10:32:38</publishTime>
+      <publishTime>03/09/2016 14:36:39</publishTime>
     </File>
     <File Include="bin/Microsoft.CSharp.dll">
       <publishTime>09/26/2012 03:16:08</publishTime>
@@ -169,7 +169,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2016 09:19:14</publishTime>
     </File>
     <File Include="partials/Company/company.html">
-      <publishTime>03/02/2016 21:13:42</publishTime>
+      <publishTime>03/09/2016 14:44:39</publishTime>
     </File>
     <File Include="partials/Company/events.html">
       <publishTime>02/11/2016 10:51:36</publishTime>
@@ -193,7 +193,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/03/2016 09:13:28</publishTime>
     </File>
     <File Include="partials/Software/GIS.html">
-      <publishTime>01/09/2016 14:23:47</publishTime>
+      <publishTime>03/09/2016 14:32:38</publishTime>
     </File>
     <File Include="partials/Software/MMS.html">
       <publishTime>01/09/2016 14:23:56</publishTime>
@@ -208,7 +208,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2015 11:08:31</publishTime>
     </File>
     <File Include="resources/css/Home/_blogs.scss">
-      <publishTime>01/09/2016 14:59:15</publishTime>
+      <publishTime>03/07/2016 10:48:49</publishTime>
     </File>
     <File Include="resources/css/Home/_calendar.scss">
       <publishTime>03/03/2016 13:39:00</publishTime>
@@ -223,25 +223,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/02/2016 21:45:14</publishTime>
     </File>
     <File Include="resources/css/Home/_talkinghead.scss">
-      <publishTime>03/02/2016 16:27:05</publishTime>
+      <publishTime>03/07/2016 14:16:43</publishTime>
     </File>
     <File Include="resources/css/lucity.css">
-      <publishTime>03/03/2016 13:39:03</publishTime>
+      <publishTime>03/09/2016 14:32:18</publishTime>
     </File>
     <File Include="resources/css/lucity.css.map">
-      <publishTime>03/03/2016 13:39:04</publishTime>
+      <publishTime>03/09/2016 14:32:19</publishTime>
     </File>
     <File Include="resources/css/lucity.scss">
-      <publishTime>01/09/2016 14:47:09</publishTime>
+      <publishTime>03/07/2016 10:50:27</publishTime>
     </File>
     <File Include="resources/css/Software/_EAMS.scss">
       <publishTime>03/03/2016 10:01:36</publishTime>
     </File>
     <File Include="resources/css/Software/_general.scss">
-      <publishTime>03/03/2016 09:05:50</publishTime>
+      <publishTime>03/03/2016 13:33:50</publishTime>
     </File>
     <File Include="resources/css/Software/_GIS.scss">
-      <publishTime>12/21/2015 20:47:51</publishTime>
+      <publishTime>03/09/2016 14:19:37</publishTime>
     </File>
     <File Include="resources/css/Software/_MMS.scss">
       <publishTime>01/09/2016 21:10:33</publishTime>
@@ -256,10 +256,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/02/2016 21:25:46</publishTime>
     </File>
     <File Include="resources/css/_constants.scss">
-      <publishTime>03/03/2016 08:49:39</publishTime>
+      <publishTime>03/09/2016 10:39:23</publishTime>
     </File>
     <File Include="resources/css/_global.scss">
-      <publishTime>03/03/2016 09:35:38</publishTime>
+      <publishTime>03/09/2016 14:32:15</publishTime>
     </File>
     <File Include="resources/css/_home.scss">
       <publishTime>11/24/2015 07:25:40</publishTime>
@@ -2568,8 +2568,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="resources/img/BoxArrowRight.svg">
       <publishTime>09/16/2015 10:05:12</publishTime>
     </File>
+    <File Include="resources/img/BracketGreaterThan.svg">
+      <publishTime>03/09/2016 11:25:12</publishTime>
+    </File>
     <File Include="resources/img/bracketleft.svg">
       <publishTime>11/24/2015 09:20:32</publishTime>
+    </File>
+    <File Include="resources/img/BracketLessThan.svg">
+      <publishTime>03/09/2016 11:25:12</publishTime>
     </File>
     <File Include="resources/img/bracketright.svg">
       <publishTime>11/24/2015 09:20:32</publishTime>
@@ -2744,6 +2750,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="resources/img/MiniLucityPlusOrange.png">
       <publishTime>01/10/2016 23:26:41</publishTime>
+    </File>
+    <File Include="resources/img/playbutton.svg">
+      <publishTime>03/09/2016 10:22:12</publishTime>
     </File>
     <File Include="resources/img/quotebox.svg">
       <publishTime>01/09/2016 15:25:49</publishTime>
