@@ -656,7 +656,9 @@
     <Content Include="resources\Font-Awesome\src\_layouts\icon.html" />
     <Content Include="resources\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="resources\img\BoxArrowRight.svg" />
+    <Content Include="resources\img\BracketGreaterThan.svg" />
     <Content Include="resources\img\bracketleft.svg" />
+    <Content Include="resources\img\BracketLessThan.svg" />
     <Content Include="resources\img\bracketright.svg" />
     <Content Include="resources\img\colorbar.svg" />
     <Content Include="resources\img\Company\icons\clipboard.svg" />
@@ -715,6 +717,7 @@
     <Content Include="resources\img\LogoTagMobile.svg" />
     <Content Include="resources\img\LucityLogo.svg" />
     <Content Include="resources\img\MiniLucityPlusOrange.png" />
+    <Content Include="resources\img\playbutton.svg" />
     <Content Include="resources\img\quotebox.svg" />
     <Content Include="resources\img\quote_ImgID1.png" />
     <Content Include="resources\img\Software\Assets\lucity_web_sm_sewer.png" />

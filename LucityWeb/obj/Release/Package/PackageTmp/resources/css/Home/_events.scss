@@ -20,7 +20,7 @@
             div.event
             {
                 display: block;
-                height: 85px;
+                height: 95px;
                 margin: 0;
                 padding: 0;
                 border: 1px solid $lucity-grey;
@@ -30,12 +30,12 @@
                 {
                     display: inline-block;
                     float: left;
-                    height: 83px;
-                    width: 83px;
+                    height: 93px;
+                    width: 93px;
                     margin: 0 6px 0 0;
                     padding: 6px;
                     text-align: center;
-                    padding: 12px 0 0 0;
+                    padding: 17px 0 0 0;
 
                     span {
                         color: $lucity-font-color-inverse;
@@ -55,7 +55,7 @@
 
                 div.title
                 {
-                    margin-top: 16px;
+                    margin-top: 4px;
                     font-size: .9em;
                     color: $lucity-blue-grey;
                     font-weight: 700;

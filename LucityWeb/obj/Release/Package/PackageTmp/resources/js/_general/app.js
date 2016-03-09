@@ -52,7 +52,6 @@ if (!window.console) console = { log: function () { } };
 
 
 (function (Configs, undefined) {
-    console.log("config sce delegate");
     Lucity.Modules.Lucity.config(['$sceDelegateProvider', function ($sceDelegateProvider) {
         $sceDelegateProvider.resourceUrlWhitelist([
           'self',
@@ -61,10 +60,8 @@ if (!window.console) console = { log: function () { } };
 }(Lucity.Configs = Lucity.Configs || {}));
 
 (function (Configs, undefined) {
-    console.log("config route change");
     Lucity.Modules.Lucity.run(function ($rootScope, $location) {
         $rootScope.$on("$routeChangeSuccess", function () {
-            console.log("route change");
             window.scrollTo(0, 0);
         });
     });

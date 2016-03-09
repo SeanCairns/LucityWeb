@@ -30,6 +30,9 @@ h1 {
   h1 {
     margin-top: 10px;
     font-size: 3em; } }
+.noTextTransform {
+  text-transform: none !important; }
+
 body, p, span, div {
   font-family: "Josefin Sans", serif;
   color: #878e83; }
@@ -109,17 +112,6 @@ nav.navbar {
   left: 0;
   top: 0; }
 
-@media (min-width: 768px) {
-  .navbar .navbar-header a.logo {
-    height: 90px;
-    width: 200px; }
-
-  .navbar #navbar {
-    padding-top: 40px; } }
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav > li > a:focus,
-  .navbar-default .navbar-nav > li > a:hover {
-    background-color: #cccccc; } }
 .navbar {
   background-color: #ffffff; }
 
@@ -139,14 +131,59 @@ nav.navbar {
 
 .navbar-header a.logo {
   height: 50px;
-  width: 100px;
+  width: 200px;
   margin-left: 10px;
-  background-size: 100% 100%;
-  background: url(../img/LucityLogo.svg) top left no-repeat; }
+  background-size: 100% 100%; }
+
+@media (min-width: 700px) {
+  .navbar .navbar-header a.logo {
+    height: 86px;
+    width: 200px;
+    background: url(../img/LucityLogo.svg) top left no-repeat; }
+
+  .navbar #navbar {
+    padding-top: 40px; } }
+@media (min-width: 884px) {
+  .navbar .navbar-header a.logo {
+    height: 86px;
+    width: 330px;
+    background: url(../img/LogoTag.svg) top left no-repeat; }
+
+  .navbar #navbar {
+    padding-top: 40px; } }
+@media (max-width: 767px) {
+  .navbar .navbar-header a.logo {
+    height: 48px;
+    width: 350px;
+    background: url(../img/LogoTagMobile.svg) top left no-repeat; }
+
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover {
+    background-color: #cccccc; } }
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: transparent; }
+
+.dropdown-menu > li > a {
+  font-size: 16px; }
+
+.dropdown-menu > li > a:hover {
+  background-color: #ff9933;
+  background-image: none; }
 
 html.no-smil .navbar-fixed-top {
   right: auto;
   left: auto; }
+
+div.pageTitle {
+  color: #446644;
+  text-transform: lowercase;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: "Josefin Sans", serif;
+  margin-top: -10px;
+  padding-left: 70px; }
 
 #MainSearch {
   background-color: #99cc33;
@@ -212,60 +249,39 @@ html.no-smil .navbar-fixed-top {
 
   #Footer a {
     font-size: 1.3em; } }
-.LearnMore::before {
-  margin: 0 -15px;
-  display: block;
-  content: '';
-  height: 60px;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #4f5c73 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%, #4f5c73 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 );
-  /* IE6-9 */ }
-
 .LearnMore {
   background-color: #4f5c73; }
-
-.LearnMore h1 {
-  color: #ffffff; }
-
-.LearnMore ul li {
-  list-style-type: none;
-  margin-bottom: 20px; }
-
-.LearnMore ul li a {
-  position: relative;
-  display: block;
-  background-color: #99cc33;
-  border: 4px solid #99cc33;
-  height: 140px;
-  width: 200px;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
-
-.LearnMore ul li a img {
-  height: 132px;
-  width: 190px;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
-
-.LearnMore ul li span.caption {
-  display: block;
-  position: absolute;
-  top: 86px;
-  left: 0px;
-  width: 240px;
-  background-color: #99cc33;
-  font-size: 20px;
-  padding: 6px 0 2px 8px;
-  font-weight: 600;
-  color: #4f5c73;
-  border-right: 10px solid #4f5c73; }
+  .LearnMore h1 {
+    color: #ffffff; }
+  .LearnMore ul li {
+    list-style-type: none;
+    margin-bottom: 20px; }
+  .LearnMore ul li a {
+    position: relative;
+    display: block;
+    background-color: #99cc33;
+    border: 4px solid #99cc33;
+    height: 140px;
+    width: 200px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+  .LearnMore ul li a img {
+    height: 132px;
+    width: 190px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+  .LearnMore ul li span.caption {
+    display: block;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    width: 240px;
+    background-color: #99cc33;
+    font-size: 20px;
+    padding: 6px 0 2px 8px;
+    font-weight: 600;
+    color: #4f5c73;
+    border-right: 10px solid #4f5c73; }
 
 /*_home.scss*/
 /*_talkinghead.scss*/
@@ -276,57 +292,44 @@ html.no-smil .navbar-fixed-top {
   background-size: 100% 100%;
   color: white;
   font-size: 1.1em;
-  font-weight: 400; }
-
-#Testimonials blockquote p {
-  color: white;
-  text-align: center;
-  font-weight: 300;
-  font-family: inherit; }
-
-#Testimonials blockquote footer {
-  text-align: right;
-  font-family: inherit; }
-
-#Testimonials blockquote footer,
-#Testimonials blockquote footer cite,
-#Testimonials blockquote footer cite span {
-  color: white;
-  font-style: normal;
-  font-weight: 400; }
-
-#Testimonials blockquote footer:before {
-  content: '\7E';
-  font-weight: 400; }
-
-#Testimonials blockquote footer cite {
   font-weight: 400;
-  padding-right: 20px; }
-
-#Testimonials .quote, #Testimonials blockquote {
-  border: thin transparent solid; }
-
-#Testimonials h1 {
-  font-size: 3em; }
-
-#Testimonials .quote {
-  min-height: 200px;
-  margin-top: -20px; }
-
-#Testimonials blockquote {
   margin: -60px 0 20px 300px;
   padding: 50px 30px 70px 40px;
   font-size: 18px;
   font-weight: 400; }
+  #Testimonials blockquote p {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-family: inherit; }
+  #Testimonials blockquote footer {
+    text-align: right;
+    font-family: inherit; }
+    #Testimonials blockquote footer cite {
+      padding-right: 20px; }
+  #Testimonials blockquote footer,
+  #Testimonials blockquote footer cite,
+  #Testimonials blockquote footer cite span {
+    color: white;
+    font-style: normal;
+    font-weight: 400; }
+  #Testimonials blockquote footer:before {
+    content: '\7E';
+    font-weight: 400; }
+#Testimonials .quote, #Testimonials blockquote {
+  border: thin transparent solid; }
+#Testimonials h1 {
+  font-size: 3em; }
+#Testimonials .quote {
+  min-height: 200px;
+  margin-top: -20px; }
 
 @media only screen and (min-width: 768px) {
   #Testimonials h1 {
     font-size: 3.5em; }
-
   #Testimonials .quote {
-    min-height: 300px;
+    min-height: 200px;
     margin-top: -30px; }
-
   #Testimonials blockquote {
     margin: -50px 0 20px 350px;
     padding: 60px 40px 80px 40px;
@@ -335,11 +338,9 @@ html.no-smil .navbar-fixed-top {
 @media only screen and (min-width: 992px) {
   #Testimonials h1 {
     font-size: 4em; }
-
   #Testimonials .quote {
-    min-height: 400px;
+    min-height: 300px;
     margin-top: -30px; }
-
   #Testimonials blockquote {
     margin: -60px 0 20px 475px;
     padding: 70px 50px 90px 50px;
@@ -348,11 +349,9 @@ html.no-smil .navbar-fixed-top {
 @media only screen and (min-width: 1200px) {
   #Testimonials h1 {
     font-size: 4em; }
-
   #Testimonials .quote {
-    min-height: 500px;
+    min-height: 400px;
     margin-top: -30px; }
-
   #Testimonials blockquote {
     margin: -60px 0 40px 520px;
     padding: 80px 60px 96px 60px;
@@ -361,7 +360,6 @@ html.no-smil .navbar-fixed-top {
 @media only screen and (max-device-width: 736px) {
   #Testimonials .quote {
     min-height: 200px; }
-
   #Testimonials blockquote {
     margin: 0 0 220px 0;
     padding: 50px 30px 70px 40px;
@@ -477,6 +475,12 @@ html.no-smil .navbar-fixed-top {
   padding-top: 20px;
   border-top: 1px solid white;
   background: url(/resources/img/colorbar.svg) repeat-x; }
+  #Software h1:first-child {
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  #Software p {
+    padding-bottom: 30px;
+    font-size: 1.4em; }
 
 #Software div.EAMS {
   background-color: #99cc33;
@@ -577,7 +581,8 @@ html.no-smil .navbar-fixed-top {
 #Calendar {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(/resources/img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x;
+  padding-bottom: 16px; }
   #Calendar #Events {
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -624,7 +629,8 @@ html.no-smil .navbar-fixed-top {
       list-style-type: none; }
     #Calendar #Training li {
       display: block;
-      text-align: center; }
+      text-align: center;
+      height: 120px; }
       #Calendar #Training li span.title {
         display: inline-block;
         font-size: 1.2em;
@@ -682,7 +688,7 @@ html.no-smil .navbar-fixed-top {
       padding: 0; }
       #EventsPage ul li div.event {
         display: block;
-        height: 85px;
+        height: 95px;
         margin: 0;
         padding: 0;
         border: 1px solid #666666;
@@ -690,12 +696,12 @@ html.no-smil .navbar-fixed-top {
         #EventsPage ul li div.event div.date {
           display: inline-block;
           float: left;
-          height: 83px;
-          width: 83px;
+          height: 93px;
+          width: 93px;
           margin: 0 6px 0 0;
           padding: 6px;
           text-align: center;
-          padding: 12px 0 0 0; }
+          padding: 17px 0 0 0; }
           #EventsPage ul li div.event div.date span {
             color: #ffffff;
             display: block;
@@ -706,7 +712,7 @@ html.no-smil .navbar-fixed-top {
           #EventsPage ul li div.event div.date span.days {
             font-size: 1.4em; }
         #EventsPage ul li div.event div.title {
-          margin-top: 16px;
+          margin-top: 4px;
           font-size: .9em;
           color: #4f5c73;
           font-weight: 700; }
@@ -847,16 +853,54 @@ html.no-smil .navbar-fixed-top {
     padding-top: 10%;
     padding-right: 20px;
     background: url(/resources/img/Company/icons/movie.svg) no-repeat 97% 95%;
-    background-size: 80px 80px; }
+    background-size: 80px 80px;
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: white;
+    -webkit-fill-color: white;
+    text-shadow: 0px 0px 10px white;
+    -webkit-transition: width 0.3s;
+    /*Safari & Chrome*/
+    transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    /* Firefox 4 */
+    -o-transition: width 0.3s;
+    /* Opera */ }
     #CompanyWhyLucity div h2 {
-      color: #ffffff;
+      color: #4f5c73;
       font-size: 2.4em;
-      padding-bottom: 0; }
+      padding-bottom: 0;
+      -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: white;
+      -webkit-fill-color: white;
+      text-shadow: 0px 0px 10px white;
+      -webkit-transition: width 0.3s;
+      /*Safari & Chrome*/
+      transition: width 0.3s;
+      -moz-transition: width 0.3s;
+      /* Firefox 4 */
+      -o-transition: width 0.3s;
+      /* Opera */ }
     #CompanyWhyLucity div p {
       color: #4f5c73;
-      font-size: 1.6em;
+      font-size: 1.8em;
       line-height: 1.2;
-      padding-top: 0; }
+      padding-top: 0;
+      font-weight: 600;
+      -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: white;
+      -webkit-fill-color: white;
+      text-shadow: 0px 0px 10px white;
+      -webkit-transition: width 0.3s;
+      /*Safari & Chrome*/
+      transition: width 0.3s;
+      -moz-transition: width 0.3s;
+      /* Firefox 4 */
+      -o-transition: width 0.3s;
+      /* Opera */ }
+  #CompanyWhyLucity iframe.faded {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier */ }
 
 #TakeALookAtLucity p {
   color: #4f5c73;
@@ -878,36 +922,6 @@ html.no-smil .navbar-fixed-top {
   content: "";
   margin: 18px 25% 0 25%;
   border-bottom: 3px solid #ff6600; }
-#SoftwareHome #Inspiration {
-  margin: 30px; }
-  #SoftwareHome #Inspiration h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 480%;
-    font-weight: 400;
-    color: #4f5c73;
-    text-align: right; }
-  #SoftwareHome #Inspiration p {
-    margin: 0;
-    padding: 0 0 0 16px;
-    font-size: 190%;
-    font-weight: 600;
-    color: #4f5c73; }
-#SoftwareHome #SoftwareWeHearYou {
-  padding-left: 14%; }
-  #SoftwareHome #SoftwareWeHearYou h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 300%;
-    font-weight: 400;
-    color: #ff9933; }
-  #SoftwareHome #SoftwareWeHearYou p {
-    margin: 0 0 20px 0;
-    padding: 0;
-    text-transform: lowercase;
-    font-size: 210%;
-    font-weight: 600;
-    color: #ff9933; }
 #SoftwareHome #SoftwareList {
   display: block;
   position: relative;
@@ -979,61 +993,26 @@ html.no-smil .navbar-fixed-top {
   background-size: contain;
   border: 4px solid #78A22D;
   border-radius: 100px; }
-#SoftwareHome #WorkingAgencies {
-  display: block;
-  position: relative;
-  height: 510px;
-  margin: 20px;
-  padding: 40px; }
-  #SoftwareHome #WorkingAgencies h2 {
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    margin-top: 0px;
-    margin-left: 20px;
-    font-size: 280%;
-    font-weight: 400;
-    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
-  #SoftwareHome #WorkingAgencies p {
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    margin-left: 20px;
-    text-transform: lowercase;
-    font-size: 190%;
-    font-weight: 600;
-    color: #4f5c73;
-    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
-  #SoftwareHome #WorkingAgencies #LucityClients {
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    border: 6px solid #99cc33;
-    border-radius: 60px; }
 
 /* Software EAMS */
 #SoftwareEAMS {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(/resources/img/colorbar.svg) repeat-x;
-  background-color: #99cc33; }
+  background: url(/resources/img/colorbar.svg) repeat-x; }
   #SoftwareEAMS p {
     padding: 0 40px 20px 40px;
     font-size: 1.3em;
     font-weight: 600;
     color: #4f5c73; }
-  #SoftwareEAMS div.row div {
+  #SoftwareEAMS div.assetTypes {
+    background-color: #99cc33;
+    padding-top: 40px; }
+  #SoftwareEAMS div.assetTypes div {
     position: relative;
     text-align: center;
     margin: 0 0 40px 0;
     padding: 0; }
-  #SoftwareEAMS div.row div span {
+  #SoftwareEAMS div.assetTypes div span {
     position: relative;
     display: block;
     padding: 100px 0 0 0;
@@ -1085,83 +1064,79 @@ html.no-smil .navbar-fixed-top {
     background: url(/resources/img/EAMSIcons/recycling.svg) no-repeat top center; }
   #SoftwareEAMS .Environmental span {
     background: url(/resources/img/EAMSIcons/environmental.svg) no-repeat top center; }
+  #SoftwareEAMS .Plant span {
+    background: url(/resources/img/EAMSIcons/plant.svg) no-repeat top center; }
 
 #SoftwareCommunity {
-  background-color: #4f5c73; }
+  padding-top: 11px;
+  border-top: 1px solid #99cc33;
+  background: url(/resources/img/colorbar.svg) repeat-x;
+  background-color: #4f5c73;
+  margin: 0 -15px; }
+  #SoftwareCommunity p {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #ffffff; }
+  #SoftwareCommunity h1 {
+    color: #ffffff; }
 
-#SoftwareCommunity p {
-  padding: 40px 40px 40px 40px;
-  font-size: 1.7em;
-  font-weight: 600;
-  color: #ffffff; }
-
-#SoftwareCommunity::after {
-  margin: 0 -15px;
-  display: block;
-  content: '';
-  height: 60px;
-  background: #4f5c73;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #4f5c73 0%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4f5c73 0%, #ffffff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$topColor', endColorstr='$bottomColor',GradientType=0 );
-  /* IE6-9 */ }
-
-#SoftwareAssetHighlights div.linkBox {
-  border: none;
-  border-radius: 0;
-  background-color: white;
-  margin-bottom: 40px; }
-  #SoftwareAssetHighlights div.linkBox div {
-    height: 280px;
-    margin: 0;
-    padding: 0; }
-    #SoftwareAssetHighlights div.linkBox div h3 {
-      opacity: 0.8;
-      filter: alpha(opacity=80);
-      /* For IE8 and earlier */
+#SoftwareAssetHighlights {
+  margin: 0 -15px; }
+  #SoftwareAssetHighlights div.linkBox {
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    margin-bottom: 0px; }
+    #SoftwareAssetHighlights div.linkBox div {
+      height: 280px;
       margin: 0;
-      padding: 10px 0 10px 0;
-      margin-top: 90px;
-      padding-bottom: 18px;
-      color: #137866;
-      background-color: #ffffff;
-      text-align: center;
-      font-size: 1.8em; }
-    #SoftwareAssetHighlights div.linkBox div ul {
-      opacity: 0.8;
-      filter: alpha(opacity=80);
-      /* For IE8 and earlier */
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      height: 140px; }
-    #SoftwareAssetHighlights div.linkBox div li {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      font-size: 1.1em;
-      color: #4f5c73;
-      font-weight: 600; }
-  #SoftwareAssetHighlights div.linkBox .Sewer {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left;
-    background-size: cover; }
-  #SoftwareAssetHighlights div.linkBox .Signs {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left;
-    background-size: cover; }
-  #SoftwareAssetHighlights div.linkBox .Storm {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left;
-    background-size: cover; }
-  #SoftwareAssetHighlights div.linkBox .Water {
-    background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left;
-    background-size: cover; }
+      padding: 0; }
+      #SoftwareAssetHighlights div.linkBox div h3 {
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        /* For IE8 and earlier */
+        margin: 0;
+        padding: 10px 0 10px 0;
+        margin-top: 80px;
+        padding-bottom: 18px;
+        color: #137866;
+        background-color: #ffffff;
+        text-align: center;
+        font-size: 1.8em; }
+      #SoftwareAssetHighlights div.linkBox div ul {
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        /* For IE8 and earlier */
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        height: 140px; }
+      #SoftwareAssetHighlights div.linkBox div li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 1.1em;
+        color: #4f5c73;
+        font-weight: 600; }
+    #SoftwareAssetHighlights div.linkBox .Sewer {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_sewer.png) no-repeat top left;
+      background-size: cover; }
+    #SoftwareAssetHighlights div.linkBox .Signs {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_signs.png) no-repeat top left;
+      background-size: cover; }
+    #SoftwareAssetHighlights div.linkBox .Storm {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_storm.png) no-repeat top left;
+      background-size: cover; }
+    #SoftwareAssetHighlights div.linkBox .Water {
+      background: url(/resources/img/Software/Assets/lucity_web_sm_water.png) no-repeat top left;
+      background-size: cover; }
 
 /* Software General  */
+#SoftwareGeneral #Software {
+  margin: 0 -15px; }
+  #SoftwareGeneral #Software h1 {
+    margin-bottom: 20px; }
 #SoftwareGeneral div.SoftwareSpecifics {
   margin-bottom: 40px; }
   #SoftwareGeneral div.SoftwareSpecifics div {
@@ -1257,6 +1232,73 @@ html.no-smil .navbar-fixed-top {
     font-size: 1.2em;
     background: url(/resources/img/Software/General/check.svg) no-repeat center left;
     background-size: 100px 100px; }
+#SoftwareGeneral #Inspiration {
+  margin: 30px; }
+  #SoftwareGeneral #Inspiration h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 480%;
+    font-weight: 400;
+    color: #4f5c73;
+    text-align: right; }
+  #SoftwareGeneral #Inspiration p {
+    margin: 0;
+    padding: 0 0 0 16px;
+    font-size: 190%;
+    font-weight: 600;
+    color: #4f5c73; }
+#SoftwareGeneral #SoftwareWeHearYou {
+  padding-left: 14%; }
+  #SoftwareGeneral #SoftwareWeHearYou h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 300%;
+    font-weight: 400;
+    color: #ff9933; }
+  #SoftwareGeneral #SoftwareWeHearYou p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-transform: lowercase;
+    font-size: 210%;
+    font-weight: 600;
+    color: #ff9933; }
+#SoftwareGeneral #WorkingAgencies {
+  display: block;
+  position: relative;
+  height: 510px;
+  margin: 20px;
+  padding: 40px; }
+  #SoftwareGeneral #WorkingAgencies h2 {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 280%;
+    font-weight: 400;
+    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
+  #SoftwareGeneral #WorkingAgencies p {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    text-transform: lowercase;
+    font-size: 190%;
+    font-weight: 600;
+    color: #4f5c73;
+    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff; }
+  #SoftwareGeneral #WorkingAgencies #LucityClients {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    border: 6px solid #99cc33;
+    border-radius: 60px; }
 
 /* Software GIS */
 #SoftwareGIS p.configure,

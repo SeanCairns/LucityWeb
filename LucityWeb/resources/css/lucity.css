@@ -1,6 +1,6 @@
 /*Lucity.scss*/
-@import url("http://fonts.googleapis.com/css?family=Josefin+Sans");
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700");
+@import url(https://fonts.googleapis.com/css?family=Hind:400,600);
 /*_constants.scss*/
 /*_transitions.scss*/
 /*_global.scss*/
@@ -34,7 +34,7 @@ h1 {
   text-transform: none !important; }
 
 body, p, span, div {
-  font-family: "Josefin Sans", serif;
+  font-family: "Hind", sans-serif;
   color: #878e83; }
 
 body {
@@ -120,8 +120,8 @@ nav.navbar {
   background-color: white; }
 
 .navbar-default .navbar-nav > li > a {
-  font-family: "Josefin Sans", serif;
-  font-size: 1.8em;
+  font-family: "Hind", sans-serif;
+  font-size: 1.6em;
   color: #ff9933; }
 
 .navbar-default .navbar-nav > li > a:focus,
@@ -147,8 +147,8 @@ nav.navbar {
   .navbar .navbar-header a.logo {
     height: 86px;
     width: 330px;
-    background: url(../img/LogoTag.svg) top left no-repeat; }
-
+    background: url(../img/LogoTag.svg) top left no-repeat; } }
+@media (min-width: 768px) {
   .navbar #navbar {
     padding-top: 40px; } }
 @media (max-width: 767px) {
@@ -159,7 +159,10 @@ nav.navbar {
 
   .navbar-default .navbar-nav > li > a:focus,
   .navbar-default .navbar-nav > li > a:hover {
-    background-color: #cccccc; } }
+    background-color: #cccccc; }
+
+  .navbar #navbar {
+    padding-top: 0px; } }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
@@ -181,7 +184,7 @@ div.pageTitle {
   text-transform: lowercase;
   font-size: 1.2em;
   font-weight: 400;
-  font-family: "Josefin Sans", serif;
+  font-family: "Hind", sans-serif;
   margin-top: -10px;
   padding-left: 70px; }
 
@@ -253,9 +256,12 @@ div.pageTitle {
   background-color: #4f5c73; }
   .LearnMore h1 {
     color: #ffffff; }
+  .LearnMore ul {
+    margin-right: 0;
+    padding-left: 60px; }
   .LearnMore ul li {
     list-style-type: none;
-    margin-bottom: 20px; }
+    margin-bottom: 40px; }
   .LearnMore ul li a {
     position: relative;
     display: block;
@@ -270,18 +276,34 @@ div.pageTitle {
     width: 190px;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); }
+  .LearnMore ul li a:after {
+    position: absolute;
+    top: 16px;
+    left: 54px;
+    height: 70px;
+    width: 70px;
+    content: "";
+    background: url(/resources/img/playbutton.svg) no-repeat 0px 0px;
+    background-size: 60px 60px; }
   .LearnMore ul li span.caption {
     display: block;
     position: absolute;
     top: 86px;
     left: 0px;
     width: 240px;
-    background-color: #99cc33;
     font-size: 20px;
     padding: 6px 0 2px 8px;
     font-weight: 600;
     color: #4f5c73;
-    border-right: 10px solid #4f5c73; }
+    border-right: 10px solid #4f5c73;
+    background-color: #99cc33; }
+
+.LearnMore.lightBackground {
+  background-color: #ffffff; }
+  .LearnMore.lightBackground h1 {
+    color: #4f5c73; }
+  .LearnMore.lightBackground ul li span.caption {
+    border-right: 10px solid #ffffff; }
 
 /*_home.scss*/
 /*_talkinghead.scss*/
@@ -345,7 +367,7 @@ div.pageTitle {
     margin: -60px 0 20px 475px;
     padding: 70px 50px 90px 50px;
     font-size: 24px;
-    font-weight: 500; } }
+    font-weight: 400; } }
 @media only screen and (min-width: 1200px) {
   #Testimonials h1 {
     font-size: 4em; }
@@ -377,14 +399,14 @@ div.pageTitle {
     color: #eeeeee; }
   #Blog div.entries h1, #Blog div.entries h2, #Blog div.entries h3, #Blog div.entries h4, #Blog div.entries h5, #Blog div.entries h6 {
     color: #eeeeee;
-    font-family: "Josefin Sans", serif;
+    font-family: "Hind", sans-serif;
     font-style: normal;
     font-weight: 400;
     letter-spacing: -0.025em;
     text-transform: none !important; }
   #Blog div.entries div, #Blog div.entries span, #Blog div.entries p, #Blog div.entries a, #Blog div.entries strong, #Blog div.entries ul, #Blog div.entries li, #Blog div.entries dl, #Blog div.entries dt, #Blog div.entries dd {
     color: #eeeeee;
-    font-family: "Josefin Sans", serif;
+    font-family: "Hind", sans-serif;
     font-style: normal;
     font-weight: 300;
     letter-spacing: -0.025em; }
@@ -410,7 +432,7 @@ div.pageTitle {
   display: block;
   height: 100px;
   width: 70px;
-  padding: 0;
+  padding: 5px 0 0 0;
   margin: 0;
   text-align: center; }
 
@@ -422,7 +444,7 @@ div.pageTitle {
 
 /* Style the numeric day */
 #Blog div.row dl dt span {
-  font-family: "Josefin Sans", serif;
+  font-family: "Hind", sans-serif;
   font-size: 32px;
   line-height: 28px; }
 
@@ -581,7 +603,8 @@ div.pageTitle {
 #Calendar {
   padding-top: 11px;
   border-top: 1px solid white;
-  background: url(/resources/img/colorbar.svg) repeat-x; }
+  background: url(/resources/img/colorbar.svg) repeat-x;
+  padding-bottom: 16px; }
   #Calendar #Events {
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -628,7 +651,8 @@ div.pageTitle {
       list-style-type: none; }
     #Calendar #Training li {
       display: block;
-      text-align: center; }
+      text-align: center;
+      height: 120px; }
       #Calendar #Training li span.title {
         display: inline-block;
         font-size: 1.2em;
@@ -1131,6 +1155,10 @@ div.pageTitle {
       background-size: cover; }
 
 /* Software General  */
+#SoftwareGeneral #Software {
+  margin: 0 -15px; }
+  #SoftwareGeneral #Software h1 {
+    margin-bottom: 20px; }
 #SoftwareGeneral div.SoftwareSpecifics {
   margin-bottom: 40px; }
   #SoftwareGeneral div.SoftwareSpecifics div {
@@ -1296,9 +1324,8 @@ div.pageTitle {
 
 /* Software GIS */
 #SoftwareGIS p.configure,
-#SoftwareGIS p.attributes,
-#SoftwareGIS p.exclusively,
-#SoftwareGIS p.shared {
+#SoftwareGIS p.shared,
+#SoftwareGIS div.attributes p {
   padding: 16px 10%;
   margin: 0;
   font-size: 1.9em;
@@ -1311,46 +1338,46 @@ div.pageTitle {
   padding: 16px 10%;
   margin: 0 25% 0 25%;
   border-bottom: 3px solid #ff6600; }
-#SoftwareGIS p.attributes {
-  font-size: 1.8em;
-  padding: 16px 0 16px 10%;
-  width: 48%;
-  float: left; }
-#SoftwareGIS p.exclusively {
-  font-size: 1.8em;
-  padding: 16px 10% 16px 0;
-  width: 48%;
-  float: right; }
+#SoftwareGIS div.attributes {
+  background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
+  background-size: contain; }
+  #SoftwareGIS div.attributes p {
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 16px 0; }
+  #SoftwareGIS div.attributes p:first-child {
+    text-align: right;
+    padding: 0 55px 0 0;
+    width: 48%; }
+  #SoftwareGIS div.attributes p:last-child {
+    text-align: left;
+    padding: 0 0 0 76px;
+    width: 50%; }
 #SoftwareGIS p.shared {
   position: relative;
   clear: both;
-  height: 200px;
   text-transform: lowercase;
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 2.6em;
-  line-height: 1.3em;
-  margin: 0 100px 0 100px;
-  padding: 60px 0 0 0;
-  background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
-  background-size: contain; }
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 10px 0;
+  padding: 0 60px; }
 #SoftwareGIS p.shared:before {
-  content: ">";
-  left: -60px; }
+  content: "";
+  background: url("/resources/img/BracketGreaterThan.svg") no-repeat left center;
+  left: 0px; }
 #SoftwareGIS p.shared:after {
-  content: "<";
-  right: -60px; }
+  content: "";
+  background: url("/resources/img/BracketLessThan.svg") no-repeat right center;
+  right: 0px; }
 #SoftwareGIS p.shared:before,
 #SoftwareGIS p.shared:after {
+  display: block;
   position: absolute;
-  top: 50px;
-  height: 150px;
-  line-height: 150px;
-  margin: 0;
-  padding: 0;
-  color: #ff9933;
-  font-size: 3.2em;
-  font-weight: 100;
-  font-family: sans-serif; }
+  top: 0;
+  width: 70px;
+  height: 100%;
+  background-size: 80px 60px; }
 #SoftwareGIS h1.gisHighlights {
   margin-top: 100px; }
 #SoftwareGIS .ESRI {
@@ -1373,7 +1400,9 @@ div.pageTitle {
   font-weight: 400;
   text-transform: lowercase;
   line-height: 1.3em;
-  font-family: "Montserrat Alternates", sans-serif; }
+  font-family: "Montserrat Alternates", sans-serif;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px; }
 #SoftwareGIS .ESRI:after {
   content: "";
   position: absolute;

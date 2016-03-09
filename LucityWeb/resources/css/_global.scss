@@ -153,7 +153,7 @@ nav.navbar {
 
 .navbar-default .navbar-nav > li > a {
     font-family: $lucity-font-menu;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: $lucity-orange;
 }
 
@@ -188,7 +188,9 @@ nav.navbar {
         width: 330px;
         background: url(../img/LogoTag.svg) top left no-repeat;
     }
+}
 
+@media (min-width: 768px) {
     .navbar #navbar {
         padding-top: 40px;
     }
@@ -205,6 +207,10 @@ nav.navbar {
     .navbar-default .navbar-nav > li > a:hover {
         background-color: #cccccc;
     }
+    .navbar #navbar {
+        padding-top: 0px;
+    }
+
 }
 
 
@@ -339,11 +345,16 @@ div.pageTitle {
         color: $lucity-font-color-inverse;
     }
 
-    ul li {
-        list-style-type: none;
-        margin-bottom: 20px;
+    ul
+    {
+        margin-right: 0;
+        padding-left: 60px;
     }
 
+    ul li {
+        list-style-type: none;
+        margin-bottom: 40px;
+    }
 
     ul li a {
         position: relative;
@@ -363,17 +374,40 @@ div.pageTitle {
         clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     }
 
+    ul li a:after {
+        position: absolute;
+        top: 16px;
+        left: 54px;
+        height: 70px;
+        width: 70px;
+        content:"";
+        background: url(/resources/img/playbutton.svg) no-repeat 0px 0px;
+        background-size: 60px 60px;
+    }
+
     ul li span.caption {
         display: block;
         position: absolute;
         top: 86px;
         left: 0px;
         width: 240px;
-        background-color: $lucity-green;
         font-size: 20px;
         padding: 6px 0 2px 8px;
         font-weight: 600;
         color: $lucity-blue-grey;
         border-right: 10px solid $lucity-blue-grey;
+        background-color: $lucity-green;
+    }
+}
+
+.LearnMore.lightBackground
+{
+    background-color: $lucity-background-color;
+    h1
+    {
+        color: $lucity-font-header-color;
+    }
+    ul li span.caption {
+        border-right: 10px solid $lucity-background-color;
     }
 }

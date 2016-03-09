@@ -1,4 +1,5 @@
 /*_constants.scss*/
+$lucity-background-color: #ffffff;
 $lucity-orange: #ff9933;
 $lucity-yellow: #ffff33;
 $lucity-green: #99cc33;
@@ -17,10 +18,10 @@ $lucity-font-header-color: $lucity-blue-grey;
 $large-screen-menu-height: 140px;
 $small-screen-menu-height: 114px;
 
-$lucity-font-menu: 'Josefin Sans', serif;
-$lucity-font-body: 'Josefin Sans', serif;
+$lucity-font-menu: 'Hind', sans-serif;
+$lucity-font-body: 'Hind', sans-serif;
 $lucity-font-header: 'Montserrat Alternates', sans-serif;
-
+ 
 @mixin colorbar ($height, $topBorderWeight, $topBorderColor) {
     padding-top: $height;
     border-top: $topBorderWeight solid $topBorderColor;

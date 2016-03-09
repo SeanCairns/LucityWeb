@@ -4,7 +4,7 @@
     <div id="TakeALookAtLucity" class="row">
         <div class="col-sm-8 col-xs-12">
             <div id="CompanyWhyLucity" class="aspect-ratio" ng-mouseover="showVideo = true">
-                <iframe width="831" height="480" src="https://www.youtube.com/embed/Ra0MQ6EOTYM" frameborder="0" allowfullscreen></iframe>
+                <iframe class="{{showVideo ? '' : 'faded'}}" width="831" height="480" src="https://www.youtube.com/embed/Ra0MQ6EOTYM" frameborder="0" allowfullscreen></iframe>
                 <div ng-hide="showVideo">
                     <h2>Why Lucity?</h2>
                     <p>Let our users and<br />partners tell you.</p>

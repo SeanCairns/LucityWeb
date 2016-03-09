@@ -1,12 +1,10 @@
 ﻿/* Software GIS */
-
 #SoftwareGIS
 {
 
     p.configure,
-    p.attributes,
-    p.exclusively,
-    p.shared
+    p.shared,
+    div.attributes p
     {
         padding: 16px 10%;
         margin: 0;
@@ -23,59 +21,64 @@
         margin: 0 25% 0 25% ;
         border-bottom: 3px solid $lucity-dark-orange;
     }
-    p.attributes
+
+    div.attributes
     {
-        font-size: 1.8em;
-        padding: 16px 0 16px 10%;
-        width: 48%;
-        float: left;
-    }
-    p.exclusively
-    {
-        font-size: 1.8em;
-        padding: 16px 10% 16px 0;
-        width: 48%;
-        float: right;
+        background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
+        background-size: contain;
+
+        p
+        {
+            display: inline-block;
+            font-size: 1.4em;
+            margin: 16px 0;
+        }
+        p:first-child
+        {
+            text-align: right;
+            padding: 0 55px 0 0;
+            width: 48%;
+        }
+        p:last-child
+        {
+            text-align: left;
+            padding: 0 0 0 76px;
+            width: 50%;
+        }
     }
 
     p.shared
     {
         position: relative;
         clear: both;
-        height: 200px;
         text-transform: lowercase;
         font-family: $lucity-font-header;
-        font-size: 2.6em;
-        line-height: 1.3em;
-        margin: 0 100px 0 100px;
-        padding: 60px 0 0 0 ;
-        background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
-        background-size: contain;
+        font-size: 1.8em;
+        line-height: 1.2em;
+        margin: 10px 0;
+        padding: 0 60px;
     }
     p.shared:before
     {
-        content: ">";
-        left: -60px;
-
+        content: "";
+        background: url("/resources/img/BracketGreaterThan.svg") no-repeat left center;
+        left: 0px;
     }
     p.shared:after
     {
-        content: "<";
-        right: -60px;
+        content: "";
+        background: url("/resources/img/BracketLessThan.svg") no-repeat right center;
+        right: 0px;
     }
     p.shared:before,
     p.shared:after
     {
+        display: block;
         position: absolute;
-        top: 50px;
-        height: 150px;
-        line-height: 150px;
-        margin: 0;
-        padding: 0;
-        color: $lucity-orange;
-        font-size: 3.2em;
-        font-weight: 100;
-        font-family: sans-serif;
+        top: 0;
+        width: 70px;
+        height: 100%;
+        background-size: 80px 60px;
     }
 
 
@@ -109,8 +112,8 @@
         text-transform: lowercase;
         line-height: 1.3em;
         font-family: $lucity-font-header;
-
-
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
     }
 
     .ESRI:after

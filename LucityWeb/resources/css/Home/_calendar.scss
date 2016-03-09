@@ -1,5 +1,6 @@
 ﻿#Calendar {
     @include colorbar(11px, 1px, white);
+    padding-bottom: 16px;
 
     #Events {
         padding-top: 20px;
@@ -70,6 +71,7 @@
         li {
             display: block;
             text-align: center;
+            height: 120px;
 
             span.title {
                 display: inline-block;
