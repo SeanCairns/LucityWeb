@@ -1,11 +1,9 @@
 ﻿/* Software GIS */
-#SoftwareGIS
-{
+#SoftwareGIS {
 
     p.configure,
     p.shared,
-    div.attributes p
-    {
+    div.attributes p {
         padding: 16px 10%;
         margin: 0;
         font-size: 1.9em;
@@ -13,42 +11,39 @@
         color: $lucity-blue-grey;
         text-align: center;
     }
-    p.configure:after
-    {
+
+    p.configure:after {
         display: block;
-        content:"";
+        content: "";
         padding: 16px 10%;
-        margin: 0 25% 0 25% ;
+        margin: 0 25% 0 25%;
         border-bottom: 3px solid $lucity-dark-orange;
     }
 
-    div.attributes
-    {
+    div.attributes {
         background: url("/resources/img/Software/GISTower.png") no-repeat center 0px;
         background-size: contain;
 
-        p
-        {
+        p {
             display: inline-block;
             font-size: 1.4em;
             margin: 16px 0;
         }
-        p:first-child
-        {
+
+        p:first-child {
             text-align: right;
             padding: 0 55px 0 0;
             width: 48%;
         }
-        p:last-child
-        {
+
+        p:last-child {
             text-align: left;
             padding: 0 0 0 76px;
             width: 50%;
         }
     }
 
-    p.shared
-    {
+    p.shared {
         position: relative;
         clear: both;
         text-transform: lowercase;
@@ -58,21 +53,21 @@
         margin: 10px 0;
         padding: 0 60px;
     }
-    p.shared:before
-    {
+
+    p.shared:before {
         content: "";
         background: url("/resources/img/BracketGreaterThan.svg") no-repeat left center;
         left: 0px;
     }
-    p.shared:after
-    {
+
+    p.shared:after {
         content: "";
         background: url("/resources/img/BracketLessThan.svg") no-repeat right center;
         right: 0px;
     }
+
     p.shared:before,
-    p.shared:after
-    {
+    p.shared:after {
         display: block;
         position: absolute;
         top: 0;
@@ -82,20 +77,17 @@
     }
 
 
-    h1.gisHighlights
-    {
+    h1.gisHighlights {
         margin-top: 100px;
     }
 
-    .ESRI
-    {
+    .ESRI {
         display: block;
         position: relative;
         height: 320px;
     }
 
-    .ESRI p
-    {
+    .ESRI p {
         display: block;
         position: absolute;
         font-size: 2em;
@@ -116,8 +108,7 @@
         border-bottom-left-radius: 8px;
     }
 
-    .ESRI:after
-    {
+    .ESRI:after {
         content: "";
         position: absolute;
         top: 20px;
@@ -131,3 +122,43 @@
     }
 }
 
+@media only screen and (max-device-width: 736px) {
+    #SoftwareGIS {
+        div.attributes {
+            p {
+                font-size: 1.1em;
+                margin: 2px 0;
+            }
+
+            p:first-child {
+                padding: 0 34px 0 0;
+            }
+
+            p:last-child {
+                padding: 0 0 0 48px;
+            }
+        }
+
+        p.shared {
+            font-size: 1em;
+        }
+
+        .ESRI {
+            height: 160px;
+        }
+
+        .ESRI p {
+            font-size: 1.2em;
+            top: 40px;
+            right: 20%;
+            width: 220px;
+            height: 110px;
+        }
+
+        .ESRI:after {
+            right: 0;
+            width: 90px;
+            height: 145px;
+        }
+    }
+}

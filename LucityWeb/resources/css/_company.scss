@@ -1,11 +1,8 @@
 /*_company.scss*/
 
-#OurTeam
-{
-    .thumbs
-    {
-        a
-        {
+#OurTeam {
+    .thumbs {
+        a {
             display: block;
             float: left;
             width: 166px;
@@ -14,8 +11,7 @@
             margin: 4px 10px;
         }
 
-        figure img
-        {
+        figure img {
             background-size: cover;
             width: 130px;
             height: 130px;
@@ -24,8 +20,7 @@
             @include opacify(.5);
         }
 
-        figure figcaption
-        {
+        figure figcaption {
             margin-top: 4px;
             border-bottom: 3px solid $lucity-green;
             color: $lucity-grey;
@@ -33,61 +28,50 @@
             font-size: 16px;
         }
 
-        a:hover figure img
-        {
+        a:hover figure img {
             @include opacify(1);
         }
 
         div.title,
-        div.email
-        {
+        div.email {
             font-size: 14px;
         }
     }
 
-    .selected figure img
-    {
-      @include opacify(1);
+    .selected figure img {
+        @include opacify(1);
     }
-
 }
 
 
-#GetToKnowUs
-{
-    h1
-    {
+#GetToKnowUs {
+    h1 {
         text-align: center;
         padding-bottom: 40px;
     }
 
     div.row div:nth-child(1),
-    div.row div:nth-child(5)
-    {
-      background-color: $lucity-orange;
+    div.row div:nth-child(5) {
+        background-color: $lucity-orange;
     }
 
     div.row div:nth-child(2),
-    div.row div:nth-child(6)
-    {
-      background-color: $lucity-green;
+    div.row div:nth-child(6) {
+        background-color: $lucity-green;
     }
 
     div.row div:nth-child(3),
-    div.row div:nth-child(7)
-    {
-      background-color: $lucity-blue-green;
+    div.row div:nth-child(7) {
+        background-color: $lucity-blue-green;
     }
 
     div.row div:nth-child(4),
-    div.row div:nth-child(8)
-    {
-      background-color: $lucity-dark-green;
+    div.row div:nth-child(8) {
+        background-color: $lucity-dark-green;
     }
 
 
-    div.row div 
-    {
+    div.row div {
         background-color: $lucity-green;
         color: white;
         border-left: 1em solid white;
@@ -99,76 +83,72 @@
     }
 
     div.row div a,
-    div.row div span
-    {
-      display: block;
-      margin-top: -50px;
-      height: 100px;
+    div.row div span {
+        display: block;
+        margin-top: -50px;
+        height: 100px;
     }
 
     div.row div a img,
-    div.row div span img
-    {
-      display: block;
-      height: 100%;
-      width: 100%;
+    div.row div span img {
+        display: block;
+        height: 100%;
+        width: 100%;
     }
 
-    div.row
-    {
-      margin-top: 50px;
-      text-align: center;
+    div.row {
+        margin-top: 50px;
+        text-align: center;
     }
 
     div.row div a h3,
-    div.row div span h3
-    {
-      color: #ffffff;
-      margin-top: 0;
-      margin-bottom: 0;
-      text-transform: lowercase;
-      text-align: center;
-      font-size: 1.3em;
-      opacity: 0.85;
-      padding-top: 10px;
+    div.row div span h3 {
+        color: #ffffff;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-transform: lowercase;
+        text-align: center;
+        font-size: 1.3em;
+        opacity: 0.85;
+        padding-top: 10px;
     }
 }
 
 
 
-@media only screen and (max-width : 768px), only screen and (max-device-width: 480px)
-{
-  #GetToKnowUs div.row div
-  {
-    border-left: 4em solid white;
-    border-right: 4em solid white;
-  }
-
+@media only screen and (max-width : 768px) {
+    #GetToKnowUs div.row div {
+        border-left: 4em solid white;
+        border-right: 4em solid white;
+    }
 }
 
-@media only screen and (min-width : 768px)
-{
-  #GetToKnowUs div.row div:nth-child(1),
-  #GetToKnowUs div.row div:nth-child(5)
-  {
-    border-left: 0;
-  }
-
-  #GetToKnowUs div.row div:nth-child(4),
-  #GetToKnowUs div.row div:nth-child(8)
-  {
-    border-right: 0;
-  }
+@media only screen and (max-device-width: 736px) {
+    #GetToKnowUs div.row div {
+        border-left: 1em solid white;
+        border-right: 1em solid white;
+    }
 }
 
 
+@media only screen and (min-width : 768px) {
+    #GetToKnowUs div.row div:nth-child(1),
+    #GetToKnowUs div.row div:nth-child(5) {
+        border-left: 0;
+    }
 
-#CompanyWhyLucity
-{
+    #GetToKnowUs div.row div:nth-child(4),
+    #GetToKnowUs div.row div:nth-child(8) {
+        border-right: 0;
+    }
+}
+
+
+
+#CompanyWhyLucity {
     position: relative;
 
-    div
-    {
+    div {
         z-index: 2;
         position: absolute;
         top: 0;
@@ -182,16 +162,14 @@
         background-size: 80px 80px;
         @include textGlow(white);
 
-        h2
-        {
+        h2 {
             color: $lucity-font-header-color;
             font-size: 2.4em;
             padding-bottom: 0;
             @include textGlow(white);
         }
 
-        p
-        {
+        p {
             color: $lucity-font-header-color;
             font-size: 1.8em;
             line-height: 1.2;
@@ -200,17 +178,30 @@
             @include textGlow(white);
         }
     }
-    iframe.faded
-    {
+
+    iframe.faded {
         @include opacify(.4);
     }
 }
 
-#TakeALookAtLucity
-{
-    p
-    {
+@media only screen and (max-device-width: 736px) {
+    #CompanyWhyLucity div {
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+#TakeALookAtLucity {
+    p {
         color: $lucity-font-header-color;
         font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-device-width: 736px) {
+    #TakeALookAtLucity {
+        p {
+            clear: both;
+        }
     }
 }

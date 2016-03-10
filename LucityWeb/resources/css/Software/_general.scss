@@ -1,56 +1,67 @@
 ﻿/* Software General  */
 
-#SoftwareGeneral
-{
-    #Software
-    {
+#SoftwareGeneral {
+    #Software {
         margin: 0 -15px;
 
-        h1
-        {
+        h1 {
             margin-bottom: 20px;
         }
     }
 
-    div.SoftwareSpecifics
-    {
+    div.SoftwareSpecifics {
         margin-bottom: 40px;
-        div
-        {
+
+        div {
             height: 180px;
 
-            h4
-            {
+            h4 {
                 margin-top: 120px;
                 text-align: center;
             }
         }
-        div.Turnkey { background: url(/resources/img/Software/General/key.svg) no-repeat center 20px; background-size: 70px 70px; }
-        div.Configurable { background: url(/resources/img/Software/General/wand.svg) no-repeat center 20px; background-size: 70px 70px; }
-        div.Value { background: url(/resources/img/Software/General/flags.svg) no-repeat center 20px; background-size: 70px 70px; }
-        div.Flexible { background: url(/resources/img/Software/General/bars.svg) no-repeat center 20px; background-size: 70px 70px; }
-        div.Robust { background: url(/resources/img/Software/General/rocket.svg) no-repeat center 20px; background-size: 70px 70px; }
+
+        div.Turnkey {
+            background: url(/resources/img/Software/General/key.svg) no-repeat center 20px;
+            background-size: 70px 70px;
+        }
+
+        div.Configurable {
+            background: url(/resources/img/Software/General/wand.svg) no-repeat center 20px;
+            background-size: 70px 70px;
+        }
+
+        div.Value {
+            background: url(/resources/img/Software/General/flags.svg) no-repeat center 20px;
+            background-size: 70px 70px;
+        }
+
+        div.Flexible {
+            background: url(/resources/img/Software/General/bars.svg) no-repeat center 20px;
+            background-size: 70px 70px;
+        }
+
+        div.Robust {
+            background: url(/resources/img/Software/General/rocket.svg) no-repeat center 20px;
+            background-size: 70px 70px;
+        }
     }
 
-    div.SoftwareOther
-    {
+    div.SoftwareOther {
         @include colorbar(20px, 1px, white);
         background-color: $lucity-green;
 
-        ul.Details
-        {
+        ul.Details {
             display: table;
             padding: 40px 0 40px 80px;
 
-            li
-            {
+            li {
                 display: table-row;
                 list-style-type: none;
                 height: 100px;
                 padding: 14px 10px 14px 0px;
 
-                span
-                {
+                span {
                     display: table-cell;
                     vertical-align: middle;
                     padding-left: 80px;
@@ -59,20 +70,33 @@
                 }
             }
 
-            li.Integration { background: url(/resources/img/Software/General/integration.svg) no-repeat center left; background-size: 60px 60px; }
-            li.Interfaces { background: url(/resources/img/Software/General/merge.svg) no-repeat center left; background-size: 60px 60px; }
-            li.Reporting { background: url(/resources/img/Software/General/report.svg) no-repeat center left; background-size: 60px 60px; }
-            li.Dell { background: url(/resources/img/Software/General/DellLogo.svg) no-repeat center left; background-size: 60px 60px; }
-        }    
+            li.Integration {
+                background: url(/resources/img/Software/General/integration.svg) no-repeat center left;
+                background-size: 60px 60px;
+            }
 
-        .ESRI span
-        {
+            li.Interfaces {
+                background: url(/resources/img/Software/General/merge.svg) no-repeat center left;
+                background-size: 60px 60px;
+            }
+
+            li.Reporting {
+                background: url(/resources/img/Software/General/report.svg) no-repeat center left;
+                background-size: 60px 60px;
+            }
+
+            li.Dell {
+                background: url(/resources/img/Software/General/DellLogo.svg) no-repeat center left;
+                background-size: 60px 60px;
+            }
+        }
+
+        .ESRI span {
             display: block;
             position: relative;
         }
 
-        .ESRI span:after
-        {
+        .ESRI span:after {
             content: "";
             position: absolute;
             top: 12px;
@@ -85,44 +109,38 @@
             border-radius: 100px;
         }
 
-        div.MoreDetails
-        {
-            div
-            {
+        div.MoreDetails {
+            div {
                 background-color: #ffffff;
                 margin: 10px 30px;
                 border: 3px solid $lucity-orange;
                 padding-bottom: 30px;
 
-                h4
-                {
+                h4 {
                     padding-top: 30px;
                     color: $lucity-orange;
                     font-size: 1.8em;
                     text-align: center;
                 }
 
-                p
-                {
+                p {
                     text-align: center;
 
-                    span
-                    {
+                    span {
                         font-size: 1.2em;
                         color: $lucity-blue-green;
                         padding-left: 12px;
                         background: url(/resources/img/MiniLucityPlusOrange.png) no-repeat center left;
                     }
-                    span:first-child
-                    {
+
+                    span:first-child {
                         padding-left: 0;
                         background: none;
                     }
                 }
             }
 
-            a.Requirements
-            {
+            a.Requirements {
                 display: block;
                 margin-left: 30px;
                 padding: 50px 50px 50px 108px;
@@ -134,12 +152,10 @@
         }
     }
 
-    #Inspiration
-    {
+    #Inspiration {
         margin: 30px;
-        
-        h2
-        {
+
+        h2 {
             margin: 0;
             padding: 0;
             font-size: 480%;
@@ -148,8 +164,7 @@
             text-align: right;
         }
 
-        p
-        {
+        p {
             margin: 0;
             padding: 0 0 0 16px;
             font-size: 190%;
@@ -158,20 +173,18 @@
         }
     }
 
-    #SoftwareWeHearYou
-    {
+    #SoftwareWeHearYou {
         padding-left: 14%;
 
-        h2
-        {
+        h2 {
             margin: 0;
             padding: 0;
             font-size: 300%;
             font-weight: 400;
             color: $lucity-orange;
         }
-        p
-        {
+
+        p {
             margin: 0 0 20px 0;
             padding: 0;
             text-transform: lowercase;
@@ -181,16 +194,14 @@
         }
     }
 
-    #WorkingAgencies
-    {
+    #WorkingAgencies {
         display: block;
         position: relative;
         height: 510px;
         margin: 20px;
         padding: 40px;
 
-        h2
-        {
+        h2 {
             position: relative;
             z-index: 2;
             margin: 0;
@@ -199,10 +210,10 @@
             margin-left: 20px;
             font-size: 280%;
             font-weight: 400;
-            text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff
+            text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff;
         }
-        p
-        {
+
+        p {
             position: relative;
             z-index: 2;
             margin: 0;
@@ -212,11 +223,10 @@
             font-size: 190%;
             font-weight: 600;
             color: $lucity-blue-grey;
-            text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff
+            text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff;
         }
 
-        #LucityClients
-        {
+        #LucityClients {
             display: block;
             position: absolute;
             z-index: 1;
@@ -227,5 +237,19 @@
             border: 6px solid $lucity-green;
             border-radius: 60px;
         }
+    }
+}
+
+@media only screen and (max-device-width: 736px) {
+    #SoftwareGeneral div.SoftwareOther ul.Details {
+        padding-left: 20px;
+    }
+    #SoftwareGeneral div.SoftwareOther ul.Details li span {
+        padding-left: 70px;
+        padding-right: 10px;
+        font-size: 1.2em;
+    }
+    #SoftwareGeneral #Inspiration h2 {
+        text-align: left;
     }
 }

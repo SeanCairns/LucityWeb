@@ -36,7 +36,7 @@
         <h1>Learn More</h1>
 
         <ul class="container-fluid row">
-            <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-GIS'} )" class="col-md-12 col-sm-6 col-xs-6">
+            <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-GIS'} )" class="col-md-12 col-sm-6 col-xs-12">
                 <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
                     <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
                 </a>

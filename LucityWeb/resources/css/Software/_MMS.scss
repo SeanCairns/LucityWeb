@@ -1,13 +1,10 @@
 ﻿/* Software MMS */
 
-#SoftwareMMS
-{
-    @include colorbar(11px, 1px, white);
+#SoftwareMMS {
     text-align: center;
     margin-bottom: 40px;
 
-    h1
-    {
+    h1 {
         text-align: left;
     }
 
@@ -19,8 +16,7 @@
         text-align: center;
     }
 
-    div.row div
-    {
+    div.row div {
         position: relative;
         display: block;
         height: 240px;
@@ -28,16 +24,14 @@
         border-left: 20px solid white;
         border-right: 20px solid white;
         border-top: 1px solid white;
-        z-index: 1;   
+        z-index: 1;
 
-        h2
-        {
+        h2 {
             display: none;
             font-size: 2.7em;
         }
 
-        p
-        {
+        p {
             display: none;
             font-size: 1.6em;
             font-weight: 600;
@@ -48,18 +42,14 @@
         }
     }
 
-    div.row div:hover
-    {
-
-        h2, p
-        {
+    div.row div:hover {
+        h2, p {
             position: relative;
             display: block;
-            z-index: 3;   
+            z-index: 3;
         }
 
-        span
-        {
+        span {
             content: "";
             background-color: white;
             opacity: 0.6;
@@ -69,27 +59,37 @@
             right: 0;
             position: absolute;
             display: block;
-            z-index: 2;   
+            z-index: 2;
         }
-}
+    }
 
-    #MMSWorkOrders
-    {
+    #MMSWorkOrders {
         background: url(/resources/img/Software/Work/WorkOrders.png) center center no-repeat;
     }
 
-    #MMSRequests
-    {
+    #MMSRequests {
         background: url(/resources/img/Software/Work/Requests.png) center center no-repeat;
     }
 
-    #MMSScheduling
-    {
+    #MMSScheduling {
         background: url(/resources/img/Software/Work/Scheduling.png) center center no-repeat;
     }
 
-    #MMSInventory
-    {
+    #MMSInventory {
         background: url(/resources/img/Software/Work/Inventory.png) center center no-repeat;
+    }
+}
+
+@media only screen and (max-device-width: 736px) {
+    #SoftwareMMS {
+        div.row div p {
+            font-size: 1.3em;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+
+        #MMSRequests {
+            background: url(/resources/img/Software/Work/Requests.png) -200px center no-repeat;
+        }
     }
 }

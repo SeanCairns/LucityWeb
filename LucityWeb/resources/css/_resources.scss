@@ -102,6 +102,13 @@
     }
 }
 
+@media only screen and (max-device-width: 736px) {
+    #ResourceWhatSearch #ResourceSearch
+    {
+        padding: 50px 30px;
+    }
+}
+
 #ResourceDemonstrations
 {
     @include colorbar(20px, 1px, white);
@@ -131,24 +138,26 @@
         list-style-type: none;
         margin: 8px;
         padding: 0;
+        border: 3px solid #ffffff;
+        border-radius: 15px;
     }
     figure img
     {
         width: 100%;
         background-size: cover;
+        border-radius: 12px;
     }
 
     figure figcaption
     {
         padding-left: 6px;
-        border-top: 1px solid #444444;
     }
 
     .videoCount
     {
         position: absolute;
         width: 45%;
-        height: 116px;
+        height: 100%;
         right: 0;
         top: 0;
         background-color: #000000;
@@ -156,6 +165,7 @@
         text-transform: uppercase;
         text-align: center;
         font-size: .8em;
+        border-radius: 12px;
 
         span
         {

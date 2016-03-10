@@ -154,7 +154,7 @@ nav.navbar {
 @media (max-width: 767px) {
   .navbar .navbar-header a.logo {
     height: 48px;
-    width: 350px;
+    width: 250px;
     background: url(../img/LogoTagMobile.svg) top left no-repeat; }
 
   .navbar-default .navbar-nav > li > a:focus,
@@ -521,19 +521,19 @@ div.pageTitle {
   #Software div.EAMS.work {
     margin-bottom: 60px; }
 
-  #Software div.EAMS.assets {
+  #Software.Home div.EAMS.assets {
     border-left: 1em solid white;
     border-right: .5em solid white; }
 
-  #Software div.EAMS.work {
+  #Software.Home div.EAMS.work {
     border-left: .5em solid white;
     border-right: 1em solid white; }
 
-  #Software div.EAMS.gis {
+  #Software.Home div.EAMS.gis {
     border-left: 1em solid white;
     border-right: .5em solid white; }
 
-  #Software div.EAMS.general {
+  #Software.Home div.EAMS.general {
     border-left: .5em solid white;
     border-right: 1em solid white; } }
 @media only screen and (min-width: 768px) {
@@ -678,13 +678,20 @@ div.pageTitle {
       background: url(/resources/img/bracketright.svg) top right no-repeat;
       right: 0px;
       background-size: cover; }
+    #Calendar #Training li {
+      height: 70px; }
 
 @media only screen and (max-device-width: 736px), screen and (max-width: 768px) {
   #Calendar #Training {
     border-left: 18px solid white;
     border-right: 18px solid white; }
     #Calendar #Training ul {
-      padding: 46px 0 0 0; } }
+      padding: 46px 0 0 0; }
+    #Calendar #Training ul:before,
+    #Calendar #Training ul:after {
+      padding: 0 30px 0 30px;
+      width: 60px;
+      height: 100%; } }
 @media only screen and (max-device-width: 400px), screen and (max-width: 400px) {
   #Calendar #Events {
     padding-left: 6px;
@@ -850,10 +857,14 @@ div.pageTitle {
   opacity: 0.85;
   padding-top: 10px; }
 
-@media only screen and (max-width: 768px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 768px) {
   #GetToKnowUs div.row div {
     border-left: 4em solid white;
     border-right: 4em solid white; } }
+@media only screen and (max-device-width: 736px) {
+  #GetToKnowUs div.row div {
+    border-left: 1em solid white;
+    border-right: 1em solid white; } }
 @media only screen and (min-width: 768px) {
   #GetToKnowUs div.row div:nth-child(1),
   #GetToKnowUs div.row div:nth-child(5) {
@@ -924,10 +935,17 @@ div.pageTitle {
     filter: alpha(opacity=40);
     /* For IE8 and earlier */ }
 
+@media only screen and (max-device-width: 736px) {
+  #CompanyWhyLucity div {
+    text-align: left;
+    padding-left: 10px; } }
 #TakeALookAtLucity p {
   color: #4f5c73;
   font-size: 1.4em; }
 
+@media only screen and (max-device-width: 736px) {
+  #TakeALookAtLucity p {
+    clear: both; } }
 /* Software */
 /* Software Home */
 #SoftwareHome p.proven,
@@ -1322,6 +1340,17 @@ div.pageTitle {
     border: 6px solid #99cc33;
     border-radius: 60px; }
 
+@media only screen and (max-device-width: 736px) {
+  #SoftwareGeneral div.SoftwareOther ul.Details {
+    padding-left: 20px; }
+
+  #SoftwareGeneral div.SoftwareOther ul.Details li span {
+    padding-left: 70px;
+    padding-right: 10px;
+    font-size: 1.2em; }
+
+  #SoftwareGeneral #Inspiration h2 {
+    text-align: left; } }
 /* Software GIS */
 #SoftwareGIS p.configure,
 #SoftwareGIS p.shared,
@@ -1415,11 +1444,30 @@ div.pageTitle {
   border: 4px solid #78A22D;
   border-radius: 100px; }
 
+@media only screen and (max-device-width: 736px) {
+  #SoftwareGIS div.attributes p {
+    font-size: 1.1em;
+    margin: 2px 0; }
+  #SoftwareGIS div.attributes p:first-child {
+    padding: 0 34px 0 0; }
+  #SoftwareGIS div.attributes p:last-child {
+    padding: 0 0 0 48px; }
+  #SoftwareGIS p.shared {
+    font-size: 1em; }
+  #SoftwareGIS .ESRI {
+    height: 160px; }
+  #SoftwareGIS .ESRI p {
+    font-size: 1.2em;
+    top: 40px;
+    right: 20%;
+    width: 220px;
+    height: 110px; }
+  #SoftwareGIS .ESRI:after {
+    right: 0;
+    width: 90px;
+    height: 145px; } }
 /* Software MMS */
 #SoftwareMMS {
-  padding-top: 11px;
-  border-top: 1px solid white;
-  background: url(/resources/img/colorbar.svg) repeat-x;
   text-align: center;
   margin-bottom: 40px; }
   #SoftwareMMS h1 {
@@ -1474,6 +1522,13 @@ div.pageTitle {
   #SoftwareMMS #MMSInventory {
     background: url(/resources/img/Software/Work/Inventory.png) center center no-repeat; }
 
+@media only screen and (max-device-width: 736px) {
+  #SoftwareMMS div.row div p {
+    font-size: 1.3em;
+    padding-right: 10%;
+    padding-left: 10%; }
+  #SoftwareMMS #MMSRequests {
+    background: url(/resources/img/Software/Work/Requests.png) -200px center no-repeat; } }
 /*_resources.scss*/
 #lookAround {
   padding: 0 15% 0 15%;
@@ -1545,6 +1600,9 @@ div.pageTitle {
       font-weight: 600;
       float: right; }
 
+@media only screen and (max-device-width: 736px) {
+  #ResourceWhatSearch #ResourceSearch {
+    padding: 50px 30px; } }
 #ResourceDemonstrations {
   padding-top: 20px;
   border-top: 1px solid white;
@@ -1566,17 +1624,19 @@ div.pageTitle {
     background-color: white;
     list-style-type: none;
     margin: 8px;
-    padding: 0; }
+    padding: 0;
+    border: 3px solid #ffffff;
+    border-radius: 15px; }
   #ResourceDemonstrations figure img {
     width: 100%;
-    background-size: cover; }
+    background-size: cover;
+    border-radius: 12px; }
   #ResourceDemonstrations figure figcaption {
-    padding-left: 6px;
-    border-top: 1px solid #444444; }
+    padding-left: 6px; }
   #ResourceDemonstrations .videoCount {
     position: absolute;
     width: 45%;
-    height: 116px;
+    height: 100%;
     right: 0;
     top: 0;
     background-color: #000000;
@@ -1585,7 +1645,8 @@ div.pageTitle {
     /* For IE8 and earlier */
     text-transform: uppercase;
     text-align: center;
-    font-size: .8em; }
+    font-size: .8em;
+    border-radius: 12px; }
     #ResourceDemonstrations .videoCount span {
       display: block;
       padding-top: 30px;
