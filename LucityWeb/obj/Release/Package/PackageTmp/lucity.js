@@ -62,7 +62,19 @@ if (!window.console) console = { log: function () { } };
 (function (Configs, undefined) {
     Lucity.Modules.Lucity.run(function ($rootScope, $location) {
         $rootScope.$on("$routeChangeSuccess", function () {
-            window.scrollTo(0, 0);
+        if ($location.path().indexOf("/Company/Management-Team/") > -1) {
+            $('html, body').animate({
+                scrollTop: $("#MemberBio").offset().top - 120
+            }, 1000);
+        }
+        if ($location.path().indexOf("/Company/Careers/") > -1) {
+            $('html, body').animate({
+                scrollTop: $("#CareerPath").offset().top - 120
+            }, 1000);
+        }
+        else {
+                window.scrollTo(0, 0);
+            }
         });
     });
 }(Lucity.Configs = Lucity.Configs || {}));

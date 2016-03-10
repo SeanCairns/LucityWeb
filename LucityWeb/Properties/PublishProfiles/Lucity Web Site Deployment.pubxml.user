@@ -130,7 +130,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2015 17:00:59</publishTime>
     </File>
     <File Include="lucity.js">
-      <publishTime>03/03/2016 07:49:17</publishTime>
+      <publishTime>03/10/2016 10:14:47</publishTime>
     </File>
     <File Include="Models/Calendar.json">
       <publishTime>11/23/2015 14:59:06</publishTime>
@@ -157,7 +157,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/20/2015 13:35:11</publishTime>
     </File>
     <File Include="partials/Company/Careers/Careers.html">
-      <publishTime>02/03/2016 09:16:34</publishTime>
+      <publishTime>03/10/2016 10:12:48</publishTime>
     </File>
     <File Include="partials/Company/Careers/Implementation-Specialist.html">
       <publishTime>02/03/2016 09:18:52</publishTime>
@@ -175,13 +175,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/11/2016 10:51:36</publishTime>
     </File>
     <File Include="partials/Company/management-team.html">
-      <publishTime>02/11/2016 09:03:25</publishTime>
+      <publishTime>03/10/2016 10:05:16</publishTime>
     </File>
     <File Include="partials/home.html">
-      <publishTime>03/02/2016 21:49:01</publishTime>
+      <publishTime>03/10/2016 09:35:18</publishTime>
     </File>
     <File Include="partials/resources.html">
-      <publishTime>01/26/2016 12:01:25</publishTime>
+      <publishTime>03/10/2016 10:32:24</publishTime>
     </File>
     <File Include="partials/software.html">
       <publishTime>10/15/2015 14:53:08</publishTime>
@@ -190,10 +190,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/03/2016 09:26:05</publishTime>
     </File>
     <File Include="partials/Software/general.html">
-      <publishTime>03/03/2016 09:13:28</publishTime>
+      <publishTime>03/10/2016 09:30:20</publishTime>
     </File>
     <File Include="partials/Software/GIS.html">
-      <publishTime>03/09/2016 14:32:38</publishTime>
+      <publishTime>03/10/2016 09:08:57</publishTime>
     </File>
     <File Include="partials/Software/MMS.html">
       <publishTime>01/09/2016 14:23:56</publishTime>
@@ -211,7 +211,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/07/2016 10:48:49</publishTime>
     </File>
     <File Include="resources/css/Home/_calendar.scss">
-      <publishTime>03/03/2016 13:39:00</publishTime>
+      <publishTime>03/10/2016 10:45:27</publishTime>
     </File>
     <File Include="resources/css/Home/_events.scss">
       <publishTime>02/11/2016 11:03:54</publishTime>
@@ -220,16 +220,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2016 11:35:36</publishTime>
     </File>
     <File Include="resources/css/Home/_software.scss">
-      <publishTime>03/02/2016 21:45:14</publishTime>
+      <publishTime>03/10/2016 09:35:51</publishTime>
     </File>
     <File Include="resources/css/Home/_talkinghead.scss">
       <publishTime>03/07/2016 14:16:43</publishTime>
     </File>
     <File Include="resources/css/lucity.css">
-      <publishTime>03/09/2016 14:32:18</publishTime>
+      <publishTime>03/10/2016 10:45:30</publishTime>
     </File>
     <File Include="resources/css/lucity.css.map">
-      <publishTime>03/09/2016 14:32:19</publishTime>
+      <publishTime>03/10/2016 10:45:31</publishTime>
     </File>
     <File Include="resources/css/lucity.scss">
       <publishTime>03/07/2016 10:50:27</publishTime>
@@ -238,13 +238,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/03/2016 10:01:36</publishTime>
     </File>
     <File Include="resources/css/Software/_general.scss">
-      <publishTime>03/03/2016 13:33:50</publishTime>
+      <publishTime>03/10/2016 09:35:32</publishTime>
     </File>
     <File Include="resources/css/Software/_GIS.scss">
-      <publishTime>03/09/2016 14:19:37</publishTime>
+      <publishTime>03/10/2016 09:20:49</publishTime>
     </File>
     <File Include="resources/css/Software/_MMS.scss">
-      <publishTime>01/09/2016 21:10:33</publishTime>
+      <publishTime>03/10/2016 08:30:43</publishTime>
     </File>
     <File Include="resources/css/Software/_software.scss">
       <publishTime>12/10/2015 14:38:00</publishTime>
@@ -253,13 +253,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/03/2016 09:05:56</publishTime>
     </File>
     <File Include="resources/css/_company.scss">
-      <publishTime>03/02/2016 21:25:46</publishTime>
+      <publishTime>03/10/2016 10:17:25</publishTime>
     </File>
     <File Include="resources/css/_constants.scss">
       <publishTime>03/09/2016 10:39:23</publishTime>
     </File>
     <File Include="resources/css/_global.scss">
-      <publishTime>03/09/2016 14:32:15</publishTime>
+      <publishTime>03/10/2016 08:13:17</publishTime>
     </File>
     <File Include="resources/css/_home.scss">
       <publishTime>11/24/2015 07:25:40</publishTime>
@@ -280,7 +280,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2015 09:11:58</publishTime>
     </File>
     <File Include="resources/css/_resources.scss">
-      <publishTime>01/10/2016 12:02:27</publishTime>
+      <publishTime>03/10/2016 10:34:15</publishTime>
     </File>
     <File Include="resources/css/_software.scss">
       <publishTime>11/24/2015 07:26:33</publishTime>
@@ -2917,7 +2917,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/18/2015 11:02:35</publishTime>
     </File>
     <File Include="resources/js/_general/app.js">
-      <publishTime>03/03/2016 07:49:15</publishTime>
+      <publishTime>03/10/2016 10:14:44</publishTime>
     </File>
     <File Include="resources/js/_general/config.js">
       <publishTime>11/25/2015 21:52:12</publishTime>

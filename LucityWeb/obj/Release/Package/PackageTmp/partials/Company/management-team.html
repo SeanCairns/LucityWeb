@@ -17,7 +17,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-7 col-sm-12 col-xs-12">
+        <div class="col-md-7 col-sm-12 col-xs-12" id="MemberBio">
             <div ng-repeat="member in selectedMember = (team.members | filter:{'selected' : true})">
                 <h1>{{member.name}}</h1>
                 <h2>{{member.title}}</h2>

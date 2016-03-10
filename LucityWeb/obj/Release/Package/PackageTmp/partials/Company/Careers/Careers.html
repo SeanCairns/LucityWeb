@@ -19,6 +19,6 @@
         <li ng-repeat="career in filteredCareerList = ( careerList | filter:{active:true} )"><a href="/Company/Careers/{{career.jobDetailsFileName}}">{{career.title}}</a></li>
     </ul>
 
-    <div ng-include="careerPath"></div>
+    <div ng-include="careerPath" id="CareerPath"></div>
 
 </div>
