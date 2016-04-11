@@ -1,8 +1,7 @@
 //Prevents console log errors in IE when developer tools are not open
 if (!window.console) console = { log: function () { } };
 
-(function (Lucity, undefined)
-{
+(function (Lucity, undefined) {
     /**
      * @ngdoc function
      * @name Lucity
@@ -11,22 +10,23 @@ if (!window.console) console = { log: function () { } };
      *
      * Set up our Lucity website parameters for AngularJS.
      **/
-    Lucity.Version 		= "0.0.0";
+    Lucity.Version = "0.0.0";
     Lucity.PartialsPath = "/partials";
-    Lucity.Modules 		= {};
-    Lucity.Service 		= {};
-    Lucity.Factory 		= {};
-    Lucity.Configs 		= {};
-    Lucity.Filters 		= {};
-    Lucity.Controllers 	= {};
+    Lucity.Modules = {};
+    Lucity.Service = {};
+    Lucity.Factory = {};
+    Lucity.Configs = {};
+    Lucity.Filters = {};
+    Lucity.Controllers = {};
     Lucity.Directives = {};
     Lucity.Json = {
-        "Calendar":     "resources/data/Calendar.json",
-        "Team":         "resources/data/lucity_team.json",
-        "Testimonials": "resources/data/testimonials.json",
+        "Calendar": "/resources/data/Calendar.json",
+        "EventsCalendar": "/resources/data/EventsCalendar.json",
+        "Team": "/resources/data/lucity_team.json",
+        "Testimonials": "/resources/data/testimonials.json",
         "Blogs": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=5&q=http://blog.lucity.com/feed/",
-        "YouTubePlaylist": "resources/data/YouTubePlayListMockup.json",
-        "YouTubeVideoList": "resources/data/LucityUTube.json",
+        "YouTubePlaylist": "/resources/data/YouTubePlayListMockup.json",
+        "YouTubeVideoList": "/resources/data/LucityUTube.json",
         "Careers": "/resources/data/Careers.json"
     };
 
@@ -34,10 +34,9 @@ if (!window.console) console = { log: function () { } };
     //https://www.googleapis.com/youtube/v3/playlists?part=contentDetails%2C+id%2C+localizations%2C+player%2C+snippet%2C+status&channelId=UCSBBCEWsSEqzuf6nxS-xGsw&key=AIzaSyBclgmgFXlZTwT68_bPy66X8HIaqGUU9Xs
 
 
-}(window.Lucity = window.Lucity || {} ));
+}(window.Lucity = window.Lucity || {}));
 
-(function (Modules, undefined)
-{
+(function (Modules, undefined) {
     /**
      * @ngdoc object
      * @id Lucity
@@ -62,25 +61,22 @@ if (!window.console) console = { log: function () { } };
 (function (Configs, undefined) {
     Lucity.Modules.Lucity.run(function ($rootScope, $location) {
         $rootScope.$on("$routeChangeSuccess", function () {
-        if ($location.path().indexOf("/Company/Management-Team/") > -1) {
-            $('html, body').animate({
-                scrollTop: $("#MemberBio").offset().top - 120
-            }, 1000);
-        }
-        if ($location.path().indexOf("/Company/Careers/") > -1) {
-            $('html, body').animate({
-                scrollTop: $("#CareerPath").offset().top - 120
-            }, 1000);
-        }
-        else {
+            if ($location.path().indexOf("/Company/Management-Team/") > -1) {
+                $('html, body').animate({
+                    scrollTop: $("#MemberBio").offset().top - 120
+                }, 1000);
+            }
+            if ($location.path().indexOf("/Company/Careers/") > -1) {
+                $('html, body').animate({
+                    scrollTop: $("#CareerPath").offset().top - 120
+                }, 1000);
+            }
+            else {
                 window.scrollTo(0, 0);
             }
         });
     });
 }(Lucity.Configs = Lucity.Configs || {}));
-
-
-
 
 
 (function (Filters, undefined)

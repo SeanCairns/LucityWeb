@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lucity Event Editor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-ng-app="">
+    <div class="container" data-ng-controller="LucityEventController">
+        <header class="app-header">
+            <h1 class="app-title">{{ appTitle }}</h1>
+        </header>
+        <section class="app-body">
+            <section class="archive-control">
+                <span>{{ eventList.length }} Events</span>
+                <p>
+                    [ <a href="" data-ng-click="archive()">Remove Deleted Events</a> ]
+                    [ <a href="" data-ng-click="loadFromWeb()">Load Dates From Production</a> ]
+                </p>
+            </section>
+
+            <table>
+                <tr>
+                    <th>Delete</th>
+                    <th>Category</th>
+                    <th>Title</th>
+                    <th>Start Date</th>
+                    <th>Days</th>
+                    <th>Location</th>
+                    <th>Participation</th>
+                    <th>Link</th>
+                </tr>
+                <tr data-ng-repeat="event in eventList track by $index">
+                    <td><input type="checkbox" data-ng-model="event.delete"></td>
+                    <td>{{ event.category }}</td>
+                    <td>{{ event.title }}</td>
+                    <td>{{ event.startDate }}</td>
+                    <td>{{ event.days }}</td>
+                    <td>{{ event.location }}</td>
+                    <td>{{ event.participation }}</td>
+                    <td><a href="{{ event.linkToMoreInfo }}">{{ event.linkToMoreInfo }}</a></td>
+                </tr>
+            </table>
+
+            <form data-ng-submit="addEvent()" class="event-form">
+                <label>Category:</label>
+                <select data-ng-model="category" placeholder="Category">
+                    <option ng-repeat="category in categories" ng-value="category.name">{{category.name}}</option>
+                </select>
+                <br />
+                <label>Title:</label>
+                <input type="text" data-ng-model="title" />
+                <br />
+                <label>Start date:</label>
+                <input type="date" data-ng-model="startDate">
+                <br />
+                <label>Days:</label>
+                <input type="text" data-ng-model="days" placeholder="e.g. 11-18" />
+                <br />
+                <label>Location:</label>
+                <input type="text" data-ng-model="location" />
+                <br />
+                <label>Participation:</label>
+                <input type="text" data-ng-model="participation" placeholder="e.g. sponsor or booth #" />
+                <br />
+                <label>Link:</label>
+                <input type="text" data-ng-model="linkToMoreInfo" placeholder="Link to more info" />
+                <br />
+                <input type="submit" value="Add Event" />
+            </form>
+        </section>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

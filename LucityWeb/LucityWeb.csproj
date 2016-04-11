@@ -156,7 +156,8 @@
     <Content Include="lucity.annotated.js" />
     <Content Include="lucity.js" />
     <Content Include="partials\Company\Careers\Careers.html" />
-    <Content Include="partials\Company\Careers\Implementation-Specialist.html" />
+    <Content Include="partials\Company\Careers\Implementation-Specialist-Updated.html" />
+    <Content Include="partials\Company\Careers\Software-Quality-Assurance-Specialist.html" />
     <Content Include="partials\Company\Careers\Southeast-Regional-Sales-Representative.html" />
     <Content Include="partials\Company\Careers\Web-Developer.html" />
     <Content Include="partials\Company\events.html" />
@@ -172,6 +173,8 @@
     <Content Include="partials\support.html" />
     <Content Include="resources\css\bootstrap.min.css" />
     <Content Include="resources\css\lucity.css" />
+    <Content Include="resources\Events\Editor.html" />
+    <Content Include="resources\Events\EventEditor.js" />
     <Content Include="resources\Font-Awesome\.gitignore" />
     <Content Include="resources\Font-Awesome\css\font-awesome.css" />
     <Content Include="resources\Font-Awesome\css\font-awesome.min.css" />
@@ -1088,6 +1091,7 @@
     <Content Include="resources\Testimonials\SanMarcosCA.pdf" />
     <Content Include="resources\data\Careers.json" />
     <Content Include="resources\css\Home\_events.scss" />
+    <Content Include="resources\data\EventsCalendar.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

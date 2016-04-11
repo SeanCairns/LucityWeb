@@ -7,8 +7,8 @@
     </p>
 
     <p ng-show="filteredCareerList.length > 0">
-        Interested in joining the Lucity team? We're currently looking to fill the following position.
-        If it sounds like a great fit for you, send your resume to <a href="{{emailLink}}">jobs@lucity.com</a>. Thanks!
+        Interested in joining the Lucity team? We’re currently looking to fill the following positions.
+        If any of them sound like a great fit for you, send your resume to <a href="{{emailLink}}">jobs@lucity.com</a>. Thanks!
     </p>
 
     <p ng-show="filteredCareerList.length == 0">
@@ -16,7 +16,7 @@
     </p>
 
     <ul>
-        <li ng-repeat="career in filteredCareerList = ( careerList | filter:{active:true} )"><a href="/Company/Careers/{{career.jobDetailsFileName}}">{{career.title}}</a></li>
+        <li ng-repeat="career in filteredCareerList = ( careerList | filter:{active:true} | orderBy : 'title' )"><a href="/Company/Careers/{{career.jobDetailsFileName}}">{{career.title}}</a></li>
     </ul>
 
     <div ng-include="careerPath" id="CareerPath"></div>
