@@ -175,6 +175,7 @@
     <Content Include="resources\css\lucity.css" />
     <Content Include="resources\Events\Editor.html" />
     <Content Include="resources\Events\EventEditor.js" />
+    <Content Include="resources\Events\style.css" />
     <Content Include="resources\Font-Awesome\.gitignore" />
     <Content Include="resources\Font-Awesome\css\font-awesome.css" />
     <Content Include="resources\Font-Awesome\css\font-awesome.min.css" />

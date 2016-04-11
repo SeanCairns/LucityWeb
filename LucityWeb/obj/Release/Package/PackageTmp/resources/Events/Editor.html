@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lucity Event Editor</title>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js'></script>
+    <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body data-ng-app="">
+    <div class="container" data-ng-controller="LucityEventController">
+        <header>
+            <h1>{{ appTitle }}</h1>
+        </header>
+        <section>
+            <section>
+                <p>
+                    <a href="" class="btn btn-info btn-md" data-ng-click="createEvent()">Add Event</a>
+                    <a href="" class="btn btn-info btn-md" data-ng-click="archive()">Remove Events Marked for Deletion</a>
+                    <a href="" class="btn btn-info btn-md" data-ng-click="loadFromWeb()">Load Dates From Production</a>
+                    <a href="" class="btn btn-info btn-md" data-ng-click="getJson()">Export to JSON</a>
+                </p>
+            </section>
+
+            <table class="table">
+                <tr>
+                    <th>Delete</th>
+                    <th>Category</th>
+                    <th>Title</th>
+                    <th>Start Date</th>
+                    <th>Days</th>
+                    <th>Location</th>
+                    <th>Participation</th>
+                    <th>Link</th>
+                </tr>
+                <tr data-ng-repeat="event in eventList | orderBy: ['category.id', 'startDate'] track by $index " ng-dblclick="editEvent(event.id)">
+                    <td><input type="checkbox" data-ng-model="event.delete"></td>
+                    <td>{{ event.category.name }}</td>
+                    <td>{{ event.title }}</td>
+                    <td class="date">{{ event.startDate }}</td>
+                    <td class="days">{{ event.days }}</td>
+                    <td>{{ event.location }}</td>
+                    <td>{{ event.participation }}</td>
+                    <td class="link"><a href="{{ event.linkToMoreInfo }}" title="{{ event.linkToMoreInfo }}">{{ event.linkToMoreInfo }}</a></td>
+                </tr>
+            </table>
+
+            <div id="editEventDialog" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <form data-ng-submit="updateEvent()" class="event-form" ng-model="event">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Edit Event</h4>
+                            </div>
+                            <div class="modal-body">
+                                <label>Category:</label>
+                                <select ng-model="event.category" ng-options="category as category.name for category in categories track by category.id"></select>
+                                <br />
+                                <label>Title:</label>
+                                <input type="text" data-ng-model="event.title" />
+                                <br />
+                                <label>Start date:</label>
+                                <input type="date" data-ng-model="event.startDate">
+                                <br />
+                                <label>Days:</label>
+                                <input type="text" data-ng-model="event.days" placeholder="e.g. 11-18" />
+                                <br />
+                                <label>Location:</label>
+                                <input type="text" data-ng-model="event.location" />
+                                <br />
+                                <label>Participation:</label>
+                                <input type="text" data-ng-model="event.participation" placeholder="e.g. sponsor or booth #" />
+                                <br />
+                                <label>Link:</label>
+                                <input type="text" data-ng-model="event.linkToMoreInfo" placeholder="Link to more info" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-default">Update Event</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="addEventDialog" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <form data-ng-submit="addEvent()" class="event-form">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Add Event</h4>
+                            </div>
+                            <div class="modal-body">
+                                <label>Category:</label>
+                                <select ng-model="category" ng-options="category as category.name for category in categories"></select>
+                                <br />
+                                <label>Title:</label>
+                                <input type="text" data-ng-model="title" />
+                                <br />
+                                <label>Start date:</label>
+                                <input type="date" data-ng-model="startDate">
+                                <br />
+                                <label>Days:</label>
+                                <input type="text" data-ng-model="days" placeholder="e.g. 11-18" />
+                                <br />
+                                <label>Location:</label>
+                                <input type="text" data-ng-model="location" />
+                                <br />
+                                <label>Participation:</label>
+                                <input type="text" data-ng-model="participation" placeholder="e.g. sponsor or booth #" />
+                                <br />
+                                <label>Link:</label>
+                                <input type="text" data-ng-model="linkToMoreInfo" placeholder="Link to more info" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-default">Add Event</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="generateJSONDialog" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Generated JSON</h4>
+                        </div>
+                        <div class="modal-body">
+                            <pre id="jsonAsText" class="pre-scrollable" style="overflow-x:auto; word-wrap: normal; white-space: pre-wrap"></pre>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="" id="test">Download File</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js'></script>
+    <script src="/lucity.js"></script>
+    <script src="EventEditor.js"></script>
+</body>
+</html>

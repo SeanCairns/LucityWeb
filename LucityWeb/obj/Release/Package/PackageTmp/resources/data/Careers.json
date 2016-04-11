@@ -3,11 +3,21 @@
         {
             "title": "Implementation Specialist",
             "jobDetailsFileName": "Implementation-Specialist",
+            "active":  false
+        },
+        {
+            "title": "Implementation Specialist",
+            "jobDetailsFileName": "Implementation-Specialist-Updated",
             "active":  true
         },
         {
             "title": "Southeast Regional Sales Representative",
             "jobDetailsFileName": "Southeast-Regional-Sales-Representative",
+            "active":  true
+        },
+        {
+            "title": "Software Quality Assurance Specialist",
+            "jobDetailsFileName": "Software-Quality-Assurance-Specialist",
             "active":  true
         },
         {
@@ -17,4 +27,5 @@
         }
     ]
 }
+
 
