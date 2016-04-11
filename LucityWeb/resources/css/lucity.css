@@ -1034,6 +1034,52 @@ div.pageTitle {
   border: 4px solid #78A22D;
   border-radius: 100px; }
 
+#SoftwareMiniNav {
+  margin-top: 22px;
+  padding-left: 10px; }
+  #SoftwareMiniNav div.row {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0; }
+    #SoftwareMiniNav div.row a {
+      position: relative;
+      display: inline-block;
+      width: 150px;
+      height: 54px;
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+      /* For IE8 and earlier */ }
+      #SoftwareMiniNav div.row a h2 {
+        display: block;
+        position: absolute;
+        margin: 0;
+        padding: 4px 0;
+        width: 120px;
+        top: 10px;
+        left: 30px;
+        padding-left: 26px;
+        background-color: #99cc33;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white; }
+      #SoftwareMiniNav div.row a img {
+        display: block;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        width: 50px;
+        top: 0;
+        left: 0;
+        border-radius: 50px;
+        border: 2px solid white; }
+    #SoftwareMiniNav div.row a.selected,
+    #SoftwareMiniNav div.row a:hover {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      /* For IE8 and earlier */ }
+
 /* Software EAMS */
 #SoftwareEAMS p {
   padding: 0 40px 20px 40px;
@@ -1492,8 +1538,8 @@ div.pageTitle {
       font-weight: 600;
       color: #4f5c73;
       text-align: center;
-      padding-right: 20%;
-      padding-left: 20%; }
+      padding-right: 14%;
+      padding-left: 14%; }
   #SoftwareMMS div.row div:hover h2, #SoftwareMMS div.row div:hover p {
     position: relative;
     display: block;
