@@ -103,7 +103,7 @@ function LucityEventController($scope, $http, $filter) {
     $scope.getJson = function () {
         var events = { "events": $scope.eventList };
         events = JSON.stringify(events, function (key, value) {
-            if (key === "$$hashKey" || key === "id") {
+            if (key === "$$hashKey") {
                 return undefined;
             }
             return value;

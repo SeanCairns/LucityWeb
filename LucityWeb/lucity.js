@@ -223,7 +223,7 @@ if (!window.console) console = { log: function () { } };
 (function (Controllers, undefined) {
     Lucity.Modules.Lucity.controller("CalendarCtrl", ['$scope', 'genericGetService',
         function ($scope, genericGetService) {
-            var calendarPromise = genericGetService.getData(Lucity.Json.Calendar);
+            var calendarPromise = genericGetService.getData(Lucity.Json.EventsCalendar);
             calendarPromise.then(function (response) {
                 $scope.calendar = response.data;
             });
