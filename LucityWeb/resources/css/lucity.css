@@ -605,6 +605,12 @@ div.pageTitle {
   border-top: 1px solid white;
   background: url(/resources/img/colorbar.svg) repeat-x;
   padding-bottom: 16px; }
+  #Calendar h1 a {
+    font-weight: 300;
+    font-size: .4em;
+    font-family: "Hind", sans-serif;
+    color: #4f5c73;
+    text-decoration: underline; }
   #Calendar #Events {
     padding-top: 20px;
     padding-bottom: 20px; }

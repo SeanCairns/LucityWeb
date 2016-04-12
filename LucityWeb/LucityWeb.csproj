@@ -1076,7 +1076,6 @@
     <Content Include="resources\css\Software\_software.scss" />
     <Content Include="resources\data\YouTubePlayListMockup.json" />
     <None Include="Properties\PublishProfiles\Lucity Web Site Deployment.pubxml" />
-    <Content Include="resources\data\Calendar.json" />
     <Content Include="resources\data\lucity_team.json" />
     <Content Include="resources\data\testimonials.json" />
     <Content Include="resources\data\LucityUTube.json" />

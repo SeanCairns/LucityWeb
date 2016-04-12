@@ -20,7 +20,6 @@ if (!window.console) console = { log: function () { } };
     Lucity.Controllers = {};
     Lucity.Directives = {};
     Lucity.Json = {
-        "Calendar": "/resources/data/Calendar.json",
         "EventsCalendar": "/resources/data/EventsCalendar.json",
         "Team": "/resources/data/lucity_team.json",
         "Testimonials": "/resources/data/testimonials.json",
