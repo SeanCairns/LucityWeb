@@ -4,7 +4,7 @@
         <div id="Events" class="col-md-4 col-sm-12">
             <h3>Industry Events</h3>
             <ul class="row">
-                <li ng-repeat="event in calendar.events | orderBy:'startDate'  | filter:{category : {'id':'events'}}" class="col-md-12 col-sm-6">
+                <li ng-repeat="event in calendar.events | orderBy:'sortDate' | filter: {category : {'id':'events'}} | filter: futureDatedEvents('sortDate', now)" class="col-md-12 col-sm-6">
                     <div class="event">
                         <div class="date">
                             <span class="month">{{event.month}}</span>
@@ -21,7 +21,7 @@
         <div id="UserGroups" class="col-md-4 col-sm-12">
             <h3>Lucity User Groups</h3>
             <ul class="row">
-                <li ng-repeat="event in calendar.events | orderBy:'startDate' | filter:{category : {'id':'userGroups'}}" class="col-md-12 col-sm-6">
+                <li ng-repeat="event in calendar.events | orderBy:'sortDate' | filter:{category : {'id':'userGroups'}} | filter: futureDatedEvents('sortDate', now)" class="col-md-12 col-sm-6">
                     <div class="event">
                         <div class="date">
                             <span class="month">{{event.month}}</span>
@@ -38,7 +38,7 @@
         <div id="Training" class="col-md-4 col-sm-12">
             <h3>Lucity Training</h3>
             <ul class="row">
-                <li ng-repeat="event in calendar.events | orderBy:'startDate' | filter:{category : {'id':'training'}}" class="col-md-12 col-sm-6">
+                <li ng-repeat="event in calendar.events | orderBy:'sortDate' | filter:{category : {'id':'training'}} | filter: futureDatedEvents('sortDate', now)" class="col-md-12 col-sm-6">
                     <div class="event">
                         <div class="date">
                             <span class="month">{{event.month}}</span>

@@ -1,5 +1,9 @@
 ﻿<div id="SoftwareMiniNav" class="container-fluid">
     <div class="row">
+        <a href="/Software/Deployment-Integration-Reporting">
+            <h2>General</h2>
+            <img src="resources/img/icons/general.svg" alt="Assets" />
+        </a>
         <a href="/Software/Enterprise-Asset-Management-Software">
             <h2>Assets</h2>
             <img src="resources/img/icons/assets.svg" alt="Assets" />
@@ -11,10 +15,6 @@
         <a href="/Software/Geographic-Information-System">
             <h2>GIS</h2>
             <img src="resources/img/icons/gis.svg" alt="Assets" />
-        </a>
-        <a href="/Software/Deployment-Integration-Reporting">
-            <h2>General</h2>
-            <img src="resources/img/icons/general.svg" alt="Assets" />
         </a>
     </div>
 </div>
@@ -57,7 +57,7 @@
     <h1>Learn More</h1>
 
     <ul class="row">
-        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Maintenance'} )" class="col-md-3 col-sm-4 col-xs-12">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Work'} )" class="col-md-3 col-sm-4 col-xs-12">
             <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
                 <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
             </a>

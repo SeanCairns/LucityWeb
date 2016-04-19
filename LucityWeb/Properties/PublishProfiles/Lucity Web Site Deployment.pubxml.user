@@ -178,13 +178,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/05/2016 15:45:22</publishTime>
     </File>
     <File Include="partials/Company/events.html">
-      <publishTime>04/11/2016 10:58:11</publishTime>
+      <publishTime>04/11/2016 21:20:46</publishTime>
     </File>
     <File Include="partials/Company/management-team.html">
       <publishTime>03/10/2016 10:05:16</publishTime>
     </File>
     <File Include="partials/home.html">
-      <publishTime>04/11/2016 10:59:09</publishTime>
+      <publishTime>04/11/2016 21:31:34</publishTime>
     </File>
     <File Include="partials/resources.html">
       <publishTime>03/10/2016 10:32:24</publishTime>
@@ -217,7 +217,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/07/2016 10:48:49</publishTime>
     </File>
     <File Include="resources/css/Home/_calendar.scss">
-      <publishTime>03/10/2016 10:45:27</publishTime>
+      <publishTime>04/11/2016 21:35:44</publishTime>
     </File>
     <File Include="resources/css/Home/_events.scss">
       <publishTime>02/11/2016 11:03:54</publishTime>
@@ -232,10 +232,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/07/2016 14:16:43</publishTime>
     </File>
     <File Include="resources/css/lucity.css">
-      <publishTime>04/11/2016 16:21:07</publishTime>
+      <publishTime>04/11/2016 21:35:47</publishTime>
     </File>
     <File Include="resources/css/lucity.css.map">
-      <publishTime>04/11/2016 16:21:09</publishTime>
+      <publishTime>04/11/2016 21:35:48</publishTime>
     </File>
     <File Include="resources/css/lucity.scss">
       <publishTime>03/07/2016 10:50:27</publishTime>

@@ -739,6 +739,10 @@
     <Content Include="resources\img\Software\General\rocket.svg" />
     <Content Include="resources\img\Software\General\wand.svg" />
     <Content Include="resources\img\Software\GISTower.png" />
+    <Content Include="resources\img\Software\LucityAM.svg" />
+    <Content Include="resources\img\Software\UIO\computer.svg" />
+    <Content Include="resources\img\Software\UIO\mobile.svg" />
+    <Content Include="resources\img\Software\UIO\web.svg" />
     <Content Include="resources\img\Software\V_esriPartnerNet-gold_sRGB.png" />
     <Content Include="resources\img\Software\Work\Inventory.png" />
     <Content Include="resources\img\Software\Work\Requests.png" />

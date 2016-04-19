@@ -30,16 +30,18 @@
                     <th>Category</th>
                     <th>Title</th>
                     <th>Start Date</th>
+                    <th>Sort Date</th>
                     <th>Days</th>
                     <th>Location</th>
                     <th>Participation</th>
                     <th>Link</th>
                 </tr>
-                <tr data-ng-repeat="event in eventList | orderBy: ['category.id', 'startDate'] track by $index " ng-dblclick="editEvent(event.id)">
+                <tr data-ng-repeat="event in eventList | orderBy: ['category.id', 'sortDate'] track by $index " ng-dblclick="editEvent(event.id)">
                     <td><input type="checkbox" data-ng-model="event.delete"></td>
                     <td>{{ event.category.name }}</td>
                     <td>{{ event.title }}</td>
                     <td class="date">{{ event.startDate }}</td>
+                    <td class="date">{{ event.sortDate| date:'yyyy-MM-dd' }}</td>
                     <td class="days">{{ event.days }}</td>
                     <td>{{ event.location }}</td>
                     <td>{{ event.participation }}</td>

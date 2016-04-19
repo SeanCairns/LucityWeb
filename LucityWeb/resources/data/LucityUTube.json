@@ -1,55 +1,85 @@
 ﻿{
     "Videos": [
         {
-            "Categories": [ "Learn-More-Home"],
+            "Categories": [ "Learn-More-General" ],
+            "Title": "Software Tour",
+            "URL": " https://www.youtube.com/watch?v=J7yti7_cerg",
+            "ImgUrl": " https://i.ytimg.com/vi/J7yti7_cerg/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-General" ],
+            "Title": "Lucity Mobile",
+            "URL": "https://www.youtube.com/watch?v=Al47VEnlImo",
+            "ImgUrl": "https://i.ytimg.com/vi/Al47VEnlImo/mqdefault.jpg"
+        },
+        {
+            "Categories": [ "Learn-More-General" ],
+            "Title": "Lucity Web",
+            "URL": "https://www.youtube.com/watch?v=mQyeuUhVAnM",
+            "ImgUrl": " https://i.ytimg.com/vi_webp/mQyeuUhVAnM/mqdefault.webp"
+        },
+        {
+            "Categories": [ "Learn-More-Work" ],
+            "Title": "Work Order Scheduler",
+            "URL": "https://www.youtube.com/watch?v=P-xs0k21yFg",
+            "ImgUrl": "https://i.ytimg.com/vi_webp/P-xs0k21yFg/mqdefault.webp"
+        },
+        {
+            "Categories": [ "Learn-More-Work" ],
+            "Title": "Timesheet",
+            "URL": "https://www.youtube.com/watch?v=aS9H5pNFNzg",
+            "ImgUrl": "https://i.ytimg.com/vi_webp/aS9H5pNFNzg/mqdefault.webp"
+        },
+        {
+            "Categories": [ ],
             "Title": "Plant Maintenance",
             "URL": "https://www.youtube.com/watch?v=I5fwO2KtUKs",
             "ImgUrl": "https://i.ytimg.com/vi/I5fwO2KtUKs/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Home"],
+            "Categories": [ "Learn-More-Assets" ],
             "Title": "Fats, Oils and Grease",
             "URL": "https://www.youtube.com/watch?v=DuJbm97ccrc",
             "ImgUrl": "https://i.ytimg.com/vi/DuJbm97ccrc/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Home"],
+            "Categories": [ "Learn-More-Assets" ],
             "Title": "Storm BMP",
             "URL": "https://www.youtube.com/watch?v=I5u-7MLZVjY",
             "ImgUrl": "https://i.ytimg.com/vi/I5u-7MLZVjY/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Home", "Learn-More-Maintenance" ],
+            "Categories": [ "Learn-More-Work" ],
             "Title": "Materials Requisition",
             "URL": "https://www.youtube.com/watch?v=I5u-7MLZVjY",
             "ImgUrl": "https://i.ytimg.com/vi/I5u-7MLZVjY/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-Maintenance" ],
+            "Categories": [ "Learn-More-Work" ],
             "Title": "Work Date Options",
             "URL": "https://www.youtube.com/watch?v=axso0lcAxa4",
             "ImgUrl": "https://i.ytimg.com/vi/axso0lcAxa4/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-GIS" ],
             "Title": "GIS Web Map",
             "URL": "https://www.youtube.com/watch?v=lkfIekiqCqI",
             "ImgUrl": "http://img.youtube.com/vi/Lt3d0udvtnA/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-GIS" ],
             "Title": "GIS Desktop Analyst",
             "URL": "https://www.youtube.com/watch?v=Lt3d0udvtnA",
             "ImgUrl": "http://img.youtube.com/vi/Lt3d0udvtnA/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-GIS" ],
             "Title": "GIS Desktop Editor",
             "URL": "https://www.youtube.com/watch?v=Q7H9zr95rIw",
             "ImgUrl": "http://img.youtube.com/vi/Q7H9zr95rIw/mqdefault.jpg"
         },
         {
-            "Categories": [ "Learn-More-GIS"  ],
+            "Categories": [ "Learn-More-GIS" ],
             "Title": "GIS Manager",
             "URL": "https://www.youtube.com/watch?v=RnzTPqGp6uo",
             "ImgUrl": "http://img.youtube.com/vi/RnzTPqGp6uo/mqdefault.jpg"

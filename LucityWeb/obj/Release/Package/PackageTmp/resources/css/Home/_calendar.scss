@@ -2,6 +2,16 @@
     @include colorbar(11px, 1px, white);
     padding-bottom: 16px;
 
+    h1 {
+        a {
+            font-weight: 300;
+            font-size: .4em;
+            font-family: $lucity-font-body;
+            color: $lucity-blue-grey;
+            text-decoration: underline;
+        }
+    }
+
     #Events {
         padding-top: 20px;
         padding-bottom: 20px;

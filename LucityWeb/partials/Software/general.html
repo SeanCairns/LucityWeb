@@ -1,5 +1,9 @@
 ﻿<div id="SoftwareMiniNav" class="container-fluid">
     <div class="row">
+        <a href="/Software/Deployment-Integration-Reporting" class="selected">
+            <h2>General</h2>
+            <img src="resources/img/icons/general.svg" alt="Assets" />
+        </a>
         <a href="/Software/Enterprise-Asset-Management-Software">
             <h2>Assets</h2>
             <img src="resources/img/icons/assets.svg" alt="Assets" />
@@ -11,10 +15,6 @@
         <a href="/Software/Geographic-Information-System">
             <h2>GIS</h2>
             <img src="resources/img/icons/gis.svg" alt="Assets" />
-        </a>
-        <a href="/Software/Deployment-Integration-Reporting" class="selected">
-            <h2>General</h2>
-            <img src="resources/img/icons/general.svg" alt="Assets" />
         </a>
     </div>
 </div>
@@ -92,6 +92,45 @@
         </div>
     </div>
 
+
+    <div id="UserInterfaceOptions" class="container-fluid">
+        <h1>User Interface Options</h1>
+        <div class="Web col-sm-4 col-xs-12">
+            <h1>Web</h1>
+            <p>
+                Highly configurable apps that deliver the full spectrum
+                of <span class="LucityAM">LucityAM</span> functionality through dashboards, data forms and
+                views, and maps personalized to specific user requirements.
+            </p>
+            <div>
+                <img src="/resources/img/Software/UIO/web.svg" alt="Assets" />
+            </div>
+        </div>
+
+        <div class="Mobile col-sm-4 col-xs-12">
+            <h1>Mobile</h1>
+            <p>
+                Core <span class="LucityAM">LucityAM</span> functionality (Work, Assets and GIS)
+                delivered through native Android and iOS applications,
+                enabling users to access data and complete their
+                workflows in connected or disconnected modes.
+            </p>
+            <div>
+                <img src="/resources/img/Software/UIO/mobile.svg" alt="Assets" />
+            </div>
+        </div>
+
+        <div class="Desktop col-sm-4 col-xs-12">
+            <h1>Desktop</h1>
+            <p>
+                Robust <span class="LucityAM">LucityAM</span> solutions and high-end tools for system administrators and power users, ready to go right "out of the box".
+            </p>
+            <div>
+                <img src="/resources/img/Software/UIO/computer.svg" alt="Assets" />
+            </div>
+        </div>
+    </div>
+
     <div id="Software" class="container-fluid">
         <h1>Enterprise Asset Management Software</h1>
         <div class="row">
@@ -152,7 +191,7 @@
     <h1>Learn More</h1>
 
     <ul class="row">
-        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-Home'} )" class="col-md-3 col-sm-6 col-xs-12">
+        <li ng-repeat="video in filteredVideos = ( YouTubeVideoList.Videos | filter:{Categories: 'Learn-More-General'} )" class="col-md-3 col-sm-6 col-xs-12">
             <a href="{{video.URL}}" title="{{video.Title}}" target="_blank">
                 <img ng-src="{{video.ImgUrl}}" alt="Lucity UTube - {{video.Title}}" />
             </a>

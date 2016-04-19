@@ -23,6 +23,7 @@ function LucityEventController($scope, $http, $filter) {
             id : idCounter++,
             category: $scope.category,
             startDate: $scope.startDate,
+            sortDate: Date.parse($scope.startDate.substr(0, 4) + "/" + $scope.startDate.substr(5, 2) + "/" + $scope.startDate.substr(8, 2)),
             month: $scope.setMonthString($scope.startDate),
             days: $scope.days,
             title: $scope.title,
@@ -34,6 +35,8 @@ function LucityEventController($scope, $http, $filter) {
         $scope.id = "";
         $scope.category = "";
         $scope.startDate = "";
+        $scope.sortDate = "";
+        $scope.month = "";
         $scope.days = "";
         $scope.title = "";
         $scope.location = "";
@@ -59,6 +62,7 @@ function LucityEventController($scope, $http, $filter) {
         if (eventToSave.length) {
             eventToSave[0].category = $scope.event.category;
             eventToSave[0].startDate = $scope.event.startDate;
+            eventToSave[0].sortDate = Date.parse($scope.event.startDate.substr(0, 4) + "/" + $scope.event.startDate.substr(5, 2) + "/" + $scope.event.startDate.substr(8, 2));
             eventToSave[0].month = $scope.setMonthString(eventToSave[0].startDate);;
             eventToSave[0].days = $scope.event.days;
             eventToSave[0].title = $scope.event.title;
@@ -93,6 +97,7 @@ function LucityEventController($scope, $http, $filter) {
                 $scope.eventList = response.data.events;
                 angular.forEach($scope.eventList, function (item) {
                     item.id = idCounter++;
+                    item.sortDate = Date.parse(item.startDate.substr(0, 4) + "/" + item.startDate.substr(5, 2) + "/" + item.startDate.substr(8, 2) );
                     item.month = $scope.setMonthString(item.startDate);
             });
                 localStorage.setItem('LucityEvents', JSON.stringify($scope.eventList));
